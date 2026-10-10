@@ -1,0 +1,38 @@
+dataset_components/dataloader.py:152:        shardshuffle=shardshuffle,  # shard order control
+dataset_components/robot.py:26:    convert_joints_to_dict,
+dataset_components/robot.py:27:    build_robotiq_joint_dict,
+dataset_components/robot.py:342:    # Convert joint positions to the format expected by GPU robot sampler
+dataset_components/robot.py:343:    joint_tensor = torch.from_numpy(sample['joint_positions']).float()  # (T, 22)
+dataset_components/robot.py:345:    # Handle joint reordering if joint_names are available
+dataset_components/robot.py:346:    assert 'joint_names' in sample, "joint_names are required for behavior domain"
+dataset_components/robot.py:348:    name_to_idx = {name: idx for idx, name in enumerate(sample['joint_names'])}
+dataset_components/robot.py:349:    effective_joint_names = [name for name in robot_sampler.joint_names if name in name_to_idx]
+dataset_components/robot.py:350:    assert effective_joint_names, (
+dataset_components/robot.py:351:        f"No matching joint names found between robot_sampler ({robot_sampler.joint_names}) and saved data ({sample['joint_names']}). "
+dataset_components/robot.py:353:    reorder_indices = torch.tensor([name_to_idx[name] for name in effective_joint_names], dtype=torch.long)
+dataset_components/robot.py:354:    joint_dict, _ = convert_joints_to_dict(joint_tensor[:, reorder_indices], effective_joint_names)
+dataset_components/robot.py:357:    robot_flows, robot_colors, robot_normals = robot_sampler.compute_points(joint_dict)
+dataset_components/robot.py:402:    joint_positions = torch.as_tensor(sample['joint_positions'], device=device, dtype=dtype)  # (T, 7)
+dataset_components/robot.py:405:    expected_joints = [f'panda_joint{i}' for i in range(1, 8)]
+dataset_components/robot.py:406:    missing = [name for name in expected_joints if name not in robot_sampler.joint_names]
+dataset_components/robot.py:408:        raise KeyError(f"Missing expected DROID joints in URDF: {missing}")
+dataset_components/robot.py:409:    if 'finger_joint' not in robot_sampler.joint_names:
+dataset_components/robot.py:410:        raise KeyError("Expected 'finger_joint' in URDF for Robotiq gripper")
+dataset_components/robot.py:412:    joint_dict = {}
+dataset_components/robot.py:413:    for idx, name in enumerate(expected_joints):
+dataset_components/robot.py:414:        joint_dict[name] = joint_positions[:, idx].reshape(-1)
+dataset_components/robot.py:415:    joint_dict.update(build_robotiq_joint_dict(gripper_positions, robot_sampler.joint_names))
+dataset_components/robot.py:417:    robot_flows, robot_colors, robot_normals = robot_sampler.compute_points(joint_dict)
+dataset_components/decoders.py:139:        # Extract number of frames from joint positions
+dataset_components/decoders.py:140:        if 'joint_positions' in sample:
+dataset_components/decoders.py:141:            num_frames = sample['joint_positions'].shape[0]
+dataset_components/decoders.py:351:            # Handle joint_names decoding for behavior domain
+dataset_components/decoders.py:352:            if 'joint_names' in new_key:
+dataset_components/pipeline.py:174:        'joint_positions',
+dataset_components/pipeline.py:190:            'joint_names', 'base_pose',
+dataset_components/pipeline.py:337:        'joint_positions',
+dataset_components/pipeline.py:353:            'joint_names', 'base_pose',
+dataset_components/collate.py:138:    meta_keys_union = {'joint_names', 'base_pose'}
+dataset_components/collate.py:222:            'joint_names', 'base_pose'
+evaluation/meta.py:63:        keep_fraction = (self.confidence_kept / self.confidence_total) if self.confidence_total > 0 else 0.0
+evaluation/meta.py:64:        entries[f"{prefix}/confidence/keep_fraction"] = float(keep_fraction)

@@ -1,0 +1,25 @@
+{
+  "method": "Interaction Feasibility Field",
+  "date": "2026-10-10",
+  "pointworld_commit": "05484826dfef74cbe278a3974179a5a16705d35d",
+  "boundary_native": 0.009832167363499603,
+  "boundary_si_m_s2": 0.24580418408749008,
+  "boundary_tolerance_si": 1e-06,
+  "strict_population": 2677,
+  "engineering_smoke_only": 15,
+  "reserved_evaluation": 2662,
+  "student_training_source": "SEPARATE TRAIN DATA REQUIRED",
+  "optimization_future_GT_allowed": false,
+  "optimization_GT_object_ID_allowed": false,
+  "offline_outputs": [
+    "interaction feasibility",
+    "shape consistency",
+    "object motion progress",
+    "prediction reliability"
+  ],
+  "online_outputs": [
+    "KEEP",
+    "ADAPT",
+    "DEFER"
+  ]
+}

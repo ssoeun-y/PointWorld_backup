@@ -1,0 +1,80 @@
+{
+  "candidates": {
+    "1": {
+      "batch_speedup_vs_sequential": 1.0041321765998683,
+      "batch_status": "ok",
+      "batched": {
+        "max_ms": 195.37100219726562,
+        "mean_ms": 177.41782836914064,
+        "median_ms": 175.45011138916016,
+        "min_ms": 175.0681610107422,
+        "p90_ms": 177.91221618652344
+      },
+      "batched_candidates_per_sec": 5.699625905519847,
+      "batched_peak_allocated_gb": 5.01289176940918,
+      "batched_per_candidate_ms": 175.45011138916016,
+      "sequential": {
+        "max_ms": 176.7966766357422,
+        "mean_ms": 176.1233917236328,
+        "median_ms": 176.17510223388672,
+        "min_ms": 175.28012084960938,
+        "p90_ms": 176.45199432373047
+      },
+      "sequential_candidates_per_sec": 5.676170964682734,
+      "sequential_peak_allocated_gb": 5.002758979797363,
+      "sequential_per_candidate_ms": 176.17510223388672
+    },
+    "32": {
+      "batch_speedup_vs_sequential": 6.3630831250735564,
+      "batch_status": "ok",
+      "batched": {
+        "max_ms": 885.8367919921875,
+        "mean_ms": 883.7384155273437,
+        "median_ms": 883.71044921875,
+        "min_ms": 881.8770141601562,
+        "p90_ms": 885.2736877441406
+      },
+      "batched_candidates_per_sec": 36.21095578114959,
+      "batched_peak_allocated_gb": 9.202973365783691,
+      "batched_per_candidate_ms": 27.615951538085938,
+      "sequential": {
+        "max_ms": 5640.71240234375,
+        "mean_ms": 5624.72890625,
+        "median_ms": 5623.123046875,
+        "min_ms": 5618.97900390625,
+        "p90_ms": 5628.790478515625
+      },
+      "sequential_candidates_per_sec": 5.69078779412158,
+      "sequential_peak_allocated_gb": 5.006309986114502,
+      "sequential_per_candidate_ms": 175.72259521484375
+    },
+    "8": {
+      "batch_speedup_vs_sequential": 4.283166678312839,
+      "batch_status": "ok",
+      "batched": {
+        "max_ms": 334.72613525390625,
+        "mean_ms": 328.5941223144531,
+        "median_ms": 327.9861755371094,
+        "min_ms": 326.8106384277344,
+        "p90_ms": 329.3937561035156
+      },
+      "batched_candidates_per_sec": 24.391271939737152,
+      "batched_peak_allocated_gb": 5.959428787231445,
+      "batched_per_candidate_ms": 40.99827194213867,
+      "sequential": {
+        "max_ms": 1424.43115234375,
+        "mean_ms": 1406.9124145507812,
+        "median_ms": 1404.8194580078125,
+        "min_ms": 1403.093017578125,
+        "p90_ms": 1410.3703002929688
+      },
+      "sequential_candidates_per_sec": 5.694681942507313,
+      "sequential_peak_allocated_gb": 5.006309986114502,
+      "sequential_per_candidate_ms": 175.60243225097656
+    }
+  },
+  "iters": 10,
+  "scene_encode_once_ms": 11.026432037353516,
+  "target_key": "task-0000_episode_00002530-300:311",
+  "warmup": 3
+}

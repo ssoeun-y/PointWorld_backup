@@ -1,0 +1,40 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+[2026-07-28 08:39:52] Rank 1/1 using device cuda
+[2026-07-28 08:39:52] Experiment ID: dummy-0m2d0mzo
+[2026-07-28 08:39:52] Saving to: train_logs/dummy-0m2d0mzo
+[2026-07-28 08:39:52] No checkpoint path provided, starting from scratch
+[2026-07-28 08:39:52] Setting up dataloaders...
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] train(train) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid_train_smoke/wds_11clips)
+[train] Total samples across all datasets: 10
+[train] Total batches needed: 10
+[train] Batches per rank (world_size=1): 10
+[train] Epoch length set to: 10
+[2026-07-28 08:39:54] Train dataset setup took 1.09s
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid_train_smoke/wds_11clips)
+[test] Total samples across all datasets: 1
+[test] Total batches needed: 1
+[test] Batches per rank (world_size=1): 1
+[test] Epoch length set to: 1
+[2026-07-28 08:39:54] Test dataset setup took 0.53s
+Loading canonical statistics from stats/droid/norm_stats.json
+[2026-07-28 08:40:03] 
+Optimizer parameters:
+[2026-07-28 08:40:03]   Total: 410,975,784 elements
+
+[2026-07-28 08:40:03] model/total_params            : 714129960
+[2026-07-28 08:40:03] model/robot_features_dim      : 16
+[2026-07-28 08:40:03] model/scene_features_dim      : 31
+[2026-07-28 08:40:03] model/data_keys               : ['scene_supervised_mask', 'scene_static_mask', 'scene_flows', 'scene_context_mask', 'scene_visibility', '__out_of_bounds__', 'gripper_positions', '__scene_exceeds_max__', 'scene_depth_valid_mask', 'scene_features', 'scene_moved_mask', 'gt_scene_flows_delta_norm', 'gt_scene_flows_relative', 'gt_scene_flows_delta', 'gt_scene_flows', 'scene_selector_gt', 'right_gripper_pose', 'right_gripper_open', 'joint_positions', '__key__', '__domain__', 'robot_features', 'robot_flows', '__shift_amount__', 'cam0_initial_rgb', 'cam0_initial_depth', 'cam0_intrinsic', 'cam0_extrinsic', 'cam0_exists', 'cam1_initial_rgb', 'cam1_initial_depth', 'cam1_intrinsic', 'cam1_extrinsic', 'cam1_exists', 'scene_exists', 'robot_exists', 'point_weights', 'weights_norm']
+[2026-07-28 08:40:03] Experiment Name               : dummy-0m2d0mzo
+[2026-07-28 08:40:03] Wandb ID                      : 0m2d0mzo
+Initializing...:   0%|          | 0/10 [00:00<?, ?it/s][08:40:03 dummy-0m2d0mzo], Epoch=1.000/1, B=0, S=0, Loss=0.000e+00:   0%|          | 0/10 [00:00<?, ?it/s][08:40:03 dummy-0m2d0mzo], Epoch=1.000/1, B=0, S=0, Loss=0.000e+00:  10%|█         | 1/10 [00:00<00:01,  6.53it/s][08:40:20 dummy-0m2d0mzo], Epoch=1.100/1, B=1, S=1, Loss=9.081e+04:  10%|█         | 1/10 [00:16<00:01,  6.53it/s][08:40:20 dummy-0m2d0mzo], Epoch=1.100/1, B=1, S=1, Loss=9.081e+04:  20%|██        | 2/10 [00:16<01:17,  9.65s/it][08:40:42 dummy-0m2d0mzo], Epoch=1.200/1, B=2, S=2, Loss=1.984e+04:  20%|██        | 2/10 [00:39<01:17,  9.65s/it][08:40:42 dummy-0m2d0mzo], Epoch=1.200/1, B=2, S=2, Loss=1.984e+04:  30%|███       | 3/10 [00:39<01:48, 15.56s/it][08:40:43 dummy-0m2d0mzo], Epoch=1.300/1, B=3, S=3, Loss=1.779e+04:  30%|███       | 3/10 [00:39<01:48, 15.56s/it][08:40:43 dummy-0m2d0mzo], Epoch=1.300/1, B=3, S=3, Loss=1.779e+04:  40%|████      | 4/10 [00:39<00:58,  9.69s/it][08:40:44 dummy-0m2d0mzo], Epoch=1.400/1, B=4, S=4, Loss=9.568e+03:  40%|████      | 4/10 [00:40<00:58,  9.69s/it][08:40:44 dummy-0m2d0mzo], Epoch=1.400/1, B=4, S=4, Loss=9.568e+03:  50%|█████     | 5/10 [00:40<00:32,  6.44s/it][08:40:44 dummy-0m2d0mzo], Epoch=1.500/1, B=5, S=5, Loss=7.985e+03:  50%|█████     | 5/10 [00:41<00:32,  6.44s/it][08:40:44 dummy-0m2d0mzo], Epoch=1.500/1, B=5, S=5, Loss=7.985e+03:  60%|██████    | 6/10 [00:41<00:17,  4.47s/it][08:40:45 dummy-0m2d0mzo], Epoch=1.600/1, B=6, S=6, Loss=7.289e+03:  60%|██████    | 6/10 [00:41<00:17,  4.47s/it][08:40:45 dummy-0m2d0mzo], Epoch=1.600/1, B=6, S=6, Loss=7.289e+03:  70%|███████   | 7/10 [00:41<00:09,  3.21s/it][08:40:45 dummy-0m2d0mzo], Epoch=1.700/1, B=7, S=7, Loss=2.928e+03:  70%|███████   | 7/10 [00:42<00:09,  3.21s/it][08:40:45 dummy-0m2d0mzo], Epoch=1.700/1, B=7, S=7, Loss=2.928e+03:  80%|████████  | 8/10 [00:42<00:04,  2.39s/it][08:40:46 dummy-0m2d0mzo], Epoch=1.800/1, B=8, S=8, Loss=4.021e+03:  80%|████████  | 8/10 [00:42<00:04,  2.39s/it][08:40:46 dummy-0m2d0mzo], Epoch=1.800/1, B=8, S=8, Loss=4.021e+03:  90%|█████████ | 9/10 [00:42<00:01,  1.85s/it][08:40:47 dummy-0m2d0mzo], Epoch=1.900/1, B=9, S=9, Loss=2.417e+03:  90%|█████████ | 9/10 [00:43<00:01,  1.85s/it][08:40:47 dummy-0m2d0mzo], Epoch=1.900/1, B=9, S=9, Loss=2.417e+03: 100%|██████████| 10/10 [00:43<00:00,  1.49s/it][2026-07-28 08:40:47] Saving checkpoint
+                                                                                                                   

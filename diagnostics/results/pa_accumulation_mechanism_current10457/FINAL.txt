@@ -1,0 +1,36 @@
+==========================================================================================
+PA-MPJPE ACCUMULATION MECHANISM
+==========================================================================================
+Frame rows = 79470
+Clips = 7947
+Matched with established RMS Acc = 7947
+Established RMS Acc column used = rms_acceleration
+
+A. DOES PA-MPJPE GROW WITH PREDICTION HORIZON?
+median PA slope = +0.234426 mm/frame
+clips with positive PA slope = 100.0%
+median within-clip horizon↔PA rho = +1.000000
+early PA median = 0.598327 mm
+late PA median = 2.298222 mm
+late/early = 3.841x
+late > early Wilcoxon p = 0.000e+00
+
+B. DOES HIGH TRAJECTORY RMS Acc HAVE STRONGER PA ACCUMULATION?
+RMS Acc vs PA slope: rho=+0.343480, p=6.781e-219
+RMS Acc vs late-early PA increase: rho=+0.327616, p=3.560e-198
+
+C. WHICH ACC SIGNAL TRACKS CURRENT PA-MPJPE?
+current  | median within-clip rho=-0.012158 | positive=49.2% | time-controlled pooled rho=-0.000991, p=7.799e-01, N=79470
+past2    | median within-clip rho=+0.016667 | positive=50.7% | time-controlled pooled rho=-0.001300, p=7.280e-01, N=71523
+past3    | median within-clip rho=+0.066667 | positive=51.9% | time-controlled pooled rho=+0.001905, p=6.104e-01, N=71523
+past5    | median within-clip rho=+0.100000 | positive=53.2% | time-controlled pooled rho=-0.005071, p=1.750e-01, N=71523
+
+==========================================================================================
+HOW TO INTERPRET
+==========================================================================================
+1) A positive horizon trend means predicted rigid shape degrades as rollout proceeds.
+2) Positive RMS-Acc vs PA-slope correlation means high-Acc trajectories accumulate shape error faster.
+3) If past2/past3/past5 are stronger than current Acc, the data support a temporal-history / accumulation mechanism.
+4) If these are absent, do NOT claim accumulation as the cause.
+
+SAVED = /home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/results/pa_accumulation_mechanism_current10457

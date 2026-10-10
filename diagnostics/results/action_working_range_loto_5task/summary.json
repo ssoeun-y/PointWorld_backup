@@ -1,0 +1,14 @@
+{
+  "seed": 20260902,
+  "bootstrap": 300,
+  "tasks": [
+    "task-0000",
+    "task-0001",
+    "task-0006",
+    "task-0008",
+    "task-0010"
+  ],
+  "total_population": 7987,
+  "total_loto_targets": 3831,
+  "principle": "Each held-out task is excluded completely from boundary fitting. Correction target selection uses only the boundary fitted on the other four tasks."
+}

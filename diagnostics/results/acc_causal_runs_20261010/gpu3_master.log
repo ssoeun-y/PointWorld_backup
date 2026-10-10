@@ -1,0 +1,11 @@
+SMOKE START freq1
+SMOKE PASS freq1
+START freq1 task-0000 limit=120
+FINISHED freq1 task-0000
+START freq1 task-0001 limit=120
+FINISHED freq1 task-0001
+START freq1 task-0006 limit=120
+FINISHED freq1 task-0006
+START freq1 task-0008 limit=120
+FINISHED freq1 task-0008
+START freq1 task-0010 limit=120

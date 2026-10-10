@@ -1,0 +1,3 @@
+metric,native_threshold,si_threshold,si_unit,N,native_inside_n,native_outside_n,si_inside_n,si_outside_n,assignment_identical,mismatch_n
+rms_acceleration,0.0098321673634996,0.24580418408748994,m/s^2,7987,4491,3496,4491,3496,True,0
+mean_squared_jerk,8.152857428804615e-05,1.2738839732507206,m^2/s^6,7987,5613,2374,5613,2374,True,0

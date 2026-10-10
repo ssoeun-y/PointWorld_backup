@@ -1,0 +1,52 @@
+PointWorld Soda-Can Structural Integrity — Current Evidence
+
+[1] Identity sanity
+- 4/4 observable cases:
+  Pred = GT control exactly reproduces the direct GT structural metric.
+- Identity SE(3) residual is approximately 1e-4 mm.
+- Therefore the structural metric does not turn a rigid GT trajectory
+  into mm-scale deformation by itself.
+
+[2] Multi-seed robustness
+- 4 episode-disjoint observable cases.
+- 5 seeds x 2 repeats = 40 PointWorld forwards.
+- Worst GT SE(3) P95 among these cases:
+  0.000089143 mm
+- Best PointWorld SE(3) P95 among all tested cases/runs:
+  6.376468 mm
+- The structural separation therefore remains even under the
+  most favorable tested stochastic PointWorld forward.
+
+[3] Representative deformation visualization
+- Rank 1 was regenerated across 10 forwards.
+- Multi-seed target median:
+  8.448260 mm
+- Selected representative:
+  seed=43, repeat=0
+- Exact selected-run t10 SE(3) P95:
+  8.295836 mm
+- Peak structural deformation:
+  8.693735 mm at timestep 8
+- Final structural deformation:
+  8.295836 mm
+- Peak-to-final recovery:
+  4.58 %
+
+Interpretation:
+PointWorld does not merely place the soda can at an incorrect global pose.
+After allowing the prediction the best possible rigid translation and
+rotation, the predicted object points still cannot be explained by one
+rigid-body transform. The remaining error is therefore an internal
+object-structure / rigidity-consistency error.
+
+Current limitation:
+- Only 4 of the original GT-selected Top-5 cases are measurable.
+- Rank 2 contains zero soda-can points after official PointWorld
+  preprocessing and is N/A, not success and not failure.
+- These samples were selected for large GT motion, so this experiment
+  establishes a repeatable failure mode, not population prevalence.
+
+NEXT:
+Replace Rank 2 outcome-blindly using the next episode-disjoint,
+GT-ranked soda-can sample that has measurable PointWorld can points.
+Only after that should the 5/5 final summary be produced.

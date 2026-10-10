@@ -1,0 +1,100 @@
+{
+  "domain": "behavior",
+  "data_dir": "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/behavior/wds_task0000",
+  "processed_sequences": 578,
+  "git_commit": "05484826dfef74cbe278a3974179a5a16705d35d",
+  "loader_info": {
+    "total_samples": 578,
+    "total_batches_needed": 578,
+    "batches_per_rank": 578,
+    "world_size": 1
+  },
+  "confidence_validation": null,
+  "methodology": {
+    "gt": "official gt_scene_flows",
+    "supervision": "official scene_exists AND scene_supervised_mask",
+    "droid_filter": "not applicable",
+    "moved_static": "official scene_moved_mask and scene_static_mask",
+    "derivatives": "official compute_flow_derivatives midpoint implementation",
+    "derivative_validity": "all positions used by the official finite-difference stencil must pass the corresponding official point mask",
+    "primary_metrics": [
+      "velocity_all",
+      "velocity_moved",
+      "acceleration_all",
+      "acceleration_moved"
+    ],
+    "secondary_metrics": [
+      "continuous_static_acceleration",
+      "continuous_static_endpoint_drift"
+    ],
+    "excluded_from_primary": [
+      "jerk",
+      "direction reversal"
+    ]
+  },
+  "units": {
+    "velocity": "meter/timestep",
+    "acceleration": "meter/timestep^2",
+    "endpoint_drift": "meter"
+  },
+  "coverage": {
+    "official_valid": {
+      "count": 5780,
+      "mean": 1.0,
+      "median": 1.0,
+      "p95": 1.0,
+      "p99": 1.0,
+      "max": 1.0
+    }
+  },
+  "metrics": {
+    "official_valid/acceleration_all": {
+      "count": 42280790,
+      "mean": 0.00023992615634584044,
+      "median": 0.0,
+      "p95": 7.501073469029507e-07,
+      "p99": 0.0076015728665515744,
+      "max": 0.1647927612066269
+    },
+    "official_valid/acceleration_moved": {
+      "count": 774415,
+      "mean": 0.010775960294644397,
+      "median": 0.006881526671350002,
+      "p95": 0.034949162229895595,
+      "p99": 0.05448872886598108,
+      "max": 0.1647927612066269
+    },
+    "official_valid/continuous_static_acceleration": {
+      "count": 41029760,
+      "mean": 8.896995767583505e-07,
+      "median": 0.0,
+      "p95": 1.3096925499667122e-07,
+      "p99": 6.430720700336586e-06,
+      "max": 0.00453850207850337
+    },
+    "official_valid/continuous_static_endpoint_drift": {
+      "count": 4102976,
+      "mean": 1.012371707816789e-05,
+      "median": 0.0,
+      "p95": 6.863873522888753e-06,
+      "p99": 5.694209357898217e-05,
+      "max": 0.014831825159490108
+    },
+    "official_valid/velocity_all": {
+      "count": 42280790,
+      "mean": 0.00043837769778739107,
+      "median": 0.0,
+      "p95": 7.828784305274894e-07,
+      "p99": 0.013103952771052682,
+      "max": 0.2319560945034027
+    },
+    "official_valid/velocity_moved": {
+      "count": 774415,
+      "mean": 0.021974352692430654,
+      "median": 0.013824026100337505,
+      "p95": 0.06554557755589484,
+      "p99": 0.10136548131704325,
+      "max": 0.2319560945034027
+    }
+  }
+}

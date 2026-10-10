@@ -1,0 +1,3 @@
+metric,best_knot_B_multiple,best_knot_mps2,knot_ci_lo_B,knot_ci_hi_B,established_B_in_CI
+residual_mm,1.24,0.3047971832,0.75,1.25,True
+benefit_mm,1.25,0.307255225,0.7721250000000001,1.25,True

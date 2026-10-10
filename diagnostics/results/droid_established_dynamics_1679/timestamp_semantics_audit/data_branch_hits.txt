@@ -1,0 +1,87 @@
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:54:        time_skip_ratio=2,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:56:        frames_per_clip=11,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:57:        skip_every=5,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:110:        self.canonical_timestamps = data_dict[first_cam]['timestamps']
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:111:        if time_skip_ratio > 1:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:112:            self.canonical_timestamps = self.canonical_timestamps[::time_skip_ratio]
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:114:        self.T = len(self.canonical_timestamps)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:116:            data_dict, self.canonical_timestamps, scene_path, is_proprio=False, verbose=False
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:119:            proprio_dict, self.canonical_timestamps, scene_path, is_proprio=True, verbose=False
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:124:            data_dict, proprio_dict, frames_per_clip=frames_per_clip, skip_every=skip_every
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:144:            'canonical_timestamps': self.canonical_timestamps,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:145:            'frames_per_clip': frames_per_clip,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:146:            'skip_every': skip_every,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:147:            'time_skip_ratio': time_skip_ratio,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:239:            f.attrs['canonical_timestamps'] = json.dumps(list(map(int, meta['canonical_timestamps'])))
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:240:            f.attrs['frames_per_clip'] = int(meta['frames_per_clip'])
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:241:            f.attrs['skip_every'] = int(meta['skip_every'])
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:242:            f.attrs['time_skip_ratio'] = int(meta['time_skip_ratio'])
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:304:    parser.add_argument('--time_skip_ratio', type=int, default=2)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:306:    parser.add_argument('--frames_per_clip', type=int, default=11)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:307:    parser.add_argument('--skip_every', type=int, default=5)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:360:            time_skip_ratio=args.time_skip_ratio,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:362:            frames_per_clip=args.frames_per_clip,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:363:            skip_every=args.skip_every,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:148:            canonical_timestamps = np.array(json.loads(f.attrs['canonical_timestamps']))
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:149:            frames_per_clip = int(f.attrs['frames_per_clip'])
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:150:            skip_every = int(f.attrs['skip_every'])
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:214:            'canonical_timestamps': canonical_timestamps,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:215:            'frames_per_clip': frames_per_clip,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:216:            'skip_every': skip_every,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:495:            f.attrs['canonical_timestamps'] = str(processed_data_dict['canonical_timestamps'].tolist())
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:506:                    clip_group.attrs['demo_length'] = T
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:626:        timestamps = cache['canonical_timestamps']
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:654:            'canonical_timestamps': timestamps,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:240:def filter_by_timestamps(data, canonical_timestamps, scene_path, is_proprio=False, verbose=False):
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:246:        canonical_timestamps (np.ndarray): The canonical timestamps to align to
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:287:                for target_ts in canonical_timestamps:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:318:                for target_ts in canonical_timestamps:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_io.py:69:            canonical_timestamps = data_dict[camera_serial]["timestamps"]
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_io.py:71:            for canonical_ts in canonical_timestamps:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:141:        canonical_timestamps = self.data_dict[first_camera_serial]['timestamps']
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:144:        if self.num_frames > 0 and len(canonical_timestamps) > self.num_frames:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:146:            time_skip_ratio = max(1, len(canonical_timestamps) // self.num_frames)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:147:            canonical_timestamps = canonical_timestamps[::time_skip_ratio]
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:150:            if len(canonical_timestamps) > self.num_frames:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:151:                canonical_timestamps = canonical_timestamps[:self.num_frames]
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:154:        self.T = len(canonical_timestamps)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:156:            self.data_dict = filter_by_timestamps(self.data_dict, canonical_timestamps, self.scene_path, is_proprio=False)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_pipeline.py:157:            self.proprio_dict = filter_by_timestamps(self.proprio_dict, canonical_timestamps, self.scene_path, is_proprio=True)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:112:        frames_per_clip: int = 16,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:113:        skip_every: int = 1,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:116:        Chunk each camera's video into overlapping clips of length frames_per_clip.
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:117:        Clips are sampled every skip_every frames; sequences shorter than frames_per_clip
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:127:        start_indices = range(0, max(1, T - frames_per_clip + 1), skip_every)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:133:                end = min(start + frames_per_clip, T)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:145:                    if len(data_slice) < frames_per_clip:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:148:                        pad_shape[0] = frames_per_clip
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:151:                        for i in range(len(data_slice), frames_per_clip):
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:159:            end = min(start + frames_per_clip, T)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:164:                if len(data_slice) < frames_per_clip:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:168:                        pad_shape[0] = frames_per_clip
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:171:                        for i in range(len(data_slice), frames_per_clip):
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/flow_2d.py:175:                        padded_data = data_slice + [data_slice[-1]] * (frames_per_clip - len(data_slice))
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/camera.py:96:                        (self.args.frames_per_clip, 7), dtype=np.float32
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/camera.py:159:            "extrinsic_trajectory": np.zeros((self.args.frames_per_clip, 4, 4), dtype=np.float32),
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/types.py:25:    def __init__(self, start_downsample_idx, frames_per_clip, world_to_robot, clip_seed, arm_names, num_joints):
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/types.py:29:        self.frames_per_clip = frames_per_clip
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/types.py:36:            "joint_positions": np.zeros((frames_per_clip, num_joints), dtype=np.float32),
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/types.py:37:            "base_pose": np.zeros((frames_per_clip, 7), dtype=np.float32),
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/types.py:42:            self.robot_series[f"{arm}_gripper_pose"] = np.zeros((frames_per_clip, 7), dtype=np.float32)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/types.py:43:            self.robot_series[f"{arm}_gripper_open"] = np.zeros((frames_per_clip, 1), dtype=np.bool_)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/types.py:44:            self.robot_series[f"{arm}_is_grasping"] = np.zeros((frames_per_clip, 1), dtype=np.bool_)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/writer.py:142:            f"{candidate.start_downsample_idx + candidate.frames_per_clip}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior/writer.py:241:            f.attrs["num_frames"] = candidate.frames_per_clip
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:190:        clip_key = f"{downsample_idx}:{downsample_idx + self.args.frames_per_clip}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:198:            self.args.frames_per_clip,
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:309:        num_downsampled = (num_frames + self.args.time_skip_ratio - 1) // self.args.time_skip_ratio
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:317:        last_start_downsample_idx = max(0, num_downsampled - self.args.frames_per_clip)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:337:            if frame_idx % self.args.time_skip_ratio != 0:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:351:            downsample_idx = frame_idx // self.args.time_skip_ratio
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:353:            if downsample_idx % self.args.skip_every == 0 and downsample_idx <= last_start_downsample_idx:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:370:                if candidate.frames_written == candidate.frames_per_clip:
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:571:    parser.add_argument("--skip_every", type=int, default=5, help="Skip frames for clip generation")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:572:    parser.add_argument("--frames_per_clip", type=int, default=11, help="Number of frames per clip")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:573:    parser.add_argument("--time_skip_ratio", type=int, default=6, help="Temporal downsampling ratio")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:722:        print(f"Skip every {args.skip_every} frames, {args.frames_per_clip} frames per clip (downsampled)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:simulation/behavior_3d_flows.py:723:        print(f"Time skip ratio: {args.time_skip_ratio} (record every {args.time_skip_ratio} original frames)")

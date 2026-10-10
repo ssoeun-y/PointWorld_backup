@@ -1,0 +1,95 @@
+{
+  "num_clips": 5,
+  "num_actions_per_clip": 14,
+  "num_total_runs": 70,
+  "depth_tolerance_m": 0.03,
+  "splat_radius_px": 3,
+  "max_standardized_match_distance": 2.5,
+  "num_bootstrap": 10000,
+  "velocity_clip_level_bootstrap": {
+    "count": 5,
+    "mean": -1.0640873962894858e-05,
+    "ci95_low": -5.5706117135350103e-05,
+    "ci95_high": 3.363445433875551e-05,
+    "probability_above_zero": 0.3202
+  },
+  "acceleration_clip_level_bootstrap": {
+    "count": 5,
+    "mean": 3.844557578846562e-06,
+    "ci95_low": -7.000109167508707e-05,
+    "ci95_high": 6.235847089657686e-05,
+    "probability_above_zero": 0.5671
+  },
+  "clips_with_positive_mean_velocity_difference": 2,
+  "clips_with_positive_mean_acceleration_difference": 3,
+  "total_action_rows_with_positive_velocity_difference": 37,
+  "total_action_rows_with_positive_acceleration_difference": 42,
+  "clip_summaries": [
+    {
+      "clip_id": "clip01",
+      "sample_key": "AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16",
+      "num_actions": 14,
+      "velocity_positive_action_count": 7,
+      "acceleration_positive_action_count": 8,
+      "mean_action_velocity_difference_m": -1.4495324796978291e-05,
+      "mean_action_acceleration_difference_m": 1.8783331180656923e-05,
+      "pooled_pair_velocity_difference_m": -2.0959086284922906e-05,
+      "pooled_pair_acceleration_difference_m": 4.317021596769853e-05,
+      "total_matched_velocity_pairs": 14191,
+      "total_matched_acceleration_pairs": 12969
+    },
+    {
+      "clip_id": "clip02",
+      "sample_key": "AUTOLab+0d4edc83+2023-10-21-19h-10m-31s_flows-10:21",
+      "num_actions": 14,
+      "velocity_positive_action_count": 8,
+      "acceleration_positive_action_count": 8,
+      "mean_action_velocity_difference_m": 1.5452813663818e-05,
+      "mean_action_acceleration_difference_m": -8.894819073828993e-06,
+      "pooled_pair_velocity_difference_m": 5.134863671651439e-05,
+      "pooled_pair_acceleration_difference_m": -1.79335966556352e-05,
+      "total_matched_velocity_pairs": 17021,
+      "total_matched_acceleration_pairs": 15789
+    },
+    {
+      "clip_id": "clip03",
+      "sample_key": "AUTOLab+0d4edc83+2023-10-21-19h-16m-50s_flows-0:11",
+      "num_actions": 14,
+      "velocity_positive_action_count": 7,
+      "acceleration_positive_action_count": 4,
+      "mean_action_velocity_difference_m": -8.945731265404638e-05,
+      "mean_action_acceleration_difference_m": -0.00012984564413623804,
+      "pooled_pair_velocity_difference_m": -1.813022626612054e-05,
+      "pooled_pair_acceleration_difference_m": -3.491157005240864e-05,
+      "total_matched_velocity_pairs": 24206,
+      "total_matched_acceleration_pairs": 21787
+    },
+    {
+      "clip_id": "clip04",
+      "sample_key": "AUTOLab+0d4edc83+2023-10-21-19h-22m-09s_flows-0:11",
+      "num_actions": 14,
+      "velocity_positive_action_count": 7,
+      "acceleration_positive_action_count": 12,
+      "mean_action_velocity_difference_m": -2.5611461378429405e-05,
+      "mean_action_acceleration_difference_m": 4.8426293107107724e-05,
+      "pooled_pair_velocity_difference_m": -6.222454097486106e-05,
+      "pooled_pair_acceleration_difference_m": 7.757888165305867e-06,
+      "total_matched_velocity_pairs": 28296,
+      "total_matched_acceleration_pairs": 26519
+    },
+    {
+      "clip_id": "clip05",
+      "sample_key": "AUTOLab+0d4edc83+2023-10-21-19h-40m-08s_flows-10:21",
+      "num_actions": 14,
+      "velocity_positive_action_count": 8,
+      "acceleration_positive_action_count": 10,
+      "mean_action_velocity_difference_m": 6.0906915351161787e-05,
+      "mean_action_acceleration_difference_m": 9.075362681653519e-05,
+      "pooled_pair_velocity_difference_m": 0.0001332060156541784,
+      "pooled_pair_acceleration_difference_m": 0.00017614322344063684,
+      "total_matched_velocity_pairs": 9588,
+      "total_matched_acceleration_pairs": 9007
+    }
+  ],
+  "interpretation_warning": "These results measure counterfactual output sensitivity, not prediction error. The five clips come from one DROID session, so this establishes within-session repeatability only."
+}

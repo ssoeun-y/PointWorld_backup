@@ -1,0 +1,6 @@
+task,clip,status,eligible_objects
+task-0000,task-0000_episode_00000010-200:211,OK,1
+task-0000,task-0000_episode_00000010-210:221,OK,1
+task-0000,task-0000_episode_00000010-250:261,OK,1
+task-0000,task-0000_episode_00000020-195:206,OK,2
+task-0000,task-0000_episode_00000030-150:161,OK,1

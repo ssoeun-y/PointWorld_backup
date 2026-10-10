@@ -1,0 +1,5 @@
+SMOKE START boundary
+SMOKE PASS boundary
+START boundary task-0000 limit=0
+FINISHED boundary task-0000
+START boundary task-0001 limit=0

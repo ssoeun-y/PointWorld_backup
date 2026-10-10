@@ -1,0 +1,5 @@
+analysis,metric,label,rho,p
+raw_global_spearman,rms_acceleration_si_m_s2,RMS Acc,0.07404634700323007,0.0023973743281651286
+raw_global_spearman,mean_squared_jerk_si_m2_s6,MSJ,0.07801700415393649,0.001377664620720158
+within_site_rank_spearman,rms_acceleration_si_m_s2,RMS Acc,0.03019111023950304,0.21628782747228237
+within_site_rank_spearman,mean_squared_jerk_si_m2_s6,MSJ,0.04741485791318279,0.05207684474392714

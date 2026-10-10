@@ -1,0 +1,48 @@
+{
+  "argv": [
+    "diagnostics/visibility_consistency.py",
+    "--data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds",
+    "--raw_dir=diagnostics/results/prediction_consistency_droid_unfiltered_full_20260804_135952/raw_sequences",
+    "--output_dir=diagnostics/results/visibility_consistency_full_20260805_091001",
+    "--expected_sequences=62",
+    "--num_workers=0"
+  ],
+  "git_after": {
+    "all_modified_tracked_files": [],
+    "git_command_ok": true,
+    "official_files_modified": false,
+    "official_modified_tracked_files": []
+  },
+  "git_before": {
+    "all_modified_tracked_files": [],
+    "git_command_ok": true,
+    "official_files_modified": false,
+    "official_modified_tracked_files": []
+  },
+  "output_files": [
+    "action_visibility_bins.csv",
+    "audit_per_sequence.json",
+    "cohort_metrics.json",
+    "correlations.csv",
+    "mask_transition.csv",
+    "per_sequence.csv",
+    "per_timestep.csv",
+    "summary.json",
+    "transition_cohort_errors.csv"
+  ],
+  "pointworld_dataset_info": "{'total_samples': 62, 'total_batches_needed': 62, 'batches_per_rank': 62, 'world_size': 1}",
+  "pointworld_overrides": {
+    "batch_size": 1,
+    "data_dirs": [
+      "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds"
+    ],
+    "deterministic_data": true,
+    "domains": [
+      "droid"
+    ],
+    "num_workers": 0,
+    "seed": 42,
+    "split": "test"
+  },
+  "script": "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/visibility_consistency.py"
+}

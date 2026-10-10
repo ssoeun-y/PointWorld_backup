@@ -1,0 +1,9 @@
+TASK=task-0001
+CLIP=task-0001_episode_00011290-135:146
+OBJECT=trash_can_116
+OBJECT_ID=1
+RMS_ACC=0.3493090478844711
+
+t=1: points=561, fresh_PA=0.511290432, established_PA=0.464000688, diff=+0.047289745
+t=5: points=561, fresh_PA=2.987871910, established_PA=2.557733192, diff=+0.430138718
+t=10: points=561, fresh_PA=4.415684155, established_PA=4.119101092, diff=+0.296583062

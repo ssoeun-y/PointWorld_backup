@@ -1,0 +1,142 @@
+{
+  "num_frames": {
+    "min": 11.0,
+    "max": 11.0,
+    "mean": 11.0,
+    "std": 0.0,
+    "count": 24904
+  },
+  "num_scene_points": {
+    "min": 8732.0,
+    "max": 93417.0,
+    "mean": 25631.30814327016,
+    "std": 14736.540239351987,
+    "count": 24904
+  },
+  "has_transition": {
+    "min": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "std": 0.0,
+    "count": 24904
+  },
+  "any_object_moving": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.8922663026019917,
+    "std": 0.3100437837515255,
+    "count": 24904
+  },
+  "gripper_moving": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.6097012528107935,
+    "std": 0.48781721487842394,
+    "count": 24904
+  },
+  "has_gripper_state_change": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.11520237712817218,
+    "std": 0.3192660167198986,
+    "count": 24904
+  },
+  "robot_nonbase_moving": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.8706231930613556,
+    "std": 0.3356165203994063,
+    "count": 24904
+  },
+  "has_trunk_arm_collision": {
+    "min": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "std": 0.0,
+    "count": 24904
+  },
+  "has_left_gripper_finger_collision": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.24702858978477352,
+    "std": 0.4312835095545848,
+    "count": 24904
+  },
+  "has_right_gripper_finger_collision": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.9297703180212014,
+    "std": 0.2555337037417088,
+    "count": 24904
+  },
+  "max_object_pos_movement": {
+    "min": 0.0,
+    "max": 0.3137019872665405,
+    "mean": 0.060408576667880444,
+    "std": 0.02688414661023244,
+    "count": 24904
+  },
+  "max_object_rot_movement": {
+    "min": 0.0,
+    "max": 3.0714592512388634,
+    "mean": 0.16720874430506258,
+    "std": 0.19501987932718162,
+    "count": 24904
+  },
+  "max_gripper_pos_movement": {
+    "min": 0.0,
+    "max": 0.5380337858932194,
+    "mean": 0.09728231925942048,
+    "std": 0.07015382344535123,
+    "count": 24904
+  },
+  "max_gripper_rot_movement": {
+    "min": 0.0,
+    "max": 1.3251801634351887,
+    "mean": 0.21047623991767977,
+    "std": 0.17961795085725968,
+    "count": 24904
+  },
+  "max_joint_movement": {
+    "min": 0.0004557371139526367,
+    "max": 1.2705137729644775,
+    "mean": 0.13185671268806157,
+    "std": 0.13774522762287195,
+    "count": 24904
+  },
+  "left_min_distance_to_moving_objects": {
+    "min": -1.0,
+    "max": 0.8108982443809509,
+    "mean": 0.14329988965194906,
+    "std": 0.4306761781253384,
+    "count": 24904
+  },
+  "left_min_distance_to_all_objects": {
+    "min": 0.0005744787631556392,
+    "max": 0.7543732523918152,
+    "mean": 0.19831275046555716,
+    "std": 0.1555595558263066,
+    "count": 24904
+  },
+  "right_min_distance_to_moving_objects": {
+    "min": -1.0,
+    "max": 0.9349324107170105,
+    "mean": -0.07730374000549999,
+    "std": 0.32480185576007164,
+    "count": 24904
+  },
+  "right_min_distance_to_all_objects": {
+    "min": 0.0007630869513377547,
+    "max": 0.7419544458389282,
+    "mean": 0.03856557823150224,
+    "std": 0.07812333601515235,
+    "count": 24904
+  },
+  "clip_complete": {
+    "min": 1.0,
+    "max": 1.0,
+    "mean": 1.0,
+    "std": 0.0,
+    "count": 24904
+  }
+}

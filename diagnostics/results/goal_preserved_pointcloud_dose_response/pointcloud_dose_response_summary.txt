@@ -1,0 +1,79 @@
+============================================================================================
+BOUNDARY VIOLATION → POINT-CLOUD IMPROVEMENT DOSE RESPONSE
+============================================================================================
+Structurally scored total N = 427
+
+============================================================================================
+ACCELERATION
+============================================================================================
+Boundary-violating N = 412
+Median exceedance = 36.88% above boundary
+
+rigidity_mean_mm
+  Spearman excess vs improvement: rho=+0.1672, p=0.000653879, N=412
+  Median improvement: +1.539%
+  Improved samples: 65.05%
+  Dose-response:
+    Q1: N=103 | excess median=   7.92% | improvement median= +0.777% | improved= 63.1%
+    Q2: N=103 | excess median=  26.78% | improvement median= +1.623% | improved= 68.9%
+    Q3: N=103 | excess median=  49.32% | improvement median= +2.203% | improved= 64.1%
+    Q4: N=103 | excess median=  99.82% | improvement median= +3.782% | improved= 64.1%
+
+jitter_mean_mm
+  Spearman excess vs improvement: rho=+0.2504, p=2.60688e-07, N=412
+  Median improvement: +1.749%
+  Improved samples: 71.12%
+  Dose-response:
+    Q1: N=103 | excess median=   7.92% | improvement median= +0.651% | improved= 67.0%
+    Q2: N=103 | excess median=  26.78% | improvement median= +2.285% | improved= 77.7%
+    Q3: N=103 | excess median=  49.32% | improvement median= +2.469% | improved= 68.0%
+    Q4: N=103 | excess median=  99.82% | improvement median= +5.325% | improved= 71.8%
+
+TASKWISE
+  task-0000: N=29
+    rigidity_mean_mm: rho=+0.1685, p=0.382328, median improvement=+2.865%
+    jitter_mean_mm: rho=+0.0374, p=0.847107, median improvement=+2.434%
+  task-0001: N=238
+    rigidity_mean_mm: rho=+0.2077, p=0.00127169, median improvement=+1.827%
+    jitter_mean_mm: rho=+0.2639, p=3.74647e-05, median improvement=+2.160%
+  task-0006: N=145
+    rigidity_mean_mm: rho=+0.0470, p=0.574319, median improvement=+0.563%
+    jitter_mean_mm: rho=+0.2481, p=0.00261996, median improvement=+1.032%
+
+============================================================================================
+MSJ
+============================================================================================
+Boundary-violating N = 273
+Median exceedance = 73.31% above boundary
+
+rigidity_mean_mm
+  Spearman excess vs improvement: rho=+0.2151, p=0.00034446, N=273
+  Median improvement: +2.215%
+  Improved samples: 65.57%
+  Dose-response:
+    Q1: N= 69 | excess median=  13.59% | improvement median= +0.537% | improved= 58.0%
+    Q2: N= 68 | excess median=  47.45% | improvement median= +1.347% | improved= 66.2%
+    Q3: N= 68 | excess median= 105.30% | improvement median= +3.426% | improved= 66.2%
+    Q4: N= 68 | excess median= 318.17% | improvement median= +4.935% | improved= 72.1%
+
+jitter_mean_mm
+  Spearman excess vs improvement: rho=+0.2820, p=2.19854e-06, N=273
+  Median improvement: +2.623%
+  Improved samples: 73.26%
+  Dose-response:
+    Q1: N= 69 | excess median=  13.59% | improvement median= +1.411% | improved= 69.6%
+    Q2: N= 68 | excess median=  47.45% | improvement median= +1.785% | improved= 73.5%
+    Q3: N= 68 | excess median= 105.30% | improvement median= +3.921% | improved= 69.1%
+    Q4: N= 68 | excess median= 318.17% | improvement median= +6.022% | improved= 80.9%
+
+TASKWISE
+  task-0000: N=27
+    rigidity_mean_mm: rho=+0.0788, p=0.696193, median improvement=+2.865%
+    jitter_mean_mm: rho=-0.1508, p=0.452785, median improvement=+3.225%
+  task-0001: N=165
+    rigidity_mean_mm: rho=+0.2662, p=0.00054842, median improvement=+2.380%
+    jitter_mean_mm: rho=+0.3447, p=5.79097e-06, median improvement=+3.302%
+  task-0006: N=81
+    rigidity_mean_mm: rho=+0.1063, p=0.344905, median improvement=+0.563%
+    jitter_mean_mm: rho=+0.2880, p=0.00913786, median improvement=+1.797%
+

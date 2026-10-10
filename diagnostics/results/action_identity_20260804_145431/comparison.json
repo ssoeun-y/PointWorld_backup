@@ -1,0 +1,111 @@
+{
+  "sample_key": [
+    "AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16"
+  ],
+  "identity_hook_state": {
+    "call_count": 1,
+    "joint_copy_exact": true,
+    "gripper_copy_exact": true
+  },
+  "batch_comparison": {
+    "joint_positions": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "gripper_positions": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "robot_flows": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "robot_features": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "robot_exists": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "scene_flows": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "scene_features": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "scene_exists": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    "scene_context_mask": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    }
+  },
+  "output_comparison": {
+    "pred": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "allclose": false,
+      "max_abs_difference": 0.6392202377319336,
+      "tolerance": 1e-06
+    },
+    "scene_flows": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "allclose": false,
+      "max_abs_difference": 0.018799543380737305,
+      "tolerance": 1e-06
+    },
+    "scene_relative": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "allclose": false,
+      "max_abs_difference": 0.018799543380737305,
+      "tolerance": 1e-06
+    },
+    "scene_relative_norm": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "allclose": false,
+      "max_abs_difference": 0.6392202377319336,
+      "tolerance": 1e-06
+    },
+    "confidence": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "allclose": false,
+      "max_abs_difference": 0.01740884780883789,
+      "tolerance": 1e-06
+    },
+    "log_var": {
+      "shape_equal": true,
+      "dtype_equal": true,
+      "allclose": false,
+      "max_abs_difference": 1.8079218864440918,
+      "tolerance": 1e-06
+    }
+  },
+  "success": false
+}

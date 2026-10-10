@@ -1,0 +1,51 @@
+{
+  "all": {
+    "name": "ALL: EPISODE-OBJECT LEVEL",
+    "episode_object_units": 770,
+    "unique_episodes": 188,
+    "worse": 183,
+    "better": 587,
+    "ties": 0,
+    "non_tie": 770,
+    "worse_fraction": 0.23766233766233766,
+    "median_gap_mean_mm": -0.18652165097778073,
+    "mean_gap_mean_mm": 0.4400816682464017,
+    "one_sided_exact_sign_p": 1.0
+  },
+  "moved": {
+    "name": "MOVED: EPISODE-OBJECT LEVEL",
+    "episode_object_units": 157,
+    "unique_episodes": 156,
+    "worse": 112,
+    "better": 45,
+    "ties": 0,
+    "non_tie": 157,
+    "worse_fraction": 0.7133757961783439,
+    "median_gap_mean_mm": 1.312111015381186,
+    "mean_gap_mean_mm": 3.225311826842852,
+    "one_sided_exact_sign_p": 4.4611987900614017e-08
+  },
+  "non_moved": {
+    "name": "NON-MOVED: EPISODE-OBJECT LEVEL",
+    "episode_object_units": 661,
+    "unique_episodes": 188,
+    "worse": 96,
+    "better": 565,
+    "ties": 0,
+    "non_tie": 661,
+    "worse_fraction": 0.14523449319213314,
+    "median_gap_mean_mm": -0.21776858006355443,
+    "mean_gap_mean_mm": -0.13499835420163417,
+    "one_sided_exact_sign_p": 1.0
+  },
+  "moved_episode_level": {
+    "episodes": 156,
+    "worse": 111,
+    "better": 45,
+    "ties": 0,
+    "worse_fraction": 0.7115384615384616,
+    "median_gap_mm": 1.3052570746505787,
+    "mean_gap_mm": 3.2376638056436398,
+    "one_sided_exact_sign_p": 6.400389805440836e-08
+  }
+}

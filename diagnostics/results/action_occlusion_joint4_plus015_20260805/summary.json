@@ -1,0 +1,28 @@
+{
+  "sample_key": [
+    "AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16"
+  ],
+  "baseline_path": "diagnostics/results/action_identity_camera_check_20260805/identity.pt",
+  "perturb_path": "diagnostics/results/action_perturb_joint4_plus015_20260805/perturb.pt",
+  "num_timesteps": 11,
+  "image_height": 180,
+  "image_width": 320,
+  "depth_tolerance_m": 0.03,
+  "robot_splat_radius_px": 3,
+  "coordinate_check": {
+    "projected_scene_count": 10468,
+    "depth_comparable_count": 10468,
+    "depth_error_median_m": 0.0015003085136413574,
+    "depth_error_mean_m": 0.036469414830207825,
+    "depth_error_p90_m": 0.06580210924148569,
+    "within_3cm_ratio": 0.842185708826901,
+    "positive_camera_z_ratio": 0.9999155119972963
+  },
+  "t0_robot_exact": true,
+  "baseline_mean_occlusion_ratio": 0.04625351721263069,
+  "perturb_mean_occlusion_ratio": 0.036414006322298256,
+  "mean_delta_occlusion_ratio": -0.009839510890332442,
+  "max_delta_occlusion_ratio": 0.0,
+  "min_delta_occlusion_ratio": -0.02187619411539931,
+  "max_robot_point_l2_m": 0.09118609130382538
+}

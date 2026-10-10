@@ -1,0 +1,11 @@
+{
+  "dt_seconds": 0.2,
+  "acc_scale": 24.999999999999996,
+  "msj_scale": 15624.999999999995,
+  "global_all_assignments_identical": true,
+  "global_total_mismatch_n": 0,
+  "taskwise_all_assignments_identical": true,
+  "taskwise_total_mismatch_n": 0,
+  "usable_taskwise_all_identical": true,
+  "usable_taskwise_total_mismatch_n": 0
+}

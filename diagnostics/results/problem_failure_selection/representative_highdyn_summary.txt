@@ -1,0 +1,33 @@
+==========================================================================================
+REPRESENTATIVE HIGH-DYNAMICS FAILURE CASE SELECTION
+==========================================================================================
+Boundary                = 0.24580418
+Minimum points median   = 400
+All object-tracks       = 13976
+High-dynamics candidates= 1035
+
+Population medians within HIGH-DYNAMICS subset
+  acc_median        : 0.357144
+  pa_delta_1_10     : 3.615456
+  pa_slope          : 0.372218
+  pa_t10            : 4.358940
+  points_median     : 587.000000
+
+FIRST CHOICE
+  task              : task-0001
+  clip              : task-0001_episode_00011290-135:146
+  object_id         : 1
+  object_short_name : trash_can_116
+  points_median     : 561.0
+  acc_median        : 0.3493090478844711
+  pa_t1             : 0.464000687754092
+  pa_t5             : 2.5577331922665643
+  pa_t10            : 4.1191010923535165
+  pa_delta_1_10     : 3.6551004045994246
+  pa_slope          : 0.40738505811375064
+  monotonic_fraction: 1.0
+  repr_score        : 0.32424805414801966
+
+Caption-ready line
+  PA-MPJPE increases from 0.46 mm at t=1 to 4.12 mm at t=10.
+==========================================================================================

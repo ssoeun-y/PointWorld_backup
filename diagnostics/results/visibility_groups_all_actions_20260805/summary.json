@@ -1,0 +1,71 @@
+{
+  "sample_key": [
+    "AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16"
+  ],
+  "num_actions": 14,
+  "num_timesteps": 11,
+  "num_scene_points": 11836,
+  "depth_tolerance_m": 0.03,
+  "splat_radius_px": 3,
+  "baseline_mean_occlusion": 0.0462535172126307,
+  "correlations": {
+    "occlusion_delta_vs_prediction_sensitivity_ratio": -0.35853349733896817,
+    "occlusion_delta_vs_velocity_sensitivity_ratio": -0.5011095352017394,
+    "occlusion_delta_vs_acceleration_sensitivity_ratio": -0.5347116527695748
+  },
+  "actions_with_prediction_ratio_above_1": 9,
+  "actions_with_velocity_ratio_above_1": 10,
+  "actions_with_acceleration_ratio_above_1": 11,
+  "highest_occlusion_increase_action": {
+    "action": "joint4_minus015",
+    "baseline_mean_occlusion": 0.0462535172126307,
+    "perturb_mean_occlusion": 0.054008753951436415,
+    "mean_occlusion_delta": 0.007755236738805717,
+    "newly_occluded_point_timestep_count": 2627,
+    "persistent_visible_point_timestep_count": 107195,
+    "newly_occluded_prediction_change_m": 0.0017061730082043793,
+    "persistent_visible_prediction_change_m": 0.001974839055006738,
+    "prediction_sensitivity_ratio": 0.8639554721579872,
+    "newly_occluded_velocity_change_m": 0.0006363628034562486,
+    "persistent_visible_velocity_change_m": 0.0005374912071910563,
+    "velocity_sensitivity_ratio": 1.183950165030416,
+    "newly_occluded_acceleration_change_m": 0.0005864286009836981,
+    "persistent_visible_acceleration_change_m": 0.00044008672455599746,
+    "acceleration_sensitivity_ratio": 1.3325296316887192
+  },
+  "highest_velocity_ratio_action": {
+    "action": "joint2_minus015",
+    "baseline_mean_occlusion": 0.0462535172126307,
+    "perturb_mean_occlusion": 0.034373154548928336,
+    "mean_occlusion_delta": -0.011880362663702362,
+    "newly_occluded_point_timestep_count": 194,
+    "persistent_visible_point_timestep_count": 109628,
+    "newly_occluded_prediction_change_m": 0.008594737588364484,
+    "persistent_visible_prediction_change_m": 0.0018048080202881444,
+    "prediction_sensitivity_ratio": 4.762133973114937,
+    "newly_occluded_velocity_change_m": 0.0018869770974127456,
+    "persistent_visible_velocity_change_m": 0.0004640297390314738,
+    "velocity_sensitivity_ratio": 4.066500352652521,
+    "newly_occluded_acceleration_change_m": 0.00130187002060554,
+    "persistent_visible_acceleration_change_m": 0.00035061979988034044,
+    "acceleration_sensitivity_ratio": 3.7130533445340004
+  },
+  "highest_acceleration_ratio_action": {
+    "action": "joint2_minus015",
+    "baseline_mean_occlusion": 0.0462535172126307,
+    "perturb_mean_occlusion": 0.034373154548928336,
+    "mean_occlusion_delta": -0.011880362663702362,
+    "newly_occluded_point_timestep_count": 194,
+    "persistent_visible_point_timestep_count": 109628,
+    "newly_occluded_prediction_change_m": 0.008594737588364484,
+    "persistent_visible_prediction_change_m": 0.0018048080202881444,
+    "prediction_sensitivity_ratio": 4.762133973114937,
+    "newly_occluded_velocity_change_m": 0.0018869770974127456,
+    "persistent_visible_velocity_change_m": 0.0004640297390314738,
+    "velocity_sensitivity_ratio": 4.066500352652521,
+    "newly_occluded_acceleration_change_m": 0.00130187002060554,
+    "persistent_visible_acceleration_change_m": 0.00035061979988034044,
+    "acceleration_sensitivity_ratio": 3.7130533445340004
+  },
+  "interpretation_warning": "These are counterfactual model-output sensitivity metrics, not prediction error. Counterfactual ground truth is unavailable."
+}

@@ -1,0 +1,292 @@
+==============================================================================================================
+CLOSED-GRASP +10mm LIFT CAUSAL ANALYSIS
+==============================================================================================================
+
+TOTAL N = 547
+
+TASK COUNTS
+task
+task-0000     58
+task-0001    144
+task-0006     72
+task-0008    119
+task-0010    154
+
+===== INTERVENTION AUDIT =====
+prefix_robot_maxerr max = 0.000000000000
+actual active lift median = 9.999990 mm
+actual active lift p10/p90 = 9.999990 / 10.000005 mm
+
+===== ORIGINAL-GT ANCHOR DISTANCE =====
+gt_anchor_min_gap_mm: p10=5.318, p25=7.713, median=12.180, p75=20.346, p90=51.785 mm
+gt_anchor_q10_gap_mm: p10=14.696, p25=21.652, median=31.987, p75=66.124, p90=124.911 mm
+
+GT min-gap threshold counts
+  <=  5 mm : N= 45 (8.23%)
+  <= 10 mm : N=220 (40.22%)
+  <= 20 mm : N=407 (74.41%)
+
+GT q10-gap threshold counts
+  <= 10 mm : N=  7 (1.28%)
+  <= 20 mm : N=116 (21.21%)
+  <= 30 mm : N=252 (46.07%)
+  <= 50 mm : N=377 (68.92%)
+
+
+==============================================================================================================
+ALL
+N = 547
+==============================================================================================================
+
+[1] OBJECT FOLLOW RESPONSE
+Lift object Z response median = +3.219464 mm
+Repeat Z response median      = +0.005627 mm
+Response ratio median         = +0.321946
+Response ratio IQR            = [+0.078532, +0.696426]
+ratio < 0.25                  = 43.33%
+ratio < 0.50                  = 61.43%
+ratio >= 0.75                 = 19.56%
+
+Directional lift response: Lift vs OriginalRepeat [mm]
+------------------------------------------------------
+N                  = 547
+A median           = +3.219464
+B median           = +0.005627
+paired median A-B  = +3.166482
+95% bootstrap CI   = [+2.699527, +3.837089]
+A-B > 0            = 91.41%
+A-B < 0            = 8.59%
+Wilcoxon p         = 8.800732e-83
+
+[2] HAND-OBJECT GAP / DRIFT
+Original next q10 gap median = 34.291355 mm
+Lift next q10 gap median     = 35.175540 mm
+
+Gap change caused by lift: Lift-delta vs Repeat-delta [mm]
+----------------------------------------------------------
+N                  = 547
+A median           = +0.703185
+B median           = -0.004381
+paired median A-B  = +0.633366
+95% bootstrap CI   = [+0.403735, +0.865857]
+A-B > 0            = 62.89%
+A-B < 0            = 37.11%
+Wilcoxon p         = 1.326935e-08
+
+[3] PA-MPJPE SHAPE PRESERVATION vs GT0
+Original next GT0 PA median = 1.885702 mm
+Lift next GT0 PA median     = 1.950697 mm
+
+GT0 PA change caused by lift: Lift-delta vs Repeat-delta [mm]
+-------------------------------------------------------------
+N                  = 547
+A median           = +0.039632
+B median           = +0.001439
+paired median A-B  = +0.036550
+95% bootstrap CI   = [+0.022010, +0.051657]
+A-B > 0            = 59.41%
+A-B < 0            = 40.59%
+Wilcoxon p         = 6.227081e-08
+
+[4] DIRECT PREDICTION SHAPE SENSITIVITY
+
+Next-frame PA distance: Lift-vs-Original vs Repeat-vs-Original [mm]
+-------------------------------------------------------------------
+N                  = 547
+A median           = +0.529363
+B median           = +0.112199
+paired median A-B  = +0.399990
+95% bootstrap CI   = [+0.362500, +0.435829]
+A-B > 0            = 97.44%
+A-B < 0            = 2.56%
+Wilcoxon p         = 2.097336e-89
+
+[5] RAW NEXT-FRAME PREDICTION SENSITIVITY
+
+Next raw MPJPE: Lift-vs-Original vs Repeat-vs-Original [mm]
+-----------------------------------------------------------
+N                  = 547
+A median           = +4.605134
+B median           = +0.423360
+paired median A-B  = +4.043301
+95% bootstrap CI   = [+3.615842, +4.574143]
+A-B > 0            = 96.71%
+A-B < 0            = 3.29%
+Wilcoxon p         = 2.091588e-90
+
+[6] ANCHOR LEAKAGE / FUTURE-CONDITIONING CHECK
+
+Anchor raw MPJPE: Lift-vs-Original vs Repeat-vs-Original [mm]
+-------------------------------------------------------------
+N                  = 547
+A median           = +1.723885
+B median           = +0.370910
+paired median A-B  = +1.269171
+95% bootstrap CI   = [+1.111130, +1.423481]
+A-B > 0            = 95.06%
+A-B < 0            = 4.94%
+Wilcoxon p         = 6.256920e-87
+
+[7] TEMPORAL PA
+Original temporal PA median = 0.746231 mm
+Lift temporal PA median     = 0.789565 mm
+Repeat temporal PA median   = 0.742384 mm
+
+Temporal PA: Lift vs Repeat [mm]
+--------------------------------
+N                  = 547
+A median           = +0.789565
+B median           = +0.742384
+paired median A-B  = +0.022918
+95% bootstrap CI   = [+0.015933, +0.033042]
+A-B > 0            = 67.28%
+A-B < 0            = 32.72%
+Wilcoxon p         = 6.877841e-19
+
+
+==============================================================================================================
+NEAR-HAND: Original-GT min gap <= 10 mm
+N = 220
+==============================================================================================================
+
+[1] OBJECT FOLLOW RESPONSE
+Lift object Z response median = +4.397401 mm
+Repeat Z response median      = +0.016558 mm
+Response ratio median         = +0.439740
+Response ratio IQR            = [+0.195038, +0.733301]
+ratio < 0.25                  = 31.36%
+ratio < 0.50                  = 55.45%
+ratio >= 0.75                 = 22.73%
+
+Directional lift response: Lift vs OriginalRepeat [mm]
+------------------------------------------------------
+N                  = 220
+A median           = +4.397401
+B median           = +0.016558
+paired median A-B  = +4.387071
+95% bootstrap CI   = [+3.516177, +5.452455]
+A-B > 0            = 95.45%
+A-B < 0            = 4.55%
+Wilcoxon p         = 5.714024e-36
+
+[2] HAND-OBJECT GAP / DRIFT
+Original next q10 gap median = 23.590607 mm
+Lift next q10 gap median     = 25.102556 mm
+
+Gap change caused by lift: Lift-delta vs Repeat-delta [mm]
+----------------------------------------------------------
+N                  = 220
+A median           = +0.984399
+B median           = +0.008247
+paired median A-B  = +0.856455
+95% bootstrap CI   = [+0.500322, +1.170414]
+A-B > 0            = 69.09%
+A-B < 0            = 30.91%
+Wilcoxon p         = 5.687358e-06
+
+[3] PA-MPJPE SHAPE PRESERVATION vs GT0
+Original next GT0 PA median = 1.994034 mm
+Lift next GT0 PA median     = 2.121211 mm
+
+GT0 PA change caused by lift: Lift-delta vs Repeat-delta [mm]
+-------------------------------------------------------------
+N                  = 220
+A median           = +0.051122
+B median           = +0.004827
+paired median A-B  = +0.045283
+95% bootstrap CI   = [+0.025234, +0.076464]
+A-B > 0            = 59.55%
+A-B < 0            = 40.45%
+Wilcoxon p         = 2.240372e-04
+
+[4] DIRECT PREDICTION SHAPE SENSITIVITY
+
+Next-frame PA distance: Lift-vs-Original vs Repeat-vs-Original [mm]
+-------------------------------------------------------------------
+N                  = 220
+A median           = +0.535281
+B median           = +0.131976
+paired median A-B  = +0.409287
+95% bootstrap CI   = [+0.357081, +0.460767]
+A-B > 0            = 98.18%
+A-B < 0            = 1.82%
+Wilcoxon p         = 1.478234e-36
+
+[5] RAW NEXT-FRAME PREDICTION SENSITIVITY
+
+Next raw MPJPE: Lift-vs-Original vs Repeat-vs-Original [mm]
+-----------------------------------------------------------
+N                  = 220
+A median           = +5.236835
+B median           = +0.460872
+paired median A-B  = +4.706901
+95% bootstrap CI   = [+4.079526, +5.449207]
+A-B > 0            = 99.55%
+A-B < 0            = 0.45%
+Wilcoxon p         = 8.930433e-38
+
+[6] ANCHOR LEAKAGE / FUTURE-CONDITIONING CHECK
+
+Anchor raw MPJPE: Lift-vs-Original vs Repeat-vs-Original [mm]
+-------------------------------------------------------------
+N                  = 220
+A median           = +1.767348
+B median           = +0.398226
+paired median A-B  = +1.288278
+95% bootstrap CI   = [+1.102891, +1.487650]
+A-B > 0            = 97.73%
+A-B < 0            = 2.27%
+Wilcoxon p         = 5.638354e-36
+
+[7] TEMPORAL PA
+Original temporal PA median = 0.764537 mm
+Lift temporal PA median     = 0.840514 mm
+Repeat temporal PA median   = 0.766286 mm
+
+Temporal PA: Lift vs Repeat [mm]
+--------------------------------
+N                  = 220
+A median           = +0.840514
+B median           = +0.766286
+paired median A-B  = +0.037530
+95% bootstrap CI   = [+0.023173, +0.052723]
+A-B > 0            = 69.09%
+A-B < 0            = 30.91%
+Wilcoxon p         = 2.189359e-11
+
+
+==============================================================================================================
+CONTINUOUS PROXIMITY ANALYSIS
+==============================================================================================================
+GT min gap vs response ratio: N=547 rho=-0.294724 p=2.005771e-12
+GT q10 gap vs response ratio: N=547 rho=-0.507425 p=3.925614e-37
+GT min gap vs net q10-gap increase: N=547 rho=-0.033783 p=4.303804e-01
+GT min gap vs net GT0-PA degradation: N=547 rho=-0.063162 p=1.401223e-01
+GT min gap vs direct PA sensitivity beyond repeat: N=547 rho=-0.143424 p=7.678093e-04
+
+
+==============================================================================================================
+PRE-SPECIFIED MIN-GAP SENSITIVITY
+==============================================================================================================
+ min_gap_threshold_mm   N  response_ratio_median  object_z_response_mm  net_gap_increase_mm  net_GT0_PA_delta_mm  direct_PA_excess_mm  anchor_raw_excess_mm
+                    5  45               0.554832              5.548319             0.625782             0.087600             0.513416              1.276607
+                   10 220               0.439740              4.397401             0.856455             0.045283             0.409287              1.288278
+                   20 407               0.402652              4.026524             0.768632             0.045361             0.412852              1.361373
+
+
+==============================================================================================================
+TASKWISE SUMMARY — ALL SCORED
+==============================================================================================================
+     task   N  response_ratio_med  net_gap_mm  net_GT0_PA_mm  direct_PA_excess_mm  anchor_raw_excess_mm
+task-0000  58            0.194749    3.555221       0.037730             0.384649              0.930789
+task-0001 144            0.502003    0.720762      -0.002781             0.315420              1.571501
+task-0006  72            0.426723    1.120179       0.055711             0.465605              1.009629
+task-0008 119            0.155213   -1.269067       0.025627             0.343345              0.895863
+task-0010 154            0.337720    0.494359       0.085686             0.501518              1.598931
+
+==============================================================================================================
+SAVED
+==============================================================================================================
+Combined = diagnostics/results/closed_grasp_lift_causal_5task_current10457/lift_10mm/combined_5task_lift_causal_metrics.csv
+Sensitivity = diagnostics/results/closed_grasp_lift_causal_5task_current10457/lift_10mm/min_gap_threshold_sensitivity.csv
+Taskwise = diagnostics/results/closed_grasp_lift_causal_5task_current10457/lift_10mm/taskwise_causal_summary.csv

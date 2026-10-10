@@ -1,0 +1,404 @@
+{
+  "definitions": {
+    "continuous_depth_valid": "scene_exists & scene_depth_valid_mask true at every future timestep",
+    "continuous_moved": "continuous_official_valid and scene_moved_mask true at every future timestep",
+    "continuous_official_valid": "(~scene_context_mask) & scene_exists & scene_supervised_mask true at every future timestep",
+    "continuous_static": "continuous_official_valid and scene_static_mask true at every future timestep",
+    "continuous_supervised": "scene_exists & scene_supervised_mask true at every future timestep",
+    "continuous_visible": "scene_exists & scene_visibility true at every future timestep",
+    "future_timesteps": "t=1..10; t=0 context excluded",
+    "repeated_oscillation": "at least 2 sign changes in consecutive non-zero pointwise L2-error increments",
+    "strong_alternation": "sign changes in at least 50% of possible adjacent error-increment pairs"
+  },
+  "fixed_cohorts": {
+    "continuous_depth_valid": {
+      "acceleration_error": {
+        "count": 5450224,
+        "max": 2.6745745985077254,
+        "mean": 0.02087197713778912,
+        "min": 8.371217194311702e-07,
+        "std": 0.11172395554445269
+      },
+      "error_variation": {
+        "count": 6131502,
+        "max": 1.2230630821483492,
+        "mean": 0.010080352082258524,
+        "min": 4.801153116566759e-11,
+        "std": 0.06142884343970506
+      },
+      "fixed_point_count_summed_across_sequences": 681278,
+      "gt_jerk": {
+        "count": 4768946,
+        "max": 4.025355747445692,
+        "mean": 0.03832171115579426,
+        "min": 0.0,
+        "std": 0.19860300002534562
+      },
+      "jerk_error": {
+        "count": 4768946,
+        "max": 4.031701484955338,
+        "mean": 0.038573389855949256,
+        "min": 7.151102033464177e-07,
+        "std": 0.19854190913704928
+      },
+      "l2": {
+        "count": 6812780,
+        "max": 1.2670056971014418,
+        "mean": 0.027975990629270066,
+        "min": 4.401679174870627e-07,
+        "std": 0.09836106342008887
+      },
+      "oscillation_point_count": 681278,
+      "prediction_jerk": {
+        "count": 4768946,
+        "max": 0.045497448592514804,
+        "mean": 0.0006823370421285793,
+        "min": 2.682209014892578e-07,
+        "std": 0.001541244379759371
+      },
+      "repeated_oscillation_rate": 0.570656912449837,
+      "sign_change_count": {
+        "count": 681278,
+        "max": 8.0,
+        "mean": 1.908529264118319,
+        "min": 0.0,
+        "std": 1.6455225884409659
+      },
+      "strong_alternation_rate": 0.18515936225740445,
+      "velocity_error": {
+        "count": 6131502,
+        "max": 1.3463182944479437,
+        "mean": 0.012177954152984859,
+        "min": 5.60164786996047e-07,
+        "std": 0.07113972659601588
+      }
+    },
+    "continuous_moved": {
+      "acceleration_error": {
+        "count": 28656,
+        "max": 2.0348171702686333,
+        "mean": 0.09927421767046053,
+        "min": 1.9505073581237132e-05,
+        "std": 0.19714872411450635
+      },
+      "error_variation": {
+        "count": 32238,
+        "max": 1.007188725655069,
+        "mean": 0.03832887892999641,
+        "min": 5.198851024748596e-07,
+        "std": 0.0809974043232398
+      },
+      "fixed_point_count_summed_across_sequences": 3582,
+      "gt_jerk": {
+        "count": 25074,
+        "max": 3.9817406907592514,
+        "mean": 0.18212440841982488,
+        "min": 0.0,
+        "std": 0.35964763128387633
+      },
+      "jerk_error": {
+        "count": 25074,
+        "max": 3.9805950373154526,
+        "mean": 0.18224332173628235,
+        "min": 9.067834226802364e-05,
+        "std": 0.35949297175967737
+      },
+      "l2": {
+        "count": 35820,
+        "max": 1.0093602353882494,
+        "mean": 0.08483695015706576,
+        "min": 0.000253201943332435,
+        "std": 0.12302409999403166
+      },
+      "oscillation_point_count": 3582,
+      "prediction_jerk": {
+        "count": 25074,
+        "max": 0.034837859132926606,
+        "mean": 0.0026158493985673015,
+        "min": 8.826771728923021e-06,
+        "std": 0.0034469494918418107
+      },
+      "repeated_oscillation_rate": 0.8425460636515912,
+      "sign_change_count": {
+        "count": 3582,
+        "max": 8.0,
+        "mean": 3.3953098827470685,
+        "min": 0.0,
+        "std": 1.8804469518446634
+      },
+      "strong_alternation_rate": 0.4899497487437186,
+      "velocity_error": {
+        "count": 32238,
+        "max": 1.0252277315642209,
+        "mean": 0.058906891849413195,
+        "min": 0.00022297258134708394,
+        "std": 0.11659433399316091
+      }
+    },
+    "continuous_official_valid": {
+      "acceleration_error": {
+        "count": 4855048,
+        "max": 2.099221398951336,
+        "mean": 0.005393597645469371,
+        "min": 8.371217194311702e-07,
+        "std": 0.050473283168608774
+      },
+      "error_variation": {
+        "count": 5461929,
+        "max": 1.1334399908602144,
+        "mean": 0.0027589255905857645,
+        "min": 4.801153116566759e-11,
+        "std": 0.021313934278477387
+      },
+      "fixed_point_count_summed_across_sequences": 606881,
+      "gt_jerk": {
+        "count": 4248167,
+        "max": 3.9817406907592514,
+        "mean": 0.009366656027621257,
+        "min": 0.0,
+        "std": 0.09151011390993129
+      },
+      "jerk_error": {
+        "count": 4248167,
+        "max": 3.9805950373154526,
+        "mean": 0.00961266532617709,
+        "min": 7.151102033464177e-07,
+        "std": 0.091481774285766
+      },
+      "l2": {
+        "count": 6068810,
+        "max": 1.1611754662048475,
+        "mean": 0.010666520147848739,
+        "min": 4.401679174870627e-07,
+        "std": 0.032922204346297404
+      },
+      "oscillation_point_count": 606881,
+      "prediction_jerk": {
+        "count": 4248167,
+        "max": 0.045497448592514804,
+        "mean": 0.0005403673812871498,
+        "min": 2.682209014892578e-07,
+        "std": 0.001295505095546426
+      },
+      "repeated_oscillation_rate": 0.549280666226163,
+      "sign_change_count": {
+        "count": 606881,
+        "max": 8.0,
+        "mean": 1.8369153095911719,
+        "min": 0.0,
+        "std": 1.6497545621758218
+      },
+      "strong_alternation_rate": 0.17779762424593948,
+      "velocity_error": {
+        "count": 5461929,
+        "max": 1.1888551845490252,
+        "mean": 0.003816171113633728,
+        "min": 5.60164786996047e-07,
+        "std": 0.03008525008514282
+      }
+    },
+    "continuous_static": {
+      "acceleration_error": {
+        "count": 4393032,
+        "max": 0.04084776377547376,
+        "mean": 0.0007097855807342803,
+        "min": 8.371217194311702e-07,
+        "std": 0.0011762285346408755
+      },
+      "error_variation": {
+        "count": 4942161,
+        "max": 0.07127216875590081,
+        "mean": 0.000961767089844981,
+        "min": 4.801153116566759e-11,
+        "std": 0.0021726339495099253
+      },
+      "fixed_point_count_summed_across_sequences": 549129,
+      "gt_jerk": {
+        "count": 3843903,
+        "max": 0.017595494483661798,
+        "mean": 0.0007082114004793874,
+        "min": 0.0,
+        "std": 0.0006556330322272782
+      },
+      "jerk_error": {
+        "count": 3843903,
+        "max": 0.03395042725033084,
+        "mean": 0.0009453541208611714,
+        "min": 7.151102033464177e-07,
+        "std": 0.0010750323693709647
+      },
+      "l2": {
+        "count": 5491290,
+        "max": 0.3495423176680219,
+        "mean": 0.006766918773678939,
+        "min": 4.401679174870627e-07,
+        "std": 0.01454289521489123
+      },
+      "oscillation_point_count": 549129,
+      "prediction_jerk": {
+        "count": 3843903,
+        "max": 0.033352863311244534,
+        "mean": 0.00042190398203972515,
+        "min": 2.682209014892578e-07,
+        "std": 0.0009678557524062946
+      },
+      "repeated_oscillation_rate": 0.5210087247258841,
+      "sign_change_count": {
+        "count": 549129,
+        "max": 8.0,
+        "mean": 1.7299650901700694,
+        "min": 0.0,
+        "std": 1.621267503122512
+      },
+      "strong_alternation_rate": 0.16111696887252358,
+      "velocity_error": {
+        "count": 4942161,
+        "max": 0.07278534283036088,
+        "mean": 0.00111150497254975,
+        "min": 5.60164786996047e-07,
+        "std": 0.0022240940245113728
+      }
+    },
+    "continuous_supervised": {
+      "acceleration_error": {
+        "count": 4855048,
+        "max": 2.099221398951336,
+        "mean": 0.005393597645469371,
+        "min": 8.371217194311702e-07,
+        "std": 0.050473283168608774
+      },
+      "error_variation": {
+        "count": 5461929,
+        "max": 1.1334399908602144,
+        "mean": 0.0027589255905857645,
+        "min": 4.801153116566759e-11,
+        "std": 0.021313934278477387
+      },
+      "fixed_point_count_summed_across_sequences": 606881,
+      "gt_jerk": {
+        "count": 4248167,
+        "max": 3.9817406907592514,
+        "mean": 0.009366656027621257,
+        "min": 0.0,
+        "std": 0.09151011390993129
+      },
+      "jerk_error": {
+        "count": 4248167,
+        "max": 3.9805950373154526,
+        "mean": 0.00961266532617709,
+        "min": 7.151102033464177e-07,
+        "std": 0.091481774285766
+      },
+      "l2": {
+        "count": 6068810,
+        "max": 1.1611754662048475,
+        "mean": 0.010666520147848739,
+        "min": 4.401679174870627e-07,
+        "std": 0.032922204346297404
+      },
+      "oscillation_point_count": 606881,
+      "prediction_jerk": {
+        "count": 4248167,
+        "max": 0.045497448592514804,
+        "mean": 0.0005403673812871498,
+        "min": 2.682209014892578e-07,
+        "std": 0.001295505095546426
+      },
+      "repeated_oscillation_rate": 0.549280666226163,
+      "sign_change_count": {
+        "count": 606881,
+        "max": 8.0,
+        "mean": 1.8369153095911719,
+        "min": 0.0,
+        "std": 1.6497545621758218
+      },
+      "strong_alternation_rate": 0.17779762424593948,
+      "velocity_error": {
+        "count": 5461929,
+        "max": 1.1888551845490252,
+        "mean": 0.003816171113633728,
+        "min": 5.60164786996047e-07,
+        "std": 0.03008525008514282
+      }
+    },
+    "continuous_visible": {
+      "acceleration_error": {
+        "count": 4859160,
+        "max": 2.099221398951336,
+        "mean": 0.005610732611546934,
+        "min": 8.371217194311702e-07,
+        "std": 0.05262015502371313
+      },
+      "error_variation": {
+        "count": 5466555,
+        "max": 1.1696375601332325,
+        "mean": 0.0028690961337723927,
+        "min": 4.801153116566759e-11,
+        "std": 0.023026271213604427
+      },
+      "fixed_point_count_summed_across_sequences": 607395,
+      "gt_jerk": {
+        "count": 4251765,
+        "max": 3.9817406907592514,
+        "mean": 0.009766611507936472,
+        "min": 0.0,
+        "std": 0.09541108518783696
+      },
+      "jerk_error": {
+        "count": 4251765,
+        "max": 3.9805950373154526,
+        "mean": 0.010014464484398319,
+        "min": 7.151102033464177e-07,
+        "std": 0.09538324635533588
+      },
+      "l2": {
+        "count": 6073950,
+        "max": 1.2336468255364184,
+        "mean": 0.010893944556520884,
+        "min": 4.401679174870627e-07,
+        "std": 0.034891157805766265
+      },
+      "oscillation_point_count": 607395,
+      "prediction_jerk": {
+        "count": 4251765,
+        "max": 0.045497448592514804,
+        "mean": 0.0005425568356176467,
+        "min": 2.682209014892578e-07,
+        "std": 0.0013048834730229639
+      },
+      "repeated_oscillation_rate": 0.5493970151219553,
+      "sign_change_count": {
+        "count": 607395,
+        "max": 8.0,
+        "mean": 1.8374714971311914,
+        "min": 0.0,
+        "std": 1.6497881833541663
+      },
+      "strong_alternation_rate": 0.1778694259913236,
+      "velocity_error": {
+        "count": 5466555,
+        "max": 1.211036988177377,
+        "mean": 0.003929542220052495,
+        "min": 5.60164786996047e-07,
+        "std": 0.03136525178717816
+      }
+    }
+  },
+  "transition_cohorts": {
+    "continuing_supervised_error_before": {
+      "point_observation_count": 5786862,
+      "pooled_mean_l2": 0.01146594991758976,
+      "transition_row_count": 558
+    },
+    "dropped_supervised_error_before": {
+      "point_observation_count": 75270,
+      "pooled_mean_l2": 0.044855277865925816,
+      "transition_row_count": 558
+    },
+    "entered_supervised_error_after": {
+      "point_observation_count": 28378,
+      "pooled_mean_l2": 0.057303265051260516,
+      "transition_row_count": 558
+    }
+  }
+}

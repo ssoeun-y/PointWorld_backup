@@ -1,0 +1,16 @@
+{
+  "N": 7987,
+  "unique_clips": 7987,
+  "task_counts": {
+    "task-0000": 377,
+    "task-0001": 2322,
+    "task-0006": 1782,
+    "task-0008": 1827,
+    "task-0010": 1679
+  },
+  "split_counts": {
+    "calibration": 5590,
+    "validation": 2397
+  },
+  "rms_msj_spearman": 0.9287856165217389
+}

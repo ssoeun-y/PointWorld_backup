@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+================================================================================
+                              DATASET INTEGRITY REPORT
+================================================================================
+
+Total files checked: 200
+Files with all valid clips: 200 (100.00%)
+Files with some valid clips: 0 (0.00%)
+Files with no valid clips: 0 (0.00%)
+Failed to process files: 0 (0.00%)
+
+CLIP STATISTICS:
+Total clips checked: 24904
+Valid clips: 24904 (100.00%)
+Invalid clips: 0 (0.00%)
+
+TOP ISSUES:
+
+================================================================================
+                         Behavior CLIP ATTRIBUTE STATISTICS
+================================================================================
+Attribute                           Min          Max          Mean         Std          Count   
+--------------------------------------------------------------------------------
+any_object_moving                   0.000000     1.000000     0.892266     0.310044     24904   
+clip_complete                       1.000000     1.000000     1.000000     0.000000     24904   
+gripper_moving                      0.000000     1.000000     0.609701     0.487817     24904   
+has_gripper_state_change            0.000000     1.000000     0.115202     0.319266     24904   
+has_left_gripper_finger_collision   0.000000     1.000000     0.247029     0.431284     24904   
+has_right_gripper_finger_collision  0.000000     1.000000     0.929770     0.255534     24904   
+has_transition                      0.000000     0.000000     0.000000     0.000000     24904   
+has_trunk_arm_collision             0.000000     0.000000     0.000000     0.000000     24904   
+left_min_distance_to_all_objects    0.000574     0.754373     0.198313     0.155560     24904   
+left_min_distance_to_moving_objects -1.000000    0.810898     0.143300     0.430676     24904   
+max_gripper_pos_movement            0.000000     0.538034     0.097282     0.070154     24904   
+max_gripper_rot_movement            0.000000     1.325180     0.210476     0.179618     24904   
+max_joint_movement                  0.000456     1.270514     0.131857     0.137745     24904   
+max_object_pos_movement             0.000000     0.313702     0.060409     0.026884     24904   
+max_object_rot_movement             0.000000     3.071459     0.167209     0.195020     24904   
+num_frames                          11.000000    11.000000    11.000000    0.000000     24904   
+num_scene_points                    8732.000000  93417.000000 25631.308143 14736.540239 24904   
+right_min_distance_to_all_objects   0.000763     0.741954     0.038566     0.078123     24904   
+right_min_distance_to_moving_objects -1.000000    0.934932     -0.077304    0.324802     24904   
+robot_nonbase_moving                0.000000     1.000000     0.870623     0.335617     24904   
+
+================================================================================
+                    Behavior GRIPPER FILTERING ANALYSIS
+================================================================================
+Total clips analyzed: 24904
+
+INDIVIDUAL CONDITIONS:
+Condition                           Count      Percentage  
+------------------------------------------------------------
+Left No Collision                   18752      75.30       %
+Left Far Distance                   12998      52.19       %
+Right No Collision                  1749       7.02        %
+Right Far Distance                  1180       4.74        %
+
+GRIPPER SKIP ELIGIBILITY (No Collision AND Distance > 0.2m):
+Gripper                             Count      Percentage  
+------------------------------------------------------------
+Left Gripper Skip Eligible          12998      52.19       %
+Right Gripper Skip Eligible         1180       4.74        %
+Both Grippers Skip Eligible         1174       4.71        %
+
+DISTANCE STATISTICS:
+Left Gripper Min Distance to Objects:
+  Min: 0.0006m, Max: 0.7544m
+  Mean: 0.1983m, Std: 0.1556m
+  Above 0.2m threshold: 12998 clips (52.19%)
+
+Right Gripper Min Distance to Objects:
+  Min: 0.0008m, Max: 0.7420m
+  Mean: 0.0386m, Std: 0.0781m
+  Above 0.2m threshold: 1180 clips (4.74%)
+
+================================================================================
+                              END OF REPORT
+================================================================================

@@ -1,0 +1,987 @@
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Overwriting seed for eval
+Using eval dir: eval_logs/20260903_171219-None-split=test-seed=42
+Applied canonical checkpoint model_contract for evaluation model initialization.
+[2026-09-03 17:12:28] Rank 1/1 using device cuda
+[2026-09-03 17:12:28] Experiment ID: dummy-adr0ujz6
+[2026-09-03 17:12:28] Saving to: train_logs/dummy-adr0ujz6
+[2026-09-03 17:12:28] Loading checkpoint from pretrained_checkpoints/large-droid+behavior/model-best.pt
+Loading canonical statistics from stats/droid_behavior/norm_stats.json
+[2026-09-03 17:12:56] model/total_params            : 1288475176
+[2026-09-03 17:12:56] model/scene_features_dim      : 42
+[2026-09-03 17:12:56] model/robot_features_dim      : 17
+[2026-09-03 17:12:56] Experiment Name               : dummy-adr0ujz6
+[2026-09-03 17:12:56] Wandb ID                      : adr0ujz6
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/urdfpy/urdf.py:2169: RuntimeWarning: invalid value encountered in divide
+  value = value / np.linalg.norm(value)
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+[behavior] test(test) num_shards=2 (data_dir=/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/data/pointworld_behavior_task0001_restored/behavior/wds)
+[test] Total samples across all datasets: 2490
+[test] Total batches needed: 2490
+[test] Batches per rank (world_size=1): 2490
+[test] Epoch length set to: 2490
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+[behavior] test(test) num_shards=2 (data_dir=/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/data/pointworld_behavior_task0001_restored/behavior/wds)
+[test] Total samples across all datasets: 2490
+[test] Total batches needed: 2490
+[test] Batches per rank (world_size=1): 2490
+[test] Epoch length set to: 2490
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+[behavior] test(test) num_shards=2 (data_dir=/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/data/pointworld_behavior_task0001_restored/behavior/wds)
+[test] Total samples across all datasets: 2490
+[test] Total batches needed: 2490
+[test] Batches per rank (world_size=1): 2490
+[test] Epoch length set to: 2490
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+[behavior] test(test) num_shards=2 (data_dir=/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/data/pointworld_behavior_task0001_restored/behavior/wds)
+[test] Total samples across all datasets: 2490
+[test] Total batches needed: 2490
+[test] Batches per rank (world_size=1): 2490
+[test] Epoch length set to: 2490
+[1/274] task-0001_episode_00011800-360:371 | moved: 3.484 -> 4.850 mm | ratio=1.392
+[2/274] task-0001_episode_00010050-420:431 | moved: 3.048 -> 3.068 mm | ratio=1.007
+[3/274] task-0001_episode_00011840-145:156 | moved: 2.737 -> 2.769 mm | ratio=1.011
+[4/274] task-0001_episode_00010050-570:581 | moved: 7.075 -> 2.923 mm | ratio=0.413
+[5/274] task-0001_episode_00011840-310:321 | moved: 2.104 -> 2.080 mm | ratio=0.989
+[6/274] task-0001_episode_00010050-960:971 | moved: 7.591 -> 7.238 mm | ratio=0.954
+[7/274] task-0001_episode_00011840-95:106 | moved: 6.912 -> 7.618 mm | ratio=1.102
+[8/274] task-0001_episode_00011870-255:266 | moved: 8.629 -> 8.127 mm | ratio=0.942
+[9/274] task-0001_episode_00011870-330:341 | moved: 8.693 -> 6.984 mm | ratio=0.803
+[10/274] task-0001_episode_00010090-315:326 | moved: 3.955 -> 4.975 mm | ratio=1.258
+[11/274] task-0001_episode_00011870-355:366 | moved: 1.730 -> 2.429 mm | ratio=1.405
+[12/274] task-0001_episode_00010090-540:551 | moved: 7.713 -> 7.752 mm | ratio=1.005
+[13/274] task-0001_episode_00011880-145:156 | moved: 3.155 -> 3.053 mm | ratio=0.968
+[14/274] task-0001_episode_00010090-850:861 | moved: 3.497 -> 3.642 mm | ratio=1.041
+[15/274] task-0001_episode_00010090-935:946 | moved: 3.325 -> 3.208 mm | ratio=0.965
+[16/274] task-0001_episode_00010110-555:566 | moved: 5.267 -> 5.429 mm | ratio=1.031
+[17/274] task-0001_episode_00011910-285:296 | moved: 3.405 -> 3.420 mm | ratio=1.004
+[18/274] task-0001_episode_00011920-105:116 | moved: 8.110 -> 8.124 mm | ratio=1.002
+[19/274] task-0001_episode_00011920-155:166 | moved: 2.599 -> 2.659 mm | ratio=1.023
+[20/274] task-0001_episode_00010120-585:596 | moved: 3.844 -> 4.690 mm | ratio=1.220
+[21/274] task-0001_episode_00011940-130:141 | moved: 5.567 -> 3.414 mm | ratio=0.613
+[22/274] task-0001_episode_00010140-390:401 | moved: 1.672 -> 2.043 mm | ratio=1.221
+[23/274] task-0001_episode_00010140-715:726 | moved: 5.311 -> 4.875 mm | ratio=0.918
+[24/274] task-0001_episode_00012000-475:486 | moved: 3.419 -> 3.070 mm | ratio=0.898
+[25/274] task-0001_episode_00012010-440:451 | moved: 6.752 -> 7.629 mm | ratio=1.130
+[26/274] task-0001_episode_00012010-460:471 | moved: 2.095 -> 2.449 mm | ratio=1.169
+[27/274] task-0001_episode_00010150-605:616 | moved: 3.243 -> 3.683 mm | ratio=1.135
+[28/274] task-0001_episode_00012010-695:706 | moved: 2.439 -> 2.311 mm | ratio=0.948
+[29/274] task-0001_episode_00012010-715:726 | moved: 2.401 -> 2.947 mm | ratio=1.228
+[30/274] task-0001_episode_00012020-375:386 | moved: 4.500 -> 4.544 mm | ratio=1.010
+[31/274] task-0001_episode_00010180-880:891 | moved: 2.218 -> 1.924 mm | ratio=0.868
+[32/274] task-0001_episode_00012030-205:216 | moved: 6.761 -> 6.836 mm | ratio=1.011
+[33/274] task-0001_episode_00012040-190:201 | moved: 3.625 -> 3.715 mm | ratio=1.025
+[34/274] task-0001_episode_00012050-345:356 | moved: 8.207 -> 8.475 mm | ratio=1.033
+[35/274] task-0001_episode_00012050-395:406 | moved: 5.949 -> 6.132 mm | ratio=1.031
+[36/274] task-0001_episode_00010230-725:736 | moved: 5.524 -> 5.874 mm | ratio=1.063
+[37/274] task-0001_episode_00010240-305:316 | moved: 8.562 -> 5.160 mm | ratio=0.603
+[38/274] task-0001_episode_00010240-435:446 | moved: 6.528 -> 9.714 mm | ratio=1.488
+[39/274] task-0001_episode_00010240-445:456 | moved: 8.022 -> 7.958 mm | ratio=0.992
+[40/274] task-0001_episode_00012060-295:306 | moved: 4.795 -> 4.707 mm | ratio=0.982
+[41/274] task-0001_episode_00012060-370:381 | moved: 3.511 -> 3.292 mm | ratio=0.938
+[42/274] task-0001_episode_00010280-250:261 | moved: 8.945 -> 9.765 mm | ratio=1.092
+[43/274] task-0001_episode_00012070-215:226 | moved: 6.532 -> 6.833 mm | ratio=1.046
+[44/274] task-0001_episode_00010300-295:306 | moved: 3.145 -> 2.666 mm | ratio=0.848
+[45/274] task-0001_episode_00010300-340:351 | moved: 8.690 -> 7.529 mm | ratio=0.866
+[46/274] task-0001_episode_00010300-485:496 | moved: 1.799 -> 1.724 mm | ratio=0.959
+[47/274] task-0001_episode_00010300-555:566 | moved: 3.133 -> 3.834 mm | ratio=1.224
+[48/274] task-0001_episode_00012080-705:716 | moved: 4.602 -> 4.006 mm | ratio=0.870
+[49/274] task-0001_episode_00010310-300:311 | moved: 6.601 -> 4.047 mm | ratio=0.613
+[50/274] task-0001_episode_00010310-485:496 | moved: 3.836 -> 3.043 mm | ratio=0.793
+[51/274] task-0001_episode_00010310-530:541 | moved: 4.534 -> 6.701 mm | ratio=1.478
+[52/274] task-0001_episode_00012090-340:351 | moved: 2.849 -> 2.876 mm | ratio=1.009
+[53/274] task-0001_episode_00012090-640:651 | moved: 4.208 -> 4.009 mm | ratio=0.953
+[54/274] task-0001_episode_00010310-660:671 | moved: 3.111 -> 3.288 mm | ratio=1.057
+[55/274] task-0001_episode_00010310-685:696 | moved: 10.298 -> 9.938 mm | ratio=0.965
+[56/274] task-0001_episode_00012100-685:696 | moved: 2.911 -> 5.041 mm | ratio=1.732
+[57/274] task-0001_episode_00010350-275:286 | moved: 2.366 -> 2.378 mm | ratio=1.005
+[58/274] task-0001_episode_00010350-350:361 | moved: 6.493 -> 4.936 mm | ratio=0.760
+[59/274] task-0001_episode_00012110-235:246 | moved: 2.941 -> 3.125 mm | ratio=1.063
+[60/274] task-0001_episode_00010350-380:391 | moved: 2.559 -> 2.220 mm | ratio=0.868
+[61/274] task-0001_episode_00010360-125:136 | moved: 6.878 -> 7.020 mm | ratio=1.021
+[62/274] task-0001_episode_00012120-475:486 | moved: 2.785 -> 2.527 mm | ratio=0.908
+[63/274] task-0001_episode_00010360-245:256 | moved: 4.629 -> 6.804 mm | ratio=1.470
+[64/274] task-0001_episode_00010360-275:286 | moved: 7.714 -> 9.458 mm | ratio=1.226
+[65/274] task-0001_episode_00010360-95:106 | moved: 3.077 -> 3.707 mm | ratio=1.205
+[66/274] task-0001_episode_00010380-410:421 | moved: 2.278 -> 3.395 mm | ratio=1.490
+[67/274] task-0001_episode_00010380-505:516 | moved: 3.582 -> 4.883 mm | ratio=1.363
+[68/274] task-0001_episode_00010460-550:561 | moved: 3.904 -> 1.961 mm | ratio=0.502
+[69/274] task-0001_episode_00010460-555:566 | moved: 2.589 -> 3.819 mm | ratio=1.475
+[70/274] task-0001_episode_00012170-335:346 | moved: 7.983 -> 7.584 mm | ratio=0.950
+[71/274] task-0001_episode_00010510-435:446 | moved: 1.403 -> 1.868 mm | ratio=1.331
+[72/274] task-0001_episode_00012180-435:446 | moved: 3.902 -> 3.529 mm | ratio=0.904
+[73/274] task-0001_episode_00012180-570:581 | moved: 3.488 -> 2.994 mm | ratio=0.858
+[74/274] task-0001_episode_00012180-605:616 | moved: 3.033 -> 3.226 mm | ratio=1.063
+[75/274] task-0001_episode_00010540-260:271 | moved: 1.957 -> 2.209 mm | ratio=1.129
+[76/274] task-0001_episode_00012220-265:276 | moved: 5.812 -> 6.051 mm | ratio=1.041
+[77/274] task-0001_episode_00010550-290:301 | moved: 10.629 -> 7.388 mm | ratio=0.695
+[78/274] task-0001_episode_00010550-490:501 | moved: 1.229 -> 1.000 mm | ratio=0.814
+[79/274] task-0001_episode_00010550-995:1006 | moved: 2.073 -> 2.238 mm | ratio=1.080
+[80/274] task-0001_episode_00010560-440:451 | moved: 5.635 -> 4.542 mm | ratio=0.806
+[81/274] task-0001_episode_00010560-505:516 | moved: 3.501 -> 3.223 mm | ratio=0.920
+[82/274] task-0001_episode_00010560-545:556 | moved: 4.904 -> 4.138 mm | ratio=0.844
+[83/274] task-0001_episode_00010570-340:351 | moved: 0.614 -> 0.481 mm | ratio=0.782
+[84/274] task-0001_episode_00012260-660:671 | moved: 2.249 -> 2.250 mm | ratio=1.000
+[85/274] task-0001_episode_00010580-315:326 | moved: 2.501 -> 3.894 mm | ratio=1.557
+[86/274] task-0001_episode_00012270-510:521 | moved: 2.114 -> 1.940 mm | ratio=0.918
+[87/274] task-0001_episode_00010580-725:736 | moved: 13.390 -> 5.087 mm | ratio=0.380
+[88/274] task-0001_episode_00010580-920:931 | moved: 4.450 -> 5.509 mm | ratio=1.238
+[89/274] task-0001_episode_00010590-140:151 | moved: 5.093 -> 4.981 mm | ratio=0.978
+[90/274] task-0001_episode_00010590-375:386 | moved: 4.832 -> 4.831 mm | ratio=1.000
+[91/274] task-0001_episode_00010590-430:441 | moved: 1.403 -> 1.812 mm | ratio=1.292
+[92/274] task-0001_episode_00010590-680:691 | moved: 3.246 -> 3.196 mm | ratio=0.985
+[93/274] task-0001_episode_00010600-325:336 | moved: 4.795 -> 4.001 mm | ratio=0.834
+[94/274] task-0001_episode_00012310-305:316 | moved: 2.958 -> 3.009 mm | ratio=1.017
+[95/274] task-0001_episode_00012320-140:151 | moved: 3.932 -> 3.773 mm | ratio=0.959
+[96/274] task-0001_episode_00010610-355:366 | moved: 1.054 -> 1.173 mm | ratio=1.114
+[97/274] task-0001_episode_00010610-715:726 | moved: 6.084 -> 5.362 mm | ratio=0.881
+[98/274] task-0001_episode_00010620-945:956 | moved: 2.019 -> 2.833 mm | ratio=1.403
+[99/274] task-0001_episode_00010630-705:716 | moved: 3.922 -> 3.261 mm | ratio=0.831
+[100/274] task-0001_episode_00012340-690:701 | moved: 2.185 -> 2.976 mm | ratio=1.362
+[101/274] task-0001_episode_00010640-400:411 | moved: 1.517 -> 1.740 mm | ratio=1.147
+[102/274] task-0001_episode_00010640-505:516 | moved: 7.629 -> 7.873 mm | ratio=1.032
+[103/274] task-0001_episode_00010650-280:291 | moved: 3.736 -> 7.213 mm | ratio=1.931
+[104/274] task-0001_episode_00010650-435:446 | moved: 7.567 -> 6.956 mm | ratio=0.919
+[105/274] task-0001_episode_00010650-695:706 | moved: 3.646 -> 3.367 mm | ratio=0.923
+[106/274] task-0001_episode_00010650-740:751 | moved: 2.399 -> 2.303 mm | ratio=0.960
+[107/274] task-0001_episode_00012500-245:256 | moved: 6.983 -> 6.252 mm | ratio=0.895
+[108/274] task-0001_episode_00010660-290:301 | moved: 10.075 -> 8.894 mm | ratio=0.883
+[109/274] task-0001_episode_00010660-550:561 | moved: 3.588 -> 4.046 mm | ratio=1.128
+[110/274] task-0001_episode_00012500-760:771 | moved: 6.674 -> 5.906 mm | ratio=0.885
+[111/274] task-0001_episode_00012510-155:166 | moved: 3.988 -> 3.678 mm | ratio=0.922
+[112/274] task-0001_episode_00012510-315:326 | moved: 5.476 -> 5.112 mm | ratio=0.934
+[113/274] task-0001_episode_00010680-145:156 | moved: 5.488 -> 6.397 mm | ratio=1.166
+[114/274] task-0001_episode_00012510-510:521 | moved: 3.790 -> 4.124 mm | ratio=1.088
+[115/274] task-0001_episode_00010700-245:256 | moved: 3.821 -> 4.191 mm | ratio=1.097
+[116/274] task-0001_episode_00012530-305:316 | moved: 2.059 -> 2.406 mm | ratio=1.169
+[117/274] task-0001_episode_00012530-355:366 | moved: 4.116 -> 4.229 mm | ratio=1.027
+[118/274] task-0001_episode_00012530-625:636 | moved: 2.838 -> 2.651 mm | ratio=0.934
+[119/274] task-0001_episode_00010710-300:311 | moved: 7.033 -> 5.559 mm | ratio=0.790
+[120/274] task-0001_episode_00012530-630:641 | moved: 2.439 -> 3.123 mm | ratio=1.281
+[121/274] task-0001_episode_00012540-175:186 | moved: 6.291 -> 6.898 mm | ratio=1.096
+[122/274] task-0001_episode_00012540-370:381 | moved: 3.344 -> 3.049 mm | ratio=0.912
+[123/274] task-0001_episode_00012540-410:421 | moved: 2.926 -> 2.855 mm | ratio=0.976
+[124/274] task-0001_episode_00012550-365:376 | moved: 5.612 -> 4.522 mm | ratio=0.806
+[125/274] task-0001_episode_00010720-835:846 | moved: 4.046 -> 5.742 mm | ratio=1.419
+[126/274] task-0001_episode_00012560-520:531 | moved: 7.604 -> 7.456 mm | ratio=0.981
+[127/274] task-0001_episode_00010760-170:181 | moved: 3.003 -> 3.276 mm | ratio=1.091
+[128/274] task-0001_episode_00012570-450:461 | moved: 3.667 -> 4.115 mm | ratio=1.122
+[129/274] task-0001_episode_00012570-620:631 | moved: 3.764 -> 3.332 mm | ratio=0.885
+[130/274] task-0001_episode_00010760-345:356 | moved: 2.557 -> 2.818 mm | ratio=1.102
+[131/274] task-0001_episode_00010760-465:476 | moved: 3.327 -> 3.481 mm | ratio=1.046
+[132/274] task-0001_episode_00010760-680:691 | moved: 9.479 -> 9.742 mm | ratio=1.028
+[133/274] task-0001_episode_00010770-870:881 | moved: 4.636 -> 4.253 mm | ratio=0.917
+[134/274] task-0001_episode_00012590-500:511 | moved: 1.903 -> 2.216 mm | ratio=1.165
+[135/274] task-0001_episode_00010790-190:201 | moved: 3.070 -> 3.162 mm | ratio=1.030
+[136/274] task-0001_episode_00012600-240:251 | moved: 2.920 -> 4.123 mm | ratio=1.412
+[137/274] task-0001_episode_00012600-485:496 | moved: 2.696 -> 2.593 mm | ratio=0.962
+[138/274] task-0001_episode_00010800-615:626 | moved: 5.317 -> 5.790 mm | ratio=1.089
+[139/274] task-0001_episode_00010810-205:216 | moved: 9.142 -> 6.264 mm | ratio=0.685
+[140/274] task-0001_episode_00012610-380:391 | moved: 5.634 -> 3.812 mm | ratio=0.677
+[141/274] task-0001_episode_00010810-400:411 | moved: 3.772 -> 3.651 mm | ratio=0.968
+[142/274] task-0001_episode_00012620-275:286 | moved: 3.065 -> 3.448 mm | ratio=1.125
+[143/274] task-0001_episode_00012620-430:441 | moved: 2.592 -> 2.788 mm | ratio=1.076
+[144/274] task-0001_episode_00010820-495:506 | moved: 1.723 -> 2.335 mm | ratio=1.355
+[145/274] task-0001_episode_00012620-695:706 | moved: 4.526 -> 4.571 mm | ratio=1.010
+[146/274] task-0001_episode_00012620-745:756 | moved: 6.601 -> 6.908 mm | ratio=1.047
+[147/274] task-0001_episode_00010820-830:841 | moved: 2.903 -> 2.296 mm | ratio=0.791
+[148/274] task-0001_episode_00010850-285:296 | moved: 6.273 -> 7.008 mm | ratio=1.117
+[149/274] task-0001_episode_00010850-295:306 | moved: 4.081 -> 3.774 mm | ratio=0.925
+[150/274] task-0001_episode_00010850-300:311 | moved: 4.645 -> 5.069 mm | ratio=1.091
+[151/274] task-0001_episode_00010850-425:436 | moved: 4.767 -> 4.365 mm | ratio=0.916
+[152/274] task-0001_episode_00012630-605:616 | moved: 4.353 -> 4.292 mm | ratio=0.986
+[153/274] task-0001_episode_00010890-305:316 | moved: 4.360 -> 4.798 mm | ratio=1.100
+[154/274] task-0001_episode_00012640-350:361 | moved: 2.363 -> 2.174 mm | ratio=0.920
+[155/274] task-0001_episode_00010900-400:411 | moved: 2.467 -> 2.843 mm | ratio=1.152
+[156/274] task-0001_episode_00010900-665:676 | moved: 8.710 -> 6.689 mm | ratio=0.768
+[157/274] task-0001_episode_00012660-145:156 | moved: 7.385 -> 5.530 mm | ratio=0.749
+[158/274] task-0001_episode_00012660-340:351 | moved: 4.522 -> 4.254 mm | ratio=0.941
+[159/274] task-0001_episode_00012660-520:531 | moved: 3.162 -> 2.989 mm | ratio=0.945
+[160/274] task-0001_episode_00012670-245:256 | moved: 4.542 -> 4.639 mm | ratio=1.021
+[161/274] task-0001_episode_00012670-270:281 | moved: 6.440 -> 5.703 mm | ratio=0.886
+[162/274] task-0001_episode_00010950-785:796 | moved: 2.930 -> 3.470 mm | ratio=1.184
+[163/274] task-0001_episode_00010950-825:836 | moved: 4.068 -> 5.266 mm | ratio=1.295
+[164/274] task-0001_episode_00012680-145:156 | moved: 8.108 -> 9.768 mm | ratio=1.205
+[165/274] task-0001_episode_00010960-345:356 | moved: 5.140 -> 3.232 mm | ratio=0.629
+[166/274] task-0001_episode_00010960-690:701 | moved: 4.564 -> 2.602 mm | ratio=0.570
+[167/274] task-0001_episode_00012690-640:651 | moved: 6.237 -> 5.831 mm | ratio=0.935
+[168/274] task-0001_episode_00012690-715:726 | moved: 5.720 -> 5.912 mm | ratio=1.033
+[169/274] task-0001_episode_00010970-865:876 | moved: 4.313 -> 3.855 mm | ratio=0.894
+[170/274] task-0001_episode_00010980-170:181 | moved: 2.904 -> 2.970 mm | ratio=1.022
+[171/274] task-0001_episode_00012700-250:261 | moved: 3.367 -> 9.209 mm | ratio=2.735
+[172/274] task-0001_episode_00012700-335:346 | moved: 2.772 -> 1.511 mm | ratio=0.545
+[173/274] task-0001_episode_00010980-850:861 | moved: 4.636 -> 4.596 mm | ratio=0.992
+[174/274] task-0001_episode_00011040-410:421 | moved: 5.150 -> 5.406 mm | ratio=1.050
+[175/274] task-0001_episode_00012710-325:336 | moved: 3.144 -> 3.279 mm | ratio=1.043
+[176/274] task-0001_episode_00012710-465:476 | moved: 5.439 -> 8.334 mm | ratio=1.532
+[177/274] task-0001_episode_00011120-645:656 | moved: 7.551 -> 6.776 mm | ratio=0.897
+[178/274] task-0001_episode_00011130-515:526 | moved: 6.540 -> 6.962 mm | ratio=1.064
+[179/274] task-0001_episode_00012740-435:446 | moved: 3.649 -> 3.453 mm | ratio=0.946
+[180/274] task-0001_episode_00011140-190:201 | moved: 2.822 -> 3.044 mm | ratio=1.078
+[181/274] task-0001_episode_00011140-240:251 | moved: 9.366 -> 9.172 mm | ratio=0.979
+[182/274] task-0001_episode_00011140-610:621 | moved: 1.567 -> 1.424 mm | ratio=0.909
+[183/274] task-0001_episode_00011140-635:646 | moved: 3.887 -> 4.084 mm | ratio=1.051
+[184/274] task-0001_episode_00011150-390:401 | moved: 4.360 -> 4.265 mm | ratio=0.978
+[185/274] task-0001_episode_00012750-660:671 | moved: 2.312 -> 2.918 mm | ratio=1.262
+[186/274] task-0001_episode_00011150-760:771 | moved: 4.259 -> 5.096 mm | ratio=1.196
+[187/274] task-0001_episode_00011160-1075:1086 | moved: 3.395 -> 2.752 mm | ratio=0.811
+[188/274] task-0001_episode_00011160-555:566 | moved: 3.260 -> 3.265 mm | ratio=1.001
+[189/274] task-0001_episode_00011160-565:576 | moved: 3.145 -> 2.803 mm | ratio=0.891
+[190/274] task-0001_episode_00011160-765:776 | moved: 2.884 -> 2.965 mm | ratio=1.028
+[191/274] task-0001_episode_00012770-315:326 | moved: 3.339 -> 3.144 mm | ratio=0.942
+[192/274] task-0001_episode_00012770-515:526 | moved: 5.330 -> 4.246 mm | ratio=0.797
+[193/274] task-0001_episode_00012780-145:156 | moved: 4.021 -> 3.393 mm | ratio=0.844
+[194/274] task-0001_episode_00011170-665:676 | moved: 5.295 -> 4.896 mm | ratio=0.925
+[195/274] task-0001_episode_00012780-525:536 | moved: 3.473 -> 3.593 mm | ratio=1.035
+[196/274] task-0001_episode_00011170-800:811 | moved: 2.982 -> 2.188 mm | ratio=0.734
+[197/274] task-0001_episode_00012780-580:591 | moved: 5.250 -> 6.781 mm | ratio=1.291
+[198/274] task-0001_episode_00012780-590:601 | moved: 3.648 -> 3.307 mm | ratio=0.907
+[199/274] task-0001_episode_00011170-980:991 | moved: 0.907 -> 2.316 mm | ratio=2.554
+[200/274] task-0001_episode_00011200-250:261 | moved: 4.907 -> 5.094 mm | ratio=1.038
+[201/274] task-0001_episode_00012790-310:321 | moved: 4.223 -> 4.455 mm | ratio=1.055
+[202/274] task-0001_episode_00011200-330:341 | moved: 5.670 -> 6.370 mm | ratio=1.124
+[203/274] task-0001_episode_00012790-410:421 | moved: 4.741 -> 6.340 mm | ratio=1.337
+[204/274] task-0001_episode_00011200-380:391 | moved: 5.614 -> 4.551 mm | ratio=0.811
+[205/274] task-0001_episode_00012790-425:436 | moved: 4.750 -> 4.211 mm | ratio=0.887
+[206/274] task-0001_episode_00011200-555:566 | moved: 8.856 -> 8.323 mm | ratio=0.940
+[207/274] task-0001_episode_00012800-225:236 | moved: 3.211 -> 4.966 mm | ratio=1.547
+[208/274] task-0001_episode_00012800-340:351 | moved: 3.835 -> 4.792 mm | ratio=1.250
+[209/274] task-0001_episode_00011210-505:516 | moved: 7.125 -> 5.722 mm | ratio=0.803
+[210/274] task-0001_episode_00012810-355:366 | moved: 5.584 -> 5.236 mm | ratio=0.938
+[211/274] task-0001_episode_00011220-465:476 | moved: 3.359 -> 3.238 mm | ratio=0.964
+[212/274] task-0001_episode_00011220-500:511 | moved: 3.430 -> 3.396 mm | ratio=0.990
+[213/274] task-0001_episode_00011220-835:846 | moved: 7.298 -> 7.585 mm | ratio=1.039
+[214/274] task-0001_episode_00012830-365:376 | moved: 4.022 -> 3.321 mm | ratio=0.826
+[215/274] task-0001_episode_00012830-445:456 | moved: 4.427 -> 4.899 mm | ratio=1.107
+[216/274] task-0001_episode_00011230-865:876 | moved: 3.227 -> 4.972 mm | ratio=1.541
+[217/274] task-0001_episode_00012840-305:316 | moved: 2.446 -> 2.420 mm | ratio=0.989
+[218/274] task-0001_episode_00012840-335:346 | moved: 3.187 -> 3.394 mm | ratio=1.065
+[219/274] task-0001_episode_00011250-315:326 | moved: 4.005 -> 4.348 mm | ratio=1.086
+[220/274] task-0001_episode_00012840-510:521 | moved: 4.219 -> 3.731 mm | ratio=0.884
+[221/274] task-0001_episode_00011250-510:521 | moved: 6.284 -> 5.917 mm | ratio=0.942
+[222/274] task-0001_episode_00011250-530:541 | moved: 1.787 -> 1.784 mm | ratio=0.998
+[223/274] task-0001_episode_00011250-790:801 | moved: 4.407 -> 4.922 mm | ratio=1.117
+[224/274] task-0001_episode_00011250-810:821 | moved: 4.051 -> 4.144 mm | ratio=1.023
+[225/274] task-0001_episode_00012860-450:461 | moved: 3.444 -> 4.187 mm | ratio=1.216
+[226/274] task-0001_episode_00012860-660:671 | moved: 3.398 -> 3.033 mm | ratio=0.893
+[227/274] task-0001_episode_00012860-765:776 | moved: 3.480 -> 4.757 mm | ratio=1.367
+[228/274] task-0001_episode_00011260-580:591 | moved: 4.238 -> 4.559 mm | ratio=1.076
+[229/274] task-0001_episode_00011260-875:886 | moved: 2.454 -> 2.238 mm | ratio=0.912
+[230/274] task-0001_episode_00012880-400:411 | moved: 2.887 -> 3.794 mm | ratio=1.314
+[231/274] task-0001_episode_00011310-555:566 | moved: 5.605 -> 5.812 mm | ratio=1.037
+[232/274] task-0001_episode_00011310-615:626 | moved: 2.038 -> 2.260 mm | ratio=1.109
+[233/274] task-0001_episode_00012910-480:491 | moved: 7.234 -> 7.664 mm | ratio=1.059
+[234/274] task-0001_episode_00011320-545:556 | moved: 3.123 -> 2.619 mm | ratio=0.839
+[235/274] task-0001_episode_00012910-705:716 | moved: 1.650 -> 2.069 mm | ratio=1.254
+[236/274] task-0001_episode_00011320-635:646 | moved: 2.571 -> 3.460 mm | ratio=1.346
+[237/274] task-0001_episode_00012920-515:526 | moved: 2.660 -> 2.765 mm | ratio=1.039
+[238/274] task-0001_episode_00012930-360:371 | moved: 3.277 -> 2.870 mm | ratio=0.876
+[239/274] task-0001_episode_00011330-505:516 | moved: 4.132 -> 4.015 mm | ratio=0.972
+[240/274] task-0001_episode_00011340-440:451 | moved: 2.452 -> 2.919 mm | ratio=1.190
+[241/274] task-0001_episode_00011340-660:671 | moved: 2.293 -> 2.444 mm | ratio=1.066
+[242/274] task-0001_episode_00012950-395:406 | moved: 3.848 -> 5.020 mm | ratio=1.305
+[243/274] task-0001_episode_00011360-375:386 | moved: 2.238 -> 2.536 mm | ratio=1.133
+[244/274] task-0001_episode_00012960-415:426 | moved: 3.894 -> 4.043 mm | ratio=1.038
+[245/274] task-0001_episode_00011360-540:551 | moved: 4.758 -> 6.822 mm | ratio=1.434
+[246/274] task-0001_episode_00011370-600:611 | moved: 3.784 -> 4.090 mm | ratio=1.081
+[247/274] task-0001_episode_00011380-425:436 | moved: 3.361 -> 3.489 mm | ratio=1.038
+[248/274] task-0001_episode_00012980-610:621 | moved: 4.348 -> 5.515 mm | ratio=1.268
+[249/274] task-0001_episode_00011380-485:496 | moved: 8.999 -> 8.560 mm | ratio=0.951
+[250/274] task-0001_episode_00011380-835:846 | moved: 2.005 -> 2.414 mm | ratio=1.204
+[251/274] task-0001_episode_00011390-580:591 | moved: 3.017 -> 5.002 mm | ratio=1.658
+[252/274] task-0001_episode_00012990-500:511 | moved: 2.154 -> 2.182 mm | ratio=1.013
+[253/274] task-0001_episode_00013000-545:556 | moved: 5.758 -> 5.613 mm | ratio=0.975
+[254/274] task-0001_episode_00011400-630:641 | moved: 6.286 -> 5.163 mm | ratio=0.821
+[255/274] task-0001_episode_00011400-760:771 | moved: 1.380 -> 3.172 mm | ratio=2.298
+[256/274] task-0001_episode_00011420-690:701 | moved: 4.140 -> 3.737 mm | ratio=0.903
+[257/274] task-0001_episode_00011420-700:711 | moved: 3.016 -> 3.998 mm | ratio=1.326
+[258/274] task-0001_episode_00011420-780:791 | moved: 0.170 -> 0.187 mm | ratio=1.097
+[259/274] task-0001_episode_00011430-600:611 | moved: 3.721 -> 3.989 mm | ratio=1.072
+[260/274] task-0001_episode_00011430-750:761 | moved: 7.327 -> 7.064 mm | ratio=0.964
+[261/274] task-0001_episode_00011430-830:841 | moved: 4.001 -> 3.595 mm | ratio=0.898
+[262/274] task-0001_episode_00011440-580:591 | moved: 3.511 -> 2.767 mm | ratio=0.788
+[263/274] task-0001_episode_00011440-730:741 | moved: 3.777 -> 3.663 mm | ratio=0.970
+[264/274] task-0001_episode_00011440-875:886 | moved: 5.167 -> 5.479 mm | ratio=1.060
+[265/274] task-0001_episode_00011450-365:376 | moved: 2.597 -> 1.568 mm | ratio=0.604
+[266/274] task-0001_episode_00011490-350:361 | moved: 5.696 -> 6.024 mm | ratio=1.058
+[267/274] task-0001_episode_00011490-385:396 | moved: 5.971 -> 5.789 mm | ratio=0.969
+[268/274] task-0001_episode_00011490-420:431 | moved: 6.084 -> 6.183 mm | ratio=1.016
+[269/274] task-0001_episode_00011490-465:476 | moved: 8.982 -> 9.050 mm | ratio=1.008
+[270/274] task-0001_episode_00011490-510:521 | moved: 2.640 -> 2.800 mm | ratio=1.061
+[271/274] task-0001_episode_00011500-535:546 | moved: 4.792 -> 7.456 mm | ratio=1.556
+[272/274] task-0001_episode_00011500-795:806 | moved: 2.391 -> 2.965 mm | ratio=1.240
+[273/274] task-0001_episode_00011760-435:446 | moved: 2.750 -> 3.831 mm | ratio=1.393
+[274/274] task-0001_episode_00011790-220:231 | moved: 2.918 -> 3.719 mm | ratio=1.275
+
+==========================================================================================
+ROBUSTNESS RESULT
+==========================================================================================
+TARGETS = 274
+FOUND   = 274
+OUTPUT  = /home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/results/goal_preserved_action_robustness/robust_task0001__robustness.csv
+SUCCESS = True

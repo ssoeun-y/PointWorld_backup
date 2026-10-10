@@ -1,0 +1,170 @@
+{
+  "scope": "Expert-filtered, continuously moved trajectories from the DROID confidence-covered 5-sample subset",
+  "processed_raw_files": 5,
+  "trajectory_count_reproduced": 40,
+  "previous_trajectory_count": 40,
+  "threshold_definition": "Consecutive L2-error changes whose absolute value does not exceed the expert-filtered static error-variation threshold are treated as stable.",
+  "direction_symbols": {
+    "W": "error worsened beyond tolerance",
+    "I": "error improved beyond tolerance",
+    "-": "change remained within tolerance"
+  },
+  "results": {
+    "zero_tolerance": {
+      "threshold_m": 0.0,
+      "threshold_mm": 0.0,
+      "trajectory_count": 40,
+      "no_material_change_rate": 0.0,
+      "monotonic_worsening_rate": 0.0,
+      "monotonic_improving_rate": 0.0,
+      "mixed_direction_rate": 1.0,
+      "net_worsening_rate": 0.625,
+      "net_improving_rate": 0.375,
+      "net_stable_rate": 0.0,
+      "zero_sign_change_rate": 0.0,
+      "one_sign_change_rate": 0.075,
+      "repeated_oscillation_rate": 0.925,
+      "strong_alternation_rate": 0.625,
+      "sign_change_count": {
+        "count": 40,
+        "mean": 3.875,
+        "median": 4.0,
+        "p95": 6.049999237060547,
+        "p99": 7.6100006103515625,
+        "max": 8.0
+      },
+      "material_change_steps": {
+        "count": 40,
+        "mean": 9.0,
+        "median": 9.0,
+        "p95": 9.0,
+        "p99": 9.0,
+        "max": 9.0
+      },
+      "material_total_variation_m": {
+        "count": 40,
+        "mean": 0.21027693152427673,
+        "median": 0.11100379377603531,
+        "p95": 0.7053186297416687,
+        "p99": 1.1696850061416626,
+        "max": 1.4340656995773315
+      },
+      "mean_error_by_timestep_m": [
+        0.04980262368917465,
+        0.045822758227586746,
+        0.03729093819856644,
+        0.04568829387426376,
+        0.04200698807835579,
+        0.054120682179927826,
+        0.04534609243273735,
+        0.05195073038339615,
+        0.04135242849588394,
+        0.041491635143756866
+      ]
+    },
+    "static_p95_tolerance": {
+      "threshold_m": 0.0030466688331216574,
+      "threshold_mm": 3.0466688331216574,
+      "trajectory_count": 40,
+      "no_material_change_rate": 0.0,
+      "monotonic_worsening_rate": 0.05,
+      "monotonic_improving_rate": 0.0,
+      "mixed_direction_rate": 0.95,
+      "net_worsening_rate": 0.6,
+      "net_improving_rate": 0.35,
+      "net_stable_rate": 0.05,
+      "zero_sign_change_rate": 0.05,
+      "one_sign_change_rate": 0.075,
+      "repeated_oscillation_rate": 0.875,
+      "strong_alternation_rate": 0.525,
+      "sign_change_count": {
+        "count": 40,
+        "mean": 3.4749999046325684,
+        "median": 4.0,
+        "p95": 6.049999237060547,
+        "p99": 7.0,
+        "max": 7.0
+      },
+      "material_change_steps": {
+        "count": 40,
+        "mean": 8.100000381469727,
+        "median": 9.0,
+        "p95": 9.0,
+        "p99": 9.0,
+        "max": 9.0
+      },
+      "material_total_variation_m": {
+        "count": 40,
+        "mean": 0.20887720584869385,
+        "median": 0.11100379377603531,
+        "p95": 0.7040717601776123,
+        "p99": 1.1696850061416626,
+        "max": 1.4340656995773315
+      },
+      "mean_error_by_timestep_m": [
+        0.04980262368917465,
+        0.045822758227586746,
+        0.03729093819856644,
+        0.04568829387426376,
+        0.04200698807835579,
+        0.054120682179927826,
+        0.04534609243273735,
+        0.05195073038339615,
+        0.04135242849588394,
+        0.041491635143756866
+      ]
+    },
+    "static_p99_tolerance": {
+      "threshold_m": 0.006674290634691715,
+      "threshold_mm": 6.674290634691715,
+      "trajectory_count": 40,
+      "no_material_change_rate": 0.0,
+      "monotonic_worsening_rate": 0.1,
+      "monotonic_improving_rate": 0.0,
+      "mixed_direction_rate": 0.9,
+      "net_worsening_rate": 0.575,
+      "net_improving_rate": 0.325,
+      "net_stable_rate": 0.1,
+      "zero_sign_change_rate": 0.1,
+      "one_sign_change_rate": 0.125,
+      "repeated_oscillation_rate": 0.775,
+      "strong_alternation_rate": 0.325,
+      "sign_change_count": {
+        "count": 40,
+        "mean": 2.825000047683716,
+        "median": 2.0,
+        "p95": 6.049999237060547,
+        "p99": 7.0,
+        "max": 7.0
+      },
+      "material_change_steps": {
+        "count": 40,
+        "mean": 6.025000095367432,
+        "median": 7.0,
+        "p95": 9.0,
+        "p99": 9.0,
+        "max": 9.0
+      },
+      "material_total_variation_m": {
+        "count": 40,
+        "mean": 0.19798710942268372,
+        "median": 0.1073131412267685,
+        "p95": 0.7040717601776123,
+        "p99": 1.1669096946716309,
+        "max": 1.429516077041626
+      },
+      "mean_error_by_timestep_m": [
+        0.04980262368917465,
+        0.045822758227586746,
+        0.03729093819856644,
+        0.04568829387426376,
+        0.04200698807835579,
+        0.054120682179927826,
+        0.04534609243273735,
+        0.05195073038339615,
+        0.04135242849588394,
+        0.041491635143756866
+      ]
+    }
+  }
+}

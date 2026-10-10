@@ -1,0 +1,60 @@
+{
+  "n_cases": 4,
+  "all_identity_pair_exact_gt": true,
+  "all_identity_se3_exact_gt": true,
+  "all_identity_near_zero": true,
+  "rows": [
+    {
+      "rank": 1,
+      "n_points": 49,
+      "identity_pair_p95_mm": 9.994552566117143e-05,
+      "model_pred_pair_p95_mm": 6.205015534869896,
+      "identity_se3_p95_mm": 8.914281971382585e-05,
+      "model_pred_se3_p95_mm": 6.457775655336687,
+      "identity_pair_exact_gt": true,
+      "identity_se3_exact_gt": true,
+      "identity_near_zero": true,
+      "pred_identity_pair_ratio": 62083.97518369878,
+      "pred_identity_se3_ratio": 72443.02655074192
+    },
+    {
+      "rank": 3,
+      "n_points": 28,
+      "identity_pair_p95_mm": 8.764767093771829e-05,
+      "model_pred_pair_p95_mm": 11.692294376933745,
+      "identity_se3_p95_mm": 8.252196505518791e-05,
+      "model_pred_se3_p95_mm": 9.730888494799787,
+      "identity_pair_exact_gt": true,
+      "identity_se3_exact_gt": true,
+      "identity_near_zero": true,
+      "pred_identity_pair_ratio": 133401.08472753593,
+      "pred_identity_se3_ratio": 117918.76851565637
+    },
+    {
+      "rank": 4,
+      "n_points": 21,
+      "identity_pair_p95_mm": 6.709595904499928e-05,
+      "model_pred_pair_p95_mm": 16.21707097334482,
+      "identity_se3_p95_mm": 7.698695331317933e-05,
+      "model_pred_se3_p95_mm": 13.81623088037271,
+      "identity_pair_exact_gt": true,
+      "identity_se3_exact_gt": true,
+      "identity_near_zero": true,
+      "pred_identity_pair_ratio": 241699.6672253915,
+      "pred_identity_se3_ratio": 179461.97746219323
+    },
+    {
+      "rank": 5,
+      "n_points": 16,
+      "identity_pair_p95_mm": 7.946073833815792e-05,
+      "model_pred_pair_p95_mm": 20.159511368494115,
+      "identity_se3_p95_mm": 7.222609581803063e-05,
+      "model_pred_se3_p95_mm": 11.854504007117914,
+      "identity_pair_exact_gt": true,
+      "identity_se3_exact_gt": true,
+      "identity_near_zero": true,
+      "pred_identity_pair_ratio": 253704.0529714446,
+      "pred_identity_se3_ratio": 164130.48321183847
+    }
+  ]
+}

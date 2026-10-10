@@ -1,0 +1,115 @@
+{
+  "run_id": "visibility_clip03_joint6_plus015_20260805",
+  "sample_key": [
+    "AUTOLab+0d4edc83+2023-10-21-19h-16m-50s_flows-0:11"
+  ],
+  "hook_state": {
+    "call_count": 1,
+    "joint_index_zero_based": 5,
+    "joint_name": "panda_joint6",
+    "requested_amplitude_rad": 0.15,
+    "t0_exact": true,
+    "final_exact": true,
+    "within_joint_limit": true,
+    "actual_max_abs_delta_rad": 0.15000009536743164,
+    "joint_lower_limit": -0.0175,
+    "joint_upper_limit": 3.7525
+  },
+  "batch_shapes": {
+    "joint_positions": [
+      1,
+      11,
+      7
+    ],
+    "gripper_positions": [
+      1,
+      11
+    ],
+    "robot_flows": [
+      1,
+      11,
+      195,
+      3
+    ],
+    "robot_exists": [
+      1,
+      11,
+      195
+    ],
+    "scene_flows": [
+      1,
+      11,
+      12000,
+      3
+    ],
+    "scene_exists": [
+      1,
+      11,
+      12000
+    ],
+    "scene_context_mask": [
+      1,
+      11,
+      12000,
+      1
+    ],
+    "cam0_initial_rgb": [
+      1,
+      180,
+      320,
+      3
+    ],
+    "cam0_initial_depth": [
+      1,
+      180,
+      320
+    ],
+    "cam0_intrinsic": [
+      1,
+      3,
+      3
+    ],
+    "cam0_extrinsic": [
+      1,
+      4,
+      4
+    ]
+  },
+  "output_shapes": {
+    "pred": [
+      1,
+      11,
+      12000,
+      3
+    ],
+    "log_var": [
+      1,
+      11,
+      12000,
+      1
+    ],
+    "scene_relative_norm": [
+      1,
+      11,
+      12000,
+      3
+    ],
+    "scene_relative": [
+      1,
+      11,
+      12000,
+      3
+    ],
+    "scene_flows": [
+      1,
+      11,
+      12000,
+      3
+    ],
+    "confidence": [
+      1,
+      11,
+      12000
+    ]
+  }
+}

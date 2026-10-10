@@ -1,0 +1,2 @@
+clip,task,dominant_hand,t_close,t_close_1based,close_side,original_acc,original_acc_si,acc_boundary,acc_boundary_si,success,optimizer_success,optimizer_message
+task-0000_episode_00000010-200:211,task-0000,left,4,5,left,0.013477779837748661,0.3369444959437165,0.009832167363499603,0.24580418408749008,False,False,Positive directional derivative for linesearch

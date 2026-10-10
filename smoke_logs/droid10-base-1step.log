@@ -1,0 +1,39 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+[2026-07-28 08:37:08] Rank 1/1 using device cuda
+[2026-07-28 08:37:09] Experiment ID: dummy-pmoxkl4f
+[2026-07-28 08:37:09] Saving to: train_logs/dummy-pmoxkl4f
+[2026-07-28 08:37:09] No checkpoint path provided, starting from scratch
+[2026-07-28 08:37:09] Setting up dataloaders...
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] train(train) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid_train_smoke/wds_11clips)
+[train] Total samples across all datasets: 10
+[train] Total batches needed: 10
+[train] Batches per rank (world_size=1): 10
+[train] Epoch length set to: 10
+[2026-07-28 08:37:13] Train dataset setup took 3.65s
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid_train_smoke/wds_11clips)
+[test] Total samples across all datasets: 1
+[test] Total batches needed: 1
+[test] Batches per rank (world_size=1): 1
+[test] Epoch length set to: 1
+[2026-07-28 08:37:13] Test dataset setup took 0.70s
+Loading canonical statistics from stats/droid/norm_stats.json
+[2026-07-28 08:37:37] 
+Optimizer parameters:
+[2026-07-28 08:37:37]   Total: 410,975,784 elements
+
+[2026-07-28 08:37:37] model/total_params            : 714129960
+[2026-07-28 08:37:37] model/robot_features_dim      : 16
+[2026-07-28 08:37:37] model/scene_features_dim      : 31
+[2026-07-28 08:37:37] model/data_keys               : ['scene_flows', 'scene_moved_mask', 'scene_supervised_mask', 'robot_features', 'scene_static_mask', 'gt_scene_flows_relative', '__scene_exceeds_max__', 'gt_scene_flows', 'scene_visibility', 'scene_context_mask', 'joint_positions', '__domain__', 'right_gripper_pose', 'right_gripper_open', '__shift_amount__', 'scene_selector_gt', 'gt_scene_flows_delta', 'gt_scene_flows_delta_norm', '__out_of_bounds__', 'scene_depth_valid_mask', 'gripper_positions', 'scene_features', '__key__', 'robot_flows', 'cam0_initial_rgb', 'cam0_initial_depth', 'cam0_intrinsic', 'cam0_extrinsic', 'cam0_exists', 'cam1_initial_rgb', 'cam1_initial_depth', 'cam1_intrinsic', 'cam1_extrinsic', 'cam1_exists', 'scene_exists', 'robot_exists', 'point_weights', 'weights_norm']
+[2026-07-28 08:37:37] Experiment Name               : dummy-pmoxkl4f
+[2026-07-28 08:37:37] Wandb ID                      : pmoxkl4f
+Initializing...:   0%|          | 0/10 [00:00<?, ?it/s][08:37:37 dummy-pmoxkl4f], Epoch=1.000/1, B=0, S=0, Loss=0.000e+00:   0%|          | 0/10 [00:00<?, ?it/s][08:37:37 dummy-pmoxkl4f], Epoch=1.000/1, B=0, S=0, Loss=0.000e+00:  10%|█         | 1/10 [00:00<00:01,  4.78it/s]                                                                                                                  

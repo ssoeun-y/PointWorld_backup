@@ -1,0 +1,2 @@
+task,clip,mode,original_acc_si,modified_acc_si,original_speed_rms,modified_speed_rms,max_phase_shift_frames,saved_corrected_acc_si,saved_runtime_absdiff_si,strict_acc_valid,matched_speed_pair_gap,matched_speed_pair_acc_gap,matched_speed_pair_valid,input_reproduced,strict_pass,reproduced_and_strict
+task-0000,task-0000_episode_00000210-215:226,boundary,0.5446956447444185,0.4995791312605993,1.0284932747198654,0.9811117476731932,0.3525211811065674,0.2451450672174133,0.254434064043186,False,,,False,False,False,False

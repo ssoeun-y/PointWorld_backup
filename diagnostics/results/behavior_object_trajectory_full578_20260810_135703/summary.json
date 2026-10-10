@@ -1,0 +1,8 @@
+{
+  "processed_sequences": 578,
+  "object_rows": 2314,
+  "debris_point_rows": 126658,
+  "official_l2_reproduced_for_all": true,
+  "temporal_object_ids_exact_for_all": true,
+  "scope": "BEHAVIOR full 578 test samples; official PointWorld inference; exact object-ID sidecar mapping"
+}

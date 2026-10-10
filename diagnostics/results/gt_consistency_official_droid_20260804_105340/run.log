@@ -1,0 +1,24 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds)
+[test] Total samples across all datasets: 62
+[test] Total batches needed: 62
+[test] Batches per rank (world_size=1): 62
+[test] Epoch length set to: 62
+[001] AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16 official_coverage=0.960544 expert_coverage=0.647009
+Traceback (most recent call last):
+  File "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/gt_consistency_official.py", line 723, in <module>
+    main()
+  File "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/gt_consistency_official.py", line 441, in main
+    confidence_helper.inject_confidence_mask(
+  File "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/evaluation/annotation.py", line 195, in inject_confidence_mask
+    cached = self._load_low_conf_voxels(files, dom, key)
+  File "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/evaluation/annotation.py", line 132, in _load_low_conf_voxels
+    raise RuntimeError(
+RuntimeError: Missing confidence voxels for key=AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-30:41 (domain=droid). Run with --run_confidence_annotation=true first.

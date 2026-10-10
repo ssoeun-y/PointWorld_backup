@@ -1,0 +1,4 @@
+alpha,status,lambda,riskcal_coverage,riskcal_empirical_risk,riskcal_simultaneous_upper,validation_total_n,validation_accepted_n,validation_coverage,validation_empirical_risk,validation_full_risk,validation_risk_reduction_pct,validation_median_error_mm,validation_p95_error_mm
+0.15,no_candidate,,,,,,,,,,,,
+0.2,no_candidate,,,,,,,,,,,,
+0.25,selected,2.5845195930175255,0.8926654740608229,0.2124248496993988,0.24330048160429912,2397.0,2186.0,0.9119732999582811,0.21180237877401648,0.23654568210262827,10.460264211407843,6.230521015822887,24.284654762595892

@@ -1,0 +1,20 @@
+{
+  "trajectory_files": 578,
+  "unique_trajectory_keys": 578,
+  "debris_point_rows": 126658,
+  "moved_object_groups": 377,
+  "processed_objects": 377,
+  "quantiles": [
+    0.9,
+    0.95,
+    0.975
+  ],
+  "object_quantile_rows": 1131,
+  "timestep_rows": 11310,
+  "missing_trajectory_keys": [],
+  "official_l2_exact_for_all_trajectories": true,
+  "temporal_object_ids_exact_for_all_trajectories": true,
+  "point_population_exact_for_all_objects": true,
+  "tracked_official_diff_empty": true,
+  "SUCCESS": true
+}

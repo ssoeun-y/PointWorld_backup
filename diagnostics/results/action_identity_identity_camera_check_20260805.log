@@ -1,0 +1,33 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Using eval dir: eval_logs/20260805_100957-None-split=test-seed=42
+Applied canonical checkpoint model_contract for evaluation model initialization.
+[2026-08-05 10:10:08] Rank 1/1 using device cuda
+[2026-08-05 10:10:08] Experiment ID: dummy-0m3t9pyj
+[2026-08-05 10:10:08] Saving to: train_logs/dummy-0m3t9pyj
+[2026-08-05 10:10:08] Loading checkpoint from /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/checkpoints/pointworld/small-droid/model-best.pt
+Loading canonical statistics from stats/droid/norm_stats.json
+[2026-08-05 10:10:49] model/total_params            : 354256936
+[2026-08-05 10:10:49] model/scene_features_dim      : 31
+[2026-08-05 10:10:49] model/robot_features_dim      : 16
+[2026-08-05 10:10:49] Experiment Name               : dummy-0m3t9pyj
+[2026-08-05 10:10:49] Wandb ID                      : 0m3t9pyj
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds)
+[test] Total samples across all datasets: 62
+[test] Total batches needed: 62
+[test] Batches per rank (world_size=1): 62
+[test] Epoch length set to: 62
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+
+========================================================================
+Action identity capture completed: identity
+Output: diagnostics/results/action_identity_camera_check_20260805/identity.pt
+Sample: ['AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16']
+Hook calls: 1
+========================================================================
+eval_logs/20260805_100957-None-split=test-seed=42/metrics.json

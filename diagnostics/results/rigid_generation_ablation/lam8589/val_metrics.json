@@ -1,0 +1,20 @@
+{
+  "tag": "lam8589",
+  "lambda_rigid": 8588.840751421856,
+  "steps": 5000,
+  "lr": 0.0001,
+  "weight_decay": 0.01,
+  "grad_clip": 5.0,
+  "batch_size": 1,
+  "trainable": "dynamics_head_only",
+  "rigid_active_steps": 3751,
+  "pretrained_validation": null,
+  "post_validation": {
+    "scanned_batches": 1000,
+    "eligible_clips": 783,
+    "mpjpe_median_mm": 7.7184991755833225,
+    "mpjpe_mean_mm": 11.98642136350308,
+    "pa_mpjpe_median_mm": 1.3103514694829617,
+    "pa_mpjpe_mean_mm": 1.8436685181489854
+  }
+}

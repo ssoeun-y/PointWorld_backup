@@ -1,0 +1,3 @@
+relation,N,simple_spearman,simple_p,partial_rank_rho_controlling_task_rms,partial_p
+early_excess_pa -> late_excess_pa,7947,0.7772425931873128,0.0,0.7358996058986657,0.0
+mid_excess_pa -> late_excess_pa,7947,0.941069586657957,0.0,0.9298792417375884,0.0

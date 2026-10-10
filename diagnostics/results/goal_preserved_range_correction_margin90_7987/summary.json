@@ -1,0 +1,16 @@
+{
+  "target_N": 641,
+  "loaded_N": 641,
+  "metric_audit_passed": true,
+  "correction_success_N": 430,
+  "correction_success_rate": 0.6708268330733229,
+  "median_original_acc": 0.01113556201697825,
+  "median_corrected_acc": 0.006975267067214018,
+  "median_acc_ratio": 0.6727727520480615,
+  "median_original_msj": 7.049515361194584e-05,
+  "median_corrected_msj": 2.6218977030140615e-05,
+  "median_msj_ratio": 0.40975807718257606,
+  "max_start_error": 0.0,
+  "max_endpoint_error": 0.0,
+  "median_max_phase_shift_frames": 0.45344308251242427
+}

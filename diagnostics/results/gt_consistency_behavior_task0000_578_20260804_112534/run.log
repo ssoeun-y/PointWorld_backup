@@ -1,0 +1,823 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/urdfpy/urdf.py:2169: RuntimeWarning: invalid value encountered in divide
+  value = value / np.linalg.norm(value)
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+[behavior] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/behavior/wds_task0000)
+[test] Total samples across all datasets: 578
+[test] Total batches needed: 578
+[test] Batches per rank (world_size=1): 578
+[test] Epoch length set to: 578
+[001] task-0000_episode_00000010-175:186 official_coverage=1.000000
+[002] task-0000_episode_00000010-180:191 official_coverage=1.000000
+[003] task-0000_episode_00000010-230:241 official_coverage=1.000000
+[004] task-0000_episode_00000010-250:261 official_coverage=1.000000
+[005] task-0000_episode_00000020-140:151 official_coverage=1.000000
+[006] task-0000_episode_00000020-185:196 official_coverage=1.000000
+[007] task-0000_episode_00000020-270:281 official_coverage=1.000000
+[008] task-0000_episode_00000020-345:356 official_coverage=1.000000
+[009] task-0000_episode_00000030-110:121 official_coverage=1.000000
+[010] task-0000_episode_00000030-160:171 official_coverage=1.000000
+[011] task-0000_episode_00000030-240:251 official_coverage=1.000000
+[012] task-0000_episode_00000030-255:266 official_coverage=1.000000
+[013] task-0000_episode_00000040-180:191 official_coverage=1.000000
+[014] task-0000_episode_00000050-185:196 official_coverage=1.000000
+[015] task-0000_episode_00000070-240:251 official_coverage=1.000000
+[016] task-0000_episode_00000070-345:356 official_coverage=1.000000
+[017] task-0000_episode_00000080-325:336 official_coverage=1.000000
+[018] task-0000_episode_00000080-385:396 official_coverage=1.000000
+[019] task-0000_episode_00000100-200:211 official_coverage=1.000000
+[020] task-0000_episode_00000100-205:216 official_coverage=1.000000
+[021] task-0000_episode_00000100-285:296 official_coverage=1.000000
+[022] task-0000_episode_00000100-355:366 official_coverage=1.000000
+[023] task-0000_episode_00000120-365:376 official_coverage=1.000000
+[024] task-0000_episode_00000130-180:191 official_coverage=1.000000
+[025] task-0000_episode_00000130-215:226 official_coverage=1.000000
+[026] task-0000_episode_00000130-225:236 official_coverage=1.000000
+[027] task-0000_episode_00000140-255:266 official_coverage=1.000000
+[028] task-0000_episode_00000160-280:291 official_coverage=1.000000
+[029] task-0000_episode_00000160-325:336 official_coverage=1.000000
+[030] task-0000_episode_00000160-375:386 official_coverage=1.000000
+[031] task-0000_episode_00000160-380:391 official_coverage=1.000000
+[032] task-0000_episode_00000170-250:261 official_coverage=1.000000
+[033] task-0000_episode_00000170-330:341 official_coverage=1.000000
+[034] task-0000_episode_00000170-380:391 official_coverage=1.000000
+[035] task-0000_episode_00000180-110:121 official_coverage=1.000000
+[036] task-0000_episode_00000180-245:256 official_coverage=1.000000
+[037] task-0000_episode_00000180-265:276 official_coverage=1.000000
+[038] task-0000_episode_00000180-300:311 official_coverage=1.000000
+[039] task-0000_episode_00000190-330:341 official_coverage=1.000000
+[040] task-0000_episode_00000190-355:366 official_coverage=1.000000
+[041] task-0000_episode_00000200-155:166 official_coverage=1.000000
+[042] task-0000_episode_00000210-160:171 official_coverage=1.000000
+[043] task-0000_episode_00000210-255:266 official_coverage=1.000000
+[044] task-0000_episode_00000210-310:321 official_coverage=1.000000
+[045] task-0000_episode_00000220-165:176 official_coverage=1.000000
+[046] task-0000_episode_00000220-275:286 official_coverage=1.000000
+[047] task-0000_episode_00000220-330:341 official_coverage=1.000000
+[048] task-0000_episode_00000220-335:346 official_coverage=1.000000
+[049] task-0000_episode_00000220-345:356 official_coverage=1.000000
+[050] task-0000_episode_00000230-190:201 official_coverage=1.000000
+[051] task-0000_episode_00000230-205:216 official_coverage=1.000000
+[052] task-0000_episode_00000230-310:321 official_coverage=1.000000
+[053] task-0000_episode_00000240-100:111 official_coverage=1.000000
+[054] task-0000_episode_00000240-240:251 official_coverage=1.000000
+[055] task-0000_episode_00000240-305:316 official_coverage=1.000000
+[056] task-0000_episode_00000240-325:336 official_coverage=1.000000
+[057] task-0000_episode_00000250-210:221 official_coverage=1.000000
+[058] task-0000_episode_00000250-285:296 official_coverage=1.000000
+[059] task-0000_episode_00000250-300:311 official_coverage=1.000000
+[060] task-0000_episode_00000250-310:321 official_coverage=1.000000
+[061] task-0000_episode_00000250-315:326 official_coverage=1.000000
+[062] task-0000_episode_00000250-335:346 official_coverage=1.000000
+[063] task-0000_episode_00000250-380:391 official_coverage=1.000000
+[064] task-0000_episode_00000250-385:396 official_coverage=1.000000
+[065] task-0000_episode_00000250-400:411 official_coverage=1.000000
+[066] task-0000_episode_00000260-255:266 official_coverage=1.000000
+[067] task-0000_episode_00000260-265:276 official_coverage=1.000000
+[068] task-0000_episode_00000260-285:296 official_coverage=1.000000
+[069] task-0000_episode_00000270-140:151 official_coverage=1.000000
+[070] task-0000_episode_00000270-145:156 official_coverage=1.000000
+[071] task-0000_episode_00000280-230:241 official_coverage=1.000000
+[072] task-0000_episode_00000280-275:286 official_coverage=1.000000
+[073] task-0000_episode_00000280-290:301 official_coverage=1.000000
+[074] task-0000_episode_00000290-155:166 official_coverage=1.000000
+[075] task-0000_episode_00000290-300:311 official_coverage=1.000000
+[076] task-0000_episode_00000300-180:191 official_coverage=1.000000
+[077] task-0000_episode_00000300-245:256 official_coverage=1.000000
+[078] task-0000_episode_00000310-410:421 official_coverage=1.000000
+[079] task-0000_episode_00000320-330:341 official_coverage=1.000000
+[080] task-0000_episode_00000320-345:356 official_coverage=1.000000
+[081] task-0000_episode_00000320-370:381 official_coverage=1.000000
+[082] task-0000_episode_00000320-375:386 official_coverage=1.000000
+[083] task-0000_episode_00000320-385:396 official_coverage=1.000000
+[084] task-0000_episode_00000320-450:461 official_coverage=1.000000
+[085] task-0000_episode_00000330-260:271 official_coverage=1.000000
+[086] task-0000_episode_00000330-270:281 official_coverage=1.000000
+[087] task-0000_episode_00000340-110:121 official_coverage=1.000000
+[088] task-0000_episode_00000340-155:166 official_coverage=1.000000
+[089] task-0000_episode_00000340-230:241 official_coverage=1.000000
+[090] task-0000_episode_00000350-110:121 official_coverage=1.000000
+[091] task-0000_episode_00000350-210:221 official_coverage=1.000000
+[092] task-0000_episode_00000350-220:231 official_coverage=1.000000
+[093] task-0000_episode_00000350-240:251 official_coverage=1.000000
+[094] task-0000_episode_00000350-275:286 official_coverage=1.000000
+[095] task-0000_episode_00000360-335:346 official_coverage=1.000000
+[096] task-0000_episode_00000360-345:356 official_coverage=1.000000
+[097] task-0000_episode_00000360-370:381 official_coverage=1.000000
+[098] task-0000_episode_00000370-100:111 official_coverage=1.000000
+[099] task-0000_episode_00000370-135:146 official_coverage=1.000000
+[100] task-0000_episode_00000370-180:191 official_coverage=1.000000
+[101] task-0000_episode_00000370-195:206 official_coverage=1.000000
+[102] task-0000_episode_00000380-105:116 official_coverage=1.000000
+[103] task-0000_episode_00000380-110:121 official_coverage=1.000000
+[104] task-0000_episode_00000380-150:161 official_coverage=1.000000
+[105] task-0000_episode_00000380-265:276 official_coverage=1.000000
+[106] task-0000_episode_00000390-225:236 official_coverage=1.000000
+[107] task-0000_episode_00000390-230:241 official_coverage=1.000000
+[108] task-0000_episode_00000390-255:266 official_coverage=1.000000
+[109] task-0000_episode_00000400-270:281 official_coverage=1.000000
+[110] task-0000_episode_00000400-345:356 official_coverage=1.000000
+[111] task-0000_episode_00000420-235:246 official_coverage=1.000000
+[112] task-0000_episode_00000420-245:256 official_coverage=1.000000
+[113] task-0000_episode_00000420-290:301 official_coverage=1.000000
+[114] task-0000_episode_00000420-355:366 official_coverage=1.000000
+[115] task-0000_episode_00000430-145:156 official_coverage=1.000000
+[116] task-0000_episode_00000430-250:261 official_coverage=1.000000
+[117] task-0000_episode_00000440-165:176 official_coverage=1.000000
+[118] task-0000_episode_00000440-200:211 official_coverage=1.000000
+[119] task-0000_episode_00000440-270:281 official_coverage=1.000000
+[120] task-0000_episode_00000440-285:296 official_coverage=1.000000
+[121] task-0000_episode_00000450-155:166 official_coverage=1.000000
+[122] task-0000_episode_00000460-300:311 official_coverage=1.000000
+[123] task-0000_episode_00000460-360:371 official_coverage=1.000000
+[124] task-0000_episode_00000460-405:416 official_coverage=1.000000
+[125] task-0000_episode_00000470-375:386 official_coverage=1.000000
+[126] task-0000_episode_00000490-295:306 official_coverage=1.000000
+[127] task-0000_episode_00000490-300:311 official_coverage=1.000000
+[128] task-0000_episode_00000490-345:356 official_coverage=1.000000
+[129] task-0000_episode_00000490-420:431 official_coverage=1.000000
+[130] task-0000_episode_00000510-235:246 official_coverage=1.000000
+[131] task-0000_episode_00000510-325:336 official_coverage=1.000000
+[132] task-0000_episode_00000510-335:346 official_coverage=1.000000
+[133] task-0000_episode_00000520-235:246 official_coverage=1.000000
+[134] task-0000_episode_00000520-330:341 official_coverage=1.000000
+[135] task-0000_episode_00000520-345:356 official_coverage=1.000000
+[136] task-0000_episode_00000520-360:371 official_coverage=1.000000
+[137] task-0000_episode_00000520-420:431 official_coverage=1.000000
+[138] task-0000_episode_00000530-180:191 official_coverage=1.000000
+[139] task-0000_episode_00000530-205:216 official_coverage=1.000000
+[140] task-0000_episode_00000530-280:291 official_coverage=1.000000
+[141] task-0000_episode_00000540-230:241 official_coverage=1.000000
+[142] task-0000_episode_00000540-245:256 official_coverage=1.000000
+[143] task-0000_episode_00000540-275:286 official_coverage=1.000000
+[144] task-0000_episode_00000540-325:336 official_coverage=1.000000
+[145] task-0000_episode_00000540-350:361 official_coverage=1.000000
+[146] task-0000_episode_00000550-240:251 official_coverage=1.000000
+[147] task-0000_episode_00000570-290:301 official_coverage=1.000000
+[148] task-0000_episode_00000570-360:371 official_coverage=1.000000
+[149] task-0000_episode_00000580-315:326 official_coverage=1.000000
+[150] task-0000_episode_00000580-425:436 official_coverage=1.000000
+[151] task-0000_episode_00000590-220:231 official_coverage=1.000000
+[152] task-0000_episode_00000590-300:311 official_coverage=1.000000
+[153] task-0000_episode_00000600-0:11 official_coverage=1.000000
+[154] task-0000_episode_00000600-190:201 official_coverage=1.000000
+[155] task-0000_episode_00000610-390:401 official_coverage=1.000000
+[156] task-0000_episode_00000620-270:281 official_coverage=1.000000
+[157] task-0000_episode_00000630-335:346 official_coverage=1.000000
+[158] task-0000_episode_00000630-345:356 official_coverage=1.000000
+[159] task-0000_episode_00000630-350:361 official_coverage=1.000000
+[160] task-0000_episode_00000640-100:111 official_coverage=1.000000
+[161] task-0000_episode_00000640-210:221 official_coverage=1.000000
+[162] task-0000_episode_00000640-225:236 official_coverage=1.000000
+[163] task-0000_episode_00000640-295:306 official_coverage=1.000000
+[164] task-0000_episode_00000650-205:216 official_coverage=1.000000
+[165] task-0000_episode_00000650-275:286 official_coverage=1.000000
+[166] task-0000_episode_00000660-200:211 official_coverage=1.000000
+[167] task-0000_episode_00000660-290:301 official_coverage=1.000000
+[168] task-0000_episode_00000660-300:311 official_coverage=1.000000
+[169] task-0000_episode_00000660-310:321 official_coverage=1.000000
+[170] task-0000_episode_00000670-120:131 official_coverage=1.000000
+[171] task-0000_episode_00000670-230:241 official_coverage=1.000000
+[172] task-0000_episode_00000680-250:261 official_coverage=1.000000
+[173] task-0000_episode_00000680-280:291 official_coverage=1.000000
+[174] task-0000_episode_00000700-220:231 official_coverage=1.000000
+[175] task-0000_episode_00000700-265:276 official_coverage=1.000000
+[176] task-0000_episode_00000700-270:281 official_coverage=1.000000
+[177] task-0000_episode_00000700-335:346 official_coverage=1.000000
+[178] task-0000_episode_00000700-375:386 official_coverage=1.000000
+[179] task-0000_episode_00000710-155:166 official_coverage=1.000000
+[180] task-0000_episode_00000710-220:231 official_coverage=1.000000
+[181] task-0000_episode_00000710-290:301 official_coverage=1.000000
+[182] task-0000_episode_00000710-330:341 official_coverage=1.000000
+[183] task-0000_episode_00000710-335:346 official_coverage=1.000000
+[184] task-0000_episode_00000720-195:206 official_coverage=1.000000
+[185] task-0000_episode_00000720-245:256 official_coverage=1.000000
+[186] task-0000_episode_00000720-385:396 official_coverage=1.000000
+[187] task-0000_episode_00000730-180:191 official_coverage=1.000000
+[188] task-0000_episode_00000730-185:196 official_coverage=1.000000
+[189] task-0000_episode_00000730-205:216 official_coverage=1.000000
+[190] task-0000_episode_00000730-220:231 official_coverage=1.000000
+[191] task-0000_episode_00000730-260:271 official_coverage=1.000000
+[192] task-0000_episode_00000730-270:281 official_coverage=1.000000
+[193] task-0000_episode_00000740-200:211 official_coverage=1.000000
+[194] task-0000_episode_00000740-220:231 official_coverage=1.000000
+[195] task-0000_episode_00000740-230:241 official_coverage=1.000000
+[196] task-0000_episode_00000740-315:326 official_coverage=1.000000
+[197] task-0000_episode_00000750-280:291 official_coverage=1.000000
+[198] task-0000_episode_00000750-290:301 official_coverage=1.000000
+[199] task-0000_episode_00000750-335:346 official_coverage=1.000000
+[200] task-0000_episode_00000750-340:351 official_coverage=1.000000
+[201] task-0000_episode_00000760-155:166 official_coverage=1.000000
+[202] task-0000_episode_00000760-390:401 official_coverage=1.000000
+[203] task-0000_episode_00000760-405:416 official_coverage=1.000000
+[204] task-0000_episode_00000770-240:251 official_coverage=1.000000
+[205] task-0000_episode_00000770-255:266 official_coverage=1.000000
+[206] task-0000_episode_00000770-335:346 official_coverage=1.000000
+[207] task-0000_episode_00000770-370:381 official_coverage=1.000000
+[208] task-0000_episode_00000780-220:231 official_coverage=1.000000
+[209] task-0000_episode_00000780-255:266 official_coverage=1.000000
+[210] task-0000_episode_00000780-310:321 official_coverage=1.000000
+[211] task-0000_episode_00000790-240:251 official_coverage=1.000000
+[212] task-0000_episode_00000790-375:386 official_coverage=1.000000
+[213] task-0000_episode_00000800-140:151 official_coverage=1.000000
+[214] task-0000_episode_00000800-180:191 official_coverage=1.000000
+[215] task-0000_episode_00000800-205:216 official_coverage=1.000000
+[216] task-0000_episode_00000800-210:221 official_coverage=1.000000
+[217] task-0000_episode_00000800-275:286 official_coverage=1.000000
+[218] task-0000_episode_00000800-300:311 official_coverage=1.000000
+[219] task-0000_episode_00000810-320:331 official_coverage=1.000000
+[220] task-0000_episode_00000810-340:351 official_coverage=1.000000
+[221] task-0000_episode_00000810-370:381 official_coverage=1.000000
+[222] task-0000_episode_00000810-410:421 official_coverage=1.000000
+[223] task-0000_episode_00000810-420:431 official_coverage=1.000000
+[224] task-0000_episode_00000820-245:256 official_coverage=1.000000
+[225] task-0000_episode_00000820-255:266 official_coverage=1.000000
+[226] task-0000_episode_00000830-240:251 official_coverage=1.000000
+[227] task-0000_episode_00000850-205:216 official_coverage=1.000000
+[228] task-0000_episode_00000850-265:276 official_coverage=1.000000
+[229] task-0000_episode_00000850-295:306 official_coverage=1.000000
+[230] task-0000_episode_00000850-330:341 official_coverage=1.000000
+[231] task-0000_episode_00000850-355:366 official_coverage=1.000000
+[232] task-0000_episode_00000850-390:401 official_coverage=1.000000
+[233] task-0000_episode_00000850-415:426 official_coverage=1.000000
+[234] task-0000_episode_00000870-0:11 official_coverage=1.000000
+[235] task-0000_episode_00000870-115:126 official_coverage=1.000000
+[236] task-0000_episode_00000870-120:131 official_coverage=1.000000
+[237] task-0000_episode_00000870-210:221 official_coverage=1.000000
+[238] task-0000_episode_00000870-215:226 official_coverage=1.000000
+[239] task-0000_episode_00000870-265:276 official_coverage=1.000000
+[240] task-0000_episode_00000870-275:286 official_coverage=1.000000
+[241] task-0000_episode_00000870-330:341 official_coverage=1.000000
+[242] task-0000_episode_00000870-5:16 official_coverage=1.000000
+[243] task-0000_episode_00000880-325:336 official_coverage=1.000000
+[244] task-0000_episode_00000900-260:271 official_coverage=1.000000
+[245] task-0000_episode_00000900-340:351 official_coverage=1.000000
+[246] task-0000_episode_00000910-160:171 official_coverage=1.000000
+[247] task-0000_episode_00000910-255:266 official_coverage=1.000000
+[248] task-0000_episode_00000910-260:271 official_coverage=1.000000
+[249] task-0000_episode_00000910-275:286 official_coverage=1.000000
+[250] task-0000_episode_00000910-280:291 official_coverage=1.000000
+[251] task-0000_episode_00000910-300:311 official_coverage=1.000000
+[252] task-0000_episode_00000920-205:216 official_coverage=1.000000
+[253] task-0000_episode_00000920-295:306 official_coverage=1.000000
+[254] task-0000_episode_00000930-310:321 official_coverage=1.000000
+[255] task-0000_episode_00000930-355:366 official_coverage=1.000000
+[256] task-0000_episode_00000930-440:451 official_coverage=1.000000
+[257] task-0000_episode_00000940-340:351 official_coverage=1.000000
+[258] task-0000_episode_00000950-285:296 official_coverage=1.000000
+[259] task-0000_episode_00000950-310:321 official_coverage=1.000000
+[260] task-0000_episode_00000960-245:256 official_coverage=1.000000
+[261] task-0000_episode_00000960-285:296 official_coverage=1.000000
+[262] task-0000_episode_00000970-130:141 official_coverage=1.000000
+[263] task-0000_episode_00000970-220:231 official_coverage=1.000000
+[264] task-0000_episode_00000970-245:256 official_coverage=1.000000
+[265] task-0000_episode_00000970-275:286 official_coverage=1.000000
+[266] task-0000_episode_00000970-335:346 official_coverage=1.000000
+[267] task-0000_episode_00000980-285:296 official_coverage=1.000000
+[268] task-0000_episode_00000980-355:366 official_coverage=1.000000
+[269] task-0000_episode_00000990-185:196 official_coverage=1.000000
+[270] task-0000_episode_00001030-0:11 official_coverage=1.000000
+[271] task-0000_episode_00001030-150:161 official_coverage=1.000000
+[272] task-0000_episode_00001030-245:256 official_coverage=1.000000
+[273] task-0000_episode_00001030-290:301 official_coverage=1.000000
+[274] task-0000_episode_00001030-365:376 official_coverage=1.000000
+[275] task-0000_episode_00001040-210:221 official_coverage=1.000000
+[276] task-0000_episode_00001040-250:261 official_coverage=1.000000
+[277] task-0000_episode_00001040-290:301 official_coverage=1.000000
+[278] task-0000_episode_00001040-310:321 official_coverage=1.000000
+[279] task-0000_episode_00001040-360:371 official_coverage=1.000000
+[280] task-0000_episode_00001040-395:406 official_coverage=1.000000
+[281] task-0000_episode_00001040-400:411 official_coverage=1.000000
+[282] task-0000_episode_00001070-245:256 official_coverage=1.000000
+[283] task-0000_episode_00001070-330:341 official_coverage=1.000000
+[284] task-0000_episode_00001070-335:346 official_coverage=1.000000
+[285] task-0000_episode_00001080-350:361 official_coverage=1.000000
+[286] task-0000_episode_00001080-435:446 official_coverage=1.000000
+[287] task-0000_episode_00001100-135:146 official_coverage=1.000000
+[288] task-0000_episode_00001100-170:181 official_coverage=1.000000
+[289] task-0000_episode_00001100-200:211 official_coverage=1.000000
+[290] task-0000_episode_00001100-260:271 official_coverage=1.000000
+[291] task-0000_episode_00001110-10:21 official_coverage=1.000000
+[292] task-0000_episode_00001110-235:246 official_coverage=1.000000
+[293] task-0000_episode_00001110-310:321 official_coverage=1.000000
+[294] task-0000_episode_00001120-260:271 official_coverage=1.000000
+[295] task-0000_episode_00001120-400:411 official_coverage=1.000000
+[296] task-0000_episode_00001120-460:471 official_coverage=1.000000
+[297] task-0000_episode_00001120-465:476 official_coverage=1.000000
+[298] task-0000_episode_00001130-250:261 official_coverage=1.000000
+[299] task-0000_episode_00001130-295:306 official_coverage=1.000000
+[300] task-0000_episode_00001130-390:401 official_coverage=1.000000
+[301] task-0000_episode_00001140-310:321 official_coverage=1.000000
+[302] task-0000_episode_00001140-335:346 official_coverage=1.000000
+[303] task-0000_episode_00001140-400:411 official_coverage=1.000000
+[304] task-0000_episode_00001140-600:611 official_coverage=1.000000
+[305] task-0000_episode_00001150-170:181 official_coverage=1.000000
+[306] task-0000_episode_00001150-210:221 official_coverage=1.000000
+[307] task-0000_episode_00001150-320:331 official_coverage=1.000000
+[308] task-0000_episode_00001160-155:166 official_coverage=1.000000
+[309] task-0000_episode_00001160-55:66 official_coverage=1.000000
+[310] task-0000_episode_00001160-75:86 official_coverage=1.000000
+[311] task-0000_episode_00001170-175:186 official_coverage=1.000000
+[312] task-0000_episode_00001170-225:236 official_coverage=1.000000
+[313] task-0000_episode_00001170-245:256 official_coverage=1.000000
+[314] task-0000_episode_00001170-260:271 official_coverage=1.000000
+[315] task-0000_episode_00001180-420:431 official_coverage=1.000000
+[316] task-0000_episode_00001180-435:446 official_coverage=1.000000
+[317] task-0000_episode_00001180-510:521 official_coverage=1.000000
+[318] task-0000_episode_00001200-225:236 official_coverage=1.000000
+[319] task-0000_episode_00001200-265:276 official_coverage=1.000000
+[320] task-0000_episode_00001220-195:206 official_coverage=1.000000
+[321] task-0000_episode_00001220-215:226 official_coverage=1.000000
+[322] task-0000_episode_00001220-220:231 official_coverage=1.000000
+[323] task-0000_episode_00001220-235:246 official_coverage=1.000000
+[324] task-0000_episode_00001220-255:266 official_coverage=1.000000
+[325] task-0000_episode_00001220-260:271 official_coverage=1.000000
+[326] task-0000_episode_00001220-350:361 official_coverage=1.000000
+[327] task-0000_episode_00001230-105:116 official_coverage=1.000000
+[328] task-0000_episode_00001230-185:196 official_coverage=1.000000
+[329] task-0000_episode_00001230-55:66 official_coverage=1.000000
+[330] task-0000_episode_00001230-65:76 official_coverage=1.000000
+[331] task-0000_episode_00001250-330:341 official_coverage=1.000000
+[332] task-0000_episode_00001270-165:176 official_coverage=1.000000
+[333] task-0000_episode_00001270-170:181 official_coverage=1.000000
+[334] task-0000_episode_00001270-60:71 official_coverage=1.000000
+[335] task-0000_episode_00001280-10:21 official_coverage=1.000000
+[336] task-0000_episode_00001280-140:151 official_coverage=1.000000
+[337] task-0000_episode_00001280-165:176 official_coverage=1.000000
+[338] task-0000_episode_00001280-195:206 official_coverage=1.000000
+[339] task-0000_episode_00001280-430:441 official_coverage=1.000000
+[340] task-0000_episode_00001280-435:446 official_coverage=1.000000
+[341] task-0000_episode_00001280-485:496 official_coverage=1.000000
+[342] task-0000_episode_00001280-495:506 official_coverage=1.000000
+[343] task-0000_episode_00001280-540:551 official_coverage=1.000000
+[344] task-0000_episode_00001290-220:231 official_coverage=1.000000
+[345] task-0000_episode_00001290-235:246 official_coverage=1.000000
+[346] task-0000_episode_00001290-280:291 official_coverage=1.000000
+[347] task-0000_episode_00001310-205:216 official_coverage=1.000000
+[348] task-0000_episode_00001320-155:166 official_coverage=1.000000
+[349] task-0000_episode_00001320-180:191 official_coverage=1.000000
+[350] task-0000_episode_00001320-205:216 official_coverage=1.000000
+[351] task-0000_episode_00001330-240:251 official_coverage=1.000000
+[352] task-0000_episode_00001340-305:316 official_coverage=1.000000
+[353] task-0000_episode_00001340-315:326 official_coverage=1.000000
+[354] task-0000_episode_00001340-395:406 official_coverage=1.000000
+[355] task-0000_episode_00001350-205:216 official_coverage=1.000000
+[356] task-0000_episode_00001350-215:226 official_coverage=1.000000
+[357] task-0000_episode_00001350-250:261 official_coverage=1.000000
+[358] task-0000_episode_00001350-40:51 official_coverage=1.000000
+[359] task-0000_episode_00001350-45:56 official_coverage=1.000000
+[360] task-0000_episode_00001350-5:16 official_coverage=1.000000
+[361] task-0000_episode_00001380-195:206 official_coverage=1.000000
+[362] task-0000_episode_00001400-155:166 official_coverage=1.000000
+[363] task-0000_episode_00001400-185:196 official_coverage=1.000000
+[364] task-0000_episode_00001400-65:76 official_coverage=1.000000
+[365] task-0000_episode_00001400-70:81 official_coverage=1.000000
+[366] task-0000_episode_00001410-170:181 official_coverage=1.000000
+[367] task-0000_episode_00001410-180:191 official_coverage=1.000000
+[368] task-0000_episode_00001420-165:176 official_coverage=1.000000
+[369] task-0000_episode_00001420-175:186 official_coverage=1.000000
+[370] task-0000_episode_00001420-250:261 official_coverage=1.000000
+[371] task-0000_episode_00001420-25:36 official_coverage=1.000000
+[372] task-0000_episode_00001430-245:256 official_coverage=1.000000
+[373] task-0000_episode_00001430-250:261 official_coverage=1.000000
+[374] task-0000_episode_00001440-150:161 official_coverage=1.000000
+[375] task-0000_episode_00001440-160:171 official_coverage=1.000000
+[376] task-0000_episode_00001470-0:11 official_coverage=1.000000
+[377] task-0000_episode_00001490-335:346 official_coverage=1.000000
+[378] task-0000_episode_00001490-95:106 official_coverage=1.000000
+[379] task-0000_episode_00001510-190:201 official_coverage=1.000000
+[380] task-0000_episode_00001510-70:81 official_coverage=1.000000
+[381] task-0000_episode_00001520-0:11 official_coverage=1.000000
+[382] task-0000_episode_00001520-190:201 official_coverage=1.000000
+[383] task-0000_episode_00001520-225:236 official_coverage=1.000000
+[384] task-0000_episode_00001540-185:196 official_coverage=1.000000
+[385] task-0000_episode_00001540-230:241 official_coverage=1.000000
+[386] task-0000_episode_00001540-250:261 official_coverage=1.000000
+[387] task-0000_episode_00001540-315:326 official_coverage=1.000000
+[388] task-0000_episode_00001550-0:11 official_coverage=1.000000
+[389] task-0000_episode_00001550-85:96 official_coverage=1.000000
+[390] task-0000_episode_00001590-0:11 official_coverage=1.000000
+[391] task-0000_episode_00001590-220:231 official_coverage=1.000000
+[392] task-0000_episode_00001590-245:256 official_coverage=1.000000
+[393] task-0000_episode_00001590-60:71 official_coverage=1.000000
+[394] task-0000_episode_00001610-155:166 official_coverage=1.000000
+[395] task-0000_episode_00001620-160:171 official_coverage=1.000000
+[396] task-0000_episode_00001630-140:151 official_coverage=1.000000
+[397] task-0000_episode_00001630-150:161 official_coverage=1.000000
+[398] task-0000_episode_00001630-160:171 official_coverage=1.000000
+[399] task-0000_episode_00001630-260:271 official_coverage=1.000000
+[400] task-0000_episode_00001630-265:276 official_coverage=1.000000
+[401] task-0000_episode_00001640-135:146 official_coverage=1.000000
+[402] task-0000_episode_00001650-5:16 official_coverage=1.000000
+[403] task-0000_episode_00001670-230:241 official_coverage=1.000000
+[404] task-0000_episode_00001670-240:251 official_coverage=1.000000
+[405] task-0000_episode_00001670-255:266 official_coverage=1.000000
+[406] task-0000_episode_00001670-280:291 official_coverage=1.000000
+[407] task-0000_episode_00001690-110:121 official_coverage=1.000000
+[408] task-0000_episode_00001700-245:256 official_coverage=1.000000
+[409] task-0000_episode_00001700-285:296 official_coverage=1.000000
+[410] task-0000_episode_00001740-145:156 official_coverage=1.000000
+[411] task-0000_episode_00001740-200:211 official_coverage=1.000000
+[412] task-0000_episode_00001750-180:191 official_coverage=1.000000
+[413] task-0000_episode_00001750-320:331 official_coverage=1.000000
+[414] task-0000_episode_00001750-325:336 official_coverage=1.000000
+[415] task-0000_episode_00001750-90:101 official_coverage=1.000000
+[416] task-0000_episode_00001780-150:161 official_coverage=1.000000
+[417] task-0000_episode_00001780-175:186 official_coverage=1.000000
+[418] task-0000_episode_00001780-190:201 official_coverage=1.000000
+[419] task-0000_episode_00001790-130:141 official_coverage=1.000000
+[420] task-0000_episode_00001790-135:146 official_coverage=1.000000
+[421] task-0000_episode_00001790-5:16 official_coverage=1.000000
+[422] task-0000_episode_00001790-75:86 official_coverage=1.000000
+[423] task-0000_episode_00001830-215:226 official_coverage=1.000000
+[424] task-0000_episode_00001840-100:111 official_coverage=1.000000
+[425] task-0000_episode_00001840-245:256 official_coverage=1.000000
+[426] task-0000_episode_00001840-5:16 official_coverage=1.000000
+[427] task-0000_episode_00001880-225:236 official_coverage=1.000000
+[428] task-0000_episode_00001900-110:121 official_coverage=1.000000
+[429] task-0000_episode_00001930-230:241 official_coverage=1.000000
+[430] task-0000_episode_00001940-120:131 official_coverage=1.000000
+[431] task-0000_episode_00001940-125:136 official_coverage=1.000000
+[432] task-0000_episode_00001940-180:191 official_coverage=1.000000
+[433] task-0000_episode_00001940-55:66 official_coverage=1.000000
+[434] task-0000_episode_00001950-155:166 official_coverage=1.000000
+[435] task-0000_episode_00001960-0:11 official_coverage=1.000000
+[436] task-0000_episode_00001960-230:241 official_coverage=1.000000
+[437] task-0000_episode_00001960-235:246 official_coverage=1.000000
+[438] task-0000_episode_00001960-295:306 official_coverage=1.000000
+[439] task-0000_episode_00002000-0:11 official_coverage=1.000000
+[440] task-0000_episode_00002000-195:206 official_coverage=1.000000
+[441] task-0000_episode_00002000-230:241 official_coverage=1.000000
+[442] task-0000_episode_00002000-240:251 official_coverage=1.000000
+[443] task-0000_episode_00002000-245:256 official_coverage=1.000000
+[444] task-0000_episode_00002000-310:321 official_coverage=1.000000
+[445] task-0000_episode_00002000-375:386 official_coverage=1.000000
+[446] task-0000_episode_00002000-75:86 official_coverage=1.000000
+[447] task-0000_episode_00002010-310:321 official_coverage=1.000000
+[448] task-0000_episode_00002010-325:336 official_coverage=1.000000
+[449] task-0000_episode_00002010-335:346 official_coverage=1.000000
+[450] task-0000_episode_00002010-460:471 official_coverage=1.000000
+[451] task-0000_episode_00002050-215:226 official_coverage=1.000000
+[452] task-0000_episode_00002050-240:251 official_coverage=1.000000
+[453] task-0000_episode_00002050-355:366 official_coverage=1.000000
+[454] task-0000_episode_00002050-370:381 official_coverage=1.000000
+[455] task-0000_episode_00002050-405:416 official_coverage=1.000000
+[456] task-0000_episode_00002060-115:126 official_coverage=1.000000
+[457] task-0000_episode_00002060-260:271 official_coverage=1.000000
+[458] task-0000_episode_00002060-320:331 official_coverage=1.000000
+[459] task-0000_episode_00002060-330:341 official_coverage=1.000000
+[460] task-0000_episode_00002060-425:436 official_coverage=1.000000
+[461] task-0000_episode_00002060-500:511 official_coverage=1.000000
+[462] task-0000_episode_00002070-410:421 official_coverage=1.000000
+[463] task-0000_episode_00002070-455:466 official_coverage=1.000000
+[464] task-0000_episode_00002070-485:496 official_coverage=1.000000
+[465] task-0000_episode_00002070-490:501 official_coverage=1.000000
+[466] task-0000_episode_00002080-270:281 official_coverage=1.000000
+[467] task-0000_episode_00002080-405:416 official_coverage=1.000000
+[468] task-0000_episode_00002090-270:281 official_coverage=1.000000
+[469] task-0000_episode_00002090-275:286 official_coverage=1.000000
+[470] task-0000_episode_00002090-370:381 official_coverage=1.000000
+[471] task-0000_episode_00002090-395:406 official_coverage=1.000000
+[472] task-0000_episode_00002150-125:136 official_coverage=1.000000
+[473] task-0000_episode_00002160-435:446 official_coverage=1.000000
+[474] task-0000_episode_00002160-485:496 official_coverage=1.000000
+[475] task-0000_episode_00002160-515:526 official_coverage=1.000000
+[476] task-0000_episode_00002160-545:556 official_coverage=1.000000
+[477] task-0000_episode_00002180-240:251 official_coverage=1.000000
+[478] task-0000_episode_00002180-255:266 official_coverage=1.000000
+[479] task-0000_episode_00002180-320:331 official_coverage=1.000000
+[480] task-0000_episode_00002180-345:356 official_coverage=1.000000
+[481] task-0000_episode_00002190-160:171 official_coverage=1.000000
+[482] task-0000_episode_00002190-245:256 official_coverage=1.000000
+[483] task-0000_episode_00002190-250:261 official_coverage=1.000000
+[484] task-0000_episode_00002190-310:321 official_coverage=1.000000
+[485] task-0000_episode_00002190-345:356 official_coverage=1.000000
+[486] task-0000_episode_00002250-285:296 official_coverage=1.000000
+[487] task-0000_episode_00002250-290:301 official_coverage=1.000000
+[488] task-0000_episode_00002250-345:356 official_coverage=1.000000
+[489] task-0000_episode_00002250-435:446 official_coverage=1.000000
+[490] task-0000_episode_00002260-255:266 official_coverage=1.000000
+[491] task-0000_episode_00002260-275:286 official_coverage=1.000000
+[492] task-0000_episode_00002260-315:326 official_coverage=1.000000
+[493] task-0000_episode_00002260-335:346 official_coverage=1.000000
+[494] task-0000_episode_00002260-50:61 official_coverage=1.000000
+[495] task-0000_episode_00002510-200:211 official_coverage=1.000000
+[496] task-0000_episode_00002520-320:331 official_coverage=1.000000
+[497] task-0000_episode_00002530-300:311 official_coverage=1.000000
+[498] task-0000_episode_00002530-350:361 official_coverage=1.000000
+[499] task-0000_episode_00002540-135:146 official_coverage=1.000000
+[500] task-0000_episode_00002540-150:161 official_coverage=1.000000
+[501] task-0000_episode_00002550-130:141 official_coverage=1.000000
+[502] task-0000_episode_00002550-155:166 official_coverage=1.000000
+[503] task-0000_episode_00002550-300:311 official_coverage=1.000000
+[504] task-0000_episode_00002550-335:346 official_coverage=1.000000
+[505] task-0000_episode_00002560-40:51 official_coverage=1.000000
+[506] task-0000_episode_00002580-300:311 official_coverage=1.000000
+[507] task-0000_episode_00002580-335:346 official_coverage=1.000000
+[508] task-0000_episode_00002580-340:351 official_coverage=1.000000
+[509] task-0000_episode_00002580-50:61 official_coverage=1.000000
+[510] task-0000_episode_00002590-0:11 official_coverage=1.000000
+[511] task-0000_episode_00002590-60:71 official_coverage=1.000000
+[512] task-0000_episode_00002600-185:196 official_coverage=1.000000
+[513] task-0000_episode_00002610-100:111 official_coverage=1.000000
+[514] task-0000_episode_00002610-195:206 official_coverage=1.000000
+[515] task-0000_episode_00002610-245:256 official_coverage=1.000000
+[516] task-0000_episode_00002610-5:16 official_coverage=1.000000
+[517] task-0000_episode_00002620-260:271 official_coverage=1.000000
+[518] task-0000_episode_00002620-50:61 official_coverage=1.000000
+[519] task-0000_episode_00002620-55:66 official_coverage=1.000000
+[520] task-0000_episode_00002660-0:11 official_coverage=1.000000
+[521] task-0000_episode_00002660-135:146 official_coverage=1.000000
+[522] task-0000_episode_00002660-195:206 official_coverage=1.000000
+[523] task-0000_episode_00002660-295:306 official_coverage=1.000000
+[524] task-0000_episode_00002660-60:71 official_coverage=1.000000
+[525] task-0000_episode_00002670-105:116 official_coverage=1.000000
+[526] task-0000_episode_00002670-145:156 official_coverage=1.000000
+[527] task-0000_episode_00002670-30:41 official_coverage=1.000000
+[528] task-0000_episode_00002680-110:121 official_coverage=1.000000
+[529] task-0000_episode_00002680-275:286 official_coverage=1.000000
+[530] task-0000_episode_00002680-310:321 official_coverage=1.000000
+[531] task-0000_episode_00002690-190:201 official_coverage=1.000000
+[532] task-0000_episode_00002690-265:276 official_coverage=1.000000
+[533] task-0000_episode_00002700-165:176 official_coverage=1.000000
+[534] task-0000_episode_00002720-105:116 official_coverage=1.000000
+[535] task-0000_episode_00002720-130:141 official_coverage=1.000000
+[536] task-0000_episode_00002720-175:186 official_coverage=1.000000
+[537] task-0000_episode_00002720-190:201 official_coverage=1.000000
+[538] task-0000_episode_00002720-85:96 official_coverage=1.000000
+[539] task-0000_episode_00002730-170:181 official_coverage=1.000000
+[540] task-0000_episode_00002730-200:211 official_coverage=1.000000
+[541] task-0000_episode_00002740-0:11 official_coverage=1.000000
+[542] task-0000_episode_00002740-120:131 official_coverage=1.000000
+[543] task-0000_episode_00002790-145:156 official_coverage=1.000000
+[544] task-0000_episode_00002790-220:231 official_coverage=1.000000
+[545] task-0000_episode_00002790-280:291 official_coverage=1.000000
+[546] task-0000_episode_00002800-150:161 official_coverage=1.000000
+[547] task-0000_episode_00002800-220:231 official_coverage=1.000000
+[548] task-0000_episode_00002800-285:296 official_coverage=1.000000
+[549] task-0000_episode_00002820-140:151 official_coverage=1.000000
+[550] task-0000_episode_00002820-145:156 official_coverage=1.000000
+[551] task-0000_episode_00002820-150:161 official_coverage=1.000000
+[552] task-0000_episode_00002840-175:186 official_coverage=1.000000
+[553] task-0000_episode_00002840-230:241 official_coverage=1.000000
+[554] task-0000_episode_00002840-245:256 official_coverage=1.000000
+[555] task-0000_episode_00002840-270:281 official_coverage=1.000000
+[556] task-0000_episode_00002840-65:76 official_coverage=1.000000
+[557] task-0000_episode_00002850-165:176 official_coverage=1.000000
+[558] task-0000_episode_00002850-185:196 official_coverage=1.000000
+[559] task-0000_episode_00002850-5:16 official_coverage=1.000000
+[560] task-0000_episode_00002850-70:81 official_coverage=1.000000
+[561] task-0000_episode_00002870-130:141 official_coverage=1.000000
+[562] task-0000_episode_00002870-190:201 official_coverage=1.000000
+[563] task-0000_episode_00002870-235:246 official_coverage=1.000000
+[564] task-0000_episode_00002870-5:16 official_coverage=1.000000
+[565] task-0000_episode_00002880-105:116 official_coverage=1.000000
+[566] task-0000_episode_00002880-120:131 official_coverage=1.000000
+[567] task-0000_episode_00002960-260:271 official_coverage=1.000000
+[568] task-0000_episode_00002970-140:151 official_coverage=1.000000
+[569] task-0000_episode_00002970-150:161 official_coverage=1.000000
+[570] task-0000_episode_00002970-40:51 official_coverage=1.000000
+[571] task-0000_episode_00002990-175:186 official_coverage=1.000000
+[572] task-0000_episode_00002990-190:201 official_coverage=1.000000
+[573] task-0000_episode_00002990-205:216 official_coverage=1.000000
+[574] task-0000_episode_00002990-275:286 official_coverage=1.000000
+[575] task-0000_episode_00002990-70:81 official_coverage=1.000000
+[576] task-0000_episode_00003000-270:281 official_coverage=1.000000
+[577] task-0000_episode_00003000-325:336 official_coverage=1.000000
+[578] task-0000_episode_00003000-370:381 official_coverage=1.000000
+
+===== OFFICIAL-ALIGNED GT CONSISTENCY =====
+domain: behavior
+processed_sequences: 578
+{
+  "official_valid": {
+    "count": 5780,
+    "mean": 1.0,
+    "median": 1.0,
+    "p95": 1.0,
+    "p99": 1.0,
+    "max": 1.0
+  }
+}
+{
+  "official_valid/acceleration_all": {
+    "count": 42280790,
+    "mean": 0.00023992615634584044,
+    "median": 0.0,
+    "p95": 7.501073469029507e-07,
+    "p99": 0.0076015728665515744,
+    "max": 0.1647927612066269
+  },
+  "official_valid/acceleration_moved": {
+    "count": 774415,
+    "mean": 0.010775960294644397,
+    "median": 0.006881526671350002,
+    "p95": 0.034949162229895595,
+    "p99": 0.05448872886598108,
+    "max": 0.1647927612066269
+  },
+  "official_valid/continuous_static_acceleration": {
+    "count": 41029760,
+    "mean": 8.896995767583505e-07,
+    "median": 0.0,
+    "p95": 1.3096925499667122e-07,
+    "p99": 6.430720700336586e-06,
+    "max": 0.00453850207850337
+  },
+  "official_valid/continuous_static_endpoint_drift": {
+    "count": 4102976,
+    "mean": 1.012371707816789e-05,
+    "median": 0.0,
+    "p95": 6.863873522888753e-06,
+    "p99": 5.694209357898217e-05,
+    "max": 0.014831825159490108
+  },
+  "official_valid/velocity_all": {
+    "count": 42280790,
+    "mean": 0.00043837769778739107,
+    "median": 0.0,
+    "p95": 7.828784305274894e-07,
+    "p99": 0.013103952771052682,
+    "max": 0.2319560945034027
+  },
+  "official_valid/velocity_moved": {
+    "count": 774415,
+    "mean": 0.021974352692430654,
+    "median": 0.013824026100337505,
+    "p95": 0.06554557755589484,
+    "p99": 0.10136548131704325,
+    "max": 0.2319560945034027
+  }
+}
+summary_json: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/gt_consistency_behavior_task0000_578_20260804_112534/summary.json
+per_sequence_csv: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/gt_consistency_behavior_task0000_578_20260804_112534/per_sequence.csv

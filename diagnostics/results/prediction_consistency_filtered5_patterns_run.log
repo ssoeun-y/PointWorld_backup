@@ -1,0 +1,36 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Overwriting seed for eval
+Using eval dir: eval_logs/20260804_142354-None-split=test-seed=42
+Applied canonical checkpoint model_contract for evaluation model initialization.
+[2026-08-04 14:25:01] Rank 1/1 using device cuda
+[2026-08-04 14:25:02] Experiment ID: dummy-44h9ffga
+[2026-08-04 14:25:02] Saving to: train_logs/dummy-44h9ffga
+[2026-08-04 14:25:02] Loading checkpoint from /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/checkpoints/pointworld/small-droid/model-best.pt
+Loading canonical statistics from stats/droid/norm_stats.json
+[2026-08-04 14:26:40] model/total_params            : 354256936
+[2026-08-04 14:26:40] model/scene_features_dim      : 31
+[2026-08-04 14:26:40] model/robot_features_dim      : 16
+[2026-08-04 14:26:40] Experiment Name               : dummy-44h9ffga
+[2026-08-04 14:26:40] Wandb ID                      : 44h9ffga
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/data/droid_confidence_covered_5)
+[test] Total samples across all datasets: 5
+[test] Total batches needed: 5
+[test] Batches per rank (world_size=1): 5
+[test] Epoch length set to: 5
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Filtered-5 consistency:   0%|          | 0/5 [00:00<?, ?it/s]Filtered-5 consistency:  20%|██        | 1/5 [00:54<03:36, 54.12s/it]Filtered-5 consistency:  40%|████      | 2/5 [01:01<01:20, 26.69s/it]Filtered-5 consistency:  60%|██████    | 3/5 [01:08<00:35, 17.60s/it]Filtered-5 consistency:  80%|████████  | 4/5 [01:15<00:13, 13.51s/it]Filtered-5 consistency: 100%|██████████| 5/5 [01:21<00:00, 10.77s/it]Filtered-5 consistency: 100%|██████████| 5/5 [01:21<00:00, 16.31s/it]
+
+========================================================================
+Filtered-5 Prediction Consistency completed
+Output directory: diagnostics/results/prediction_consistency_droid_filtered5_patterns_20260804_142652
+Processed sequences: 5
+Official L2 reproduced: True
+Official filtered L2 reproduced: True
+========================================================================
+eval_logs/20260804_142354-None-split=test-seed=42/metrics.json

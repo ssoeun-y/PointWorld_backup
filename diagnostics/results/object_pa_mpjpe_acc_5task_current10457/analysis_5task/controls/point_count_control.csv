@@ -1,0 +1,4 @@
+analysis,N,rho_or_r,p_value
+point_count_vs_PA-MPJPE,13976,0.13490423478065555,9.227838025408412e-58
+Acc_vs_point_count,13976,-0.001431911764299454,0.8655876179239184
+Acc_vs_PA_control_task_and_point_count,13976,0.3938639017457459,0.0

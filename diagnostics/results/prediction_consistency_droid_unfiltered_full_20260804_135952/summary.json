@@ -1,0 +1,73 @@
+{
+  "acceleration_error": {
+    "count": 5100395,
+    "max": 2.0992214679718018,
+    "mean": 0.006418324075639248,
+    "median": 0.0005128769553266466,
+    "p95": 0.00671814288944006,
+    "p99": 0.12930084764957428
+  },
+  "analysis_type": "Official tensors and masks with additional temporal diagnostics",
+  "direction_reversal": {
+    "common_defined_count": 3762125,
+    "definition": "dot(v[t-1], v[t]) < 0",
+    "disagreement_count": 773260,
+    "disagreement_rate": 0.2055380934976908,
+    "gt_count": 317837,
+    "gt_defined_count": 3762125,
+    "gt_rate": 0.08448337043559159,
+    "prediction_count": 798448,
+    "prediction_defined_count": 5100395,
+    "prediction_only_count": 496491,
+    "prediction_rate": 0.15654630670761774
+  },
+  "gt_jerk_magnitude": {
+    "count": 4427574,
+    "max": 3.981740713119507,
+    "mean": 0.010770056396722794,
+    "median": 0.0006905339541845024,
+    "p95": 0.006914235185831785,
+    "p99": 0.2574978768825531
+  },
+  "jerk_error": {
+    "count": 4427574,
+    "max": 3.980595111846924,
+    "mean": 0.011038086377084255,
+    "median": 0.0008199420990422368,
+    "p95": 0.00831039622426033,
+    "p99": 0.2573767900466919
+  },
+  "official_l2_reproduced_for_all_sequences": true,
+  "prediction_error_variation": {
+    "count": 5786862,
+    "max": 1.1334398984909058,
+    "mean": 0.0034366578329354525,
+    "median": 0.00046403054147958755,
+    "p95": 0.008915338665246964,
+    "p99": 0.03985686972737312
+  },
+  "prediction_jerk_magnitude": {
+    "count": 4427574,
+    "max": 0.04549744725227356,
+    "mean": 0.0005913396598771214,
+    "median": 0.00017339788610115647,
+    "p95": 0.002610204741358757,
+    "p99": 0.006807214580476284
+  },
+  "processed_sequences": 62,
+  "scope": "DROID 62-sample unfiltered subset",
+  "units": {
+    "acceleration_error": "meter/timestep^2",
+    "jerk": "meter/timestep^3",
+    "l2": "meter",
+    "velocity_error": "meter/timestep"
+  },
+  "velocity_error": {
+    "count": 5786862,
+    "max": 1.1888551712036133,
+    "mean": 0.004671960603445768,
+    "median": 0.0005988535704091191,
+    "p95": 0.010117951780557632,
+    "p99": 0.05699501559138298
+  }
+}

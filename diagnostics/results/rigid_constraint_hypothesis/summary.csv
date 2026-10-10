@@ -1,0 +1,2 @@
+n,raw_mpjpe_median_mm,constraint_mpjpe_median_mm,paired_gain_median_mm,paired_gain_median_pct,improved_pct,pa_vs_gain_rho,pa_vs_gain_within_task_rho,acc_vs_gain_rho,acc_vs_gain_within_task_rho,wilcoxon_p,high_vs_low_gain_p
+7947,6.9117526058107615,6.615092153543003,0.15979139582443658,2.3606915867963156,96.3885743047691,0.6958494382336523,0.6871364261314796,0.2782018662951778,0.285675014250735,0.0,6.2119803104339755e-89

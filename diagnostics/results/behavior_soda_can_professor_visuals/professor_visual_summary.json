@@ -1,0 +1,54 @@
+{
+  "rank1": {
+    "sample_key": "task-0001_episode_00012190-460:471",
+    "n_points": 49,
+    "cylinder_radius_mm": 37.12375060855332,
+    "cylinder_height_mm": 116.433350849833,
+    "single_run_se3_p95_t10_mm": 6.45776843018147,
+    "multiseed_se3_min_mm": 6.376467712263803,
+    "multiseed_se3_median_mm": 8.448260473107894,
+    "multiseed_se3_max_mm": 9.89141191720547,
+    "gt_se3_p95_t10_mm": 8.914281971382585e-05,
+    "montage": "diagnostics/results/behavior_soda_can_professor_visuals/rank1_soda_can_deformation_t0_t10.png",
+    "overlay": "diagnostics/results/behavior_soda_can_professor_visuals/rank1_soda_can_t10_rigid_aligned_overlay.png"
+  },
+  "rank3": {
+    "sample_key": "task-0001_episode_00012100-455:466",
+    "n_points": 28,
+    "cylinder_radius_mm": 61.047533250223225,
+    "cylinder_height_mm": 110.52284890119311,
+    "single_run_se3_p95_t10_mm": 9.730870946150928,
+    "multiseed_se3_min_mm": 13.07906138967026,
+    "multiseed_se3_median_mm": 14.35815858404296,
+    "multiseed_se3_max_mm": 15.349693456698105,
+    "gt_se3_p95_t10_mm": 8.252196505518791e-05,
+    "montage": "diagnostics/results/behavior_soda_can_professor_visuals/rank3_soda_can_deformation_t0_t10.png",
+    "overlay": "diagnostics/results/behavior_soda_can_professor_visuals/rank3_soda_can_t10_rigid_aligned_overlay.png"
+  },
+  "rank4": {
+    "sample_key": "task-0001_episode_00012150-415:426",
+    "n_points": 21,
+    "cylinder_radius_mm": 27.81017839950716,
+    "cylinder_height_mm": 116.7073494604904,
+    "single_run_se3_p95_t10_mm": 13.816213875231458,
+    "multiseed_se3_min_mm": 12.10017906448772,
+    "multiseed_se3_median_mm": 12.783292743835403,
+    "multiseed_se3_max_mm": 14.304448112036235,
+    "gt_se3_p95_t10_mm": 7.698695331317933e-05,
+    "montage": "diagnostics/results/behavior_soda_can_professor_visuals/rank4_soda_can_deformation_t0_t10.png",
+    "overlay": "diagnostics/results/behavior_soda_can_professor_visuals/rank4_soda_can_t10_rigid_aligned_overlay.png"
+  },
+  "rank5": {
+    "sample_key": "task-0001_episode_00012210-480:491",
+    "n_points": 16,
+    "cylinder_radius_mm": 32.16094945686906,
+    "cylinder_height_mm": 128.72135889533843,
+    "single_run_se3_p95_t10_mm": 11.854500302839583,
+    "multiseed_se3_min_mm": 9.33204703150033,
+    "multiseed_se3_median_mm": 11.031117201503008,
+    "multiseed_se3_max_mm": 12.262429577596318,
+    "gt_se3_p95_t10_mm": 7.222609581803063e-05,
+    "montage": "diagnostics/results/behavior_soda_can_professor_visuals/rank5_soda_can_deformation_t0_t10.png",
+    "overlay": "diagnostics/results/behavior_soda_can_professor_visuals/rank5_soda_can_t10_rigid_aligned_overlay.png"
+  }
+}

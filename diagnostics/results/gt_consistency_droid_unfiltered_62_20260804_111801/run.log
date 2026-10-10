@@ -1,0 +1,141 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds)
+[test] Total samples across all datasets: 62
+[test] Total batches needed: 62
+[test] Batches per rank (world_size=1): 62
+[test] Epoch length set to: 62
+[001] AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16 official_coverage=0.960544
+[002] AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-30:41 official_coverage=0.976960
+[003] AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-40:51 official_coverage=0.954476
+[004] AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-55:66 official_coverage=0.887048
+[005] AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-60:71 official_coverage=0.941319
+[006] AUTOLab+0d4edc83+2023-10-21-19h-08m-41s_flows-30:41 official_coverage=0.991833
+[007] AUTOLab+0d4edc83+2023-10-21-19h-08m-41s_flows-40:51 official_coverage=0.919417
+[008] AUTOLab+0d4edc83+2023-10-21-19h-09m-18s_flows-35:46 official_coverage=0.932790
+[009] AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-35:46 official_coverage=0.991383
+[010] AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-40:51 official_coverage=0.944800
+[011] AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-75:86 official_coverage=0.902485
+[012] AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-25:36 official_coverage=0.961325
+[013] AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-35:46 official_coverage=0.989162
+[014] AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-55:66 official_coverage=0.949650
+[015] AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-75:86 official_coverage=0.967779
+[016] AUTOLab+0d4edc83+2023-10-21-19h-10m-31s_flows-10:21 official_coverage=0.971861
+[017] AUTOLab+0d4edc83+2023-10-21-19h-10m-49s_flows-25:36 official_coverage=0.977300
+[018] AUTOLab+0d4edc83+2023-10-21-19h-11m-21s_flows-50:61 official_coverage=0.950690
+[019] AUTOLab+0d4edc83+2023-10-21-19h-12m-34s_flows-50:61 official_coverage=0.931127
+[020] AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-15:26 official_coverage=0.965675
+[021] AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-35:46 official_coverage=0.900367
+[022] AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-65:76 official_coverage=0.956058
+[023] AUTOLab+0d4edc83+2023-10-21-19h-15m-37s_flows-50:61 official_coverage=0.966749
+[024] AUTOLab+0d4edc83+2023-10-21-19h-15m-59s_flows-20:31 official_coverage=0.942041
+[025] AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-30:41 official_coverage=0.923072
+[026] AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-45:56 official_coverage=0.888590
+[027] AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-5:16 official_coverage=0.946693
+[028] AUTOLab+0d4edc83+2023-10-21-19h-16m-32s_flows-15:26 official_coverage=0.979749
+[029] AUTOLab+0d4edc83+2023-10-21-19h-16m-32s_flows-40:51 official_coverage=0.918257
+[030] AUTOLab+0d4edc83+2023-10-21-19h-16m-50s_flows-0:11 official_coverage=0.986492
+[031] AUTOLab+0d4edc83+2023-10-21-19h-17m-20s_flows-10:21 official_coverage=0.972150
+[032] AUTOLab+0d4edc83+2023-10-21-19h-18m-17s_flows-10:21 official_coverage=0.951986
+[033] AUTOLab+0d4edc83+2023-10-21-19h-18m-17s_flows-60:71 official_coverage=0.979528
+[034] AUTOLab+0d4edc83+2023-10-21-19h-19m-07s_flows-10:21 official_coverage=0.963717
+[035] AUTOLab+0d4edc83+2023-10-21-19h-19m-23s_flows-30:41 official_coverage=0.926784
+[036] AUTOLab+0d4edc83+2023-10-21-19h-19m-39s_flows-0:11 official_coverage=0.989208
+[037] AUTOLab+0d4edc83+2023-10-21-19h-21m-49s_flows-15:26 official_coverage=0.961067
+[038] AUTOLab+0d4edc83+2023-10-21-19h-21m-49s_flows-35:46 official_coverage=0.989288
+[039] AUTOLab+0d4edc83+2023-10-21-19h-22m-09s_flows-0:11 official_coverage=0.994425
+[040] AUTOLab+0d4edc83+2023-10-21-19h-22m-26s_flows-35:46 official_coverage=0.930763
+[041] AUTOLab+0d4edc83+2023-10-21-19h-22m-43s_flows-10:21 official_coverage=0.924507
+[042] AUTOLab+0d4edc83+2023-10-21-19h-22m-43s_flows-25:36 official_coverage=0.895043
+[043] AUTOLab+0d4edc83+2023-10-21-19h-23m-29s_flows-10:21 official_coverage=0.929319
+[044] AUTOLab+0d4edc83+2023-10-21-19h-23m-29s_flows-20:31 official_coverage=0.984288
+[045] AUTOLab+0d4edc83+2023-10-21-19h-25m-01s_flows-15:26 official_coverage=0.980375
+[046] AUTOLab+0d4edc83+2023-10-21-19h-25m-01s_flows-30:41 official_coverage=0.940142
+[047] AUTOLab+0d4edc83+2023-10-21-19h-36m-27s_flows-45:56 official_coverage=0.939886
+[048] AUTOLab+0d4edc83+2023-10-21-19h-36m-42s_flows-15:26 official_coverage=0.977017
+[049] AUTOLab+0d4edc83+2023-10-21-19h-37m-25s_flows-10:21 official_coverage=0.969178
+[050] AUTOLab+0d4edc83+2023-10-21-19h-40m-08s_flows-10:21 official_coverage=0.967813
+[051] AUTOLab+0d4edc83+2023-10-21-19h-41m-52s_flows-30:41 official_coverage=0.986917
+[052] AUTOLab+0d4edc83+2023-10-21-19h-42m-27s_flows-35:46 official_coverage=0.969733
+[053] AUTOLab+0d4edc83+2023-10-21-19h-43m-10s_flows-10:21 official_coverage=0.940055
+[054] AUTOLab+0d4edc83+2023-10-21-19h-43m-10s_flows-55:66 official_coverage=0.839273
+[055] AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-20:31 official_coverage=0.985192
+[056] AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-50:61 official_coverage=0.878917
+[057] AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-70:81 official_coverage=0.933063
+[058] AUTOLab+0d4edc83+2023-10-21-19h-44m-35s_flows-10:21 official_coverage=0.958657
+[059] AUTOLab+0d4edc83+2023-10-21-19h-44m-35s_flows-45:56 official_coverage=0.887855
+[060] AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-10:21 official_coverage=0.962099
+[061] AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-25:36 official_coverage=0.952713
+[062] AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-30:41 official_coverage=0.911255
+
+===== OFFICIAL-ALIGNED GT CONSISTENCY =====
+domain: droid
+processed_sequences: 62
+{
+  "official_valid": {
+    "count": 620,
+    "mean": 0.9491597302498356,
+    "median": 0.9615178406238556,
+    "p95": 0.9973666816949844,
+    "p99": 0.9996508473157882,
+    "max": 0.999833345413208
+  }
+}
+{
+  "official_valid/acceleration_all": {
+    "count": 6309651,
+    "mean": 0.002104520556308718,
+    "median": 0.0001258271950064227,
+    "p95": 0.002732303459197283,
+    "p99": 0.04691806808114052,
+    "max": 0.9535099864006042
+  },
+  "official_valid/acceleration_moved": {
+    "count": 316936,
+    "mean": 0.03066953369004135,
+    "median": 0.005827378947287798,
+    "p95": 0.16829131543636322,
+    "p99": 0.35094514042139074,
+    "max": 0.9535099864006042
+  },
+  "official_valid/continuous_static_acceleration": {
+    "count": 5491290,
+    "mean": 0.0001712883280373247,
+    "median": 0.0001230794150615111,
+    "p95": 0.0005033087800256908,
+    "p99": 0.0013839453679975562,
+    "max": 0.00480630062520504
+  },
+  "official_valid/continuous_static_endpoint_drift": {
+    "count": 549129,
+    "mean": 0.003158309839692641,
+    "median": 0.002103721722960472,
+    "p95": 0.009580633603036395,
+    "p99": 0.016788994893431664,
+    "max": 0.04753490537405014
+  },
+  "official_valid/velocity_all": {
+    "count": 6388683,
+    "mean": 0.002735280645475246,
+    "median": 0.00034119689371436834,
+    "p95": 0.005034568253904581,
+    "p99": 0.04257303960621353,
+    "max": 1.1899546384811401
+  },
+  "official_valid/velocity_moved": {
+    "count": 344138,
+    "mean": 0.03599477391765037,
+    "median": 0.010452162474393845,
+    "p95": 0.19445927664637552,
+    "p99": 0.3857437071204187,
+    "max": 1.1899546384811401
+  }
+}
+summary_json: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/gt_consistency_droid_unfiltered_62_20260804_111801/summary.json
+per_sequence_csv: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/gt_consistency_droid_unfiltered_62_20260804_111801/per_sequence.csv

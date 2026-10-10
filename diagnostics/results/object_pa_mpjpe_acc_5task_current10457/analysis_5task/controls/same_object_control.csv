@@ -1,0 +1,3 @@
+analysis,N,object_groups,rho_or_r,p_value
+within_same_task_and_object,13965,18,0.40697449202235675,0.0
+within_same_object_plus_point_count_control,13965,18,0.4053460829216344,0.0

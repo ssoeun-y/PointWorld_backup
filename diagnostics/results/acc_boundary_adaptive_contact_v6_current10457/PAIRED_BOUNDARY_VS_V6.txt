@@ -1,0 +1,9 @@
+N=2683
+boundary_pa_median=1.786899768
+v6_pa_median=1.803323014
+raw_paired_delta_median_mm=+0.014077071
+raw_relative_median_pct=+0.970253
+v6_lower_fraction=0.452479
+base_run_shift_median_mm=+0.002382955
+did_median_mm=+0.011153802
+did_nonpositive_fraction=0.428625

@@ -1,0 +1,35 @@
+POINTWORLD ACC-BOUNDARY GOAL PRESERVATION
+========================================================================
+Combined successful corrected clips: 2683
+
+PRIMARY: Original-prediction vs Corrected-prediction final endpoint MPJPE [mm]
+N=2683 median=3.548778 mean=6.664673 p75=6.660838 p90=12.085469 p95=17.826784
+
+Final object centroid shift [mm]
+N=2683 median=3.008123 mean=5.980900 p75=5.827237 p90=10.544087 p95=16.280688
+
+Original vs Original-repeat endpoint MPJPE (stochastic baseline) [mm]
+N=2683 median=1.100014 mean=1.415668 p75=1.657908 p90=2.502101 p95=3.341329
+
+Correction endpoint MPJPE minus repeat endpoint MPJPE [mm]
+N=2683 median=2.350646 mean=5.249005 p75=5.292941 p90=10.070070 p95=15.518468
+
+Original vs Corrected PA-MPJPE after similarity alignment [mm]
+N=2683 median=0.918102 mean=1.601305 p75=1.786297 p90=3.313449 p95=4.482290
+
+TASKWISE MEDIANS
+------------------------------------------------------------------------
+           goal_mpjpe_mm  goal_centroid_shift_mm  repeat_mpjpe_mm  goal_minus_repeat_mpjpe_mm  goal_pa_mpjpe_mm
+task                                                                                                           
+task-0000       6.532239                5.153852         1.704075                    4.974180          1.924000
+task-0001       3.809588                3.334519         1.174875                    2.576725          0.945169
+task-0006       3.090004                2.713596         0.965089                    1.981982          0.839129
+task-0008       3.297783                2.716621         0.991284                    2.332145          0.940044
+task-0010       3.558106                3.091612         1.151251                    2.223126          0.821226
+
+INTERPRETATION:
+- goal_mpjpe_mm: how far the corrected-action predicted final rigid-object points move away from the original-action predicted final object goal.
+- goal_centroid_shift_mm: translation of the predicted final object center.
+- repeat_mpjpe_mm: same-input stochastic inference baseline.
+- goal_pa_mpjpe_mm: residual shape difference after removing translation/rotation/uniform-scale.
+- This is predicted-goal preservation, NOT simulator GT task-success evaluation.

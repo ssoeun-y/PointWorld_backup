@@ -1,0 +1,3 @@
+metric,label,low_dynamics_n,high_dynamics_n,low_dynamics_error_median_mm,high_dynamics_error_median_mm,high_low_error_ratio,mannwhitney_p,cliffs_delta_high_vs_low
+rms_acceleration_si_m_s2,RMS Acc,420,420,27.45228260755539,29.193646274507046,1.0634323816290745,0.007052634714008445,0.10741496598639456
+mean_squared_jerk_si_m2_s6,MSJ,420,420,27.42090169340372,28.978213667869568,1.056792879821325,0.010446860468948172,0.10208616780045351

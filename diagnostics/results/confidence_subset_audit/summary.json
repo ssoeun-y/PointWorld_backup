@@ -1,0 +1,8 @@
+{
+  "tar": "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds/test/test-rank00-000000.tar",
+  "confidence_file": "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds/test/expert_confidence-seed=42.h5",
+  "total_wds_keys": 1364,
+  "confidence_covered": 0,
+  "confidence_missing": 1364,
+  "coverage_ratio": 0.0
+}

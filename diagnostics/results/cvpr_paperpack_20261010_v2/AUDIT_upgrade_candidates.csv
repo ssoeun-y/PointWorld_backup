@@ -1,0 +1,4 @@
+candidate,N_candidate,N_common,baseline_difference_mm,status
+acc_boundary_phase_grasp_current10457,2683,2683,0.100576613720881,Protocol matching not yet verified
+acc_boundary_adaptive_contact_v6_current10457,2683,2683,0.10078047106154919,Protocol matching not yet verified
+acc_boundary_rigid_support_v9_2_current10457,2683,2683,0.10076022750543157,Protocol matching not yet verified

@@ -1,0 +1,26 @@
+{
+  "N": 1679,
+  "unique_clips": 1679,
+  "n_sites": 9,
+  "split_counts": {
+    "calibration": 1176,
+    "validation": 503
+  },
+  "site_counts": {
+    "TRI": 434,
+    "CLVR": 353,
+    "GuptaLab": 267,
+    "AUTOLab": 247,
+    "ILIAD": 165,
+    "WEIRD": 134,
+    "REAL": 65,
+    "RAIL": 13,
+    "IPRL": 1
+  },
+  "acc_msj_spearman": 0.9556190076289196,
+  "seed": 20260902,
+  "bootstrap": 300,
+  "fit_control": "site_dummy",
+  "split_stratification": "site",
+  "bootstrap_stratification": "site"
+}

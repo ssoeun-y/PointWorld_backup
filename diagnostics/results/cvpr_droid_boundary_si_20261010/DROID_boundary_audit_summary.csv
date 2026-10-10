@@ -1,0 +1,2 @@
+N_total,N_cal,N_val,candidate_DROID_B_m_s2,BEHAVIOR_B_m_s2,delta_BIC,heldout_linear_RMSE_mm,heldout_segmented_RMSE_mm,heldout_within_site_rho,preliminary_screen_pass
+1679,1152,527,0.26337406753579656,0.24580418408749008,-12.740831419486312,18.499911559851963,18.55381549401537,0.01658173356409706,False

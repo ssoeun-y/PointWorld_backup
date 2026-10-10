@@ -1,0 +1,19 @@
+{
+  "identity_sanity_png": "diagnostics/results/behavior_soda_can_final_visuals/01_IDENTITY_SANITY.png",
+  "multiseed_robustness_png": "diagnostics/results/behavior_soda_can_final_visuals/02_MULTISEED_ROBUSTNESS.png",
+  "deformation_png": "diagnostics/results/behavior_soda_can_final_visuals/03_RANK1_DEFORMATION_T0_T10.png",
+  "top5_status_png": "diagnostics/results/behavior_soda_can_final_visuals/04_TOP5_STATUS_4_MEASURED_1_NA.png",
+  "report": "diagnostics/results/behavior_soda_can_final_visuals/REPORT_SUMMARY.txt",
+  "representative_seed": 43,
+  "representative_repeat": 0,
+  "representative_se3_p95_mm": 8.295836285424063,
+  "target_multiseed_median_mm": 8.448260473107894,
+  "representative_distance_to_median_mm": 0.15242418768383104,
+  "peak_timestep": 8,
+  "peak_se3_p95_mm": 8.693735266631645,
+  "final_se3_p95_mm": 8.295836285424063,
+  "recovery_fraction": 0.045768472239406804,
+  "observable_cases": 4,
+  "rank2_status": "N/A_ZERO_CAN_POINTS",
+  "true_5_of_5_final_ready": false
+}

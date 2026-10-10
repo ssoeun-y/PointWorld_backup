@@ -1,0 +1,15 @@
+{
+  "objects": 377,
+  "observed_mean_overlap_fraction": 0.11391874374414214,
+  "exact_random_expected_fraction": 0.05175529452774631,
+  "mean_excess_overlap_fraction": 0.06216344921639582,
+  "bootstrap_95ci_excess": [
+    0.05000204645020324,
+    0.0749772827428558
+  ],
+  "randomization_one_sided_p": 4.999750012499375e-05,
+  "observed_expected_ratio": 2.2011031872897497,
+  "bootstrap_resamples": 10000,
+  "null_resamples": 20000,
+  "seed": 42
+}

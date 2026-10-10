@@ -1,0 +1,17 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/data/droid_confidence_covered_5)
+Traceback (most recent call last):
+  File "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/gt_consistency_official.py", line 723, in <module>
+    main()
+  File "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/gt_consistency_official.py", line 371, in main
+    loader, loader_info = build_dataloader(
+  File "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/dataset_components/dataloader.py", line 230, in build_dataloader
+    sample_count = aggregate_dataset_metadata(data_dir, requested_splits)
+  File "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/dataset_components/dataloader.py", line 303, in aggregate_dataset_metadata
+    assert len(metadata_files) > 0, f"No metadata files found at {metadata_pattern}"
+AssertionError: No metadata files found at /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/data/droid_confidence_covered_5/metadata_rank*.json

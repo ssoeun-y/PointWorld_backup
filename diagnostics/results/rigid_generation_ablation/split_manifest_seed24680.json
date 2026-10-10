@@ -1,0 +1,137 @@
+{
+  "task-0000": {
+    "data_dir": "/home/soenchun/cse/PointWorld_workspace/datasets/behavior/wds_task0000",
+    "n_all": 4,
+    "n_train": 3,
+    "n_val": 1,
+    "train_shards": [
+      "train-rank00-000001.tar",
+      "train-rank00-000002.tar",
+      "train-rank00-000003.tar"
+    ],
+    "val_shards": [
+      "train-rank00-000000.tar"
+    ]
+  },
+  "task-0001": {
+    "data_dir": "/home/soenchun/cse/PointWorld_workspace/datasets/behavior/wds_task0001",
+    "n_all": 17,
+    "n_train": 14,
+    "n_val": 3,
+    "train_shards": [
+      "train-rank00-000000.tar",
+      "train-rank00-000001.tar",
+      "train-rank00-000002.tar",
+      "train-rank00-000003.tar",
+      "train-rank00-000004.tar",
+      "train-rank00-000005.tar",
+      "train-rank00-000006.tar",
+      "train-rank00-000007.tar",
+      "train-rank00-000008.tar",
+      "train-rank00-000009.tar",
+      "train-rank00-000011.tar",
+      "train-rank00-000012.tar",
+      "train-rank00-000015.tar",
+      "train-rank00-000016.tar"
+    ],
+    "val_shards": [
+      "train-rank00-000010.tar",
+      "train-rank00-000013.tar",
+      "train-rank00-000014.tar"
+    ]
+  },
+  "task-0006": {
+    "data_dir": "/home/soenchun/cse/PointWorld_workspace/datasets/behavior/wds_task0006",
+    "n_all": 14,
+    "n_train": 11,
+    "n_val": 3,
+    "train_shards": [
+      "train-rank00-000000.tar",
+      "train-rank00-000001.tar",
+      "train-rank00-000004.tar",
+      "train-rank00-000005.tar",
+      "train-rank00-000006.tar",
+      "train-rank00-000008.tar",
+      "train-rank00-000009.tar",
+      "train-rank00-000010.tar",
+      "train-rank00-000011.tar",
+      "train-rank00-000012.tar",
+      "train-rank00-000013.tar"
+    ],
+    "val_shards": [
+      "train-rank00-000002.tar",
+      "train-rank00-000003.tar",
+      "train-rank00-000007.tar"
+    ]
+  },
+  "task-0008": {
+    "data_dir": "/home/soenchun/cse/PointWorld_workspace/datasets/behavior/wds_task0008",
+    "n_all": 28,
+    "n_train": 22,
+    "n_val": 6,
+    "train_shards": [
+      "train-rank00-000001.tar",
+      "train-rank00-000002.tar",
+      "train-rank00-000003.tar",
+      "train-rank00-000004.tar",
+      "train-rank00-000005.tar",
+      "train-rank00-000006.tar",
+      "train-rank00-000007.tar",
+      "train-rank00-000008.tar",
+      "train-rank00-000009.tar",
+      "train-rank00-000011.tar",
+      "train-rank00-000012.tar",
+      "train-rank00-000014.tar",
+      "train-rank00-000015.tar",
+      "train-rank00-000016.tar",
+      "train-rank00-000017.tar",
+      "train-rank00-000018.tar",
+      "train-rank00-000019.tar",
+      "train-rank00-000021.tar",
+      "train-rank00-000022.tar",
+      "train-rank00-000025.tar",
+      "train-rank00-000026.tar",
+      "train-rank00-000027.tar"
+    ],
+    "val_shards": [
+      "train-rank00-000000.tar",
+      "train-rank00-000010.tar",
+      "train-rank00-000013.tar",
+      "train-rank00-000020.tar",
+      "train-rank00-000023.tar",
+      "train-rank00-000024.tar"
+    ]
+  },
+  "task-0010": {
+    "data_dir": "/home/soenchun/cse/PointWorld_workspace/datasets/behavior/wds_task0010",
+    "n_all": 22,
+    "n_train": 18,
+    "n_val": 4,
+    "train_shards": [
+      "train-rank00-000001.tar",
+      "train-rank00-000002.tar",
+      "train-rank00-000003.tar",
+      "train-rank00-000004.tar",
+      "train-rank00-000005.tar",
+      "train-rank00-000006.tar",
+      "train-rank00-000007.tar",
+      "train-rank00-000008.tar",
+      "train-rank00-000010.tar",
+      "train-rank00-000011.tar",
+      "train-rank00-000012.tar",
+      "train-rank00-000013.tar",
+      "train-rank00-000014.tar",
+      "train-rank00-000015.tar",
+      "train-rank00-000017.tar",
+      "train-rank00-000018.tar",
+      "train-rank00-000019.tar",
+      "train-rank00-000020.tar"
+    ],
+    "val_shards": [
+      "train-rank00-000000.tar",
+      "train-rank00-000009.tar",
+      "train-rank00-000016.tar",
+      "train-rank00-000021.tar"
+    ]
+  }
+}

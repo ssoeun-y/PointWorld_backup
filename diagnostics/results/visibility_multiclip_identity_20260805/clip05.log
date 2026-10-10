@@ -1,0 +1,46 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Using eval dir: eval_logs/20260805_113350-None-split=test-seed=42
+Applied canonical checkpoint model_contract for evaluation model initialization.
+[2026-08-05 11:33:56] Rank 1/1 using device cuda
+[2026-08-05 11:33:56] Experiment ID: dummy-b5dl6aos
+[2026-08-05 11:33:56] Saving to: train_logs/dummy-b5dl6aos
+[2026-08-05 11:33:56] Loading checkpoint from /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/checkpoints/pointworld/small-droid/model-best.pt
+Loading canonical statistics from stats/droid/norm_stats.json
+[2026-08-05 11:34:07] model/total_params            : 354256936
+[2026-08-05 11:34:07] model/scene_features_dim      : 31
+[2026-08-05 11:34:07] model/robot_features_dim      : 16
+[2026-08-05 11:34:07] Experiment Name               : dummy-b5dl6aos
+[2026-08-05 11:34:07] Wandb ID                      : b5dl6aos
+Warning: missing confidence file(s), proceeding without filtered metrics:
+  - /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/data/visibility_single_sample_wds_20260805/clip05/test/expert_confidence-seed=42.h5
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/data/visibility_single_sample_wds_20260805/clip05)
+[test] Total samples across all datasets: 1
+[test] Total batches needed: 1
+[test] Batches per rank (world_size=1): 1
+[test] Epoch length set to: 1
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+
+========================================================================
+Action perturbation capture completed
+Output: diagnostics/results/action_perturb_multiclip_clip05_identity_20260805/perturb.pt
+Sample: ['AUTOLab+0d4edc83+2023-10-21-19h-40m-08s_flows-10:21']
+{
+  "call_count": 1,
+  "joint_index_zero_based": 0,
+  "joint_name": "panda_joint1",
+  "requested_amplitude_rad": 0.0,
+  "t0_exact": true,
+  "final_exact": true,
+  "within_joint_limit": true,
+  "actual_max_abs_delta_rad": 0.0,
+  "joint_lower_limit": -2.8973,
+  "joint_upper_limit": 2.8973
+}
+========================================================================
+eval_logs/20260805_113350-None-split=test-seed=42/metrics.json

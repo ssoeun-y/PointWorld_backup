@@ -1,0 +1,12 @@
+Cloning into '/home/soenchun/cse/PointWorld_workspace/third_party/sam2_official'...
+SAM2 COMMIT:
+2b90b9f5ceec907a1c18123530e92e794ad901a4
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  148M  100  148M    0     0   181M      0 --:--:-- --:--:-- --:--:--  181M100  148M  100  148M    0     0   181M      0 --:--:-- --:--:-- --:--:--  181M
+CHECKPOINT VALID: 148.8 MiB
+hydra False
+omegaconf False
+iopath False
+cv2 True
+SAM2 ASSETS READY

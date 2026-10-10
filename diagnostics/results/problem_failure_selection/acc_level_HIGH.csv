@@ -1,0 +1,2 @@
+task,clip,object_id,object_short_name,n_frames,points_median,points_mean,acc_median,acc_mean,pa_t1,pa_t5,pa_t10,pa_delta_1_10,pa_ratio_10_over_1,pa_slope,pa_median,pa_mean,monotonic_fraction,repr_score
+task-0000,task-0000_episode_00001150-255:266,2,radio_89,10,430.0,430.0,0.6244780629181785,0.6244780629181786,0.8631330888893023,4.113890154835375,9.97965741115891,9.116524322269607,11.562130498323198,0.9420592550261105,4.59138233753051,4.926311719440107,1.0,0.0

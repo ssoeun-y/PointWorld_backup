@@ -1,0 +1,53 @@
+{
+  "total_clips_analyzed": 24904,
+  "individual_conditions": {
+    "left_no_collision": {
+      "count": 18752,
+      "percentage": 75.29714102152265
+    },
+    "left_far_distance": {
+      "count": 12998,
+      "percentage": 52.19241888853197
+    },
+    "right_no_collision": {
+      "count": 1749,
+      "percentage": 7.022968197879859
+    },
+    "right_far_distance": {
+      "count": 1180,
+      "percentage": 4.738194667523289
+    }
+  },
+  "combined_conditions": {
+    "left_gripper_skip_eligible": {
+      "count": 12998,
+      "percentage": 52.19241888853197
+    },
+    "right_gripper_skip_eligible": {
+      "count": 1180,
+      "percentage": 4.738194667523289
+    },
+    "both_grippers_skip_eligible": {
+      "count": 1174,
+      "percentage": 4.714102152264696
+    }
+  },
+  "distance_statistics": {
+    "left_gripper_distances": {
+      "min": 0.0005744787631556392,
+      "max": 0.7543732523918152,
+      "mean": 0.19831275046555716,
+      "std": 0.1555595558263066,
+      "threshold_0_2": 12998,
+      "threshold_0_2_percentage": 52.19241888853197
+    },
+    "right_gripper_distances": {
+      "min": 0.0007630869513377547,
+      "max": 0.7419544458389282,
+      "mean": 0.03856557823150224,
+      "std": 0.07812333601515235,
+      "threshold_0_2": 1180,
+      "threshold_0_2_percentage": 4.738194667523289
+    }
+  }
+}

@@ -1,0 +1,41 @@
+===== DETECTED COLUMNS =====
+task: task
+key : clip
+frame: frame
+PA  : pa_mpjpe_mm
+RMS : rms_acceleration_si_m_s2
+============================
+
+Rows: 79470
+Clips: 7947
+
+=====================================================
+1. CURRENT ERROR -> FUTURE ERROR
+PA excess already removes task/frame median trend.
+Controls: task + frame + established RMS Acc
+=====================================================
+ lag_frames     N  simple_spearman  simple_p  partial_rank_rho_controlling_task_frame_rms  partial_p
+          1 71523         0.979256       0.0                                     0.975671        0.0
+          2 63576         0.944372       0.0                                     0.934618        0.0
+          3 55629         0.906646       0.0                                     0.890207        0.0
+          4 47682         0.864258       0.0                                     0.840373        0.0
+
+=====================================================
+2. EARLY/MID ERROR -> LATE ERROR
+Controls: task + established RMS Acc
+=====================================================
+                         relation    N  simple_spearman  simple_p  partial_rank_rho_controlling_task_rms  partial_p
+early_excess_pa -> late_excess_pa 7947         0.777243       0.0                               0.735900        0.0
+  mid_excess_pa -> late_excess_pa 7947         0.941070       0.0                               0.929879        0.0
+
+=====================================================
+3. MID-ROLLOUT ERROR QUARTILES -> LATE ERROR
+=====================================================
+     task  N_low  N_high  late_excess_low_median  late_excess_high_median
+task-0000     96      96               -1.766726                 6.633478
+task-0001    577     577               -1.170995                 2.357426
+task-0006    456     456               -1.117834                 2.685435
+task-0008    456     456               -1.822846                 4.109035
+task-0010    403     403               -1.223240                 2.068851
+
+Saved to: diagnostics/results/pa_error_propagation_current10457

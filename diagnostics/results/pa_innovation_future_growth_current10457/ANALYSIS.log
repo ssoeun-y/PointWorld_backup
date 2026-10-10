@@ -1,0 +1,48 @@
+======================================================
+POPULATION AUDIT
+======================================================
+rows = 79470
+clips = 7947
+rows/clip:
+10    7947
+frame indexing = 1..10 for all 7,947 clips
+
+======================================================
+CHECKPOINT INNOVATION -> FUTURE DETERIORATION
+======================================================
+Controls: task + established RMS Acc + pre-checkpoint PA excess level + pre-checkpoint PA excess slope
+
+ checkpoint                target    N  simple_spearman     simple_p  partial_rank_rho     partial_p
+          4   future_excess_slope 7947         0.085468 2.313358e-14          0.272955 8.657419e-136
+          4 mean_future_deviation 7947         0.616765 0.000000e+00          0.560908  0.000000e+00
+          4 late_future_deviation 7947         0.550509 0.000000e+00          0.485310  0.000000e+00
+          5   future_excess_slope 7947         0.188681 1.365759e-64          0.338404 3.934788e-212
+          5 mean_future_deviation 7947         0.660350 0.000000e+00          0.640209  0.000000e+00
+          5 late_future_deviation 7947         0.607432 0.000000e+00          0.584013  0.000000e+00
+          6   future_excess_slope 7947         0.230438 2.839949e-96          0.362642 1.369826e-245
+          6 mean_future_deviation 7947         0.722098 0.000000e+00          0.711653  0.000000e+00
+          6 late_future_deviation 7947         0.685152 0.000000e+00          0.673133  0.000000e+00
+
+======================================================
+CHECKPOINT=5 QUARTILE EFFECT
+======================================================
+     task  N_low  N_high  checkpoint_innovation_low_median  checkpoint_innovation_high_median  late_future_deviation_low_median  late_future_deviation_high_median
+task-0000     96      96                         -0.574201                           0.326617                         -2.708306                           1.518697
+task-0001    577     577                         -0.259089                           0.198059                         -0.896283                           0.557163
+task-0006    456     456                         -0.207038                           0.152684                         -0.680108                           0.494138
+task-0008    456     456                         -0.376466                           0.296120                         -1.004735                           0.851155
+task-0010    403     403                         -0.262987                           0.200427                         -0.968376                           0.656940
+
+======================================================
+TASKWISE CHECKPOINT=5
+innovation -> late future deviation
+======================================================
+     task    N      rho             p
+task-0000  383 0.760081  2.546044e-73
+task-0001 2307 0.608671 6.224621e-234
+task-0006 1823 0.590584 7.822219e-172
+task-0008 1824 0.590575 6.404530e-172
+task-0010 1610 0.591764 1.021912e-152
+
+Saved to:
+diagnostics/results/pa_innovation_future_growth_current10457

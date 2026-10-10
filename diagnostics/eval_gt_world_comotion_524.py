@@ -1,0 +1,633 @@
+import argparse
+import csv
+import random
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import webdataset as wds
+
+from scipy.spatial.transform import Rotation
+from scipy.stats import wilcoxon, binomtest
+
+import eval_close_anchor_causal_5task as base
+
+from dataset_components.constants import RELEASE_GRIPPER_ONLY
+from robot_sampler import RobotSampler
+from utils import resolve_robot_urdf
+
+
+ROOT = Path("diagnostics/results")
+CAUSAL = ROOT / "close_anchor_causal_5task_current10457"
+RELATIVE = ROOT / "close_anchor_relative_replay_current524"
+STABLE = ROOT / "gt_stable_grasp_analysis_current524"
+OUT = ROOT / "gt_world_comotion_current524"
+
+OUT.mkdir(parents=True, exist_ok=True)
+
+TASKS = {
+    "0000": 57,
+    "0001": 144,
+    "0006": 62,
+    "0008": 111,
+    "0010": 150,
+}
+
+# Match the official deterministic evaluation seed.
+SEED = 42
+
+# Robot geometry sampling affects robot points,
+# but no model inference is performed.
+MAX_ROBOT_POINTS = 500
+MIN_OBJECT_POINTS = 20
+
+
+def canonical_labels(value, T, N):
+    a = np.asarray(value)
+    a = np.squeeze(a)
+
+    if a.shape == (N,):
+        a = np.broadcast_to(a, (T, N))
+
+    if a.shape == (T, N, 1):
+        a = a[..., 0]
+
+    if a.shape != (T, N):
+        raise RuntimeError(
+            f"Unexpected object-label shape: {a.shape}"
+        )
+
+    return a.astype(np.int64)
+
+
+def pose7(sample, arm, t):
+    p = np.asarray(
+        sample[f"{arm}_gripper_pose"],
+        dtype=np.float64,
+    ).reshape(-1, 7)[t]
+
+    if not np.isfinite(p).all():
+        raise RuntimeError("Nonfinite gripper pose")
+
+    qnorm = np.linalg.norm(p[3:])
+
+    if not 0.95 <= qnorm <= 1.05:
+        raise RuntimeError(
+            f"Invalid quaternion norm: {qnorm}"
+        )
+
+    return p[:3], Rotation.from_quat(p[3:] / qnorm)
+
+
+def compute_clip(built, info, saved_frames):
+    points = np.asarray(
+        built["scene_flows"], dtype=np.float64
+    )
+
+    if points.ndim != 3 or points.shape[-1] != 3:
+        raise RuntimeError(
+            f"Unexpected GT scene shape: {points.shape}"
+        )
+
+    T, N, _ = points.shape
+
+    labels = canonical_labels(
+        built["scene_object_id"], T, N
+    )
+
+    oid = int(info["object_id"])
+    t0 = int(info["t_close"])
+    times = sorted(int(t) for t in saved_frames)
+
+    if not times or times[0] != t0:
+        raise RuntimeError("GT frames do not start at grasp")
+
+    if times[-1] >= T:
+        raise RuntimeError("Invalid frame index")
+
+    common = np.ones(N, dtype=bool)
+
+    for t in times:
+        common &= labels[t] == oid
+
+    if "scene_exists" in built:
+        e = np.squeeze(np.asarray(built["scene_exists"]))
+
+        if e.shape == (T, N):
+            for t in times:
+                common &= e[t].astype(bool)
+        elif e.shape == (N,):
+            common &= e.astype(bool)
+
+    npoints = int(common.sum())
+
+    if npoints < MIN_OBJECT_POINTS:
+        print(
+            f"[GT LOW POINTS] {info['clip']}: "
+            f"{npoints} < {MIN_OBJECT_POINTS}; marked unscorable",
+            flush=True,
+        )
+        return [
+            {
+                "task": info["task"],
+                "clip": info["clip"],
+                "object_id": oid,
+                "reference_arm": str(info["reference_arm"]),
+                "t_close": t0,
+                "frame": t,
+                "frames_since_close": t - t0,
+                "gt_object_world_motion_mm": float("nan"),
+                "gt_expected_attached_motion_mm": float("nan"),
+                "gt_hand_translation_mm": float("nan"),
+                "gt_world_follow_error_mm": float("nan"),
+                "gt_world_direction_cos": float("nan"),
+                "gt_local_centroid_change_mm": float("nan"),
+                "n_raw_common_object_points": npoints,
+            }
+            for t in times
+        ]
+
+    arm = str(info["reference_arm"])
+
+    if arm not in ("left", "right"):
+        raise RuntimeError(f"Invalid arm: {arm}")
+
+    c0 = points[t0, common].mean(axis=0)
+    h0, R0 = pose7(built, arm, t0)
+
+    # Initial object center expressed in gripper coordinates.
+    local0 = R0.inv().apply(c0 - h0)
+
+    records = []
+
+    for t in times:
+        ct = points[t, common].mean(axis=0)
+        ht, Rt = pose7(built, arm, t)
+
+        # Where the object center would be if rigidly
+        # attached to the gripper since grasp.
+        expected = ht + Rt.apply(local0)
+
+        actual_move = ct - c0
+        expected_move = expected - c0
+
+        actual_norm = np.linalg.norm(actual_move)
+        expected_norm = np.linalg.norm(expected_move)
+
+        if actual_norm > 1e-9 and expected_norm > 1e-9:
+            cos = float(
+                np.dot(actual_move, expected_move)
+                / (actual_norm * expected_norm)
+            )
+        else:
+            cos = np.nan
+
+        local_t = Rt.inv().apply(ct - ht)
+
+        records.append({
+            "task": info["task"],
+            "clip": info["clip"],
+            "object_id": oid,
+            "reference_arm": arm,
+            "t_close": t0,
+            "frame": t,
+            "frames_since_close": t - t0,
+            "gt_object_world_motion_mm":
+                float(actual_norm * 1000),
+            "gt_expected_attached_motion_mm":
+                float(expected_norm * 1000),
+            "gt_hand_translation_mm":
+                float(np.linalg.norm(ht-h0) * 1000),
+            "gt_world_follow_error_mm":
+                float(np.linalg.norm(ct-expected) * 1000),
+            "gt_world_direction_cos": cos,
+            "gt_local_centroid_change_mm":
+                float(np.linalg.norm(local_t-local0) * 1000),
+            "n_raw_common_object_points": npoints,
+        })
+
+    return records
+
+
+def load_targets(task):
+    causal = pd.read_csv(
+        CAUSAL / task / "per_clip_causal_metrics.csv"
+    )
+
+    frame = pd.read_csv(
+        RELATIVE / task / "per_frame_relative_metrics.csv"
+    )
+
+    gt = frame[frame["condition"] == "GT"]
+
+    assert not causal["clip"].duplicated().any()
+    assert causal["clip"].nunique() == TASKS[task[-4:]]
+
+    targets = {}
+
+    for row in causal.to_dict("records"):
+        clip = str(row["clip"])
+        g = gt[gt["clip"] == clip]
+
+        if len(g) < 2:
+            raise RuntimeError(f"Missing GT frames: {clip}")
+
+        arms = g["reference_arm"].unique()
+
+        if len(arms) != 1:
+            raise RuntimeError(f"Ambiguous arm: {clip}")
+
+        targets[clip] = {
+            **row,
+            "reference_arm": arms[0],
+            "frames": sorted(g["frame"].astype(int).tolist()),
+        }
+
+    return targets
+
+
+def run_task(tid):
+    task = f"task-{tid}"
+    targets = load_targets(task)
+    remaining = set(targets)
+
+    output = OUT / f"{task}_gt_world_frames.csv"
+
+    # Resume: retain completed clips.
+    existing = []
+    if output.exists():
+        old = pd.read_csv(output)
+        existing = old.to_dict("records")
+
+        for clip, g in old.groupby("clip"):
+            expected = set(targets[str(clip)]["frames"])
+            actual = set(g["frame"].astype(int))
+
+            if expected == actual and len(g) == len(expected):
+                remaining.discard(str(clip))
+            else:
+                raise RuntimeError(
+                    f"Partial/inconsistent prior output: {clip}"
+                )
+
+    if not remaining:
+        print(f"[DONE] {task}: cached", flush=True)
+        return
+
+    sampler = RobotSampler(
+        urdf_path=resolve_robot_urdf("behavior"),
+        gripper_only=RELEASE_GRIPPER_ONLY,
+        device="cpu",
+    )
+
+    shards = base.dlmod.gather_shard_paths(
+        base.TASK_DIRS[task], "test", rank=0
+    )
+
+    assert shards, f"No shards for {task}"
+    random.Random(SEED).shuffle(shards)
+
+    dataset = wds.WebDataset(
+        shards,
+        shardshuffle=False,
+        detshuffle=True,
+        resampled=False,
+        nodesplitter=None,
+        seed=SEED,
+        handler=wds.warn_and_continue,
+    )
+
+    rows = list(existing)
+
+    for raw in dataset:
+        key = str(raw.get("__key__", ""))
+
+        if key not in remaining:
+            continue
+
+        info = targets[key]
+
+        decoded = base.old.decode_data(
+            raw, domain="behavior"
+        )
+
+        built = base.old.omap.build_flow_sample_with_object_ids(
+            decoded,
+            domain="behavior",
+            robot_sampler=sampler,
+            max_robot_points=MAX_ROBOT_POINTS,
+            deterministic=True,
+            seed=SEED,
+            force_single_arm=False,
+        )
+
+        # Same deterministic camera selection as the original
+        # PointWorld evaluator. Preserve per-point object IDs.
+        built = base.old.sample_cameras(
+            built,
+            min_num_cameras=2,
+            max_num_cameras=2,
+            deterministic=True,
+            seed=base.BUILD_SEED,
+        )
+
+        built = base.old.canonicalize_gripper_keys_and_flags(
+            built
+        )
+
+        assert "scene_flows" in built
+        assert "scene_object_id" in built, (
+            "Object IDs were lost during camera selection"
+        )
+
+        assert (
+            built["scene_flows"].shape[:2]
+            == built["scene_object_id"].shape[:2]
+        ), "Scene and object-ID shapes do not match"
+
+        rows.extend(
+            compute_clip(built, info, info["frames"])
+        )
+
+        remaining.remove(key)
+
+        pd.DataFrame(rows).to_csv(output, index=False)
+
+        print(
+            f"[GT WORLD] {task}: "
+            f"{len(targets)-len(remaining)}/{len(targets)}",
+            flush=True,
+        )
+
+        if not remaining:
+            break
+
+    if remaining:
+        raise RuntimeError(
+            f"{task}: missing {len(remaining)} clips, "
+            f"examples={sorted(remaining)[:3]}"
+        )
+
+    print(f"[VERIFIED] {task}: {len(targets)} clips")
+
+
+def analyze():
+    parts = []
+
+    for tid, expected in TASKS.items():
+        task = f"task-{tid}"
+
+        f = pd.read_csv(
+            OUT / f"{task}_gt_world_frames.csv"
+        )
+
+        assert f["clip"].nunique() == expected
+        assert not f.duplicated(["clip", "frame"]).any()
+
+        parts.append(f)
+
+    frames = pd.concat(parts, ignore_index=True)
+
+    # Final closed frame for each original matched clip.
+    endpoint = (
+        frames.sort_values("frame")
+        .groupby(["task", "clip"], as_index=False)
+        .tail(1)
+        .copy()
+    )
+
+    assert len(endpoint) == 524
+
+    stable = pd.read_csv(
+        STABLE / "per_clip_gt_stability.csv"
+    )
+
+    relative = pd.read_csv(
+        ROOT / "close_anchor_relative_analysis_current524"
+        / "per_clip_relative_drift.csv"
+    )
+
+    keep = [
+        "task", "clip", "strict", "moderate",
+        "permissive", "strict_boundary"
+    ]
+
+    result = endpoint.merge(
+        stable[keep],
+        on=["task", "clip"],
+        validate="one_to_one",
+    )
+
+    result = result.merge(
+        relative[[
+            "task", "clip",
+            "end_centroid_mm_GT",
+            "end_centroid_mm_Original",
+            "end_centroid_mm_Free",
+            "end_centroid_mm_Anchor",
+        ]],
+        on=["task", "clip"],
+        validate="one_to_one",
+    )
+
+    assert len(result) == 524
+
+    # Check how closely the raw object points reproduce
+    # the previous GT local-relative measurement.
+    result["gt_replay_difference_mm"] = abs(
+        result["gt_local_centroid_change_mm"]
+        - result["end_centroid_mm_GT"]
+    )
+
+    print("\n===== RAW GT REPLAY AUDIT =====")
+    print(
+        "Median difference:",
+        round(result["gt_replay_difference_mm"].median(), 4),
+        "mm"
+    )
+    print(
+        "P95 difference:",
+        round(
+            result["gt_replay_difference_mm"].quantile(.95), 4
+        ),
+        "mm"
+    )
+
+    result["gt_world_measurement_valid"] = (
+        (result["n_raw_common_object_points"] >= MIN_OBJECT_POINTS)
+        & np.isfinite(result["gt_world_follow_error_mm"])
+    )
+    print("\n===== GT WORLD MEASUREMENT COVERAGE =====")
+    print(
+        "Valid:",
+        int(result["gt_world_measurement_valid"].sum()),
+        "/ 524",
+        "Low-point/unscorable:",
+        int((~result["gt_world_measurement_valid"]).sum()),
+    )
+    print(
+        result.groupby("task")["gt_world_measurement_valid"]
+        .agg(["sum", "count"]).to_string()
+    )
+
+    # Movement thresholds, tested separately.
+    for threshold in (5, 10, 20):
+        result[f"moving_{threshold}mm"] = (
+            (result["gt_object_world_motion_mm"] >= threshold)
+            & (
+                result["gt_expected_attached_motion_mm"]
+                >= threshold
+            )
+            & (result["gt_world_direction_cos"] >= 0.8)
+        )
+
+    result.to_csv(
+        OUT / "per_clip_gt_world_comotion.csv",
+        index=False,
+    )
+
+    report = []
+
+    rng = np.random.default_rng(20261010)
+
+    for tier in ("strict", "moderate", "permissive"):
+        for threshold in (5, 10, 20):
+            for boundary in (False, True):
+                m = result[tier] & result[
+                    f"moving_{threshold}mm"
+                ]
+
+                if boundary:
+                    m &= result["strict_boundary"]
+
+                sub = result[m]
+                n = len(sub)
+
+                if n == 0:
+                    report.append({
+                        "tier": tier,
+                        "motion_threshold_mm": threshold,
+                        "strict_boundary": boundary,
+                        "N": 0,
+                    })
+                    continue
+
+                free = sub[
+                    "end_centroid_mm_Free"
+                ].to_numpy(dtype=float)
+
+                anchor = sub[
+                    "end_centroid_mm_Anchor"
+                ].to_numpy(dtype=float)
+
+                d = free - anchor
+                nz = d[d != 0]
+
+                p_w = (
+                    wilcoxon(nz).pvalue
+                    if len(nz) else 1.0
+                )
+
+                p_sign = (
+                    binomtest(
+                        int((nz > 0).sum()),
+                        len(nz),
+                        p=0.5,
+                    ).pvalue
+                    if len(nz) else 1.0
+                )
+
+                row = {
+                    "tier": tier,
+                    "motion_threshold_mm": threshold,
+                    "strict_boundary": boundary,
+                    "N": n,
+                    "GT_median_mm":
+                        sub["end_centroid_mm_GT"].median(),
+                    "Original_median_mm":
+                        sub["end_centroid_mm_Original"].median(),
+                    "Free_median_mm": np.median(free),
+                    "Anchor_median_mm": np.median(anchor),
+                    "paired_gain_mm": np.median(d),
+                    "anchor_better_pct": 100*np.mean(d > 0),
+                    "wilcoxon_p": p_w,
+                    "sign_p": p_sign,
+                    "median_GT_object_world_motion_mm":
+                        sub["gt_object_world_motion_mm"].median(),
+                    "median_GT_world_follow_error_mm":
+                        sub["gt_world_follow_error_mm"].median(),
+                }
+
+                if n >= 5:
+                    idx = rng.integers(0, n, (3000, n))
+                    ci = np.quantile(
+                        np.median(d[idx], axis=1),
+                        [0.025, 0.975],
+                    )
+                    row["CI_low_mm"] = ci[0]
+                    row["CI_high_mm"] = ci[1]
+
+                report.append(row)
+
+    summary = pd.DataFrame(report)
+    summary.to_csv(
+        OUT / "gt_world_comotion_comparisons.csv",
+        index=False,
+    )
+
+    print("\n===== GT WORLD CO-MOTION RESULTS =====")
+
+    for tier in ("strict", "moderate", "permissive"):
+        for threshold in (5, 10, 20):
+            for boundary in (False, True):
+                r = summary[
+                    (summary["tier"] == tier)
+                    & (summary["motion_threshold_mm"] == threshold)
+                    & (summary["strict_boundary"] == boundary)
+                ].iloc[0]
+
+                label = (
+                    "BOUNDARY" if boundary else "ALL"
+                )
+
+                if int(r["N"]) == 0:
+                    print(
+                        f"{tier} moving>={threshold}mm "
+                        f"{label}: N=0"
+                    )
+                else:
+                    print(
+                        f"{tier} moving>={threshold}mm "
+                        f"{label}: N={int(r['N'])} "
+                        f"Free={r['Free_median_mm']:.3f} "
+                        f"Anchor={r['Anchor_median_mm']:.3f} "
+                        f"paired_gain={r['paired_gain_mm']:+.3f} "
+                        f"p={r['wilcoxon_p']:.4g}"
+                    )
+
+    print("\n[ANALYSIS COMPLETE]")
+    print("Output:", OUT)
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--task",
+        choices=list(TASKS),
+    )
+    parser.add_argument(
+        "--analyze",
+        action="store_true",
+    )
+    args = parser.parse_args()
+
+    if args.analyze:
+        analyze()
+    elif args.task:
+        run_task(args.task)
+    else:
+        parser.error("Specify --task or --analyze")
+
+
+if __name__ == "__main__":
+    main()

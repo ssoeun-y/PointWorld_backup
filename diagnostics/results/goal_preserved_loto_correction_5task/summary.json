@@ -1,0 +1,32 @@
+{
+  "total_targets": 3831,
+  "success": 2846,
+  "success_rate": 0.7428869746802401,
+  "taskwise": {
+    "task-0000": {
+      "target_n": 162,
+      "success_n": 131,
+      "success_rate": 0.808641975308642
+    },
+    "task-0001": {
+      "target_n": 820,
+      "success_n": 650,
+      "success_rate": 0.7926829268292683
+    },
+    "task-0006": {
+      "target_n": 955,
+      "success_n": 659,
+      "success_rate": 0.6900523560209424
+    },
+    "task-0008": {
+      "target_n": 797,
+      "success_n": 673,
+      "success_rate": 0.8444165621079046
+    },
+    "task-0010": {
+      "target_n": 1097,
+      "success_n": 733,
+      "success_rate": 0.6681859617137648
+    }
+  }
+}

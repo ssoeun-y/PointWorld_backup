@@ -1,0 +1,140 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/data/droid_confidence_covered_5)
+[test] Total samples across all datasets: 5
+[test] Total batches needed: 5
+[test] Batches per rank (world_size=1): 5
+[test] Epoch length set to: 5
+[001] AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16 official_coverage=0.960544 expert_coverage=0.647009
+[002] AUTOLab+0d4edc83+2023-10-21-19h-10m-31s_flows-10:21 official_coverage=0.971861 expert_coverage=0.604273
+[003] AUTOLab+0d4edc83+2023-10-21-19h-16m-50s_flows-0:11 official_coverage=0.986492 expert_coverage=0.616400
+[004] AUTOLab+0d4edc83+2023-10-21-19h-22m-09s_flows-0:11 official_coverage=0.994425 expert_coverage=0.648342
+[005] AUTOLab+0d4edc83+2023-10-21-19h-40m-08s_flows-10:21 official_coverage=0.967813 expert_coverage=0.599476
+
+===== OFFICIAL-ALIGNED GT CONSISTENCY =====
+domain: droid
+processed_sequences: 5
+{
+  "official_valid": {
+    "count": 50,
+    "mean": 0.9762268447875977,
+    "median": 0.9724844098091125,
+    "p95": 0.9996291667222976,
+    "p99": 0.999709187746048,
+    "max": 0.999750018119812
+  },
+  "expert_filtered": {
+    "count": 50,
+    "mean": 0.6230999791622162,
+    "median": 0.6188750267028809,
+    "p95": 0.6548124849796295,
+    "p99": 0.6582783371210098,
+    "max": 0.6596666574478149
+  }
+}
+{
+  "expert_filtered/acceleration_all": {
+    "count": 293996,
+    "mean": 0.0008462153182415981,
+    "median": 0.0001373291015625,
+    "p95": 0.0019148450519423932,
+    "p99": 0.009977872343733835,
+    "max": 0.5320372581481934
+  },
+  "expert_filtered/acceleration_moved": {
+    "count": 9588,
+    "mean": 0.013623427172630955,
+    "median": 0.0037956831511110067,
+    "p95": 0.052666758187115144,
+    "p99": 0.2331263992190341,
+    "max": 0.5320372581481934
+  },
+  "expert_filtered/continuous_static_acceleration": {
+    "count": 251362,
+    "mean": 0.00023514916342591194,
+    "median": 0.00013647876039613038,
+    "p95": 0.0008480579155730059,
+    "p99": 0.0017488462617620826,
+    "max": 0.00441651651635766
+  },
+  "expert_filtered/continuous_static_endpoint_drift": {
+    "count": 7181,
+    "mean": 0.00307313498090877,
+    "median": 0.0021870695054531097,
+    "p95": 0.008907787501811981,
+    "p99": 0.014226497337222097,
+    "max": 0.03588804975152016
+  },
+  "expert_filtered/velocity_all": {
+    "count": 326088,
+    "mean": 0.0012550105473379959,
+    "median": 0.00036748030106537044,
+    "p95": 0.003257613955065588,
+    "p99": 0.012452877955511253,
+    "max": 0.8611924052238464
+  },
+  "expert_filtered/velocity_moved": {
+    "count": 11297,
+    "mean": 0.016144942423298603,
+    "median": 0.006833757273852825,
+    "p95": 0.049040386825799864,
+    "p99": 0.23894448220729775,
+    "max": 0.8611924052238464
+  },
+  "official_valid/acceleration_all": {
+    "count": 555172,
+    "mean": 0.0018320416148587138,
+    "median": 0.00013669184409081936,
+    "p95": 0.0028481828398071,
+    "p99": 0.03488849468529243,
+    "max": 0.676110029220581
+  },
+  "official_valid/acceleration_moved": {
+    "count": 26362,
+    "mean": 0.025950901505138645,
+    "median": 0.005409991135820746,
+    "p95": 0.13577954247593865,
+    "p99": 0.28226670324802394,
+    "max": 0.676110029220581
+  },
+  "official_valid/continuous_static_acceleration": {
+    "count": 479810,
+    "mean": 0.00022645460087822425,
+    "median": 0.0001332416431978345,
+    "p95": 0.0007916944450698793,
+    "p99": 0.0017284915084019303,
+    "max": 0.004557654727250338
+  },
+  "official_valid/continuous_static_endpoint_drift": {
+    "count": 47981,
+    "mean": 0.003157108117506663,
+    "median": 0.002197265625,
+    "p95": 0.009239641018211842,
+    "p99": 0.015685303136706293,
+    "max": 0.042151082307100296
+  },
+  "official_valid/velocity_all": {
+    "count": 559319,
+    "mean": 0.0022597533310025606,
+    "median": 0.00038602022686973214,
+    "p95": 0.004244467243552208,
+    "p99": 0.0319554929435252,
+    "max": 0.9015306234359741
+  },
+  "official_valid/velocity_moved": {
+    "count": 27622,
+    "mean": 0.028491649127418566,
+    "median": 0.0077444929629564285,
+    "p95": 0.17352644205093368,
+    "p99": 0.2782382172346124,
+    "max": 0.9015306234359741
+  }
+}
+summary_json: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/gt_consistency_droid_filtered_5_20260804_111211/summary.json
+per_sequence_csv: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/gt_consistency_droid_filtered_5_20260804_111211/per_sequence.csv

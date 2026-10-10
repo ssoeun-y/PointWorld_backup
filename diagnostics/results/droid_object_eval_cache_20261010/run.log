@@ -1,0 +1,194 @@
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+Overwriting seed for eval
+Using eval dir: eval_logs/20261010_193438-None-split=test-seed=42
+Applied canonical checkpoint model_contract for evaluation model initialization.
+[2026-10-10 19:34:47] Rank 1/1 using device cuda
+[2026-10-10 19:34:47] Experiment ID: dummy-ezmsd0ei
+[2026-10-10 19:34:47] Saving to: train_logs/dummy-ezmsd0ei
+[2026-10-10 19:34:47] Loading checkpoint from pretrained_checkpoints/large-droid+behavior/model-best.pt
+Loading canonical statistics from stats/droid_behavior/norm_stats.json
+[2026-10-10 19:35:22] model/total_params            : 1288475176
+[2026-10-10 19:35:22] model/scene_features_dim      : 42
+[2026-10-10 19:35:22] model/robot_features_dim      : 17
+[2026-10-10 19:35:22] Experiment Name               : dummy-ezmsd0ei
+[2026-10-10 19:35:22] Wandb ID                      : ezmsd0ei
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=11 (data_dir=/home/soenchun/cse/PointWorld_workspace/datasets/PointWorld-DROID-subset_restored/droid/wds)
+[test] Total samples across all datasets: 1679
+[test] Total batches needed: 1679
+[test] Batches per rank (world_size=1): 1679
+[test] Epoch length set to: 1679
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+DROID_CACHE saved=10 skipped=0 seen=10 points=12000
+DROID_CACHE saved=20 skipped=0 seen=20 points=5387
+DROID_CACHE saved=30 skipped=0 seen=30 points=11905
+DROID_CACHE saved=40 skipped=0 seen=40 points=7143
+DROID_CACHE saved=50 skipped=0 seen=50 points=11061
+DROID_CACHE saved=60 skipped=0 seen=60 points=8940
+DROID_CACHE saved=70 skipped=0 seen=70 points=11310
+DROID_CACHE saved=80 skipped=0 seen=80 points=12000
+DROID_CACHE saved=90 skipped=0 seen=90 points=10172
+DROID_CACHE saved=100 skipped=0 seen=100 points=7375
+DROID_CACHE saved=110 skipped=0 seen=110 points=8766
+DROID_CACHE saved=120 skipped=0 seen=120 points=9576
+DROID_CACHE saved=130 skipped=0 seen=130 points=4670
+DROID_CACHE saved=140 skipped=0 seen=140 points=5789
+DROID_CACHE saved=150 skipped=0 seen=150 points=6585
+DROID_CACHE saved=160 skipped=0 seen=160 points=6280
+DROID_CACHE saved=170 skipped=0 seen=170 points=6455
+DROID_CACHE saved=180 skipped=0 seen=180 points=9051
+DROID_CACHE saved=190 skipped=0 seen=190 points=11449
+DROID_CACHE saved=200 skipped=0 seen=200 points=9378
+DROID_CACHE saved=210 skipped=0 seen=210 points=8154
+DROID_CACHE saved=220 skipped=0 seen=220 points=9609
+DROID_CACHE saved=230 skipped=0 seen=230 points=8618
+DROID_CACHE saved=240 skipped=0 seen=240 points=9284
+DROID_CACHE saved=250 skipped=0 seen=250 points=6866
+DROID_CACHE saved=260 skipped=0 seen=260 points=6692
+DROID_CACHE saved=270 skipped=0 seen=270 points=5960
+DROID_CACHE saved=280 skipped=0 seen=280 points=6159
+DROID_CACHE saved=290 skipped=0 seen=290 points=5836
+DROID_CACHE saved=300 skipped=0 seen=300 points=8482
+DROID_CACHE saved=310 skipped=0 seen=310 points=5187
+DROID_CACHE saved=320 skipped=0 seen=320 points=4436
+DROID_CACHE saved=330 skipped=0 seen=330 points=6051
+DROID_CACHE saved=340 skipped=0 seen=340 points=12000
+DROID_CACHE saved=350 skipped=0 seen=350 points=8754
+DROID_CACHE saved=360 skipped=0 seen=360 points=8429
+DROID_CACHE saved=370 skipped=0 seen=370 points=9386
+DROID_CACHE saved=380 skipped=0 seen=380 points=8513
+DROID_CACHE saved=390 skipped=0 seen=390 points=4439
+DROID_CACHE saved=400 skipped=0 seen=400 points=5329
+DROID_CACHE saved=410 skipped=0 seen=410 points=11668
+DROID_CACHE saved=420 skipped=0 seen=420 points=7995
+DROID_CACHE saved=430 skipped=0 seen=430 points=9721
+DROID_CACHE saved=440 skipped=0 seen=440 points=7343
+DROID_CACHE saved=450 skipped=0 seen=450 points=9309
+DROID_CACHE saved=460 skipped=0 seen=460 points=4965
+DROID_CACHE saved=470 skipped=0 seen=470 points=5222
+DROID_CACHE saved=480 skipped=0 seen=480 points=4749
+DROID_CACHE saved=490 skipped=0 seen=490 points=7673
+DROID_CACHE saved=500 skipped=0 seen=500 points=8242
+DROID_CACHE saved=510 skipped=0 seen=510 points=5391
+DROID_CACHE saved=520 skipped=0 seen=520 points=7798
+DROID_CACHE saved=530 skipped=0 seen=530 points=3030
+DROID_CACHE saved=540 skipped=0 seen=540 points=4763
+DROID_CACHE saved=550 skipped=0 seen=550 points=5291
+DROID_CACHE saved=560 skipped=0 seen=560 points=4218
+DROID_CACHE saved=570 skipped=0 seen=570 points=4129
+DROID_CACHE saved=580 skipped=0 seen=580 points=4105
+DROID_CACHE saved=590 skipped=0 seen=590 points=4037
+DROID_CACHE saved=600 skipped=0 seen=600 points=4364
+DROID_CACHE saved=610 skipped=0 seen=610 points=4704
+DROID_CACHE saved=620 skipped=0 seen=620 points=4051
+DROID_CACHE saved=630 skipped=0 seen=630 points=4037
+DROID_CACHE saved=640 skipped=0 seen=640 points=4069
+DROID_CACHE saved=650 skipped=0 seen=650 points=3744
+DROID_CACHE saved=660 skipped=0 seen=660 points=4525
+DROID_CACHE saved=670 skipped=0 seen=670 points=5053
+DROID_CACHE saved=680 skipped=0 seen=680 points=6671
+DROID_CACHE saved=690 skipped=0 seen=690 points=4986
+DROID_CACHE saved=700 skipped=0 seen=700 points=4739
+DROID_CACHE saved=710 skipped=0 seen=710 points=9073
+DROID_CACHE saved=720 skipped=0 seen=720 points=8383
+DROID_CACHE saved=730 skipped=0 seen=730 points=8165
+DROID_CACHE saved=740 skipped=0 seen=740 points=6547
+DROID_CACHE saved=750 skipped=0 seen=750 points=6586
+DROID_CACHE saved=760 skipped=0 seen=760 points=12000
+DROID_CACHE saved=770 skipped=0 seen=770 points=12000
+DROID_CACHE saved=780 skipped=0 seen=780 points=12000
+DROID_CACHE saved=790 skipped=0 seen=790 points=12000
+DROID_CACHE saved=800 skipped=0 seen=800 points=11795
+DROID_CACHE saved=810 skipped=0 seen=810 points=6892
+DROID_CACHE saved=820 skipped=0 seen=820 points=10576
+DROID_CACHE saved=830 skipped=0 seen=830 points=5940
+DROID_CACHE saved=840 skipped=0 seen=840 points=6643
+DROID_CACHE saved=850 skipped=0 seen=850 points=7070
+DROID_CACHE saved=860 skipped=0 seen=860 points=7270
+DROID_CACHE saved=870 skipped=0 seen=870 points=6478
+DROID_CACHE saved=880 skipped=0 seen=880 points=8433
+DROID_CACHE saved=890 skipped=0 seen=890 points=6701
+DROID_CACHE saved=900 skipped=0 seen=900 points=10851
+DROID_CACHE saved=910 skipped=0 seen=910 points=6002
+DROID_CACHE saved=920 skipped=0 seen=920 points=4405
+DROID_CACHE saved=930 skipped=0 seen=930 points=6182
+DROID_CACHE saved=940 skipped=0 seen=940 points=7491
+DROID_CACHE saved=950 skipped=0 seen=950 points=7532
+DROID_CACHE saved=960 skipped=0 seen=960 points=5837
+DROID_CACHE saved=970 skipped=0 seen=970 points=6455
+DROID_CACHE saved=980 skipped=0 seen=980 points=5267
+DROID_CACHE saved=990 skipped=0 seen=990 points=5038
+DROID_CACHE saved=1000 skipped=0 seen=1000 points=5543
+DROID_CACHE saved=1010 skipped=0 seen=1010 points=5972
+DROID_CACHE saved=1020 skipped=0 seen=1020 points=5865
+DROID_CACHE saved=1030 skipped=0 seen=1030 points=5838
+DROID_CACHE saved=1040 skipped=0 seen=1040 points=5843
+DROID_CACHE saved=1050 skipped=0 seen=1050 points=5981
+DROID_CACHE saved=1060 skipped=0 seen=1060 points=5697
+DROID_CACHE saved=1070 skipped=0 seen=1070 points=4859
+DROID_CACHE saved=1080 skipped=0 seen=1080 points=4895
+DROID_CACHE saved=1090 skipped=0 seen=1090 points=5919
+DROID_CACHE saved=1100 skipped=0 seen=1100 points=5863
+DROID_CACHE saved=1110 skipped=0 seen=1110 points=6268
+DROID_CACHE saved=1120 skipped=0 seen=1120 points=5907
+DROID_CACHE saved=1130 skipped=0 seen=1130 points=7114
+DROID_CACHE saved=1140 skipped=0 seen=1140 points=7552
+DROID_CACHE saved=1150 skipped=0 seen=1150 points=6295
+DROID_CACHE saved=1160 skipped=0 seen=1160 points=6326
+DROID_CACHE saved=1170 skipped=0 seen=1170 points=6476
+DROID_CACHE saved=1180 skipped=0 seen=1180 points=4920
+DROID_CACHE saved=1190 skipped=0 seen=1190 points=10506
+DROID_CACHE saved=1200 skipped=0 seen=1200 points=7335
+DROID_CACHE saved=1210 skipped=0 seen=1210 points=10607
+DROID_CACHE saved=1220 skipped=0 seen=1220 points=6121
+DROID_CACHE saved=1230 skipped=0 seen=1230 points=5039
+DROID_CACHE saved=1240 skipped=0 seen=1240 points=10609
+DROID_CACHE saved=1250 skipped=0 seen=1250 points=6876
+DROID_CACHE saved=1260 skipped=0 seen=1260 points=4984
+DROID_CACHE saved=1270 skipped=0 seen=1270 points=6585
+DROID_CACHE saved=1280 skipped=0 seen=1280 points=12000
+DROID_CACHE saved=1290 skipped=0 seen=1290 points=9248
+DROID_CACHE saved=1300 skipped=0 seen=1300 points=11517
+DROID_CACHE saved=1310 skipped=0 seen=1310 points=12000
+DROID_CACHE saved=1320 skipped=0 seen=1320 points=9676
+DROID_CACHE saved=1330 skipped=0 seen=1330 points=5871
+DROID_CACHE saved=1340 skipped=0 seen=1340 points=5587
+DROID_CACHE saved=1350 skipped=0 seen=1350 points=6838
+DROID_CACHE saved=1360 skipped=0 seen=1360 points=6605
+DROID_CACHE saved=1370 skipped=0 seen=1370 points=7467
+DROID_CACHE saved=1380 skipped=0 seen=1380 points=6742
+DROID_CACHE saved=1390 skipped=0 seen=1390 points=7927
+DROID_CACHE saved=1400 skipped=0 seen=1400 points=7085
+DROID_CACHE saved=1410 skipped=0 seen=1410 points=6661
+DROID_CACHE saved=1420 skipped=0 seen=1420 points=8467
+DROID_CACHE saved=1430 skipped=0 seen=1430 points=5831
+DROID_CACHE saved=1440 skipped=0 seen=1440 points=7256
+DROID_CACHE saved=1450 skipped=0 seen=1450 points=6305
+DROID_CACHE saved=1460 skipped=0 seen=1460 points=7313
+DROID_CACHE saved=1470 skipped=0 seen=1470 points=6473
+DROID_CACHE saved=1480 skipped=0 seen=1480 points=5819
+DROID_CACHE saved=1490 skipped=0 seen=1490 points=5768
+DROID_CACHE saved=1500 skipped=0 seen=1500 points=6742
+DROID_CACHE saved=1510 skipped=0 seen=1510 points=5684
+DROID_CACHE saved=1520 skipped=0 seen=1520 points=5973
+DROID_CACHE saved=1530 skipped=0 seen=1530 points=6416
+DROID_CACHE saved=1540 skipped=0 seen=1540 points=6490
+DROID_CACHE saved=1550 skipped=0 seen=1550 points=6848
+DROID_CACHE saved=1560 skipped=0 seen=1560 points=6572
+DROID_CACHE saved=1570 skipped=0 seen=1570 points=6663
+DROID_CACHE saved=1580 skipped=0 seen=1580 points=7318
+DROID_CACHE saved=1590 skipped=0 seen=1590 points=6945
+DROID_CACHE saved=1600 skipped=0 seen=1600 points=5019
+DROID_CACHE saved=1610 skipped=0 seen=1610 points=5335
+DROID_CACHE saved=1620 skipped=0 seen=1620 points=5837
+DROID_CACHE saved=1630 skipped=0 seen=1630 points=9128
+DROID_CACHE saved=1640 skipped=0 seen=1640 points=6745
+DROID_CACHE saved=1650 skipped=0 seen=1650 points=9158
+DROID_CACHE saved=1660 skipped=0 seen=1660 points=4477
+DROID_CACHE saved=1670 skipped=0 seen=1670 points=11294
+DROID_CACHE_COMPLETE 1679

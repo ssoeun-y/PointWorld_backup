@@ -1,0 +1,162 @@
+{
+  "domain": "droid",
+  "data_dir": "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/data/droid_confidence_covered_5",
+  "processed_sequences": 5,
+  "git_commit": "05484826dfef74cbe278a3974179a5a16705d35d",
+  "loader_info": {
+    "total_samples": 5,
+    "total_batches_needed": 5,
+    "batches_per_rank": 5,
+    "world_size": 1
+  },
+  "confidence_validation": {
+    "file": "/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/data/droid_confidence_covered_5/test/expert_confidence-seed=42.h5",
+    "exists": true,
+    "seed": 42,
+    "confidence_keep": 0.8,
+    "application": "official ConfidenceHelper.inject_confidence_mask"
+  },
+  "methodology": {
+    "gt": "official gt_scene_flows",
+    "supervision": "official scene_exists AND scene_supervised_mask",
+    "droid_filter": "official ConfidenceHelper.inject_confidence_mask, keep=0.8",
+    "moved_static": "official scene_moved_mask and scene_static_mask",
+    "derivatives": "official compute_flow_derivatives midpoint implementation",
+    "derivative_validity": "all positions used by the official finite-difference stencil must pass the corresponding official point mask",
+    "primary_metrics": [
+      "velocity_all",
+      "velocity_moved",
+      "acceleration_all",
+      "acceleration_moved"
+    ],
+    "secondary_metrics": [
+      "continuous_static_acceleration",
+      "continuous_static_endpoint_drift"
+    ],
+    "excluded_from_primary": [
+      "jerk",
+      "direction reversal"
+    ]
+  },
+  "units": {
+    "velocity": "meter/timestep",
+    "acceleration": "meter/timestep^2",
+    "endpoint_drift": "meter"
+  },
+  "coverage": {
+    "official_valid": {
+      "count": 50,
+      "mean": 0.9762268447875977,
+      "median": 0.9724844098091125,
+      "p95": 0.9996291667222976,
+      "p99": 0.999709187746048,
+      "max": 0.999750018119812
+    },
+    "expert_filtered": {
+      "count": 50,
+      "mean": 0.6230999791622162,
+      "median": 0.6188750267028809,
+      "p95": 0.6548124849796295,
+      "p99": 0.6582783371210098,
+      "max": 0.6596666574478149
+    }
+  },
+  "metrics": {
+    "expert_filtered/acceleration_all": {
+      "count": 293996,
+      "mean": 0.0008462153182415981,
+      "median": 0.0001373291015625,
+      "p95": 0.0019148450519423932,
+      "p99": 0.009977872343733835,
+      "max": 0.5320372581481934
+    },
+    "expert_filtered/acceleration_moved": {
+      "count": 9588,
+      "mean": 0.013623427172630955,
+      "median": 0.0037956831511110067,
+      "p95": 0.052666758187115144,
+      "p99": 0.2331263992190341,
+      "max": 0.5320372581481934
+    },
+    "expert_filtered/continuous_static_acceleration": {
+      "count": 251362,
+      "mean": 0.00023514916342591194,
+      "median": 0.00013647876039613038,
+      "p95": 0.0008480579155730059,
+      "p99": 0.0017488462617620826,
+      "max": 0.00441651651635766
+    },
+    "expert_filtered/continuous_static_endpoint_drift": {
+      "count": 7181,
+      "mean": 0.00307313498090877,
+      "median": 0.0021870695054531097,
+      "p95": 0.008907787501811981,
+      "p99": 0.014226497337222097,
+      "max": 0.03588804975152016
+    },
+    "expert_filtered/velocity_all": {
+      "count": 326088,
+      "mean": 0.0012550105473379959,
+      "median": 0.00036748030106537044,
+      "p95": 0.003257613955065588,
+      "p99": 0.012452877955511253,
+      "max": 0.8611924052238464
+    },
+    "expert_filtered/velocity_moved": {
+      "count": 11297,
+      "mean": 0.016144942423298603,
+      "median": 0.006833757273852825,
+      "p95": 0.049040386825799864,
+      "p99": 0.23894448220729775,
+      "max": 0.8611924052238464
+    },
+    "official_valid/acceleration_all": {
+      "count": 555172,
+      "mean": 0.0018320416148587138,
+      "median": 0.00013669184409081936,
+      "p95": 0.0028481828398071,
+      "p99": 0.03488849468529243,
+      "max": 0.676110029220581
+    },
+    "official_valid/acceleration_moved": {
+      "count": 26362,
+      "mean": 0.025950901505138645,
+      "median": 0.005409991135820746,
+      "p95": 0.13577954247593865,
+      "p99": 0.28226670324802394,
+      "max": 0.676110029220581
+    },
+    "official_valid/continuous_static_acceleration": {
+      "count": 479810,
+      "mean": 0.00022645460087822425,
+      "median": 0.0001332416431978345,
+      "p95": 0.0007916944450698793,
+      "p99": 0.0017284915084019303,
+      "max": 0.004557654727250338
+    },
+    "official_valid/continuous_static_endpoint_drift": {
+      "count": 47981,
+      "mean": 0.003157108117506663,
+      "median": 0.002197265625,
+      "p95": 0.009239641018211842,
+      "p99": 0.015685303136706293,
+      "max": 0.042151082307100296
+    },
+    "official_valid/velocity_all": {
+      "count": 559319,
+      "mean": 0.0022597533310025606,
+      "median": 0.00038602022686973214,
+      "p95": 0.004244467243552208,
+      "p99": 0.0319554929435252,
+      "max": 0.9015306234359741
+    },
+    "official_valid/velocity_moved": {
+      "count": 27622,
+      "mean": 0.028491649127418566,
+      "median": 0.0077444929629564285,
+      "p95": 0.17352644205093368,
+      "p99": 0.2782382172346124,
+      "max": 0.9015306234359741
+    }
+  }
+}

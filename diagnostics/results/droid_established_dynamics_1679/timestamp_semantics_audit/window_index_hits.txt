@@ -1,0 +1,200 @@
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:107:                f"Normals payload values out of range at {context}: "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:116:                f"Invalid initial_rgb shape in {h5_path}/{clip_key}/{camera_key}: "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:124:            f"Invalid {modality} shape in {h5_path}/{clip_key}/{camera_key}: "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:229:    assert "valid_clips" in results, f"Missing 'valid_clips' in integrity file: {integrity_check_file}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:265:        raise FileNotFoundError(f"Manifest file not found: {manifest_file}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:272:            f"Unsupported manifest schema_version: {schema_version}. "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:279:            f"Manifest domain mismatch: manifest={manifest_domain}, requested={domain}."
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:391:    assert os.path.exists(integrity_check_file), f"Integrity check file not found: {integrity_check_file}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:400:                f"Integrity file points to missing H5 path: {h5_path}. "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:408:        print(f"Filtering to UUID keywords: {', '.join(only_uuid_keywords)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:415:        print(f"After UUID keyword filter: {len(valid_clips)} clips")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:419:        print(f"Filtering to tasks: {', '.join(tasks)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:421:        print(f"After task filter: {len(valid_clips)} clips")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:435:        print(f"Applied max_clips={max_clips}: {before} -> {len(all_clip_ids)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:454:        f"Using manifest split: train={len(train_clip_ids)}, test={len(test_clip_ids)}, "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:467:                    f"Applied train_frac={train_frac}: "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:478:            f"[Worker {rank}] WARNING: tiny train split ({len(train_clip_ids)} clips). "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:484:            f"[Worker {rank}] WARNING: only {len(all_clip_ids)} clips for world_size={world_size}; "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:492:            f"[Worker {rank}] WARNING: this worker received zero clips. "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:528:        shard_pattern = os.path.join(split_outdir, f"{split_name}-rank{rank:02d}-%06d.tar")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:convert_wds.py:547:        print(f"[Worker {rank}] {split_name}: processed={processed_count}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:105:                f"Invalid camera container at {h5_path}/{clip_key}/{camera_key}: {type(camera_data)}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:174:                        mismatched_modalities.append(f"{modality}: {current_shape}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:177:                mismatched_modalities.append(f"{modality}: unreadable")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:245:                        issue = f"Missing required behavior clip attributes: {missing_behavior_attrs}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:250:                            raise IntegrityError(f"File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:251:                        print(f"INTEGRITY ISSUE - File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:298:                            raise IntegrityError(f"File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:300:                            print(f"INTEGRITY ISSUE - File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:312:                        issue = f"Normals contract violations: {normals_issues}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:317:                            raise IntegrityError(f"File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:318:                        print(f"INTEGRITY ISSUE - File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:332:                        raise IntegrityError(f"File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:334:                        print(f"INTEGRITY ISSUE - File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:345:                        raise IntegrityError(f"File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:347:                        print(f"INTEGRITY ISSUE - File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:383:                            issue_detail = f"Scene modalities dimension mismatch. Expected shape (T, NS): {expected_shape}. Mismatched: {mismatched_modalities}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:399:                    issue = f"Cameras missing modalities: {missing_modalities_by_camera} (available modalities: {camera_data.keys()})"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:404:                        raise IntegrityError(f"File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:406:                        print(f"INTEGRITY ISSUE - File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:418:                    issue = f"Missing non-scene modalities: {missing_non_scene_modalities}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:423:                        raise IntegrityError(f"File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:425:                        print(f"INTEGRITY ISSUE - File: {h5_path}, Clip: {clip_key}, Issue: {issue}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:441:                    print(f"SKIP FILE - {h5_path}: No valid clips (all {results['total_clips']} clips filtered out)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:450:            raise IntegrityError(f"File: {h5_path}, Error: {str(e)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:452:            print(f"INTEGRITY ISSUE - File: {h5_path}, Error: {str(e)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:586:    report_lines.append(f"Total files checked: {results['files_checked']}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:587:    report_lines.append(f"Files with all valid clips: {results['valid_files']} ({results['valid_files']/results['files_checked']*100:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:588:    report_lines.append(f"Files with some valid clips: {results['partially_valid_files']} ({results['partially_valid_files']/results['files_checked']*100:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:589:    report_lines.append(f"Files with no valid clips: {results['invalid_files']} ({results['invalid_files']/results['files_checked']*100:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:590:    report_lines.append(f"Failed to process files: {results['failed_files']} ({results['failed_files']/results['files_checked']*100:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:593:    report_lines.append(f"Total clips checked: {results['total_clips']}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:595:        report_lines.append(f"Valid clips: {results['valid_clips']} ({results['valid_clips']/results['total_clips']*100:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:596:        report_lines.append(f"Invalid clips: {results['invalid_clips']} ({results['invalid_clips']/results['total_clips']*100:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:598:            report_lines.append(f"Skipped clips: {results['skipped_clips']} ({results['skipped_clips']/results['total_clips']*100:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:600:        report_lines.append(f"Valid clips: {results['valid_clips']} (N/A%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:601:        report_lines.append(f"Invalid clips: {results['invalid_clips']} (N/A%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:603:            report_lines.append(f"Skipped clips: {results['skipped_clips']} (N/A%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:612:                report_lines.append(f"- {reason}: {count} clips ({percentage:.2f}% of skipped clips)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:618:        report_lines.append(f"- {issue}: {count} occurrences")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:628:            report_lines.append(f"{'Attribute':<35} {'Min':<12} {'Max':<12} {'Mean':<12} {'Std':<12} {'Count':<8}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:631:                report_lines.append(f"{attr_name:<35} {stats['min']:<12.6f} {stats['max']:<12.6f} "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:632:                      f"{stats['mean']:<12.6f} {stats['std']:<12.6f} {stats['count']:<8}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:644:            report_lines.append(f"Error: {gripper_stats['error']}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:647:            report_lines.append(f"Total clips analyzed: {total_clips}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:652:            report_lines.append(f"{'Condition':<35} {'Count':<10} {'Percentage':<12}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:656:                report_lines.append(f"{condition_name:<35} {data['count']:<10} {data['percentage']:<12.2f}%")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:661:            report_lines.append(f"{'Gripper':<35} {'Count':<10} {'Percentage':<12}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:664:            report_lines.append(f"{'Left Gripper Skip Eligible':<35} {combined['left_gripper_skip_eligible']['count']:<10} {combined['left_gripper_skip_eligible']['percentage']:<12.2f}%")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:665:            report_lines.append(f"{'Right Gripper Skip Eligible':<35} {combined['right_gripper_skip_eligible']['count']:<10} {combined['right_gripper_skip_eligible']['percentage']:<12.2f}%")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:666:            report_lines.append(f"{'Both Grippers Skip Eligible':<35} {combined['both_grippers_skip_eligible']['count']:<10} {combined['both_grippers_skip_eligible']['percentage']:<12.2f}%")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:676:                    report_lines.append(f"Left Gripper Min Distance to Objects:")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:677:                    report_lines.append(f"  Min: {left_stats['min']:.4f}m, Max: {left_stats['max']:.4f}m")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:678:                    report_lines.append(f"  Mean: {left_stats['mean']:.4f}m, Std: {left_stats['std']:.4f}m")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:679:                    report_lines.append(f"  Above 0.2m threshold: {left_stats['threshold_0_2']} clips ({left_stats['threshold_0_2_percentage']:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:684:                    report_lines.append(f"Right Gripper Min Distance to Objects:")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:685:                    report_lines.append(f"  Min: {right_stats['min']:.4f}m, Max: {right_stats['max']:.4f}m")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:686:                    report_lines.append(f"  Mean: {right_stats['mean']:.4f}m, Std: {right_stats['std']:.4f}m")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:687:                    report_lines.append(f"  Above 0.2m threshold: {right_stats['threshold_0_2']} clips ({right_stats['threshold_0_2_percentage']:.2f}%)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:data_integrity_check.py:954:    print(f"Integrity check completed in {elapsed_time:.2f} seconds")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:51:        print(f"DepthEstimator initialized with checkpoint: {ckpt_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:63:                raise FileNotFoundError(f"FoundationStereo config file not found: {self.cfg_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:67:                    f"(got directory: {self.ckpt_path})"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:70:                raise FileNotFoundError(f"FoundationStereo checkpoint not found: {self.ckpt_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:93:            assert os.path.isfile(path), f"FoundationStereo checkpoint not found: {path}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:95:            assert os.path.exists(cfg), f"FoundationStereo config file not found: {cfg}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:119:                f"FoundationStereo cfg missing vit_size: {cfg_path}. "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:153:        print(f"FoundationStereo model loaded successfully (step: {ckpt.get('global_step', 'unknown')}, epoch: {ckpt.get('epoch', 'unknown')})")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:167:        print(f"Camera parameters set - baseline: {baseline:.4f}m, fx: {intrinsic[0,0]:.2f}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:179:        print(f"Inference parameters set - hierarchical: {use_hierarchical}, iters: {iters}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:depth_estimator.py:361:            raise ValueError(f"Unsupported image shape: {image.shape}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:make_wds_manifest.py:80:                        f"Got: {type(item)}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:make_wds_manifest.py:90:        raise ValueError(f"Missing 'valid_clips' in integrity file: {integrity_check_file}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:make_wds_manifest.py:190:        raise FileNotFoundError(f"Integrity check file not found: {integrity_check_file}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:85:            print(f"Resume check [{self.uuid}]: 2d_flows={tracks_state}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:90:                print(f"Will process {scene_path}: (tracks={tracks_state})")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:95:            print(f"Removed stale temp file: {self.cache_h5_tmp_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:99:        print(f"[{get_time_str()}] Processing scene for tracks cache: {scene_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:256:            cams_group = f.create_group('cameras')
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:258:                g_cam = cams_group.create_group(cam_key)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:260:                g_clips = g_cam.create_group('clips')
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:262:                    g_clip = g_clips.create_group(clip_key)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:272:            proprio_group = f.create_group('proprio')
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:274:                g_p = proprio_group.create_group(clip_key)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:356:        tqdm.write(f"[{get_time_str()}] Worker {args.rank} processing: {scene_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_2d_flows.py:372:        tqdm.write(f"[{get_time_str()}] Done with scene {get_uuid(scene_path)}: status={ok}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:76:            raise ValueError(f"Depth file missing metadata group: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:80:            raise ValueError(f"Depth file metadata incomplete: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:85:            raise ValueError(f"Depth file missing camera groups: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:94:                    raise ValueError(f"Depth file missing {key} in {camera_group_name}: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:96:                    raise ValueError(f"Depth file {key} incomplete in {camera_group_name}: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:129:    print(f"[{get_time_str()}] Processing scene: {uuid}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:145:        metadata_group = f.create_group('metadata')
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:154:            print(f"[{get_time_str()}] Processing camera {i+1}/{total_cameras}: {camera_serial}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:181:            camera_group = f.create_group(camera_group_name)
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:208:            print(f"[{get_time_str()}] Saved depth data for camera {camera_group_name}: {depth_uint16.shape}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:264:    print(f"[{get_time_str()}] Rank {args.rank}/{args.world_size}: Processing {len(paths_to_process)}/{len(all_paths)} scenes")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:269:        raise FileNotFoundError(f"FoundationStereo checkpoint not found: {args.foundation_stereo_ckpt}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:271:        raise FileNotFoundError(f"FoundationStereo cfg not found: {args.foundation_stereo_cfg}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:296:    print(f"  Total scenes processed: {total_processed}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:297:    print(f"  Successful: {total_successful}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_depth.py:298:    print(f"  Success rate: {100*total_successful/total_processed:.1f}%")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics.py:98:    _print(f"Rank {args.rank}/{args.world_size}: Processing {len(paths_to_process)}/{len(all_paths)} scenes")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics.py:107:    assert os.path.exists(vggt_model_path), f"VGGT model file not found: {vggt_model_path}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics.py:152:    _print(f"  Total scenes processed: {total_processed}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics.py:153:    _print(f"  Successful: {total_successful}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics.py:154:    _print(f"  Skipped: {total_skipped}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics.py:155:    _print(f"  Success rate: {100*total_successful/total_processed:.1f}%")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:68:        return False, h5_path, f"Precomputed depth file not found: {h5_path}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:74:            raise ValueError(f"Invalid depth file: missing metadata in {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:78:            raise ValueError(f"Depth file missing write_complete flag: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:80:            raise ValueError(f"Depth file not complete: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:85:            raise ValueError(f"No camera groups found in depth file: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:112:        return False, json_path, f"Camera results file not found: {json_path}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:120:        raise ValueError(f"Invalid camera results file: missing uuid in {json_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:123:        raise ValueError(f"UUID mismatch in camera results file: expected {uuid}, got {data['uuid']}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:138:        raise ValueError(f"No camera data found in results file: {json_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:295:        assert os.path.exists(urdf_path), f"URDF file not found: {urdf_path}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:297:        print(f"Loaded URDF from: {urdf_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_extrinsics_utils.py:425:            f"Available robot serials: {available[:10]}{'...' if len(available) > 10 else ''}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:121:        print(f"Worker {rank}: Loaded existing transforms file with {len(all_transforms)} entries")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:138:                print(f"Worker {rank}: Saved {len(all_transforms)} transforms (intermediate save)")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:144:    print(f"Worker {rank}: Saved {len(all_transforms)} transforms to {output_file}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:192:    print(f"Total transforms found: {total_transforms}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:251:        print(f"  Total samples: {len(transforms)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:252:        print(f"  Samples after translation filter: {np.sum(translation_mask)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:253:        print(f"  Samples after rotation filter: {np.sum(angular_mask)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:254:        print(f"  Final samples after filtering: {np.sum(combined_mask)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:318:        print(f"\nRobot Serial: {robot_serial}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:319:        print(f"Wrist Camera Serial: {results['wrist_cam_serial']}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:320:        print(f"Number of samples: {results['num_samples_after_filtering']} (filtered from {results['num_samples_before_filtering']})")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:326:        print(f"X: {mean_translation[0]:.6f} ± {translation_std[0]:.6f}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:327:        print(f"Y: {mean_translation[1]:.6f} ± {translation_std[1]:.6f}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:328:        print(f"Z: {mean_translation[2]:.6f} ± {translation_std[2]:.6f}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/compute_gripper2wrist.py:331:        print(f"Mean Angular Deviation: {results['angular_deviation_mean_deg']:.2f}° ± {results['angular_deviation_std_deg']:.2f}°")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:98:            f"Invalid source/target resolution for intrinsic scaling: "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:143:                raise RuntimeError(f"2d flows cache missing write_complete attr: {cache_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:145:                raise RuntimeError(f"2d flows cache is incomplete: {cache_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:244:        assert os.path.exists(cameras_json_path), f"Cameras JSON not found: {cameras_json_path}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:503:                clip_group = f.create_group(f"{clip_key}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:522:                    camera_group = clip_group.create_group(f'camera_{camera_prefix}')
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:550:                            f"RGB/depth source resolution mismatch for {camera_prefix}: "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:551:                            f"rgb={initial_rgb_src.shape[:2]}, depth={initial_depth_src.shape}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:621:            f"Invalid seed_mask_mode: {seed_mask_mode}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:638:            f"[{get_time_str()}] Converting {uuid}: tracking_mask_mode={tracking_mask_mode}, "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:643:        assert os.path.exists(depth_h5_path), f"Depth file not found: {depth_h5_path}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:675:                    # Parse start:end
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:676:                    start, end = [int(x) for x in clip_key.split(':')]
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:678:                    clip_ts = timestamps[start:end]
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:831:        assert outlier_scope in ('global', 'per_camera', 'none'), f"Invalid outlier_scope: {outlier_scope}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:920:            raise FileNotFoundError(f"Input scene list not found: {input_txt}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:924:            raise ValueError(f"Input scene list is empty: {input_txt}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:934:                errors.append(f"{scene_path}: failed to extract uuid ({exc})")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:949:                errors.append(f"{scene_path} ({uuid}): missing required artifacts -> {', '.join(missing)}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:956:                            f"{scene_path} ({uuid}): cache exists but is incomplete "
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:961:                errors.append(f"{scene_path} ({uuid}): failed to read cache {cache_path} ({exc})")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:975:                f"Found {len(errors)} issue(s):\n{msg}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:1050:        print(f"[{get_time_str()}] ERROR: flows_2d_dir not found: {cache_dir}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:1077:            f"(from --input: {args.input})"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/convert_2d_flows_to_3d.py:1105:        tqdm.write(f"[{get_time_str()}] Converting: {fp}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/download_zed_calibrations.py:45:    calibration_url = f"http://calib.stereolabs.com/?SN={serial}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/download_zed_calibrations.py:94:        print(f"Error: Scene list file not found: {args.scene_list}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:116:        raise ValueError(f"Error opening SVO file {local_svo_path}: {err}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:219:                raise ValueError(f"Error grabbing frame from SVO for camera {camera_name}: {err}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:283:                assert len(data[modality]) == len(proprio_timestamps_list), f"Length mismatch for {modality}: {len(data[modality])} != {len(proprio_timestamps_list)}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:315:                assert len(data[camera_serial][key]) == len(camera_timestamps_list), f"Length mismatch for {key}: {len(data[camera_serial][key])} != {len(camera_timestamps_list)}"
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:331:            print(f"{modality} alignment errors (seconds):")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:332:            print(f"  Average: {np.mean(errors):.3f}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:333:            print(f"  Max: {np.max(errors):.3f}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:334:            print(f"  Min: {np.min(errors):.3f}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:387:            print(f"Processing SVO file for camera {camera_name}: {local_svo_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:401:                print(f"Camera {camera_name} resolution: {width}x{height}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:476:        if not metadata_filename.startswith("metadata_") or not metadata_filename.endswith(".json"):
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:477:            raise ValueError(f"Unexpected metadata filename format: {metadata_filename}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:489:    if not metadata_filename.startswith("metadata_") or not metadata_filename.endswith(".json"):
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:490:        raise ValueError(f"Unexpected metadata filename format: {metadata_filename}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/droid_utils.py:544:        raise FileNotFoundError(f"Transform file not found: {transforms_file}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_io.py:45:        raise FileNotFoundError(f"Precomputed depth file not found: {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_io.py:49:            raise ValueError(f"Invalid depth file: missing metadata in {h5_path}")
+3872ec6ee73146aa671192ef79b5dfbedc0246e3:real/extrinsics_io.py:53:            raise ValueError(f"Depth file missing write_complete flag: {h5_path}")

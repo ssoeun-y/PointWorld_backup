@@ -1,0 +1,926 @@
+===== START v2 task-0010 =====
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+================================================================================
+ACC-ONLY BOUNDARY CORRECTION PA-MPJPE
+TASK = task-0010
+TARGETS = 621
+VARIANTS = Original + Original repeat + Corrected
+JERK/MSJ = NOT USED
+================================================================================
+Overwriting seed for eval
+Using eval dir: eval_logs/20261010_221701-None-split=test-seed=42
+Applied canonical checkpoint model_contract for evaluation model initialization.
+[2026-10-10 22:17:10] Rank 1/1 using device cuda
+[2026-10-10 22:17:10] Experiment ID: dummy-7r1xv6cc
+[2026-10-10 22:17:10] Saving to: train_logs/dummy-7r1xv6cc
+[2026-10-10 22:17:10] Loading checkpoint from /home/soenchun/cse/PointWorld_workspace/PointWorld/pretrained_checkpoints/large-droid+behavior/model-best.pt
+Loading canonical statistics from stats/droid_behavior/norm_stats.json
+[2026-10-10 22:18:07] model/total_params            : 1288475176
+[2026-10-10 22:18:07] model/scene_features_dim      : 42
+[2026-10-10 22:18:07] model/robot_features_dim      : 17
+[2026-10-10 22:18:07] Experiment Name               : dummy-7r1xv6cc
+[2026-10-10 22:18:07] Wandb ID                      : 7r1xv6cc
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/urdfpy/urdf.py:2169: RuntimeWarning: invalid value encountered in divide
+  value = value / np.linalg.norm(value)
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+IFF_PHASE task-0010_episode_00100010-240:251 variant 2 acc_SI 0.2247293095525894 accepted True max_phase_delta 0.184651076875737
+[task-0010] 1/621 objects=3 task-0010_episode_00100010-240:251
+IFF_PHASE task-0010_episode_00100010-510:521 variant 2 acc_SI 0.24580468438032038 accepted True max_phase_delta 0.18657030666960273
+[task-0010] 2/621 objects=1 task-0010_episode_00100010-510:521
+IFF_PHASE task-0010_episode_00100020-475:486 variant 2 acc_SI 0.24580468417063558 accepted True max_phase_delta 0.049616012692849765
+[task-0010] 3/621 objects=1 task-0010_episode_00100020-475:486
+IFF_PHASE task-0010_episode_00100030-1380:1391 variant 2 acc_SI 0.22645497581782748 accepted True max_phase_delta 0.184651076875737
+[task-0010] 4/621 objects=1 task-0010_episode_00100030-1380:1391
+IFF_PHASE task-0010_episode_00100030-245:256 variant 2 acc_SI 0.24541876750569697 accepted True max_phase_delta 0.18465107681566373
+[task-0010] 5/621 objects=1 task-0010_episode_00100030-245:256
+IFF_PHASE task-0010_episode_00100030-550:561 variant 2 acc_SI 0.24580468413449885 accepted True max_phase_delta 0.1899747218414234
+IFF_PHASE task-0010_episode_00100030-570:581 variant 2 acc_SI 0.2458046841392809 accepted True max_phase_delta 0.16783945261193245
+IFF_PHASE task-0010_episode_00100050-235:246 variant 2 acc_SI 0.24069430051651244 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100050-310:321 variant 2 acc_SI 0.23128217416944824 accepted True max_phase_delta 0.1846513042447544
+IFF_PHASE task-0010_episode_00100050-545:556 variant 2 acc_SI 0.24580468418270857 accepted True max_phase_delta 0.12068466623578367
+IFF_PHASE task-0010_episode_00100050-965:976 variant 2 acc_SI 0.2286220974616898 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100050-985:996 variant 2 acc_SI 0.23042639136201976 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100060-1070:1081 variant 2 acc_SI 0.22473779002980593 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100060-1075:1086 variant 2 acc_SI 0.24580468411342463 accepted True max_phase_delta 0.1175633477681739
+IFF_PHASE task-0010_episode_00100060-1080:1091 variant 2 acc_SI 0.22898915935543637 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100060-315:326 variant 2 acc_SI 0.24580468423162577 accepted True max_phase_delta 0.18463363420866186
+IFF_PHASE task-0010_episode_00100060-350:361 variant 2 acc_SI 0.24580468409365397 accepted True max_phase_delta 0.19013195708952857
+IFF_PHASE task-0010_episode_00100060-550:561 variant 2 acc_SI 0.24580468411115663 accepted True max_phase_delta 0.18254989583798809
+IFF_PHASE task-0010_episode_00100060-560:571 variant 2 acc_SI 0.24335143684036956 accepted True max_phase_delta 0.18465252640498964
+IFF_PHASE task-0010_episode_00100070-205:216 variant 2 acc_SI 0.24580468425438046 accepted True max_phase_delta 0.18110336041330788
+IFF_PHASE task-0010_episode_00100070-255:266 variant 2 acc_SI 0.24580468415737483 accepted True max_phase_delta 0.1678878257307801
+IFF_PHASE task-0010_episode_00100070-270:281 variant 2 acc_SI 0.22870660016848102 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100070-980:991 variant 2 acc_SI 0.18609305041437924 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100080-1215:1226 variant 2 acc_SI 0.24441291808907117 accepted True max_phase_delta 0.18465107707979422
+IFF_PHASE task-0010_episode_00100080-1225:1236 variant 2 acc_SI 0.24580468410854012 accepted True max_phase_delta 0.1594331745387949
+IFF_PHASE task-0010_episode_00100080-1275:1286 variant 2 acc_SI 0.24580468411807044 accepted True max_phase_delta 0.1945675042374413
+IFF_PHASE task-0010_episode_00100090-1015:1026 variant 2 acc_SI 0.22826619916542495 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100090-550:561 variant 2 acc_SI 0.2458046841054918 accepted True max_phase_delta 0.21173757658276848
+IFF_PHASE task-0010_episode_00100090-720:731 variant 2 acc_SI 0.24580468413464346 accepted True max_phase_delta 0.06818019995298297
+IFF_PHASE task-0010_episode_00100090-725:736 variant 2 acc_SI 0.24580468420674226 accepted True max_phase_delta 0.18526563558538278
+IFF_PHASE task-0010_episode_00100090-950:961 variant 2 acc_SI 0.24580468410017564 accepted True max_phase_delta 0.0730727283619923
+IFF_PHASE task-0010_episode_00100120-1110:1121 variant 2 acc_SI 0.24580468474018038 accepted True max_phase_delta 0.18618754134195115
+IFF_PHASE task-0010_episode_00100120-1165:1176 variant 2 acc_SI 0.24024373088594964 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00100120-175:186 variant 2 acc_SI 0.24580468417041695 accepted True max_phase_delta 0.10713024499909096
+IFF_PHASE task-0010_episode_00100120-435:446 variant 2 acc_SI 0.24580468415647977 accepted True max_phase_delta 0.17184246056921904
+IFF_PHASE task-0010_episode_00100130-1085:1096 variant 2 acc_SI 0.24580468410896145 accepted True max_phase_delta 0.15093480775180562
+IFF_PHASE task-0010_episode_00100130-1135:1146 variant 2 acc_SI 0.24580468419905 accepted True max_phase_delta 0.18456965047136897
+IFF_PHASE task-0010_episode_00100130-1160:1171 variant 2 acc_SI 0.24580468447342013 accepted True max_phase_delta 0.1838927485735642
+IFF_PHASE task-0010_episode_00100130-1210:1221 variant 2 acc_SI 0.2458046841211464 accepted True max_phase_delta 0.18516770752300848
+IFF_PHASE task-0010_episode_00100130-520:531 variant 2 acc_SI 0.22704142535020172 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100140-1100:1111 variant 2 acc_SI 0.24580468414437287 accepted True max_phase_delta 0.044327568693078856
+IFF_PHASE task-0010_episode_00100140-1115:1126 variant 2 acc_SI 0.24580468409570014 accepted True max_phase_delta 0.18485219494646454
+IFF_PHASE task-0010_episode_00100140-125:136 variant 2 acc_SI 0.2458046840949551 accepted True max_phase_delta 0.1637749608927903
+IFF_PHASE task-0010_episode_00100140-145:156 variant 2 acc_SI 0.23303015808971952 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100140-525:536 variant 2 acc_SI 0.2458046841432723 accepted True max_phase_delta 0.12574653812724357
+IFF_PHASE task-0010_episode_00100140-540:551 variant 2 acc_SI 0.24580468433682423 accepted True max_phase_delta 0.18200318487616274
+IFF_PHASE task-0010_episode_00100140-805:816 variant 2 acc_SI 0.23217345385843124 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100150-420:431 variant 2 acc_SI 0.23438939646470178 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100170-165:176 variant 2 acc_SI 0.24580468412419482 accepted True max_phase_delta 0.10695438949464764
+IFF_PHASE task-0010_episode_00100170-340:351 variant 2 acc_SI 0.2458046841617044 accepted True max_phase_delta 0.18226619495907137
+[task-0010] 50/621 objects=1 task-0010_episode_00100170-340:351
+IFF_PHASE task-0010_episode_00100170-360:371 variant 2 acc_SI 0.22436960801841627 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100190-1165:1176 variant 2 acc_SI 0.2458046841764166 accepted True max_phase_delta 0.18978796643778217
+IFF_PHASE task-0010_episode_00100190-1205:1216 variant 2 acc_SI 0.22668548895860646 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100190-1250:1261 variant 2 acc_SI 0.2458046841976222 accepted True max_phase_delta 0.1782936583402881
+IFF_PHASE task-0010_episode_00100190-540:551 variant 2 acc_SI 0.22789188521015885 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100190-555:566 variant 2 acc_SI 0.22246869142892572 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100190-980:991 variant 2 acc_SI 0.24580468412932563 accepted True max_phase_delta 0.18464205625465446
+IFF_PHASE task-0010_episode_00100200-1175:1186 variant 2 acc_SI 0.2376053927229613 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100200-480:491 variant 2 acc_SI 0.24580468484053666 accepted True max_phase_delta 0.12309238115110421
+IFF_PHASE task-0010_episode_00100210-920:931 variant 2 acc_SI 0.24580468416620216 accepted True max_phase_delta 0.21589869115803229
+IFF_PHASE task-0010_episode_00100210-950:961 variant 2 acc_SI 0.24423655553284532 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100220-1000:1011 variant 2 acc_SI 0.2458046843267089 accepted True max_phase_delta 0.20131448957828457
+IFF_PHASE task-0010_episode_00100220-135:146 variant 2 acc_SI 0.24381196760715676 accepted True max_phase_delta 0.18465107717200224
+IFF_PHASE task-0010_episode_00100220-890:901 variant 2 acc_SI 0.2458046841267511 accepted True max_phase_delta 0.15408575599738272
+IFF_PHASE task-0010_episode_00100270-800:811 variant 2 acc_SI 0.2458046841656773 accepted True max_phase_delta 0.18188766019979896
+IFF_PHASE task-0010_episode_00100280-185:196 variant 2 acc_SI 0.24580468415645232 accepted True max_phase_delta 0.1887741002316803
+IFF_PHASE task-0010_episode_00100290-245:256 variant 2 acc_SI 0.24580468420569898 accepted True max_phase_delta 0.18047437242798203
+IFF_PHASE task-0010_episode_00100290-770:781 variant 2 acc_SI 0.24580468412093945 accepted True max_phase_delta 0.14862727659008224
+IFF_PHASE task-0010_episode_00100290-795:806 variant 2 acc_SI 0.22299518282198086 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100300-365:376 variant 2 acc_SI 0.2458046842390199 accepted True max_phase_delta 0.18772935376119282
+IFF_PHASE task-0010_episode_00100310-325:336 variant 2 acc_SI 0.2458046840957386 accepted True max_phase_delta 0.18998181813509563
+IFF_PHASE task-0010_episode_00100310-660:671 variant 2 acc_SI 0.24580468432510075 accepted True max_phase_delta 0.19005507434311486
+IFF_PHASE task-0010_episode_00100330-1135:1146 variant 2 acc_SI 0.22667296122205555 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100330-190:201 variant 2 acc_SI 0.24580468450129495 accepted True max_phase_delta 0.1521315244662791
+IFF_PHASE task-0010_episode_00100330-915:926 variant 2 acc_SI 0.24580468432296235 accepted True max_phase_delta 0.19350850917141305
+IFF_PHASE task-0010_episode_00100330-925:936 variant 2 acc_SI 0.24580468435042038 accepted True max_phase_delta 0.17256999019806507
+IFF_PHASE task-0010_episode_00100330-955:966 variant 2 acc_SI 0.24270364826768742 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100360-240:251 variant 2 acc_SI 0.24580468414729864 accepted True max_phase_delta 0.1763692217358921
+IFF_PHASE task-0010_episode_00100370-1115:1126 variant 2 acc_SI 0.2458046845090112 accepted True max_phase_delta 0.17387522912054543
+IFF_PHASE task-0010_episode_00100370-465:476 variant 2 acc_SI 0.22940604296588624 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100380-185:196 variant 2 acc_SI 0.2458046840882298 accepted True max_phase_delta 0.18541611372145272
+IFF_PHASE task-0010_episode_00100380-210:221 variant 2 acc_SI 0.21947865412073672 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100380-275:286 variant 2 acc_SI 0.2258194389357639 accepted True max_phase_delta 0.18465107717111628
+IFF_PHASE task-0010_episode_00100380-295:306 variant 2 acc_SI 0.24580468431274843 accepted True max_phase_delta 0.19638739871587774
+IFF_PHASE task-0010_episode_00100380-300:311 variant 2 acc_SI 0.2458046841869154 accepted True max_phase_delta 0.18529193924805565
+IFF_PHASE task-0010_episode_00100390-1045:1056 variant 2 acc_SI 0.2458046841738058 accepted True max_phase_delta 0.18479015284779798
+IFF_PHASE task-0010_episode_00100390-420:431 variant 2 acc_SI 0.24580468410221756 accepted True max_phase_delta 0.18591018835898243
+IFF_PHASE task-0010_episode_00100390-425:436 variant 2 acc_SI 0.2458046841515641 accepted True max_phase_delta 0.18362776003199288
+IFF_PHASE task-0010_episode_00100390-445:456 variant 2 acc_SI 0.24580468414891632 accepted True max_phase_delta 0.21033076535237782
+IFF_PHASE task-0010_episode_00100400-125:136 variant 2 acc_SI 0.24580468438623082 accepted True max_phase_delta 0.17991331724553383
+IFF_PHASE task-0010_episode_00100400-475:486 variant 2 acc_SI 0.24580468412888848 accepted True max_phase_delta 0.17455308379544743
+IFF_PHASE task-0010_episode_00100400-480:491 variant 2 acc_SI 0.24580468409389072 accepted True max_phase_delta 0.21106357109656937
+IFF_PHASE task-0010_episode_00100400-785:796 variant 2 acc_SI 0.2184059813184825 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100410-585:596 variant 2 acc_SI 0.24580468409661518 accepted True max_phase_delta 0.1384207218290392
+IFF_PHASE task-0010_episode_00100410-610:621 variant 2 acc_SI 0.24580468410455936 accepted True max_phase_delta 0.13354019941578255
+IFF_PHASE task-0010_episode_00100410-90:101 variant 2 acc_SI 0.24580468421663038 accepted True max_phase_delta 0.18368190657552752
+IFF_PHASE task-0010_episode_00100430-245:256 variant 2 acc_SI 0.24580468415814424 accepted True max_phase_delta 0.18506878472368982
+IFF_PHASE task-0010_episode_00100430-500:511 variant 2 acc_SI 0.22691465887292608 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100430-510:521 variant 2 acc_SI 0.23688887170702255 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100440-1085:1096 variant 2 acc_SI 0.22679978851577481 accepted True max_phase_delta 0.18465107675193382
+[task-0010] 100/621 objects=1 task-0010_episode_00100440-1085:1096
+IFF_PHASE task-0010_episode_00100440-330:341 variant 2 acc_SI 0.24382588102489886 accepted True max_phase_delta 0.18465107708406903
+IFF_PHASE task-0010_episode_00100440-335:346 variant 2 acc_SI 0.2458046840925923 accepted True max_phase_delta 0.1872197606418342
+IFF_PHASE task-0010_episode_00100440-680:691 variant 2 acc_SI 0.2458046841386263 accepted True max_phase_delta 0.18354916909983876
+IFF_PHASE task-0010_episode_00100460-565:576 variant 2 acc_SI 0.2443147293267577 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100470-415:426 variant 2 acc_SI 0.24580468418147938 accepted True max_phase_delta 0.16886268831228834
+IFF_PHASE task-0010_episode_00100470-620:631 variant 2 acc_SI 0.2384369271317737 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100490-315:326 variant 2 acc_SI 0.23662543852404003 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100490-325:336 variant 2 acc_SI 0.23101950989333037 accepted True max_phase_delta 0.18465089030267867
+IFF_PHASE task-0010_episode_00100490-345:356 variant 2 acc_SI 0.24580468426811 accepted True max_phase_delta 0.12910869681040182
+IFF_PHASE task-0010_episode_00100490-355:366 variant 2 acc_SI 0.237537967070589 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100490-680:691 variant 2 acc_SI 0.23232380104260397 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100510-295:306 variant 2 acc_SI 0.24367189473253753 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100520-1120:1131 variant 2 acc_SI 0.24580468430218036 accepted True max_phase_delta 0.1878118057552829
+IFF_PHASE task-0010_episode_00100520-780:791 variant 2 acc_SI 0.22376448990209025 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100530-1330:1341 variant 2 acc_SI 0.2256325646555029 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100530-1335:1346 variant 2 acc_SI 0.23306169957533698 accepted True max_phase_delta 0.18465109795385404
+IFF_PHASE task-0010_episode_00100530-1555:1566 variant 2 acc_SI 0.23473259702493865 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100530-240:251 variant 2 acc_SI 0.24351109452578584 accepted True max_phase_delta 0.18465107675193382
+IFF_PHASE task-0010_episode_00100530-635:646 variant 2 acc_SI 0.24580468410953168 accepted True max_phase_delta 0.18532834198055292
+IFF_PHASE task-0010_episode_00100530-975:986 variant 2 acc_SI 0.24211338219332085 accepted True max_phase_delta 0.1846510767821039
+IFF_PHASE task-0010_episode_00100540-1020:1031 variant 2 acc_SI 0.24580468408824915 accepted True max_phase_delta 0.18539844495863012
+IFF_PHASE task-0010_episode_00100540-1055:1066 variant 2 acc_SI 0.24580468411140505 accepted True max_phase_delta 0.13091704904877854
+IFF_PHASE task-0010_episode_00100550-1115:1126 variant 2 acc_SI 0.24580468409187237 accepted True max_phase_delta 0.04031912287988426
+IFF_PHASE task-0010_episode_00100550-1315:1326 variant 2 acc_SI 0.24580468421418422 accepted True max_phase_delta 0.17307131588002989
+IFF_PHASE task-0010_episode_00100550-1375:1386 variant 2 acc_SI 0.24284900249444022 accepted True max_phase_delta 0.18465107687551097
+IFF_PHASE task-0010_episode_00100550-1390:1401 variant 2 acc_SI 0.22485249183582556 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100560-210:221 variant 2 acc_SI 0.23464158512300476 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100560-220:231 variant 2 acc_SI 0.2338756946384122 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00100560-670:681 variant 2 acc_SI 0.23610945373553735 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100560-700:711 variant 2 acc_SI 0.2255537542454938 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100570-195:206 variant 2 acc_SI 0.24580468430467559 accepted True max_phase_delta 0.18796059127709652
+IFF_PHASE task-0010_episode_00100580-120:131 variant 2 acc_SI 0.24580468410097078 accepted True max_phase_delta 0.18415605427674997
+IFF_PHASE task-0010_episode_00100580-170:181 variant 2 acc_SI 0.23778824906815899 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100580-710:721 variant 2 acc_SI 0.22594953684203078 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100580-930:941 variant 2 acc_SI 0.24580468409539294 accepted True max_phase_delta 0.18917812679654045
+IFF_PHASE task-0010_episode_00100590-635:646 variant 2 acc_SI 0.24580468411491158 accepted True max_phase_delta 0.1914253594558022
+IFF_PHASE task-0010_episode_00100590-965:976 variant 2 acc_SI 0.24580468427128677 accepted True max_phase_delta 0.19369891387021365
+IFF_PHASE task-0010_episode_00100600-1035:1046 variant 2 acc_SI 0.2375885932486785 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100600-805:816 variant 2 acc_SI 0.24580468433360617 accepted True max_phase_delta 0.19140613756153702
+IFF_PHASE task-0010_episode_00100600-85:96 variant 2 acc_SI 0.24580468421595342 accepted True max_phase_delta 0.17938478190434726
+IFF_PHASE task-0010_episode_00100610-1005:1016 variant 2 acc_SI 0.24580468424536508 accepted True max_phase_delta 0.15771568256545265
+IFF_PHASE task-0010_episode_00100610-1285:1296 variant 2 acc_SI 0.24448521674044935 accepted True max_phase_delta 0.18464993285463427
+IFF_PHASE task-0010_episode_00100610-175:186 variant 2 acc_SI 0.24580468410767745 accepted True max_phase_delta 0.18021773849331435
+IFF_PHASE task-0010_episode_00100610-240:251 variant 2 acc_SI 0.22607873277811968 accepted True max_phase_delta 0.1846510768526488
+IFF_PHASE task-0010_episode_00100610-270:281 variant 2 acc_SI 0.24580468422590782 accepted True max_phase_delta 0.18468670418285793
+IFF_PHASE task-0010_episode_00100610-275:286 variant 2 acc_SI 0.24580468411711026 accepted True max_phase_delta 0.1913585246541647
+IFF_PHASE task-0010_episode_00100620-1225:1236 variant 2 acc_SI 0.24580468411029965 accepted True max_phase_delta 0.18829167762000054
+IFF_PHASE task-0010_episode_00100620-1240:1251 variant 2 acc_SI 0.2424558068834503 accepted True max_phase_delta 0.18465762502349126
+IFF_PHASE task-0010_episode_00100620-450:461 variant 2 acc_SI 0.24580468414613157 accepted True max_phase_delta 0.1968594844803606
+IFF_PHASE task-0010_episode_00100620-875:886 variant 2 acc_SI 0.23769924011872093 accepted True max_phase_delta 0.184651076875737
+[task-0010] 150/621 objects=3 task-0010_episode_00100620-875:886
+IFF_PHASE task-0010_episode_00100620-885:896 variant 2 acc_SI 0.2458046842554271 accepted True max_phase_delta 0.09179573586575618
+IFF_PHASE task-0010_episode_00100620-950:961 variant 2 acc_SI 0.24580468413203665 accepted True max_phase_delta 0.18194743131677216
+IFF_PHASE task-0010_episode_00100620-980:991 variant 2 acc_SI 0.24580468417836313 accepted True max_phase_delta 0.19886049769065473
+IFF_PHASE task-0010_episode_00100640-1000:1011 variant 2 acc_SI 0.24580468437024977 accepted True max_phase_delta 0.18502379813016123
+IFF_PHASE task-0010_episode_00100640-1015:1026 variant 2 acc_SI 0.24580468411267783 accepted True max_phase_delta 0.19335215076767298
+IFF_PHASE task-0010_episode_00100640-175:186 variant 2 acc_SI 0.24580468412310139 accepted True max_phase_delta 0.18655232786459308
+IFF_PHASE task-0010_episode_00100640-475:486 variant 2 acc_SI 0.2458046841592127 accepted True max_phase_delta 0.1317342069495382
+IFF_PHASE task-0010_episode_00100640-760:771 variant 2 acc_SI 0.24580468432671754 accepted True max_phase_delta 0.1839096541302072
+IFF_PHASE task-0010_episode_00100640-820:831 variant 2 acc_SI 0.23029130070771892 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100640-950:961 variant 2 acc_SI 0.24580468429555294 accepted True max_phase_delta 0.15139103456137448
+IFF_PHASE task-0010_episode_00100680-155:166 variant 2 acc_SI 0.24580468410676728 accepted True max_phase_delta 0.1414074586099492
+IFF_PHASE task-0010_episode_00100680-385:396 variant 2 acc_SI 0.24580468415596268 accepted True max_phase_delta 0.16896470903747485
+IFF_PHASE task-0010_episode_00100680-700:711 variant 2 acc_SI 0.24580468414691592 accepted True max_phase_delta 0.18475358560698307
+IFF_PHASE task-0010_episode_00100690-140:151 variant 2 acc_SI 0.24580468434848246 accepted True max_phase_delta 0.18607355261337366
+IFF_PHASE task-0010_episode_00100690-370:381 variant 2 acc_SI 0.2458046840901714 accepted True max_phase_delta 0.10512295150059536
+IFF_PHASE task-0010_episode_00100690-625:636 variant 2 acc_SI 0.23612555692337703 accepted True max_phase_delta 0.18465107717200224
+IFF_PHASE task-0010_episode_00100690-665:676 variant 2 acc_SI 0.22921882027011498 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100690-945:956 variant 2 acc_SI 0.24580468419388468 accepted True max_phase_delta 0.1800479096835783
+IFF_PHASE task-0010_episode_00100700-180:191 variant 2 acc_SI 0.24580468412888093 accepted True max_phase_delta 0.16766238159437208
+IFF_PHASE task-0010_episode_00100700-365:376 variant 2 acc_SI 0.23074419492374315 accepted True max_phase_delta 0.18465107724618202
+IFF_PHASE task-0010_episode_00100700-375:386 variant 2 acc_SI 0.24580468412274742 accepted True max_phase_delta 0.21180790128697113
+IFF_PHASE task-0010_episode_00100700-665:676 variant 2 acc_SI 0.22866638131894362 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100700-760:771 variant 2 acc_SI 0.24563004097678792 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00100700-765:776 variant 2 acc_SI 0.24580468417754303 accepted True max_phase_delta 0.212495508496777
+IFF_PHASE task-0010_episode_00100700-930:941 variant 2 acc_SI 0.24580468411664508 accepted True max_phase_delta 0.12614553539178353
+IFF_PHASE task-0010_episode_00100720-1055:1066 variant 2 acc_SI 0.22297950815782647 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100720-1335:1346 variant 2 acc_SI 0.2458046841948588 accepted True max_phase_delta 0.18752393127060074
+IFF_PHASE task-0010_episode_00100720-735:746 variant 2 acc_SI 0.2458046841778131 accepted True max_phase_delta 0.12962260510661228
+IFF_PHASE task-0010_episode_00100730-1155:1166 variant 2 acc_SI 0.24580468416401385 accepted True max_phase_delta 0.12478385634834765
+IFF_PHASE task-0010_episode_00100730-1175:1186 variant 2 acc_SI 0.24580468410446388 accepted True max_phase_delta 0.18936129800239776
+IFF_PHASE task-0010_episode_00100730-225:236 variant 2 acc_SI 0.2394012666214751 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100730-305:316 variant 2 acc_SI 0.22807943212454457 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100730-905:916 variant 2 acc_SI 0.24580468408818354 accepted True max_phase_delta 0.18457294095135612
+IFF_PHASE task-0010_episode_00100730-925:936 variant 2 acc_SI 0.2458046841330816 accepted True max_phase_delta 0.15613681341982355
+IFF_PHASE task-0010_episode_00100740-315:326 variant 2 acc_SI 0.24580468408767026 accepted True max_phase_delta 0.09537313469314423
+IFF_PHASE task-0010_episode_00100740-535:546 variant 2 acc_SI 0.2272440547877786 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100740-540:551 variant 2 acc_SI 0.24580468411301168 accepted True max_phase_delta 0.18458820166161338
+IFF_PHASE task-0010_episode_00100740-835:846 variant 2 acc_SI 0.23259190626010734 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100740-940:951 variant 2 acc_SI 0.2458046841103328 accepted True max_phase_delta 0.18653091900461716
+IFF_PHASE task-0010_episode_00100750-670:681 variant 2 acc_SI 0.24580468537721079 accepted True max_phase_delta 0.18657919365580877
+IFF_PHASE task-0010_episode_00100750-745:756 variant 2 acc_SI 0.22915495158314061 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100760-1370:1381 variant 2 acc_SI 0.24580468416265183 accepted True max_phase_delta 0.18255727845424907
+IFF_PHASE task-0010_episode_00100760-860:871 variant 2 acc_SI 0.24580468410085396 accepted True max_phase_delta 0.15068317182321422
+IFF_PHASE task-0010_episode_00100760-865:876 variant 2 acc_SI 0.24580468415078416 accepted True max_phase_delta 0.18472571616814193
+IFF_PHASE task-0010_episode_00100770-140:151 variant 2 acc_SI 0.24580468410899556 accepted True max_phase_delta 0.165538966351912
+IFF_PHASE task-0010_episode_00100770-170:181 variant 2 acc_SI 0.24580468413230522 accepted True max_phase_delta 0.1547053933443423
+IFF_PHASE task-0010_episode_00100770-320:331 variant 2 acc_SI 0.24580468409035597 accepted True max_phase_delta 0.12119164437423091
+IFF_PHASE task-0010_episode_00100770-515:526 variant 2 acc_SI 0.24580468418040322 accepted True max_phase_delta 0.18548161247665895
+IFF_PHASE task-0010_episode_00100780-1060:1071 variant 2 acc_SI 0.24580468418994597 accepted True max_phase_delta 0.18437922396509254
+IFF_PHASE task-0010_episode_00100780-1085:1096 variant 2 acc_SI 0.23774387050746743 accepted True max_phase_delta 0.18465107685383542
+[task-0010] 200/621 objects=1 task-0010_episode_00100780-1085:1096
+IFF_PHASE task-0010_episode_00100780-520:531 variant 2 acc_SI 0.2458046840976018 accepted True max_phase_delta 0.1960988032284039
+IFF_PHASE task-0010_episode_00100800-290:301 variant 2 acc_SI 0.23212261203254667 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100800-745:756 variant 2 acc_SI 0.24580468414102355 accepted True max_phase_delta 0.1811135201548586
+IFF_PHASE task-0010_episode_00100800-770:781 variant 2 acc_SI 0.23369935669098454 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100810-390:401 variant 2 acc_SI 0.24518350810538445 accepted True max_phase_delta 0.18465472415087492
+IFF_PHASE task-0010_episode_00100810-665:676 variant 2 acc_SI 0.2442985515103461 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100890-1005:1016 variant 2 acc_SI 0.24580468421366788 accepted True max_phase_delta 0.1574099861643372
+IFF_PHASE task-0010_episode_00100890-210:221 variant 2 acc_SI 0.24272942069426 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100890-245:256 variant 2 acc_SI 0.23451188695604214 accepted True max_phase_delta 0.18465107717200224
+IFF_PHASE task-0010_episode_00100890-270:281 variant 2 acc_SI 0.24580468409060233 accepted True max_phase_delta 0.18467252280216506
+IFF_PHASE task-0010_episode_00100890-790:801 variant 2 acc_SI 0.2458046841679369 accepted True max_phase_delta 0.1542481076671809
+IFF_PHASE task-0010_episode_00100890-795:806 variant 2 acc_SI 0.231128455263598 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100900-365:376 variant 2 acc_SI 0.21398149236278075 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100900-615:626 variant 2 acc_SI 0.238920031891928 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100900-745:756 variant 2 acc_SI 0.2436856640992622 accepted True max_phase_delta 0.18464984514187632
+IFF_PHASE task-0010_episode_00100910-115:126 variant 2 acc_SI 0.23836745989373972 accepted True max_phase_delta 0.18465107707979422
+IFF_PHASE task-0010_episode_00100910-670:681 variant 2 acc_SI 0.2458046842494062 accepted True max_phase_delta 0.18146710031511937
+IFF_PHASE task-0010_episode_00100920-745:756 variant 2 acc_SI 0.24580468409303052 accepted True max_phase_delta 0.09949152401999672
+IFF_PHASE task-0010_episode_00100920-770:781 variant 2 acc_SI 0.22478007792775273 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100920-875:886 variant 2 acc_SI 0.24002231682023234 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100930-140:151 variant 2 acc_SI 0.22877534976365527 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100940-510:521 variant 2 acc_SI 0.2458046842149155 accepted True max_phase_delta 0.2032722884204885
+IFF_PHASE task-0010_episode_00100940-700:711 variant 2 acc_SI 0.2450630428186012 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100950-105:116 variant 2 acc_SI 0.23168735354765452 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100950-460:471 variant 2 acc_SI 0.22986473488284756 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00100950-745:756 variant 2 acc_SI 0.23133059387078675 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100950-755:766 variant 2 acc_SI 0.24580468411593476 accepted True max_phase_delta 0.18500199377022541
+IFF_PHASE task-0010_episode_00100960-620:631 variant 2 acc_SI 0.23662250815065056 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100960-630:641 variant 2 acc_SI 0.24580468410274206 accepted True max_phase_delta 0.09845485797166875
+IFF_PHASE task-0010_episode_00100970-1045:1056 variant 2 acc_SI 0.22186028601711913 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100970-610:621 variant 2 acc_SI 0.2458046840920381 accepted True max_phase_delta 0.025983744705916134
+IFF_PHASE task-0010_episode_00100980-145:156 variant 2 acc_SI 0.2458046843185666 accepted True max_phase_delta 0.1637238357125641
+IFF_PHASE task-0010_episode_00100980-160:171 variant 2 acc_SI 0.2286011529981894 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00100980-345:356 variant 2 acc_SI 0.23268724672953384 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101020-1090:1101 variant 2 acc_SI 0.24580468428070543 accepted True max_phase_delta 0.1846445206091527
+IFF_PHASE task-0010_episode_00101020-255:266 variant 2 acc_SI 0.24580468413558976 accepted True max_phase_delta 0.17147707781714194
+IFF_PHASE task-0010_episode_00101020-565:576 variant 2 acc_SI 0.24580468415992535 accepted True max_phase_delta 0.1931964009109155
+IFF_PHASE task-0010_episode_00101020-585:596 variant 2 acc_SI 0.24532048078698118 accepted True max_phase_delta 0.1846502151909677
+IFF_PHASE task-0010_episode_00101030-270:281 variant 2 acc_SI 0.2458046841000139 accepted True max_phase_delta 0.1826155752006544
+IFF_PHASE task-0010_episode_00102430-460:471 variant 2 acc_SI 0.24197919724581407 accepted True max_phase_delta 0.18465107675193382
+IFF_PHASE task-0010_episode_00102430-970:981 variant 2 acc_SI 0.2458046841275356 accepted True max_phase_delta 0.1852421874213488
+IFF_PHASE task-0010_episode_00102460-475:486 variant 2 acc_SI 0.24580468411637518 accepted True max_phase_delta 0.14035815225046466
+IFF_PHASE task-0010_episode_00102460-560:571 variant 2 acc_SI 0.2458046840888259 accepted True max_phase_delta 0.18294421712370923
+IFF_PHASE task-0010_episode_00102460-575:586 variant 2 acc_SI 0.2346125214257589 accepted True max_phase_delta 0.1846510771713421
+IFF_PHASE task-0010_episode_00102460-585:596 variant 2 acc_SI 0.24580468411708575 accepted True max_phase_delta 0.2039342514796889
+IFF_PHASE task-0010_episode_00102460-780:791 variant 2 acc_SI 0.22356040164293084 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102460-935:946 variant 2 acc_SI 0.24580468411417775 accepted True max_phase_delta 0.058706921781494614
+IFF_PHASE task-0010_episode_00102510-300:311 variant 2 acc_SI 0.23475830964159833 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102520-680:691 variant 2 acc_SI 0.23694170750938448 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102520-860:871 variant 2 acc_SI 0.2458046841270955 accepted True max_phase_delta 0.14659571049349562
+[task-0010] 250/621 objects=3 task-0010_episode_00102520-860:871
+IFF_PHASE task-0010_episode_00102540-330:341 variant 2 acc_SI 0.2213713807412578 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102540-550:561 variant 2 acc_SI 0.24580468415727758 accepted True max_phase_delta 0.16115151357377933
+IFF_PHASE task-0010_episode_00102550-210:221 variant 2 acc_SI 0.24439624421929898 accepted True max_phase_delta 0.18464872872689053
+IFF_PHASE task-0010_episode_00102550-340:351 variant 2 acc_SI 0.24580468416387047 accepted True max_phase_delta 0.1846977185796801
+IFF_PHASE task-0010_episode_00102550-540:551 variant 2 acc_SI 0.23195569634399693 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102550-645:656 variant 2 acc_SI 0.21135321473101745 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102550-750:761 variant 2 acc_SI 0.23642017205047386 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102560-330:341 variant 2 acc_SI 0.21375060138149626 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102560-390:401 variant 2 acc_SI 0.24580468414672102 accepted True max_phase_delta 0.18642129191442836
+IFF_PHASE task-0010_episode_00102560-640:651 variant 2 acc_SI 0.23213773961574985 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102560-745:756 variant 2 acc_SI 0.24279378243647298 accepted True max_phase_delta 0.18465013714816347
+IFF_PHASE task-0010_episode_00102560-845:856 variant 2 acc_SI 0.24070461083400538 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102560-850:861 variant 2 acc_SI 0.24580468412008058 accepted True max_phase_delta 0.18362525263054152
+IFF_PHASE task-0010_episode_00102570-370:381 variant 2 acc_SI 0.2447569713583061 accepted True max_phase_delta 0.18465107717200224
+IFF_PHASE task-0010_episode_00102570-375:386 variant 2 acc_SI 0.2350005194366161 accepted True max_phase_delta 0.18465107717200224
+IFF_PHASE task-0010_episode_00102570-385:396 variant 2 acc_SI 0.23693075088576937 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102570-585:596 variant 2 acc_SI 0.24580468424995616 accepted True max_phase_delta 0.1846645684928716
+IFF_PHASE task-0010_episode_00102570-800:811 variant 2 acc_SI 0.22819888488730902 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102590-210:221 variant 2 acc_SI 0.24580468419012408 accepted True max_phase_delta 0.18463358306818778
+IFF_PHASE task-0010_episode_00102590-225:236 variant 2 acc_SI 0.2458046841093883 accepted True max_phase_delta 0.19934474040083394
+IFF_PHASE task-0010_episode_00102590-605:616 variant 2 acc_SI 0.23800801008783823 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102590-785:796 variant 2 acc_SI 0.24580468419334642 accepted True max_phase_delta 0.14361474622095471
+IFF_PHASE task-0010_episode_00102600-640:651 variant 2 acc_SI 0.24580468414557802 accepted True max_phase_delta 0.18062654363401354
+IFF_PHASE task-0010_episode_00102600-935:946 variant 2 acc_SI 0.24539450753603959 accepted True max_phase_delta 0.18465107687551097
+IFF_PHASE task-0010_episode_00102610-180:191 variant 2 acc_SI 0.24580468412947667 accepted True max_phase_delta 0.15787698740388834
+IFF_PHASE task-0010_episode_00102640-1005:1016 variant 2 acc_SI 0.24580468445725306 accepted True max_phase_delta 0.18763599342884962
+IFF_PHASE task-0010_episode_00102640-220:231 variant 2 acc_SI 0.24580468411184433 accepted True max_phase_delta 0.1891254024720732
+IFF_PHASE task-0010_episode_00102640-935:946 variant 2 acc_SI 0.24580468426989568 accepted True max_phase_delta 0.18357061971452993
+IFF_PHASE task-0010_episode_00102640-945:956 variant 2 acc_SI 0.2458046840962303 accepted True max_phase_delta 0.17077954837896003
+IFF_PHASE task-0010_episode_00102660-645:656 variant 2 acc_SI 0.24580468419509133 accepted True max_phase_delta 0.18462151116406633
+IFF_PHASE task-0010_episode_00102660-805:816 variant 2 acc_SI 0.24580468442138384 accepted True max_phase_delta 0.1720188064674968
+IFF_PHASE task-0010_episode_00102680-325:336 variant 2 acc_SI 0.24580468410089162 accepted True max_phase_delta 0.18740016827831418
+IFF_PHASE task-0010_episode_00102680-330:341 variant 2 acc_SI 0.24580468428005414 accepted True max_phase_delta 0.15143272875138436
+IFF_PHASE task-0010_episode_00102680-615:626 variant 2 acc_SI 0.2458046841761978 accepted True max_phase_delta 0.11501562965326873
+IFF_PHASE task-0010_episode_00102680-635:646 variant 2 acc_SI 0.2458046841785794 accepted True max_phase_delta 0.1992461975609996
+IFF_PHASE task-0010_episode_00102680-665:676 variant 2 acc_SI 0.2458046841172133 accepted True max_phase_delta 0.12079334648362794
+IFF_PHASE task-0010_episode_00102680-865:876 variant 2 acc_SI 0.24580468481502313 accepted True max_phase_delta 0.17993097621798793
+IFF_PHASE task-0010_episode_00102680-900:911 variant 2 acc_SI 0.24580468410987255 accepted True max_phase_delta 0.21177155482612697
+IFF_PHASE task-0010_episode_00102690-150:161 variant 2 acc_SI 0.24580468412697845 accepted True max_phase_delta 0.11536097677469215
+IFF_PHASE task-0010_episode_00102690-980:991 variant 2 acc_SI 0.24580468424160912 accepted True max_phase_delta 0.17275159388380867
+IFF_PHASE task-0010_episode_00102710-325:336 variant 2 acc_SI 0.24580468409354334 accepted True max_phase_delta 0.1854419009118593
+IFF_PHASE task-0010_episode_00102720-215:226 variant 2 acc_SI 0.24580468413977133 accepted True max_phase_delta 0.17727546886533485
+IFF_PHASE task-0010_episode_00102720-375:386 variant 2 acc_SI 0.24580468416962176 accepted True max_phase_delta 0.16216719671938495
+IFF_PHASE task-0010_episode_00102720-515:526 variant 2 acc_SI 0.23311226156151563 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102720-660:671 variant 2 acc_SI 0.24580468411257808 accepted True max_phase_delta 0.13297508112512624
+IFF_PHASE task-0010_episode_00102720-700:711 variant 2 acc_SI 0.2458046841064131 accepted True max_phase_delta 0.15880901722473517
+IFF_PHASE task-0010_episode_00102730-720:731 variant 2 acc_SI 0.24580468412779252 accepted True max_phase_delta 0.16383816735124923
+IFF_PHASE task-0010_episode_00102730-740:751 variant 2 acc_SI 0.23905026321704342 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102750-340:351 variant 2 acc_SI 0.24580468418723306 accepted True max_phase_delta 0.1841089039410635
+IFF_PHASE task-0010_episode_00102750-645:656 variant 2 acc_SI 0.2458046843368527 accepted True max_phase_delta 0.147998601741687
+[task-0010] 300/621 objects=1 task-0010_episode_00102750-645:656
+IFF_PHASE task-0010_episode_00102750-900:911 variant 2 acc_SI 0.22489721011148855 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102750-905:916 variant 2 acc_SI 0.24580468417749313 accepted True max_phase_delta 0.12507859100508556
+IFF_PHASE task-0010_episode_00102760-640:651 variant 2 acc_SI 0.24580468461475155 accepted True max_phase_delta 0.184683060926361
+IFF_PHASE task-0010_episode_00102760-805:816 variant 2 acc_SI 0.24580468415007112 accepted True max_phase_delta 0.13287242643960262
+IFF_PHASE task-0010_episode_00102780-355:366 variant 2 acc_SI 0.24580468414201448 accepted True max_phase_delta 0.18582146586966664
+IFF_PHASE task-0010_episode_00102780-390:401 variant 2 acc_SI 0.2458046844749776 accepted True max_phase_delta 0.2011658073076763
+IFF_PHASE task-0010_episode_00102780-740:751 variant 2 acc_SI 0.24580468611881517 accepted True max_phase_delta 0.19258938053047858
+IFF_PHASE task-0010_episode_00102790-250:261 variant 2 acc_SI 0.2458046841644579 accepted True max_phase_delta 0.12377687857016273
+IFF_PHASE task-0010_episode_00102820-125:136 variant 2 acc_SI 0.22406173998708298 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102820-155:166 variant 2 acc_SI 0.24580468412727613 accepted True max_phase_delta 0.11385435163910618
+IFF_PHASE task-0010_episode_00102820-655:666 variant 2 acc_SI 0.23250190536985987 accepted True max_phase_delta 0.18465191043743712
+IFF_PHASE task-0010_episode_00102820-900:911 variant 2 acc_SI 0.2458046841041982 accepted True max_phase_delta 0.1764698377007221
+IFF_PHASE task-0010_episode_00102820-905:916 variant 2 acc_SI 0.2355700935068562 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102860-140:151 variant 2 acc_SI 0.24580468412625772 accepted True max_phase_delta 0.14366094738252322
+IFF_PHASE task-0010_episode_00102860-490:501 variant 2 acc_SI 0.24580468415564297 accepted True max_phase_delta 0.1768583345886059
+IFF_PHASE task-0010_episode_00102860-505:516 variant 2 acc_SI 0.2174315312170081 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102860-950:961 variant 2 acc_SI 0.24580468409976433 accepted True max_phase_delta 0.08486000434011842
+IFF_PHASE task-0010_episode_00102860-985:996 variant 2 acc_SI 0.24580468420844973 accepted True max_phase_delta 0.17712228368894856
+IFF_PHASE task-0010_episode_00102860-990:1001 variant 2 acc_SI 0.23179291076910652 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102870-425:436 variant 2 acc_SI 0.22907254445997702 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102870-720:731 variant 2 acc_SI 0.23964879158844313 accepted True max_phase_delta 0.1846510771998382
+IFF_PHASE task-0010_episode_00102880-290:301 variant 2 acc_SI 0.24580468424351262 accepted True max_phase_delta 0.1882801440923645
+IFF_PHASE task-0010_episode_00102880-845:856 variant 2 acc_SI 0.2458046846658781 accepted True max_phase_delta 0.17109899979480803
+IFF_PHASE task-0010_episode_00102880-850:861 variant 2 acc_SI 0.23297510645463368 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102890-1195:1206 variant 2 acc_SI 0.2458046841492049 accepted True max_phase_delta 0.1319532486974344
+IFF_PHASE task-0010_episode_00102890-1205:1216 variant 2 acc_SI 0.24580468414901732 accepted True max_phase_delta 0.08476274221770863
+IFF_PHASE task-0010_episode_00102890-1260:1271 variant 2 acc_SI 0.23872141426975013 accepted True max_phase_delta 0.18465107687551097
+IFF_PHASE task-0010_episode_00102890-200:211 variant 2 acc_SI 0.23837171095762105 accepted True max_phase_delta 0.18465107707979422
+IFF_PHASE task-0010_episode_00102890-265:276 variant 2 acc_SI 0.22247490002043083 accepted True max_phase_delta 0.18465122428097747
+IFF_PHASE task-0010_episode_00102890-380:391 variant 2 acc_SI 0.24580468410130507 accepted True max_phase_delta 0.18563590509837535
+IFF_PHASE task-0010_episode_00102890-435:446 variant 2 acc_SI 0.2339025666280897 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102890-655:666 variant 2 acc_SI 0.24580468425836893 accepted True max_phase_delta 0.1863492904524957
+IFF_PHASE task-0010_episode_00102890-780:791 variant 2 acc_SI 0.24580468633392452 accepted True max_phase_delta 0.11175045667300854
+IFF_PHASE task-0010_episode_00102890-965:976 variant 2 acc_SI 0.24580468424065144 accepted True max_phase_delta 0.16794207097053526
+IFF_PHASE task-0010_episode_00102890-990:1001 variant 2 acc_SI 0.2458046840886312 accepted True max_phase_delta 0.09463256122431396
+IFF_PHASE task-0010_episode_00102920-495:506 variant 2 acc_SI 0.24580468409622167 accepted True max_phase_delta 0.04957010778128734
+IFF_PHASE task-0010_episode_00102920-555:566 variant 2 acc_SI 0.22384879665645466 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102920-565:576 variant 2 acc_SI 0.2458046840878148 accepted True max_phase_delta 0.06927963089830058
+IFF_PHASE task-0010_episode_00102920-935:946 variant 2 acc_SI 0.23917195202128208 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102920-960:971 variant 2 acc_SI 0.23164298150763818 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102930-145:156 variant 2 acc_SI 0.24241437767092208 accepted True max_phase_delta 0.1846510767821039
+IFF_PHASE task-0010_episode_00102930-315:326 variant 2 acc_SI 0.21966617618099088 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102930-715:726 variant 2 acc_SI 0.24580468411164036 accepted True max_phase_delta 0.0715156376644237
+IFF_PHASE task-0010_episode_00102930-720:731 variant 2 acc_SI 0.2458046842627619 accepted True max_phase_delta 0.18475318594286883
+IFF_PHASE task-0010_episode_00102950-120:131 variant 2 acc_SI 0.23704521411388751 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102950-160:171 variant 2 acc_SI 0.24580468412574843 accepted True max_phase_delta 0.22190988767370712
+IFF_PHASE task-0010_episode_00102950-765:776 variant 2 acc_SI 0.23613632894856762 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102950-970:981 variant 2 acc_SI 0.2458046844415815 accepted True max_phase_delta 0.1782551719567751
+IFF_PHASE task-0010_episode_00102950-975:986 variant 2 acc_SI 0.2458046842013412 accepted True max_phase_delta 0.1802897842740543
+IFF_PHASE task-0010_episode_00102970-1240:1251 variant 2 acc_SI 0.24580468411391754 accepted True max_phase_delta 0.1604767830860716
+[task-0010] 350/621 objects=1 task-0010_episode_00102970-1240:1251
+IFF_PHASE task-0010_episode_00102970-1285:1296 variant 2 acc_SI 0.24054098439350935 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102970-1295:1306 variant 2 acc_SI 0.23624389580514843 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102970-1365:1376 variant 2 acc_SI 0.24580468413287032 accepted True max_phase_delta 0.18451460311181256
+IFF_PHASE task-0010_episode_00102970-1370:1381 variant 2 acc_SI 0.24580468416936616 accepted True max_phase_delta 0.2042201430330559
+IFF_PHASE task-0010_episode_00102970-275:286 variant 2 acc_SI 0.22267314757873294 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102970-350:361 variant 2 acc_SI 0.24580468431439376 accepted True max_phase_delta 0.20328330843417586
+IFF_PHASE task-0010_episode_00102970-570:581 variant 2 acc_SI 0.24580468409427805 accepted True max_phase_delta 0.11755916748919848
+IFF_PHASE task-0010_episode_00102970-810:821 variant 2 acc_SI 0.23929223570851912 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102970-815:826 variant 2 acc_SI 0.24580468414460108 accepted True max_phase_delta 0.0746181014344649
+IFF_PHASE task-0010_episode_00102980-150:161 variant 2 acc_SI 0.24580468420284432 accepted True max_phase_delta 0.16183021432536115
+IFF_PHASE task-0010_episode_00102980-195:206 variant 2 acc_SI 0.24580468409674772 accepted True max_phase_delta 0.17553348874380403
+IFF_PHASE task-0010_episode_00102980-215:226 variant 2 acc_SI 0.2372867922340831 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102980-785:796 variant 2 acc_SI 0.24580468423851762 accepted True max_phase_delta 0.18498321736987666
+IFF_PHASE task-0010_episode_00102980-835:846 variant 2 acc_SI 0.24044005969334942 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102980-855:866 variant 2 acc_SI 0.24580468412330986 accepted True max_phase_delta 0.18218056734414478
+IFF_PHASE task-0010_episode_00101040-495:506 variant 2 acc_SI 0.2458046842941408 accepted True max_phase_delta 0.16045038254271127
+IFF_PHASE task-0010_episode_00101040-960:971 variant 2 acc_SI 0.24309237397555067 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101050-1240:1251 variant 2 acc_SI 0.24580468427679228 accepted True max_phase_delta 0.18957138110717864
+IFF_PHASE task-0010_episode_00101050-555:566 variant 2 acc_SI 0.22651936887462853 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101060-1115:1126 variant 2 acc_SI 0.2458046841719546 accepted True max_phase_delta 0.15286037686846576
+IFF_PHASE task-0010_episode_00101060-1160:1171 variant 2 acc_SI 0.22733760822526683 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101060-1350:1361 variant 2 acc_SI 0.23020500078769277 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101060-1365:1376 variant 2 acc_SI 0.24580468409934053 accepted True max_phase_delta 0.11753817985598936
+IFF_PHASE task-0010_episode_00101090-1265:1276 variant 2 acc_SI 0.24580468409367345 accepted True max_phase_delta 0.07346964077615059
+IFF_PHASE task-0010_episode_00101090-520:531 variant 2 acc_SI 0.24580468411643389 accepted True max_phase_delta 0.1977475709436085
+IFF_PHASE task-0010_episode_00101110-1035:1046 variant 2 acc_SI 0.23120625282599347 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101110-170:181 variant 2 acc_SI 0.2458046841253182 accepted True max_phase_delta 0.14051743185200444
+IFF_PHASE task-0010_episode_00101110-430:441 variant 2 acc_SI 0.24314837054858152 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101110-955:966 variant 2 acc_SI 0.22551114223369695 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101150-1240:1251 variant 2 acc_SI 0.24490830314481668 accepted True max_phase_delta 0.18465107675193382
+IFF_PHASE task-0010_episode_00101150-250:261 variant 2 acc_SI 0.24580468431131 accepted True max_phase_delta 0.1682370872850374
+IFF_PHASE task-0010_episode_00101150-260:271 variant 2 acc_SI 0.2458046841587676 accepted True max_phase_delta 0.1957190873776824
+IFF_PHASE task-0010_episode_00101150-500:511 variant 2 acc_SI 0.2458046841931614 accepted True max_phase_delta 0.19553107405164516
+IFF_PHASE task-0010_episode_00101150-710:721 variant 2 acc_SI 0.23053546480066842 accepted True max_phase_delta 0.18465107681566373
+IFF_PHASE task-0010_episode_00101150-940:951 variant 2 acc_SI 0.2458046841097689 accepted True max_phase_delta 0.12140482769793248
+IFF_PHASE task-0010_episode_00101170-1015:1026 variant 2 acc_SI 0.2458046841126427 accepted True max_phase_delta 0.17330005146389027
+IFF_PHASE task-0010_episode_00101170-145:156 variant 2 acc_SI 0.24454299804033533 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101170-365:376 variant 2 acc_SI 0.23831440507738139 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101170-370:381 variant 2 acc_SI 0.24580468413783527 accepted True max_phase_delta 0.18112346088548703
+IFF_PHASE task-0010_episode_00101170-500:511 variant 2 acc_SI 0.226633831026638 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101170-520:531 variant 2 acc_SI 0.24008654733505685 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00101170-530:541 variant 2 acc_SI 0.2442590544483237 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101170-975:986 variant 2 acc_SI 0.24580468437463088 accepted True max_phase_delta 0.12541279660823434
+IFF_PHASE task-0010_episode_00101190-190:201 variant 2 acc_SI 0.24580468427133256 accepted True max_phase_delta 0.16403142594367615
+IFF_PHASE task-0010_episode_00101190-645:656 variant 2 acc_SI 0.2458046842028544 accepted True max_phase_delta 0.14902886217296896
+IFF_PHASE task-0010_episode_00101190-870:881 variant 2 acc_SI 0.24580468445392092 accepted True max_phase_delta 0.18662454584540633
+IFF_PHASE task-0010_episode_00101200-655:666 variant 2 acc_SI 0.24580468410179945 accepted True max_phase_delta 0.1816861352701835
+IFF_PHASE task-0010_episode_00101200-860:871 variant 2 acc_SI 0.24580468429236152 accepted True max_phase_delta 0.16710137866695085
+IFF_PHASE task-0010_episode_00101200-865:876 variant 2 acc_SI 0.24580468423456187 accepted True max_phase_delta 0.17948134459074616
+IFF_PHASE task-0010_episode_00101200-940:951 variant 2 acc_SI 0.22187398811762088 accepted True max_phase_delta 0.184651076875737
+[task-0010] 400/621 objects=3 task-0010_episode_00101200-940:951
+IFF_PHASE task-0010_episode_00101230-185:196 variant 2 acc_SI 0.22674223388178685 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101230-720:731 variant 2 acc_SI 0.24580468489840412 accepted True max_phase_delta 0.18458141218549606
+IFF_PHASE task-0010_episode_00101240-875:886 variant 2 acc_SI 0.24580468418758644 accepted True max_phase_delta 0.21203113211589653
+IFF_PHASE task-0010_episode_00101240-880:891 variant 2 acc_SI 0.2458046841688682 accepted True max_phase_delta 0.19650601737010387
+IFF_PHASE task-0010_episode_00101270-390:401 variant 2 acc_SI 0.24258439103633234 accepted True max_phase_delta 0.18465004694121534
+IFF_PHASE task-0010_episode_00101270-675:686 variant 2 acc_SI 0.24580468411384923 accepted True max_phase_delta 0.09192290882726262
+IFF_PHASE task-0010_episode_00101270-710:721 variant 2 acc_SI 0.24580468410723644 accepted True max_phase_delta 0.13657592875572
+IFF_PHASE task-0010_episode_00101290-310:321 variant 2 acc_SI 0.2442304756383421 accepted True max_phase_delta 0.18465107675193382
+IFF_PHASE task-0010_episode_00101290-330:341 variant 2 acc_SI 0.24580468415460155 accepted True max_phase_delta 0.1871284572672156
+IFF_PHASE task-0010_episode_00101290-340:351 variant 2 acc_SI 0.2413506172653806 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101290-535:546 variant 2 acc_SI 0.22982982867702406 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101290-735:746 variant 2 acc_SI 0.24580468412087136 accepted True max_phase_delta 0.18419323814700084
+IFF_PHASE task-0010_episode_00101320-695:706 variant 2 acc_SI 0.2458046841121699 accepted True max_phase_delta 0.10044493290809964
+IFF_PHASE task-0010_episode_00101320-705:716 variant 2 acc_SI 0.20574261012405856 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101320-735:746 variant 2 acc_SI 0.24580468409362422 accepted True max_phase_delta 0.1786840306871671
+IFF_PHASE task-0010_episode_00101340-245:256 variant 2 acc_SI 0.2393290197476267 accepted True max_phase_delta 0.18465358639522345
+IFF_PHASE task-0010_episode_00101340-250:261 variant 2 acc_SI 0.23519064011779522 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101340-500:511 variant 2 acc_SI 0.24453216950966417 accepted True max_phase_delta 0.18464990101225354
+IFF_PHASE task-0010_episode_00101340-520:531 variant 2 acc_SI 0.2458046840878195 accepted True max_phase_delta 0.09097723043660455
+IFF_PHASE task-0010_episode_00101360-500:511 variant 2 acc_SI 0.24580468409575304 accepted True max_phase_delta 0.19506046258510246
+IFF_PHASE task-0010_episode_00101360-655:666 variant 2 acc_SI 0.24304815834580037 accepted True max_phase_delta 0.18465227212663926
+IFF_PHASE task-0010_episode_00101360-670:681 variant 2 acc_SI 0.24580468411801387 accepted True max_phase_delta 0.16991792509738213
+IFF_PHASE task-0010_episode_00101370-115:126 variant 2 acc_SI 0.24580468411254033 accepted True max_phase_delta 0.10559481571274887
+IFF_PHASE task-0010_episode_00101370-130:141 variant 2 acc_SI 0.24580468427202423 accepted True max_phase_delta 0.16892173362678875
+IFF_PHASE task-0010_episode_00101370-295:306 variant 2 acc_SI 0.24580468459028532 accepted True max_phase_delta 0.19360039594442124
+IFF_PHASE task-0010_episode_00101370-415:426 variant 2 acc_SI 0.2204244996659668 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101370-705:716 variant 2 acc_SI 0.24580468414545464 accepted True max_phase_delta 0.09957901124507007
+IFF_PHASE task-0010_episode_00101380-130:141 variant 2 acc_SI 0.24580468433364455 accepted True max_phase_delta 0.1498169383517136
+IFF_PHASE task-0010_episode_00101380-580:591 variant 2 acc_SI 0.2458046841177525 accepted True max_phase_delta 0.17680698750809043
+IFF_PHASE task-0010_episode_00101400-130:141 variant 2 acc_SI 0.2290436225462505 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101400-815:826 variant 2 acc_SI 0.24580468411753748 accepted True max_phase_delta 0.0895528050699097
+IFF_PHASE task-0010_episode_00101410-125:136 variant 2 acc_SI 0.24580468415886791 accepted True max_phase_delta 0.05294878531701719
+IFF_PHASE task-0010_episode_00101410-405:416 variant 2 acc_SI 0.22210426976911188 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101410-415:426 variant 2 acc_SI 0.24580468409919368 accepted True max_phase_delta 0.0825695978791785
+IFF_PHASE task-0010_episode_00101410-720:731 variant 2 acc_SI 0.24580468412817297 accepted True max_phase_delta 0.16173092355330354
+IFF_PHASE task-0010_episode_00101420-135:146 variant 2 acc_SI 0.24580468415935694 accepted True max_phase_delta 0.16945833965382695
+IFF_PHASE task-0010_episode_00101430-965:976 variant 2 acc_SI 0.22258813099071462 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101440-215:226 variant 2 acc_SI 0.24580468426156862 accepted True max_phase_delta 0.1552670694122975
+IFF_PHASE task-0010_episode_00101440-870:881 variant 2 acc_SI 0.23952029185963253 accepted True max_phase_delta 0.18464550517460898
+IFF_PHASE task-0010_episode_00101450-840:851 variant 2 acc_SI 0.24580468419367427 accepted True max_phase_delta 0.19839737777665922
+IFF_PHASE task-0010_episode_00101450-940:951 variant 2 acc_SI 0.24580468409444892 accepted True max_phase_delta 0.18548843132913362
+IFF_PHASE task-0010_episode_00101480-580:591 variant 2 acc_SI 0.2458046841286293 accepted True max_phase_delta 0.17601489207488008
+IFF_PHASE task-0010_episode_00101480-785:796 variant 2 acc_SI 0.24580468424820887 accepted True max_phase_delta 0.14926108551927086
+IFF_PHASE task-0010_episode_00101500-260:271 variant 2 acc_SI 0.2429344551429746 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101500-420:431 variant 2 acc_SI 0.2458046842303386 accepted True max_phase_delta 0.18638048633418247
+IFF_PHASE task-0010_episode_00101530-600:611 variant 2 acc_SI 0.2256184050669183 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101530-640:651 variant 2 acc_SI 0.23438395281139493 accepted True max_phase_delta 0.1846510772469565
+IFF_PHASE task-0010_episode_00101540-320:331 variant 2 acc_SI 0.24395661964361276 accepted True max_phase_delta 0.18465167233361646
+IFF_PHASE task-0010_episode_00101540-620:631 variant 2 acc_SI 0.24398147226676836 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101560-300:311 variant 2 acc_SI 0.22228449597563676 accepted True max_phase_delta 0.184651076875737
+[task-0010] 450/621 objects=1 task-0010_episode_00101560-300:311
+IFF_PHASE task-0010_episode_00101580-180:191 variant 2 acc_SI 0.22307332705895017 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101580-210:221 variant 2 acc_SI 0.24580468427024882 accepted True max_phase_delta 0.11700976871989788
+IFF_PHASE task-0010_episode_00101580-225:236 variant 2 acc_SI 0.2458046840968484 accepted True max_phase_delta 0.1919449616906057
+IFF_PHASE task-0010_episode_00101590-335:346 variant 2 acc_SI 0.24580468419156815 accepted True max_phase_delta 0.14215677863796605
+IFF_PHASE task-0010_episode_00101590-560:571 variant 2 acc_SI 0.24580468416942122 accepted True max_phase_delta 0.10921340953118186
+IFF_PHASE task-0010_episode_00101610-320:331 variant 2 acc_SI 0.24580468452268245 accepted True max_phase_delta 0.1800379647986201
+IFF_PHASE task-0010_episode_00101610-705:716 variant 2 acc_SI 0.2458046858509344 accepted True max_phase_delta 0.17887151998040673
+IFF_PHASE task-0010_episode_00101610-75:86 variant 2 acc_SI 0.24580468413652146 accepted True max_phase_delta 0.18464036609490408
+IFF_PHASE task-0010_episode_00101620-180:191 variant 2 acc_SI 0.22766152630485123 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101620-360:371 variant 2 acc_SI 0.24358408900136733 accepted True max_phase_delta 0.18465107717200224
+IFF_PHASE task-0010_episode_00101620-545:556 variant 2 acc_SI 0.24162494404277418 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101630-715:726 variant 2 acc_SI 0.24580468410107054 accepted True max_phase_delta 0.14315408445150624
+IFF_PHASE task-0010_episode_00101630-985:996 variant 2 acc_SI 0.24121023078818923 accepted True max_phase_delta 0.18465540411430847
+IFF_PHASE task-0010_episode_00101640-555:566 variant 2 acc_SI 0.22227789283310798 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101640-615:626 variant 2 acc_SI 0.24068522376661802 accepted True max_phase_delta 0.18464186409829964
+IFF_PHASE task-0010_episode_00101640-780:791 variant 2 acc_SI 0.24580468427508223 accepted True max_phase_delta 0.1651979385499387
+IFF_PHASE task-0010_episode_00101640-820:831 variant 2 acc_SI 0.24580468411885523 accepted True max_phase_delta 0.16076116521594042
+IFF_PHASE task-0010_episode_00101660-290:301 variant 2 acc_SI 0.2264670408123951 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101660-490:501 variant 2 acc_SI 0.2458046840996985 accepted True max_phase_delta 0.10033440697937923
+IFF_PHASE task-0010_episode_00101660-800:811 variant 2 acc_SI 0.24580468419765955 accepted True max_phase_delta 0.20345419890787841
+IFF_PHASE task-0010_episode_00101660-890:901 variant 2 acc_SI 0.2458046841748893 accepted True max_phase_delta 0.116850714781914
+IFF_PHASE task-0010_episode_00101660-910:921 variant 2 acc_SI 0.23979163182146265 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00101670-450:461 variant 2 acc_SI 0.24580468412224774 accepted True max_phase_delta 0.13701484713346357
+IFF_PHASE task-0010_episode_00101690-160:171 variant 2 acc_SI 0.23916623711111137 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00101690-310:321 variant 2 acc_SI 0.24580468415666404 accepted True max_phase_delta 0.1752626842160252
+IFF_PHASE task-0010_episode_00101690-535:546 variant 2 acc_SI 0.24580468409975292 accepted True max_phase_delta 0.07343971141107186
+IFF_PHASE task-0010_episode_00101710-135:146 variant 2 acc_SI 0.24580468408807607 accepted True max_phase_delta 0.19068712834771295
+IFF_PHASE task-0010_episode_00101710-450:461 variant 2 acc_SI 0.2458046841213298 accepted True max_phase_delta 0.18431697282930148
+IFF_PHASE task-0010_episode_00101710-690:701 variant 2 acc_SI 0.24580468409619616 accepted True max_phase_delta 0.18482131998025775
+IFF_PHASE task-0010_episode_00101720-200:211 variant 2 acc_SI 0.24438136851279282 accepted True max_phase_delta 0.18465107717200224
+IFF_PHASE task-0010_episode_00101720-210:221 variant 2 acc_SI 0.23885870577903995 accepted True max_phase_delta 0.18465107687569704
+IFF_PHASE task-0010_episode_00101720-215:226 variant 2 acc_SI 0.24350369186099086 accepted True max_phase_delta 0.18465506989170377
+IFF_PHASE task-0010_episode_00101730-195:206 variant 2 acc_SI 0.24580468411496736 accepted True max_phase_delta 0.1064523131663817
+IFF_PHASE task-0010_episode_00101730-225:236 variant 2 acc_SI 0.2349334695615885 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101730-230:241 variant 2 acc_SI 0.2458046843449901 accepted True max_phase_delta 0.16814500521485343
+IFF_PHASE task-0010_episode_00101730-265:276 variant 2 acc_SI 0.22810564697203 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101730-705:716 variant 2 acc_SI 0.2319808737609764 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101730-785:796 variant 2 acc_SI 0.24580468412985532 accepted True max_phase_delta 0.13438026616247734
+IFF_PHASE task-0010_episode_00101740-235:246 variant 2 acc_SI 0.2390795567241817 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101740-330:341 variant 2 acc_SI 0.2411549638220019 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00101740-335:346 variant 2 acc_SI 0.24580468409255068 accepted True max_phase_delta 0.1085938547394838
+IFF_PHASE task-0010_episode_00101740-720:731 variant 2 acc_SI 0.24580468408819306 accepted True max_phase_delta 0.12290411315112015
+IFF_PHASE task-0010_episode_00101740-755:766 variant 2 acc_SI 0.2458046842432511 accepted True max_phase_delta 0.1783494119877016
+IFF_PHASE task-0010_episode_00101780-110:121 variant 2 acc_SI 0.24580468415260917 accepted True max_phase_delta 0.16727877044781003
+IFF_PHASE task-0010_episode_00101780-270:281 variant 2 acc_SI 0.24580468413921375 accepted True max_phase_delta 0.1604696835539352
+IFF_PHASE task-0010_episode_00101780-600:611 variant 2 acc_SI 0.24580468409196554 accepted True max_phase_delta 0.11104443747764092
+IFF_PHASE task-0010_episode_00101780-785:796 variant 2 acc_SI 0.2458046842945886 accepted True max_phase_delta 0.1590355895570501
+IFF_PHASE task-0010_episode_00101790-540:551 variant 2 acc_SI 0.24580468446347187 accepted True max_phase_delta 0.20806944757859358
+IFF_PHASE task-0010_episode_00101800-200:211 variant 2 acc_SI 0.2458046841032436 accepted True max_phase_delta 0.14492581884233502
+IFF_PHASE task-0010_episode_00101800-570:581 variant 2 acc_SI 0.23344760913170437 accepted True max_phase_delta 0.184651076875737
+[task-0010] 500/621 objects=3 task-0010_episode_00101800-570:581
+IFF_PHASE task-0010_episode_00101800-845:856 variant 2 acc_SI 0.24580468408819822 accepted True max_phase_delta 0.0369922307271624
+IFF_PHASE task-0010_episode_00101800-980:991 variant 2 acc_SI 0.24580468410986414 accepted True max_phase_delta 0.16609711725151222
+IFF_PHASE task-0010_episode_00101810-200:211 variant 2 acc_SI 0.24580468465863992 accepted True max_phase_delta 0.14613195455913708
+IFF_PHASE task-0010_episode_00101810-245:256 variant 2 acc_SI 0.24535161845420805 accepted True max_phase_delta 0.18465000311733348
+IFF_PHASE task-0010_episode_00101810-600:611 variant 2 acc_SI 0.2458046842019381 accepted True max_phase_delta 0.19412733379318858
+IFF_PHASE task-0010_episode_00101810-885:896 variant 2 acc_SI 0.2205581130763288 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101810-900:911 variant 2 acc_SI 0.2458046840985672 accepted True max_phase_delta 0.186208193842607
+IFF_PHASE task-0010_episode_00101820-145:156 variant 2 acc_SI 0.2458046858327003 accepted True max_phase_delta 0.195080720086656
+IFF_PHASE task-0010_episode_00101820-180:191 variant 2 acc_SI 0.24580468411601483 accepted True max_phase_delta 0.17147922774154745
+IFF_PHASE task-0010_episode_00101820-505:516 variant 2 acc_SI 0.2458046841497336 accepted True max_phase_delta 0.17945384649804463
+IFF_PHASE task-0010_episode_00101820-525:536 variant 2 acc_SI 0.23680367322348067 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101820-540:551 variant 2 acc_SI 0.2458046841040084 accepted True max_phase_delta 0.09626293782756168
+IFF_PHASE task-0010_episode_00101820-570:581 variant 2 acc_SI 0.23010890501695058 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101830-630:641 variant 2 acc_SI 0.24580468413593387 accepted True max_phase_delta 0.18464393700457382
+IFF_PHASE task-0010_episode_00101830-880:891 variant 2 acc_SI 0.2458046841960768 accepted True max_phase_delta 0.16804851555913558
+IFF_PHASE task-0010_episode_00101840-490:501 variant 2 acc_SI 0.24580468417598691 accepted True max_phase_delta 0.11533421560549151
+IFF_PHASE task-0010_episode_00101840-920:931 variant 2 acc_SI 0.24580468414982706 accepted True max_phase_delta 0.16985730256984288
+IFF_PHASE task-0010_episode_00101850-325:336 variant 2 acc_SI 0.24580468408977874 accepted True max_phase_delta 0.1314680569616815
+IFF_PHASE task-0010_episode_00101850-330:341 variant 2 acc_SI 0.2458046841013616 accepted True max_phase_delta 0.18434460896197002
+IFF_PHASE task-0010_episode_00101850-555:566 variant 2 acc_SI 0.24580468430502161 accepted True max_phase_delta 0.12958718479046283
+IFF_PHASE task-0010_episode_00101850-705:716 variant 2 acc_SI 0.2317688284815492 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101880-440:451 variant 2 acc_SI 0.24580468420049373 accepted True max_phase_delta 0.1815951913970677
+IFF_PHASE task-0010_episode_00101880-740:751 variant 2 acc_SI 0.24580468413009138 accepted True max_phase_delta 0.18816917366385688
+IFF_PHASE task-0010_episode_00101880-805:816 variant 2 acc_SI 0.23039746420094828 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101900-855:866 variant 2 acc_SI 0.24580468413056564 accepted True max_phase_delta 0.1640404593890885
+IFF_PHASE task-0010_episode_00101900-885:896 variant 2 acc_SI 0.24580468428169908 accepted True max_phase_delta 0.1825016995639397
+IFF_PHASE task-0010_episode_00101910-130:141 variant 2 acc_SI 0.24580468437704245 accepted True max_phase_delta 0.1983999957282041
+IFF_PHASE task-0010_episode_00101910-880:891 variant 2 acc_SI 0.24580468412437076 accepted True max_phase_delta 0.1709800755537183
+IFF_PHASE task-0010_episode_00101920-340:351 variant 2 acc_SI 0.2458046841454649 accepted True max_phase_delta 0.17642208476872412
+IFF_PHASE task-0010_episode_00101920-360:371 variant 2 acc_SI 0.22475366341734698 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101920-480:491 variant 2 acc_SI 0.23833934113966102 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101920-530:541 variant 2 acc_SI 0.20018419388412495 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101920-675:686 variant 2 acc_SI 0.24580468420832366 accepted True max_phase_delta 0.11449104655639086
+IFF_PHASE task-0010_episode_00101920-750:761 variant 2 acc_SI 0.24302246115741755 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101920-755:766 variant 2 acc_SI 0.2310597599612163 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101920-85:96 variant 2 acc_SI 0.22642033285708468 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101930-150:161 variant 2 acc_SI 0.24083105929831325 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101930-175:186 variant 2 acc_SI 0.2458046844836493 accepted True max_phase_delta 0.18510480502900872
+IFF_PHASE task-0010_episode_00101930-510:521 variant 2 acc_SI 0.24580468411341028 accepted True max_phase_delta 0.17872188421225665
+IFF_PHASE task-0010_episode_00101930-665:676 variant 2 acc_SI 0.2458046841866666 accepted True max_phase_delta 0.1469637367126393
+IFF_PHASE task-0010_episode_00101940-330:341 variant 2 acc_SI 0.2458046841503006 accepted True max_phase_delta 0.144069052393764
+IFF_PHASE task-0010_episode_00101940-765:776 variant 2 acc_SI 0.20435256857791192 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101940-945:956 variant 2 acc_SI 0.23294172398900162 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101960-225:236 variant 2 acc_SI 0.2381411825477768 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101960-630:641 variant 2 acc_SI 0.24580468433130562 accepted True max_phase_delta 0.18963511258826804
+IFF_PHASE task-0010_episode_00101960-635:646 variant 2 acc_SI 0.22793265182015818 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101960-685:696 variant 2 acc_SI 0.24580468437606376 accepted True max_phase_delta 0.18393975745242663
+IFF_PHASE task-0010_episode_00101960-715:726 variant 2 acc_SI 0.24580468410344591 accepted True max_phase_delta 0.14088037680188847
+IFF_PHASE task-0010_episode_00101960-970:981 variant 2 acc_SI 0.23072451662622495 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00101980-1095:1106 variant 2 acc_SI 0.24580468414501933 accepted True max_phase_delta 0.17271486563729255
+[task-0010] 550/621 objects=1 task-0010_episode_00101980-1095:1106
+IFF_PHASE task-0010_episode_00101980-190:201 variant 2 acc_SI 0.23226957426483297 accepted True max_phase_delta 0.18465107675193382
+IFF_PHASE task-0010_episode_00101980-640:651 variant 2 acc_SI 0.24580468409588252 accepted True max_phase_delta 0.12177552135226666
+IFF_PHASE task-0010_episode_00101980-660:671 variant 2 acc_SI 0.24580468409001233 accepted True max_phase_delta 0.21912593875504793
+IFF_PHASE task-0010_episode_00101990-225:236 variant 2 acc_SI 0.24580468431496896 accepted True max_phase_delta 0.19611318364545594
+IFF_PHASE task-0010_episode_00101990-235:246 variant 2 acc_SI 0.24580468409935713 accepted True max_phase_delta 0.18975664363128697
+IFF_PHASE task-0010_episode_00101990-335:346 variant 2 acc_SI 0.24580468409534104 accepted True max_phase_delta 0.10892928869660423
+IFF_PHASE task-0010_episode_00101990-355:366 variant 2 acc_SI 0.24580468447597398 accepted True max_phase_delta 0.12266595876659991
+IFF_PHASE task-0010_episode_00101990-360:371 variant 2 acc_SI 0.2171954330688982 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00101990-480:491 variant 2 acc_SI 0.24580468428170005 accepted True max_phase_delta 0.18599334476211338
+IFF_PHASE task-0010_episode_00101990-495:506 variant 2 acc_SI 0.24580468408866132 accepted True max_phase_delta 0.07167421536289442
+IFF_PHASE task-0010_episode_00101990-720:731 variant 2 acc_SI 0.24580468413869858 accepted True max_phase_delta 0.18424924984927848
+IFF_PHASE task-0010_episode_00102010-540:551 variant 2 acc_SI 0.24580468424637236 accepted True max_phase_delta 0.1777370592057066
+IFF_PHASE task-0010_episode_00102010-545:556 variant 2 acc_SI 0.24580468422138366 accepted True max_phase_delta 0.2259484686365898
+IFF_PHASE task-0010_episode_00102030-630:641 variant 2 acc_SI 0.2458046841544186 accepted True max_phase_delta 0.08507928359459693
+IFF_PHASE task-0010_episode_00102060-1000:1011 variant 2 acc_SI 0.23168428924781578 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102060-235:246 variant 2 acc_SI 0.24056450136082144 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102060-930:941 variant 2 acc_SI 0.22673535328384783 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102080-140:151 variant 2 acc_SI 0.24580468452221038 accepted True max_phase_delta 0.1816400985820068
+IFF_PHASE task-0010_episode_00102080-195:206 variant 2 acc_SI 0.2458046841339953 accepted True max_phase_delta 0.13172159243816317
+IFF_PHASE task-0010_episode_00102080-370:381 variant 2 acc_SI 0.24580468416602044 accepted True max_phase_delta 0.1848354977926041
+IFF_PHASE task-0010_episode_00102080-630:641 variant 2 acc_SI 0.2458046841362496 accepted True max_phase_delta 0.1864247634717051
+IFF_PHASE task-0010_episode_00102080-770:781 variant 2 acc_SI 0.24580468413246465 accepted True max_phase_delta 0.1673316708366499
+IFF_PHASE task-0010_episode_00102090-165:176 variant 2 acc_SI 0.2410498772825404 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102090-210:221 variant 2 acc_SI 0.24580468429566982 accepted True max_phase_delta 0.1996664277391238
+IFF_PHASE task-0010_episode_00102110-740:751 variant 2 acc_SI 0.23469596053863803 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102130-145:156 variant 2 acc_SI 0.24580468653777673 accepted True max_phase_delta 0.18310249752614105
+IFF_PHASE task-0010_episode_00102130-200:211 variant 2 acc_SI 0.23477870634858924 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102130-610:621 variant 2 acc_SI 0.2054570399610847 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102130-835:846 variant 2 acc_SI 0.24580468410335962 accepted True max_phase_delta 0.14378732938534888
+IFF_PHASE task-0010_episode_00102140-110:121 variant 2 acc_SI 0.23150176297482486 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00102140-175:186 variant 2 acc_SI 0.24580468422341445 accepted True max_phase_delta 0.22970772239950543
+IFF_PHASE task-0010_episode_00102140-680:691 variant 2 acc_SI 0.24580468411012898 accepted True max_phase_delta 0.18649511575123823
+IFF_PHASE task-0010_episode_00102170-305:316 variant 2 acc_SI 0.24580468528094218 accepted True max_phase_delta 0.18226628602589923
+IFF_PHASE task-0010_episode_00102170-530:541 variant 2 acc_SI 0.24580468429022212 accepted True max_phase_delta 0.13384655492518593
+IFF_PHASE task-0010_episode_00102170-745:756 variant 2 acc_SI 0.2277852015571112 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102170-790:801 variant 2 acc_SI 0.2458046842535994 accepted True max_phase_delta 0.18786275109853534
+IFF_PHASE task-0010_episode_00102170-995:1006 variant 2 acc_SI 0.24580468411330944 accepted True max_phase_delta 0.1853025255562306
+IFF_PHASE task-0010_episode_00102200-895:906 variant 2 acc_SI 0.24580468424211535 accepted True max_phase_delta 0.15179400354805983
+IFF_PHASE task-0010_episode_00102200-900:911 variant 2 acc_SI 0.2274788478510165 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102200-905:916 variant 2 acc_SI 0.23285069572477643 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102200-940:951 variant 2 acc_SI 0.2257129271873511 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102220-1080:1091 variant 2 acc_SI 0.23558373530051518 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102220-1090:1101 variant 2 acc_SI 0.24496261950609108 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102220-205:216 variant 2 acc_SI 0.2458046841518803 accepted True max_phase_delta 0.16315228912331614
+IFF_PHASE task-0010_episode_00102220-675:686 variant 2 acc_SI 0.24580468410179226 accepted True max_phase_delta 0.1150278412289607
+IFF_PHASE task-0010_episode_00102240-115:126 variant 2 acc_SI 0.23138488442014643 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102240-185:196 variant 2 acc_SI 0.24026009196738787 accepted True max_phase_delta 0.18465107708151995
+IFF_PHASE task-0010_episode_00102240-190:201 variant 2 acc_SI 0.2458046843489761 accepted True max_phase_delta 0.21861676336251623
+IFF_PHASE task-0010_episode_00102240-415:426 variant 2 acc_SI 0.23619191236802545 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102240-740:751 variant 2 acc_SI 0.24580468412256162 accepted True max_phase_delta 0.13676601974049074
+[task-0010] 600/621 objects=1 task-0010_episode_00102240-740:751
+IFF_PHASE task-0010_episode_00102240-880:891 variant 2 acc_SI 0.24580468551786747 accepted True max_phase_delta 0.1829292475170483
+IFF_PHASE task-0010_episode_00102250-995:1006 variant 2 acc_SI 0.24580468515371826 accepted True max_phase_delta 0.18501626333913102
+IFF_PHASE task-0010_episode_00102280-110:121 variant 2 acc_SI 0.226771019318649 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102280-485:496 variant 2 acc_SI 0.24580468414882256 accepted True max_phase_delta 0.13505812707616083
+IFF_PHASE task-0010_episode_00102280-695:706 variant 2 acc_SI 0.24580468414515394 accepted True max_phase_delta 0.1840645911357348
+IFF_PHASE task-0010_episode_00102280-810:821 variant 2 acc_SI 0.24580468412412396 accepted True max_phase_delta 0.16738887472033426
+IFF_PHASE task-0010_episode_00102300-640:651 variant 2 acc_SI 0.24520351194486678 accepted True max_phase_delta 0.18464995990258215
+IFF_PHASE task-0010_episode_00102300-650:661 variant 2 acc_SI 0.24580468426933463 accepted True max_phase_delta 0.18308165074681693
+IFF_PHASE task-0010_episode_00102300-690:701 variant 2 acc_SI 0.24580468414001494 accepted True max_phase_delta 0.16690432196297555
+IFF_PHASE task-0010_episode_00102340-1025:1036 variant 2 acc_SI 0.24580468471310743 accepted True max_phase_delta 0.18631786979228515
+IFF_PHASE task-0010_episode_00102340-405:416 variant 2 acc_SI 0.2458046842179673 accepted True max_phase_delta 0.1620712060178322
+IFF_PHASE task-0010_episode_00102340-650:661 variant 2 acc_SI 0.2458046841432965 accepted True max_phase_delta 0.16747374161819994
+IFF_PHASE task-0010_episode_00102340-675:686 variant 2 acc_SI 0.24580468411510722 accepted True max_phase_delta 0.10866471847889692
+IFF_PHASE task-0010_episode_00102340-960:971 variant 2 acc_SI 0.24580468412700998 accepted True max_phase_delta 0.13091643940492048
+IFF_PHASE task-0010_episode_00102370-1230:1241 variant 2 acc_SI 0.2060775970808264 accepted True max_phase_delta 0.184651076875737
+IFF_PHASE task-0010_episode_00102370-410:421 variant 2 acc_SI 0.2458046848756834 accepted True max_phase_delta 0.17872141882607906
+IFF_PHASE task-0010_episode_00102370-475:486 variant 2 acc_SI 0.24580468412669695 accepted True max_phase_delta 0.16559882566606854
+IFF_PHASE task-0010_episode_00102370-480:491 variant 2 acc_SI 0.24580468452958332 accepted True max_phase_delta 0.18686844277774073
+IFF_PHASE task-0010_episode_00102370-810:821 variant 2 acc_SI 0.24580468452946083 accepted True max_phase_delta 0.18350855106390984
+IFF_PHASE task-0010_episode_00102420-195:206 variant 2 acc_SI 0.23941769811330554 accepted True max_phase_delta 0.18465107685383542
+IFF_PHASE task-0010_episode_00102420-225:236 variant 2 acc_SI 0.23098506616920159 accepted True max_phase_delta 0.184651076875737
+[task-0010] 621/621 objects=1 task-0010_episode_00102420-225:236
+
+================================================================================
+FINAL AUDIT
+TASK = task-0010
+TARGETS = 621
+FOUND = 621
+MODEL FORWARDS = 621
+ELIGIBLE CLIPS = 621
+ORIGINAL PA median mm = 1.5187326407768147
+CORRECTED PA median mm = 1.4886296808461106
+DELTA PA median mm = -0.026416816232054385
+CORRECTED LOWER fraction = 0.6086956521739131
+BASE-REPEAT noise median mm = 0.021667130033274695
+SAVED = /home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/results/iff_teacher_full_acc_v2_20261010/task-0010
+================================================================================
+STRICT OUTPUT VERIFIED: task-0010 621 clips
+===== FINISHED v2 task-0010 =====
+===== START v2 task-0008 =====
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+================================================================================
+ACC-ONLY BOUNDARY CORRECTION PA-MPJPE
+TASK = task-0008
+TARGETS = 708
+VARIANTS = Original + Original repeat + Corrected
+JERK/MSJ = NOT USED
+================================================================================
+Overwriting seed for eval
+Using eval dir: eval_logs/20261010_223932-None-split=test-seed=42
+Applied canonical checkpoint model_contract for evaluation model initialization.
+[2026-10-10 22:39:42] Rank 1/1 using device cuda
+[2026-10-10 22:39:42] Experiment ID: dummy-umctacpk
+[2026-10-10 22:39:42] Saving to: train_logs/dummy-umctacpk
+[2026-10-10 22:39:42] Loading checkpoint from /home/soenchun/cse/PointWorld_workspace/PointWorld/pretrained_checkpoints/large-droid+behavior/model-best.pt
+Traceback (most recent call last):
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_inductor/compile_worker/__main__.py", line 7, in <module>
+    from torch._inductor.async_compile import pre_fork_setup
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/__init__.py", line 2486, in <module>
+    from torch import _meta_registrations
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_meta_registrations.py", line 10, in <module>
+    from torch._decomp import (
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_decomp/__init__.py", line 249, in <module>
+    import torch._decomp.decompositions
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_decomp/decompositions.py", line 15, in <module>
+    import torch._prims as prims
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_prims/__init__.py", line 600, in <module>
+    bessel_i0 = _make_elementwise_unary_prim(
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_prims/__init__.py", line 491, in _make_elementwise_unary_prim
+    return _make_prim(
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_prims/__init__.py", line 319, in _make_prim
+    prim_def = torch.library.custom_op(
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_library/custom_ops.py", line 157, in custom_op
+    return inner(fn)
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_library/custom_ops.py", line 138, in inner
+    result = CustomOpDef(namespace, opname, schema_str, fn)
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_library/custom_ops.py", line 185, in __init__
+    self._lib = get_library_allowing_overwrite(self._namespace, self._name)
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/_library/custom_ops.py", line 805, in get_library_allowing_overwrite
+    lib = torch.library.Library(namespace, "FRAGMENT")  # noqa: TOR901
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/torch/library.py", line 85, in __init__
+    frame = traceback.extract_stack(limit=3)[0]
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/traceback.py", line 216, in extract_stack
+    def extract_stack(f=None, limit=None):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/iff_teacher_full_acc_v2_20261010.py", line 1077, in <module>
+    main()
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/iff_teacher_full_acc_v2_20261010.py", line 210, in main
+    tester = old.Tester(args)
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/evaluation/tester.py", line 151, in __init__
+    super().__init__(args, inference_only=True, data_info_dict=None)
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/training/trainer.py", line 113, in __init__
+    self.model = BaseModel(args, data_info_dict, rank=self.rank, cpu_pg=self.cpu_pg)
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/pointworld/base.py", line 364, in __init__
+    self.dynamics_predictor = DynamicsPredictor(args, self.channels, self.T)
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/pointworld/base.py", line 214, in __init__
+    self.predictor_model = build_ptv3(self.in_c, args)
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/pointworld/base.py", line 179, in build_ptv3
+    return PointTransformerV3(
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/ptv3/ptv3.py", line 622, in __init__
+    Block(
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/ptv3/ptv3.py", line 264, in __init__
+    spconv.SubMConv3d(
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/spconv/pytorch/conv.py", line 1239, in __init__
+    super(SubMConv3d,
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/spconv/pytorch/conv.py", line 631, in __init__
+    self.reset_parameters()
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/spconv/pytorch/conv.py", line 745, in reset_parameters
+    self._custom_kaiming_uniform_(self.weight, a=math.sqrt(5))
+  File "/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/spconv/pytorch/conv.py", line 739, in _custom_kaiming_uniform_
+    return tensor.uniform_(-bound, bound)
+KeyboardInterrupt

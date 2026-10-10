@@ -1,0 +1,11 @@
+frame,active_memories,released_memories,release_frame,separation_excess_before_mm,separation_excess_after_mm,carried_residual_mean_mm,residual_change_mean_mm
+1,0,0,False,,,0.0,0.0
+2,0,0,False,,,0.0,0.0
+3,0,0,False,,,0.0,0.0
+4,0,0,False,,,0.0,0.0
+5,1,0,False,,,0.008152280954770993,0.008152280954770993
+6,2,0,False,,,0.0669617817712924,0.060768922833261144
+7,2,0,False,,,0.09912551544018022,0.08108078761964715
+8,2,0,False,,,0.23086705494987778,0.14063285524389704
+9,2,0,False,,,0.4273089186928724,0.2486744272032267
+10,2,0,False,,,0.4627897356640032,0.15463645014669078

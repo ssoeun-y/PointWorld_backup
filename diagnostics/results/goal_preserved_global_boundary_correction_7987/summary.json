@@ -1,0 +1,16 @@
+{
+  "target_N": 1097,
+  "loaded_N": 1097,
+  "metric_audit_passed": true,
+  "correction_success_N": 846,
+  "correction_success_rate": 0.7711941659070192,
+  "median_original_acc": 0.012482169922294865,
+  "median_corrected_acc": 0.009658679622711393,
+  "median_acc_ratio": 0.7695043917421998,
+  "median_original_msj": 8.8973099332107e-05,
+  "median_corrected_msj": 4.520007214200796e-05,
+  "median_msj_ratio": 0.5298858896263237,
+  "max_start_error": 0.0,
+  "max_endpoint_error": 0.0,
+  "median_max_phase_shift_frames": 0.27094210286760023
+}

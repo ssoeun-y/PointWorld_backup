@@ -1,0 +1,5 @@
+object_id,object_name,n_points,head6_scene_to_robot_mean,head6_candidate_fraction_mean,head6_attention_minus_candidate,head0_robot_to_object_attention_mass,head3_robot_to_object_attention_mass,head7_robot_to_object_attention_mass
+0,World__scene_0__coffee_table_koagbh_0__base_link__visuals,2923,0.013684570789337158,0.02295907400548458,-0.009274503216147423,0.22597163915634155,0.0013169386656954885,0.22607654333114624
+1,World__scene_0__floors_ulujpr_0__base_link__visuals,3442,0.0,0.0,0.0,0.0,0.0,0.0
+2,World__scene_0__radio_89__base_link__visuals,425,0.3458823561668396,0.17085477709770203,0.17502754926681519,6.536039503715206e-23,0.16683679819107056,6.639147556314316e-29
+3,World__scene_0__room_light_eqbjaz_0__base_link__visuals,1085,0.10217221081256866,0.07229622453451157,0.029875976964831352,5.396942027060342e-22,0.09057480096817017,2.491428006123897e-07

@@ -1,0 +1,11 @@
+usage: visibility_consistency.py [-h] --data_dir DATA_DIR --raw_dir RAW_DIR
+                                 [--output_dir OUTPUT_DIR]
+                                 [--split {test,val,train}]
+                                 [--expected_sequences EXPECTED_SEQUENCES]
+                                 [--num_workers NUM_WORKERS] [--seed SEED]
+                                 [--max_sequences MAX_SEQUENCES]
+                                 [--l2_tolerance L2_TOLERANCE]
+                                 [--tensor_tolerance TENSOR_TOLERANCE]
+                                 [--allow_missing_raw_reference_l2]
+                                 [--self_test]
+visibility_consistency.py: error: the following arguments are required: --data_dir, --raw_dir

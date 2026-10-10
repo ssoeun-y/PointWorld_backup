@@ -1,0 +1,90 @@
+/mnt/hdd/sunjaeyoon/anaconda3/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Repository: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld
+DROID data: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds
+Raw predictions: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/prediction_consistency_droid_unfiltered_full_20260804_135952/raw_sequences
+Output: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/visibility_consistency_full_20260805_091001
+Indexed raw sequences: 62
+Initialized RobotSampler with 13 movable joints on cpu
+Initialized mesh mappings for 60 meshes
+[droid] test(test) num_shards=1 (data_dir=/mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/datasets/droid/wds)
+[test] Total samples across all datasets: 62
+[test] Total batches needed: 62
+[test] Batches per rank (world_size=1): 62
+[test] Epoch length set to: 62
+[01] AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16 | vis_drop=0.0174 | moved_l2=0.047951
+[02] AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-30:41 | vis_drop=0.0508 | moved_l2=0.128934
+[03] AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-40:51 | vis_drop=0.0927 | moved_l2=0.090420
+[04] AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-55:66 | vis_drop=0.1270 | moved_l2=0.086986
+[05] AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-60:71 | vis_drop=0.0214 | moved_l2=0.090699
+[06] AUTOLab+0d4edc83+2023-10-21-19h-08m-41s_flows-30:41 | vis_drop=0.0250 | moved_l2=0.071201
+[07] AUTOLab+0d4edc83+2023-10-21-19h-08m-41s_flows-40:51 | vis_drop=0.0981 | moved_l2=0.059633
+[08] AUTOLab+0d4edc83+2023-10-21-19h-09m-18s_flows-35:46 | vis_drop=0.0978 | moved_l2=0.081592
+[09] AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-35:46 | vis_drop=0.0251 | moved_l2=0.080410
+[10] AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-40:51 | vis_drop=0.1350 | moved_l2=0.076395
+[11] AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-75:86 | vis_drop=0.1013 | moved_l2=0.051659
+[12] AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-25:36 | vis_drop=0.0276 | moved_l2=0.055360
+[13] AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-35:46 | vis_drop=0.0232 | moved_l2=0.086704
+[14] AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-55:66 | vis_drop=0.0532 | moved_l2=0.066282
+[15] AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-75:86 | vis_drop=0.0301 | moved_l2=0.071014
+[16] AUTOLab+0d4edc83+2023-10-21-19h-10m-31s_flows-10:21 | vis_drop=0.0251 | moved_l2=0.067398
+[17] AUTOLab+0d4edc83+2023-10-21-19h-10m-49s_flows-25:36 | vis_drop=0.0710 | moved_l2=0.066732
+[18] AUTOLab+0d4edc83+2023-10-21-19h-11m-21s_flows-50:61 | vis_drop=0.0321 | moved_l2=0.050973
+[19] AUTOLab+0d4edc83+2023-10-21-19h-12m-34s_flows-50:61 | vis_drop=0.1769 | moved_l2=0.050653
+[20] AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-15:26 | vis_drop=0.0525 | moved_l2=0.044423
+[21] AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-35:46 | vis_drop=0.1290 | moved_l2=0.056206
+[22] AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-65:76 | vis_drop=0.0219 | moved_l2=0.041940
+[23] AUTOLab+0d4edc83+2023-10-21-19h-15m-37s_flows-50:61 | vis_drop=0.0748 | moved_l2=0.081692
+[24] AUTOLab+0d4edc83+2023-10-21-19h-15m-59s_flows-20:31 | vis_drop=0.1346 | moved_l2=0.110070
+[25] AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-30:41 | vis_drop=0.0971 | moved_l2=0.108559
+[26] AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-45:56 | vis_drop=0.1565 | moved_l2=0.087346
+[27] AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-5:16 | vis_drop=0.0206 | moved_l2=0.075485
+[28] AUTOLab+0d4edc83+2023-10-21-19h-16m-32s_flows-15:26 | vis_drop=0.0181 | moved_l2=0.103072
+[29] AUTOLab+0d4edc83+2023-10-21-19h-16m-32s_flows-40:51 | vis_drop=0.1954 | moved_l2=0.053732
+[30] AUTOLab+0d4edc83+2023-10-21-19h-16m-50s_flows-0:11 | vis_drop=0.0386 | moved_l2=0.065307
+[31] AUTOLab+0d4edc83+2023-10-21-19h-17m-20s_flows-10:21 | vis_drop=0.0277 | moved_l2=0.078160
+[32] AUTOLab+0d4edc83+2023-10-21-19h-18m-17s_flows-10:21 | vis_drop=0.0422 | moved_l2=0.061131
+[33] AUTOLab+0d4edc83+2023-10-21-19h-18m-17s_flows-60:71 | vis_drop=0.0335 | moved_l2=0.070825
+[34] AUTOLab+0d4edc83+2023-10-21-19h-19m-07s_flows-10:21 | vis_drop=0.0313 | moved_l2=0.040114
+[35] AUTOLab+0d4edc83+2023-10-21-19h-19m-23s_flows-30:41 | vis_drop=0.1293 | moved_l2=0.057382
+[36] AUTOLab+0d4edc83+2023-10-21-19h-19m-39s_flows-0:11 | vis_drop=0.0233 | moved_l2=0.054279
+[37] AUTOLab+0d4edc83+2023-10-21-19h-21m-49s_flows-15:26 | vis_drop=0.0721 | moved_l2=0.062863
+[38] AUTOLab+0d4edc83+2023-10-21-19h-21m-49s_flows-35:46 | vis_drop=0.0093 | moved_l2=0.060624
+[39] AUTOLab+0d4edc83+2023-10-21-19h-22m-09s_flows-0:11 | vis_drop=0.0205 | moved_l2=0.041548
+[40] AUTOLab+0d4edc83+2023-10-21-19h-22m-26s_flows-35:46 | vis_drop=0.1293 | moved_l2=0.041009
+[41] AUTOLab+0d4edc83+2023-10-21-19h-22m-43s_flows-10:21 | vis_drop=0.0633 | moved_l2=0.066947
+[42] AUTOLab+0d4edc83+2023-10-21-19h-22m-43s_flows-25:36 | vis_drop=0.1707 | moved_l2=0.078848
+[43] AUTOLab+0d4edc83+2023-10-21-19h-23m-29s_flows-10:21 | vis_drop=0.0510 | moved_l2=0.073969
+[44] AUTOLab+0d4edc83+2023-10-21-19h-23m-29s_flows-20:31 | vis_drop=0.0328 | moved_l2=0.055642
+[45] AUTOLab+0d4edc83+2023-10-21-19h-25m-01s_flows-15:26 | vis_drop=0.0330 | moved_l2=0.070120
+[46] AUTOLab+0d4edc83+2023-10-21-19h-25m-01s_flows-30:41 | vis_drop=0.0924 | moved_l2=0.069161
+[47] AUTOLab+0d4edc83+2023-10-21-19h-36m-27s_flows-45:56 | vis_drop=0.0732 | moved_l2=0.078735
+[48] AUTOLab+0d4edc83+2023-10-21-19h-36m-42s_flows-15:26 | vis_drop=0.0212 | moved_l2=0.041393
+[49] AUTOLab+0d4edc83+2023-10-21-19h-37m-25s_flows-10:21 | vis_drop=0.0272 | moved_l2=0.033224
+[50] AUTOLab+0d4edc83+2023-10-21-19h-40m-08s_flows-10:21 | vis_drop=0.0258 | moved_l2=0.049946
+[51] AUTOLab+0d4edc83+2023-10-21-19h-41m-52s_flows-30:41 | vis_drop=0.0303 | moved_l2=0.034850
+[52] AUTOLab+0d4edc83+2023-10-21-19h-42m-27s_flows-35:46 | vis_drop=0.0747 | moved_l2=0.056673
+[53] AUTOLab+0d4edc83+2023-10-21-19h-43m-10s_flows-10:21 | vis_drop=0.0492 | moved_l2=0.040025
+[54] AUTOLab+0d4edc83+2023-10-21-19h-43m-10s_flows-55:66 | vis_drop=0.3265 | moved_l2=0.047905
+[55] AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-20:31 | vis_drop=0.0209 | moved_l2=0.070509
+[56] AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-50:61 | vis_drop=0.1766 | moved_l2=0.077801
+[57] AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-70:81 | vis_drop=0.0764 | moved_l2=0.070557
+[58] AUTOLab+0d4edc83+2023-10-21-19h-44m-35s_flows-10:21 | vis_drop=0.0332 | moved_l2=0.073043
+[59] AUTOLab+0d4edc83+2023-10-21-19h-44m-35s_flows-45:56 | vis_drop=0.1608 | moved_l2=0.079501
+[60] AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-10:21 | vis_drop=0.0361 | moved_l2=0.044235
+[61] AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-25:36 | vis_drop=0.1124 | moved_l2=0.065092
+[62] AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-30:41 | vis_drop=0.1716 | moved_l2=0.061461
+
+=== AUDIT ===
+Processed sequences: 62
+Matched prediction raw files: 62
+Missing keys: 0
+Duplicate keys: 0
+Supervised formula mismatches: 0
+Raw GT matches dataloader for all: True
+Raw valid mask matches for all: True
+Official L2 reference available for all: True
+Official L2 reproduced for all: True
+Official files modified: False
+SUCCESS: True
+Summary: /mnt/hdd/sunjaeyoon/cse/PointWorld_workspace/PointWorld/diagnostics/results/visibility_consistency_full_20260805_091001/summary.json

@@ -1,0 +1,18 @@
+ADAPTIVE CONTACT V6 - 5 TASK DIAGNOSTICS
+N = 2683
+clips_with_contact_memory = 2200 (82.00%)
+clips_with_release = 141 (5.26%)
+clips_with_separation_eval = 2174
+separation_before_median_mm = 1.911828
+separation_after_median_mm = 0.956024
+separation_lower_fraction = 1.000000
+paired_separation_relative_median_pct = -44.848445
+final_residual_median_mm = 0.000675
+max_residual_change_median_mm = 0.000721
+
+TASKWISE
+task-0000: N=145, memory=97.24%, release=4.14%, sep_med=3.5794->1.9863mm, lower=100.00%
+task-0001: N=653, memory=99.85%, release=5.97%, sep_med=1.9597->1.0339mm, lower=100.00%
+task-0006: N=552, memory=62.68%, release=3.26%, sep_med=1.8191->0.9611mm, lower=100.00%
+task-0008: N=709, memory=64.32%, release=6.91%, sep_med=1.9104->0.9542mm, lower=100.00%
+task-0010: N=624, memory=96.96%, release=4.65%, sep_med=1.8065->0.8038mm, lower=100.00%

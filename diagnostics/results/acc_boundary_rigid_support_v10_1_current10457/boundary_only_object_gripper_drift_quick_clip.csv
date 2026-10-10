@@ -1,0 +1,3 @@
+task,clip,n_contact_objects,any_break,any_gt5,any_gt10,median_q10_delta_mm
+task-0001,task-0001_episode_00010070-1015:1026,1,True,False,False,3.1221429026597516
+task-0001,task-0001_episode_00012250-465:476,1,True,False,False,3.0417653707345185

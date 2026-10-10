@@ -1,0 +1,9 @@
+TASK=task-0000
+CLIP=task-0000_episode_00001440-105:116
+OBJECT=radio_89
+OBJECT_ID=2
+RMS_ACC=0.0338838929622552
+
+t=1: points=315, fresh_PA=0.275728106, established_PA=0.319569221, diff=-0.043841114
+t=5: points=315, fresh_PA=0.889163938, established_PA=0.882954841, diff=+0.006209097
+t=10: points=315, fresh_PA=1.673026627, established_PA=1.612927980, diff=+0.060098648

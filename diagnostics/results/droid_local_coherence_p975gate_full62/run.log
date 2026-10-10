@@ -1,0 +1,1621 @@
+================================================================================
+DROID LOCAL COHERENCE SMOKE3
+================================================================================
+
+--------------------------------------------------------------------------------
+file = 0000.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-06m-10s_flows-5:16
+final_valid_moved_points = 631
+Q95_threshold_mm = 22.415130771696557
+largest_cluster_size = 9
+num_components = 11
+boundary_edges = 44
+normal_edges = 3060
+final_boundary_delta_median_mm = 19.132010638713837
+final_boundary_stretched_fraction = 0.5681818181818182
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 18.824038 6.156092 +12.667946 (n=44/2658)
+3 6.064255 4.279681 +1.784575 (n=44/2177)
+4 56.816742 4.070675 +52.746067 (n=44/1977)
+5 76.053865 4.592198 +71.461667 (n=44/2010)
+6 56.138808 5.250510 +50.888298 (n=44/2131)
+7 196.378984 7.407529 +188.971455 (n=44/2274)
+8 161.917217 9.874952 +152.042266 (n=44/2382)
+9 12.579693 11.254732 +1.324961 (n=44/2543)
+10 4.811341 10.943033 -6.131692 (n=44/2775)
+relvel_gap_mean_mm = 58.41728261051079
+relvel_gap_median_mm = 50.88829807937145
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0001.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-30:41
+final_valid_moved_points = 606
+Q95_threshold_mm = 46.56408950686454
+largest_cluster_size = 7
+num_components = 18
+boundary_edges = 30
+normal_edges = 2922
+final_boundary_delta_median_mm = 33.743771724402905
+final_boundary_stretched_fraction = 0.8
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 21.988615 8.535033 +13.453583 (n=30/2764)
+3 14.286106 6.298283 +7.987822 (n=30/2683)
+4 7.789179 7.205275 +0.583904 (n=30/2610)
+5 8.949357 11.028634 -2.079278 (n=30/2533)
+6 6.955519 13.015752 -6.060233 (n=30/2532)
+7 4.576076 15.198383 -10.622307 (n=30/2346)
+8 3.549077 12.475219 -8.926141 (n=30/2147)
+9 5.185047 15.350709 -10.165662 (n=30/2280)
+10 6.960473 21.289835 -14.329362 (n=30/2535)
+relvel_gap_mean_mm = -3.350852613544298
+relvel_gap_median_mm = -6.06023333966732
+positive_step_fraction = 0.3333333333333333
+
+--------------------------------------------------------------------------------
+file = 0002.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-40:51
+final_valid_moved_points = 782
+Q95_threshold_mm = 40.21330252289771
+largest_cluster_size = 9
+num_components = 9
+boundary_edges = 30
+normal_edges = 3797
+final_boundary_delta_median_mm = 8.897192776203156
+final_boundary_stretched_fraction = 0.8
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 9.183870 5.522000 +3.661870 (n=30/3459)
+3 3.557007 3.808790 -0.251783 (n=30/3386)
+4 4.856472 4.939044 -0.082573 (n=30/3291)
+5 5.759494 5.399344 +0.360150 (n=30/3221)
+6 3.230988 4.299014 -1.068026 (n=30/3119)
+7 2.850730 4.047641 -1.196912 (n=30/2868)
+8 6.196996 4.480682 +1.716314 (n=30/2551)
+9 8.693930 9.172073 -0.478143 (n=30/2436)
+10 4.709527 11.917593 -7.208066 (n=30/2880)
+relvel_gap_mean_mm = -0.5052409057194988
+relvel_gap_median_mm = -0.25178317446261644
+positive_step_fraction = 0.3333333333333333
+
+--------------------------------------------------------------------------------
+file = 0003.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-55:66
+final_valid_moved_points = 468
+Q95_threshold_mm = 47.04995080828667
+largest_cluster_size = 6
+num_components = 9
+boundary_edges = 27
+normal_edges = 2242
+final_boundary_delta_median_mm = 85.51312983036041
+final_boundary_stretched_fraction = 0.9259259259259259
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 7.997504 10.125019 -2.127514 (n=27/1909)
+3 12.198848 8.530783 +3.668065 (n=27/1870)
+4 17.640481 8.623338 +9.017143 (n=27/1946)
+5 19.939410 9.333398 +10.606011 (n=27/2050)
+6 26.623707 11.586816 +15.036892 (n=27/2070)
+7 20.250076 9.898360 +10.351717 (n=27/2023)
+8 12.067475 15.204852 -3.137376 (n=27/1933)
+9 18.505948 12.354455 +6.151493 (n=27/2089)
+10 6.533954 11.592248 -5.058293 (n=27/2202)
+relvel_gap_mean_mm = 4.945348482578993
+relvel_gap_median_mm = 6.151492707431316
+positive_step_fraction = 0.6666666666666666
+
+--------------------------------------------------------------------------------
+file = 0004.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-08m-08s_flows-60:71
+final_valid_moved_points = 640
+Q95_threshold_mm = 28.49942799657584
+largest_cluster_size = 5
+num_components = 17
+boundary_edges = 45
+normal_edges = 3131
+final_boundary_delta_median_mm = 37.37953677773476
+final_boundary_stretched_fraction = 0.5777777777777777
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 22.917246 9.805416 +13.111831 (n=39/2365)
+3 6.600911 8.431242 -1.830331 (n=35/2200)
+4 13.834777 6.780977 +7.053800 (n=31/2185)
+5 7.390267 4.857368 +2.532900 (n=32/2306)
+6 22.113830 4.020744 +18.093086 (n=32/2339)
+7 152.820535 6.034795 +146.785740 (n=32/2095)
+8 233.938724 8.964742 +224.973982 (n=38/1862)
+9 94.592601 11.227193 +83.365408 (n=45/1472)
+10 30.027235 15.478351 +14.548884 (n=45/1850)
+relvel_gap_mean_mm = 56.51503320162495
+relvel_gap_median_mm = 14.548883773386478
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0005.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-08m-41s_flows-30:41
+final_valid_moved_points = 754
+Q95_threshold_mm = 32.09982495754958
+largest_cluster_size = 10
+num_components = 16
+boundary_edges = 11
+normal_edges = 3643
+final_boundary_delta_median_mm = 6.660277023911476
+final_boundary_stretched_fraction = 0.6363636363636364
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 NA NA NA (n=0/3444)
+3 NA NA NA (n=0/3419)
+4 NA NA NA (n=0/3369)
+5 NA NA NA (n=0/3429)
+6 NA NA NA (n=0/3385)
+7 NA NA NA (n=0/3343)
+8 NA NA NA (n=0/3359)
+9 15.981412 9.902266 +6.079145 (n=3/3254)
+10 20.912878 14.199367 +6.713511 (n=11/3400)
+relvel_gap_mean_mm = 6.3963280990719795
+relvel_gap_median_mm = 6.3963280990719795
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0006.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-08m-41s_flows-40:51
+final_valid_moved_points = 734
+Q95_threshold_mm = 21.510440856218338
+largest_cluster_size = 8
+num_components = 14
+boundary_edges = 20
+normal_edges = 3462
+final_boundary_delta_median_mm = -22.461190819740295
+final_boundary_stretched_fraction = 0.35
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 12.601328 6.803620 +5.797708 (n=20/3355)
+3 69.621585 3.310201 +66.311384 (n=20/3325)
+4 85.750766 3.298362 +82.452404 (n=20/3206)
+5 86.131943 4.084885 +82.047058 (n=20/3087)
+6 43.745238 4.283711 +39.461527 (n=20/2972)
+7 140.448764 3.584663 +136.864101 (n=20/2918)
+8 18.280552 4.795162 +13.485390 (n=20/2728)
+9 17.613268 5.057463 +12.555806 (n=20/2870)
+10 17.832203 6.771783 +11.060419 (n=20/3138)
+relvel_gap_mean_mm = 50.00397749245167
+relvel_gap_median_mm = 39.46152748540044
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0007.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-09m-18s_flows-35:46
+final_valid_moved_points = 1481
+Q95_threshold_mm = 27.2166525013744
+largest_cluster_size = 15
+num_components = 23
+boundary_edges = 81
+normal_edges = 6883
+final_boundary_delta_median_mm = 25.475744158029556
+final_boundary_stretched_fraction = 0.7407407407407407
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 6.546396 3.657139 +2.889257 (n=81/6442)
+3 5.013516 2.135671 +2.877845 (n=81/6297)
+4 7.875421 2.231952 +5.643469 (n=81/6106)
+5 9.520651 2.554202 +6.966449 (n=81/6143)
+6 6.315855 3.079136 +3.236720 (n=81/6166)
+7 4.831242 3.768005 +1.063237 (n=81/6222)
+8 4.398425 4.692934 -0.294509 (n=81/6121)
+9 4.011954 5.101093 -1.089140 (n=81/6086)
+10 4.758912 5.714244 -0.955332 (n=81/6301)
+relvel_gap_mean_mm = 2.25977734145191
+relvel_gap_median_mm = 2.8778447303920984
+positive_step_fraction = 0.6666666666666666
+
+--------------------------------------------------------------------------------
+file = 0008.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-35:46
+final_valid_moved_points = 314
+Q95_threshold_mm = 22.402431443333622
+largest_cluster_size = 3
+num_components = 8
+boundary_edges = 23
+normal_edges = 1504
+final_boundary_delta_median_mm = 45.5569326877594
+final_boundary_stretched_fraction = 0.8695652173913043
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 4.327549 11.282600 -6.955051 (n=23/1504)
+3 6.625916 5.323071 +1.302846 (n=23/1495)
+4 5.272551 4.501437 +0.771114 (n=23/1445)
+5 17.416000 7.589712 +9.826288 (n=23/1329)
+6 16.120009 7.767600 +8.352410 (n=23/1345)
+7 13.529031 6.948242 +6.580789 (n=23/1446)
+8 4.602802 9.566049 -4.963247 (n=23/1375)
+9 5.453704 10.697268 -5.243564 (n=23/1297)
+10 5.077689 15.019716 -9.942026 (n=23/1343)
+relvel_gap_mean_mm = -0.03004907112982538
+relvel_gap_median_mm = 0.7711141370236874
+positive_step_fraction = 0.5555555555555556
+
+--------------------------------------------------------------------------------
+file = 0009.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-40:51
+final_valid_moved_points = 538
+Q95_threshold_mm = 31.856542080640793
+largest_cluster_size = 5
+num_components = 13
+boundary_edges = 32
+normal_edges = 2629
+final_boundary_delta_median_mm = 10.562844574451447
+final_boundary_stretched_fraction = 0.53125
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 14.193588 7.895887 +6.297701 (n=13/2448)
+3 6.926056 4.918338 +2.007718 (n=13/2432)
+4 7.102862 3.929440 +3.173422 (n=13/2485)
+5 8.125032 4.468929 +3.656104 (n=19/2499)
+6 8.701139 6.158332 +2.542807 (n=19/2467)
+7 8.375914 9.189886 -0.813972 (n=24/2251)
+8 10.985265 10.901049 +0.084217 (n=31/2153)
+9 15.783221 11.787645 +3.995576 (n=31/2141)
+10 15.323696 20.955613 -5.631917 (n=32/2296)
+relvel_gap_mean_mm = 1.701295039513045
+relvel_gap_median_mm = 2.542806789278984
+positive_step_fraction = 0.7777777777777778
+
+--------------------------------------------------------------------------------
+file = 0010.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-09m-33s_flows-75:86
+final_valid_moved_points = 272
+Q95_threshold_mm = 20.264396071434017
+largest_cluster_size = 10
+num_components = 2
+boundary_edges = 29
+normal_edges = 1287
+final_boundary_delta_median_mm = 10.436251759529114
+final_boundary_stretched_fraction = 0.6206896551724138
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 3.077587 5.159401 -2.081814 (n=29/1237)
+3 4.231214 3.906593 +0.324621 (n=29/1203)
+4 7.234319 4.167981 +3.066338 (n=29/1194)
+5 7.976719 5.079377 +2.897342 (n=29/1168)
+6 6.139294 6.339229 -0.199935 (n=29/1189)
+7 3.859553 4.911581 -1.052028 (n=29/1151)
+8 2.816754 5.473973 -2.657219 (n=29/1157)
+9 1.803202 6.151258 -4.348056 (n=29/1208)
+10 1.546322 5.855625 -4.309303 (n=29/1258)
+relvel_gap_mean_mm = -0.9288950047145287
+relvel_gap_median_mm = -1.0520284995436668
+positive_step_fraction = 0.3333333333333333
+
+--------------------------------------------------------------------------------
+file = 0011.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-25:36
+final_valid_moved_points = 236
+Q95_threshold_mm = 49.5633389800787
+largest_cluster_size = 6
+num_components = 3
+boundary_edges = 42
+normal_edges = 1144
+final_boundary_delta_median_mm = 86.13008633255959
+final_boundary_stretched_fraction = 0.8095238095238095
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 15.810285 10.049424 +5.760861 (n=41/1005)
+3 299.825281 9.732943 +290.092338 (n=41/939)
+4 53.310759 8.022957 +45.287802 (n=42/929)
+5 10.048741 10.967825 -0.919083 (n=42/887)
+6 94.484221 9.823387 +84.660834 (n=42/852)
+7 36.052493 10.647606 +25.404887 (n=42/911)
+8 99.732295 15.386080 +84.346214 (n=42/1043)
+9 74.054178 17.552247 +56.501931 (n=42/1086)
+10 18.531071 16.523327 +2.007744 (n=42/1136)
+relvel_gap_mean_mm = 65.90483637733593
+relvel_gap_median_mm = 45.28780188411474
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0012.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-35:46
+final_valid_moved_points = 279
+Q95_threshold_mm = 28.608529176563017
+largest_cluster_size = 6
+num_components = 7
+boundary_edges = 44
+normal_edges = 1314
+final_boundary_delta_median_mm = 14.539923518896103
+final_boundary_stretched_fraction = 0.6363636363636364
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 3.016724 18.749182 -15.732458 (n=43/1292)
+3 4.432389 14.996861 -10.564472 (n=43/1296)
+4 6.595429 13.780834 -7.185405 (n=42/1255)
+5 8.697734 18.636761 -9.939027 (n=42/1234)
+6 6.344238 12.235506 -5.891267 (n=32/1211)
+7 8.787077 14.935925 -6.148848 (n=32/1195)
+8 8.920875 20.243846 -11.322971 (n=34/1179)
+9 10.015046 16.114679 -6.099633 (n=38/1194)
+10 7.673622 18.889917 -11.216295 (n=41/1243)
+relvel_gap_mean_mm = -9.344486260993612
+relvel_gap_median_mm = -9.939027018845081
+positive_step_fraction = 0.0
+
+--------------------------------------------------------------------------------
+file = 0013.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-55:66
+final_valid_moved_points = 684
+Q95_threshold_mm = 21.34610591456293
+largest_cluster_size = 7
+num_components = 16
+boundary_edges = 20
+normal_edges = 3305
+final_boundary_delta_median_mm = -222.90000319480896
+final_boundary_stretched_fraction = 0.25
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 168.581545 7.927670 +160.653875 (n=20/2654)
+3 300.192624 6.922839 +293.269786 (n=20/2476)
+4 339.093581 5.751149 +333.342431 (n=20/2434)
+5 18.867529 5.017221 +13.850308 (n=20/2491)
+6 21.190178 5.160987 +16.029190 (n=20/2480)
+7 117.395926 4.810767 +112.585159 (n=20/2558)
+8 30.967151 6.264715 +24.702436 (n=20/2708)
+9 5.766294 9.021834 -3.255539 (n=20/2728)
+10 25.201616 9.689999 +15.511617 (n=20/2962)
+relvel_gap_mean_mm = 107.40991813751559
+relvel_gap_median_mm = 24.702435825020075
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0014.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-09m-53s_flows-75:86
+final_valid_moved_points = 558
+Q95_threshold_mm = 18.704448360949755
+largest_cluster_size = 6
+num_components = 13
+boundary_edges = 18
+normal_edges = 2629
+final_boundary_delta_median_mm = -133.17778706550598
+final_boundary_stretched_fraction = 0.16666666666666666
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 52.351927 4.962165 +47.389762 (n=16/2342)
+3 18.462997 3.370654 +15.092343 (n=16/2336)
+4 6.676395 3.719558 +2.956837 (n=16/2292)
+5 12.184831 4.844946 +7.339885 (n=17/2319)
+6 180.697143 6.085823 +174.611320 (n=17/2098)
+7 17.778195 6.879743 +10.898453 (n=17/2017)
+8 17.801333 8.748774 +9.052559 (n=17/1801)
+9 103.051689 10.842878 +92.208810 (n=8/1895)
+10 53.509733 10.140852 +43.368882 (n=8/2184)
+relvel_gap_mean_mm = 44.76876119669112
+relvel_gap_median_mm = 15.092342626303434
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0015.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-10m-31s_flows-10:21
+final_valid_moved_points = 629
+Q95_threshold_mm = 44.26622539758682
+largest_cluster_size = 12
+num_components = 11
+boundary_edges = 72
+normal_edges = 3050
+final_boundary_delta_median_mm = 60.090611688792706
+final_boundary_stretched_fraction = 0.75
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 27.171965 6.606844 +20.565121 (n=72/2780)
+3 16.723802 4.173929 +12.549873 (n=72/2730)
+4 484.029382 6.150478 +477.878904 (n=72/2785)
+5 50.762331 5.925603 +44.836728 (n=72/2827)
+6 10.523639 3.860200 +6.663439 (n=72/2883)
+7 428.716749 4.985008 +423.731741 (n=72/2881)
+8 75.595528 8.004721 +67.590807 (n=72/2903)
+9 56.489967 9.155412 +47.334555 (n=72/2923)
+10 36.402497 10.723609 +25.678888 (n=72/2969)
+relvel_gap_mean_mm = 125.20333940887618
+relvel_gap_median_mm = 44.83672836795449
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0016.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-10m-49s_flows-25:36
+final_valid_moved_points = 888
+Q95_threshold_mm = 40.179962664842584
+largest_cluster_size = 9
+num_components = 14
+boundary_edges = 35
+normal_edges = 4286
+final_boundary_delta_median_mm = -1.5696026384830475
+final_boundary_stretched_fraction = 0.4857142857142857
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 29.189207 4.396929 +24.792278 (n=35/4253)
+3 15.301353 3.160278 +12.141075 (n=35/4166)
+4 29.252771 3.758158 +25.494614 (n=35/4133)
+5 5.892987 4.394829 +1.498159 (n=35/4085)
+6 23.741974 4.647808 +19.094166 (n=35/3879)
+7 145.351976 5.885429 +139.466547 (n=35/3700)
+8 42.816911 9.819005 +32.997906 (n=35/3560)
+9 36.083121 11.210908 +24.872213 (n=35/3452)
+10 124.175318 19.006864 +105.168453 (n=35/3592)
+relvel_gap_mean_mm = 42.836156712534525
+relvel_gap_median_mm = 24.872213136404753
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0017.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-11m-21s_flows-50:61
+final_valid_moved_points = 705
+Q95_threshold_mm = 23.558339755982168
+largest_cluster_size = 11
+num_components = 10
+boundary_edges = 42
+normal_edges = 3325
+final_boundary_delta_median_mm = -370.6245981156826
+final_boundary_stretched_fraction = 0.14285714285714285
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 27.237575 3.747194 +23.490380 (n=14/3065)
+3 20.947548 2.914341 +18.033207 (n=26/3078)
+4 19.734188 2.844966 +16.889222 (n=26/3083)
+5 19.660383 2.809251 +16.851133 (n=20/3016)
+6 22.477746 3.501246 +18.976500 (n=20/2959)
+7 77.434592 3.655763 +73.778829 (n=42/2926)
+8 27.915302 5.237838 +22.677464 (n=42/2878)
+9 60.886415 5.796700 +55.089714 (n=42/2878)
+10 72.181135 5.855224 +66.325912 (n=42/3050)
+relvel_gap_mean_mm = 34.6791512436337
+relvel_gap_median_mm = 22.67746371217072
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0018.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-12m-34s_flows-50:61
+final_valid_moved_points = 861
+Q95_threshold_mm = 25.68616159260273
+largest_cluster_size = 13
+num_components = 18
+boundary_edges = 51
+normal_edges = 3968
+final_boundary_delta_median_mm = 33.24112296104431
+final_boundary_stretched_fraction = 0.8627450980392157
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 6.672761 2.203802 +4.468959 (n=51/3885)
+3 7.191415 1.727910 +5.463505 (n=51/3802)
+4 5.966259 1.880464 +4.085795 (n=51/3823)
+5 3.829798 1.990382 +1.839415 (n=51/3830)
+6 3.409948 2.476073 +0.933874 (n=51/3871)
+7 3.448789 3.625346 -0.176557 (n=51/3818)
+8 4.384852 3.875376 +0.509476 (n=51/3704)
+9 4.719323 4.158203 +0.561120 (n=51/3662)
+10 4.847820 5.976378 -1.128557 (n=51/3773)
+relvel_gap_mean_mm = 1.8396700745344992
+relvel_gap_median_mm = 0.9338743984699249
+positive_step_fraction = 0.7777777777777778
+
+--------------------------------------------------------------------------------
+file = 0019.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-15:26
+final_valid_moved_points = 591
+Q95_threshold_mm = 20.283703133463852
+largest_cluster_size = 6
+num_components = 13
+boundary_edges = 40
+normal_edges = 2802
+final_boundary_delta_median_mm = 40.413666516542435
+final_boundary_stretched_fraction = 0.7
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 14.118080 4.677260 +9.440819 (n=40/2649)
+3 13.156772 3.631364 +9.525409 (n=40/2580)
+4 43.901937 4.223906 +39.678032 (n=40/2606)
+5 31.769110 5.528139 +26.240971 (n=40/2670)
+6 21.242681 6.053163 +15.189518 (n=40/2592)
+7 15.195843 6.173426 +9.022417 (n=40/2439)
+8 20.931806 7.612552 +13.319255 (n=40/2328)
+9 33.322586 12.002223 +21.320363 (n=40/2367)
+10 17.086567 14.719301 +2.367266 (n=40/2516)
+relvel_gap_mean_mm = 16.233783163544203
+relvel_gap_median_mm = 13.319254852831364
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0020.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-35:46
+final_valid_moved_points = 846
+Q95_threshold_mm = 21.194074582308527
+largest_cluster_size = 6
+num_components = 20
+boundary_edges = 57
+normal_edges = 4001
+final_boundary_delta_median_mm = 16.04359596967697
+final_boundary_stretched_fraction = 0.6842105263157895
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 33.305451 4.417810 +28.887641 (n=57/3798)
+3 16.646184 3.822528 +12.823656 (n=57/3556)
+4 14.981793 3.766555 +11.215238 (n=57/3422)
+5 19.878481 4.198364 +15.680116 (n=55/3437)
+6 28.837208 5.416792 +23.420416 (n=55/3602)
+7 12.007433 6.608306 +5.399127 (n=56/3101)
+8 17.928142 11.905538 +6.022604 (n=51/2726)
+9 47.070015 7.752691 +39.317324 (n=51/2819)
+10 41.750031 11.498914 +30.251116 (n=54/2993)
+relvel_gap_mean_mm = 19.224137481715942
+relvel_gap_median_mm = 15.680116135627031
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0021.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-14m-40s_flows-65:76
+final_valid_moved_points = 415
+Q95_threshold_mm = 13.703449442982668
+largest_cluster_size = 7
+num_components = 11
+boundary_edges = 35
+normal_edges = 1979
+final_boundary_delta_median_mm = 4.871189594268799
+final_boundary_stretched_fraction = 0.6857142857142857
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 4.821426 7.216853 -2.395427 (n=35/1859)
+3 4.496998 5.220806 -0.723808 (n=14/1824)
+4 NA NA NA (n=0/1657)
+5 NA NA NA (n=0/1645)
+6 NA NA NA (n=0/1628)
+7 NA NA NA (n=0/1603)
+8 NA NA NA (n=0/1598)
+9 NA NA NA (n=0/1569)
+10 7.268365 10.247624 -2.979258 (n=11/1667)
+relvel_gap_mean_mm = -2.0328310007850328
+relvel_gap_median_mm = -2.395426854491234
+positive_step_fraction = 0.0
+
+--------------------------------------------------------------------------------
+file = 0022.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-15m-37s_flows-50:61
+final_valid_moved_points = 806
+Q95_threshold_mm = 23.541511036455628
+largest_cluster_size = 10
+num_components = 14
+boundary_edges = 74
+normal_edges = 3741
+final_boundary_delta_median_mm = 16.61180518567562
+final_boundary_stretched_fraction = 0.6081081081081081
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 12.719365 3.618409 +9.100956 (n=74/3689)
+3 9.824995 2.249894 +7.575101 (n=74/3500)
+4 10.159248 2.107032 +8.052216 (n=74/3383)
+5 22.262792 2.138846 +20.123947 (n=74/3390)
+6 13.847993 2.721081 +11.126911 (n=72/3401)
+7 9.821529 4.026110 +5.795419 (n=67/3392)
+8 6.762944 4.871840 +1.891104 (n=67/3359)
+9 8.165599 5.040396 +3.125203 (n=67/3474)
+10 9.484127 6.359586 +3.124541 (n=67/3616)
+relvel_gap_mean_mm = 7.768377467679481
+relvel_gap_median_mm = 7.5751012191176414
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0023.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-15m-59s_flows-20:31
+final_valid_moved_points = 623
+Q95_threshold_mm = 43.58419626951218
+largest_cluster_size = 9
+num_components = 13
+boundary_edges = 23
+normal_edges = 3001
+final_boundary_delta_median_mm = 20.930932834744453
+final_boundary_stretched_fraction = 0.6956521739130435
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 1.940844 5.187968 -3.247124 (n=23/2964)
+3 3.484864 4.755160 -1.270296 (n=23/2951)
+4 9.234047 5.989863 +3.244185 (n=23/2939)
+5 14.079112 5.475466 +8.603645 (n=23/2936)
+6 13.100837 5.268849 +7.831989 (n=23/2748)
+7 23.252659 6.163087 +17.089571 (n=23/2446)
+8 17.788950 11.780434 +6.008516 (n=23/2354)
+9 383.945704 11.094267 +372.851436 (n=23/2449)
+10 418.091744 15.902005 +402.189739 (n=23/2680)
+relvel_gap_mean_mm = 90.36685134439419
+relvel_gap_median_mm = 7.8319888561964035
+positive_step_fraction = 0.7777777777777778
+
+--------------------------------------------------------------------------------
+file = 0024.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-30:41
+final_valid_moved_points = 906
+Q95_threshold_mm = 31.676720827817917
+largest_cluster_size = 16
+num_components = 9
+boundary_edges = 46
+normal_edges = 4206
+final_boundary_delta_median_mm = 13.053894974291325
+final_boundary_stretched_fraction = 0.9347826086956522
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 7.867402 2.575221 +5.292182 (n=37/3791)
+3 6.910872 2.027138 +4.883734 (n=37/3537)
+4 3.819493 2.622398 +1.197095 (n=31/3509)
+5 2.359532 2.571644 -0.212112 (n=31/3654)
+6 2.182062 2.374997 -0.192936 (n=30/3589)
+7 2.058606 3.042330 -0.983724 (n=30/3479)
+8 1.996788 3.676528 -1.679740 (n=27/3363)
+9 2.023594 6.267717 -4.244123 (n=31/3346)
+10 3.059303 10.755265 -7.695962 (n=37/3588)
+relvel_gap_mean_mm = -0.40395398779461783
+relvel_gap_median_mm = -0.2121124416589737
+positive_step_fraction = 0.3333333333333333
+
+--------------------------------------------------------------------------------
+file = 0025.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-45:56
+final_valid_moved_points = 447
+Q95_threshold_mm = 39.841026067733765
+largest_cluster_size = 5
+num_components = 10
+boundary_edges = 28
+normal_edges = 2160
+final_boundary_delta_median_mm = 41.13745875656605
+final_boundary_stretched_fraction = 0.6785714285714286
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 260.021672 10.930222 +249.091449 (n=26/1847)
+3 52.369323 10.189423 +42.179899 (n=26/1845)
+4 80.606915 13.211486 +67.395429 (n=26/1841)
+5 47.398476 11.230296 +36.168179 (n=28/1871)
+6 29.272939 12.752216 +16.520723 (n=28/1799)
+7 25.807243 12.978642 +12.828601 (n=28/1810)
+8 26.482985 13.039336 +13.443650 (n=28/1851)
+9 16.788748 14.458801 +2.329947 (n=28/1909)
+10 17.590529 13.462136 +4.128394 (n=28/2083)
+relvel_gap_mean_mm = 49.342919037573864
+relvel_gap_median_mm = 16.520722769200802
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0026.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-16m-18s_flows-5:16
+final_valid_moved_points = 752
+Q95_threshold_mm = 22.181513253599405
+largest_cluster_size = 16
+num_components = 12
+boundary_edges = 61
+normal_edges = 3536
+final_boundary_delta_median_mm = 0.4035681486129761
+final_boundary_stretched_fraction = 0.5081967213114754
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 6.729024 6.935134 -0.206110 (n=61/2931)
+3 4.932890 3.909179 +1.023712 (n=61/2641)
+4 6.037674 4.779504 +1.258170 (n=61/2258)
+5 4.776436 3.906497 +0.869939 (n=61/1986)
+6 5.332781 5.388684 -0.055902 (n=61/1969)
+7 4.135106 8.068475 -3.933369 (n=61/2095)
+8 20.105321 10.144084 +9.961237 (n=61/2415)
+9 181.916922 7.090184 +174.826738 (n=61/2753)
+10 28.018819 20.126605 +7.892214 (n=61/3068)
+relvel_gap_mean_mm = 21.292958822515274
+relvel_gap_median_mm = 1.0237116366624832
+positive_step_fraction = 0.6666666666666666
+
+--------------------------------------------------------------------------------
+file = 0027.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-16m-32s_flows-15:26
+final_valid_moved_points = 384
+Q95_threshold_mm = 56.34444728493683
+largest_cluster_size = 9
+num_components = 9
+boundary_edges = 35
+normal_edges = 1825
+final_boundary_delta_median_mm = -39.94922339916229
+final_boundary_stretched_fraction = 0.4
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 31.851865 14.398812 +17.453054 (n=35/1740)
+3 425.789803 10.396915 +415.392888 (n=35/1651)
+4 14.645133 11.380326 +3.264807 (n=35/1569)
+5 7.021913 10.049322 -3.027409 (n=35/1524)
+6 5.325294 7.402122 -2.076828 (n=35/1489)
+7 6.303235 9.654219 -3.350984 (n=35/1465)
+8 11.031751 12.618438 -1.586688 (n=35/1482)
+9 17.268119 14.158566 +3.109553 (n=35/1532)
+10 16.798552 26.466591 -9.668039 (n=35/1602)
+relvel_gap_mean_mm = 46.61226153580679
+relvel_gap_median_mm = -1.5866877511143684
+positive_step_fraction = 0.4444444444444444
+
+--------------------------------------------------------------------------------
+file = 0028.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-16m-32s_flows-40:51
+final_valid_moved_points = 543
+Q95_threshold_mm = 36.70269045978772
+largest_cluster_size = 11
+num_components = 8
+boundary_edges = 66
+normal_edges = 2519
+final_boundary_delta_median_mm = 63.254665583372116
+final_boundary_stretched_fraction = 0.8333333333333334
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 14.890671 4.270887 +10.619784 (n=66/2477)
+3 10.676507 2.572033 +8.104474 (n=66/2412)
+4 10.233643 2.905235 +7.328409 (n=66/2395)
+5 10.155785 4.322508 +5.833277 (n=66/2401)
+6 7.721190 4.131939 +3.589250 (n=66/2414)
+7 7.551734 4.435839 +3.115895 (n=66/2338)
+8 22.695552 5.321749 +17.373803 (n=66/2276)
+9 21.562461 5.376738 +16.185722 (n=66/2223)
+10 8.288012 7.387406 +0.900605 (n=66/2316)
+relvel_gap_mean_mm = 8.116802097194723
+relvel_gap_median_mm = 7.328408770263195
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0029.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-16m-50s_flows-0:11
+final_valid_moved_points = 587
+Q95_threshold_mm = 22.005537897348393
+largest_cluster_size = 6
+num_components = 14
+boundary_edges = 32
+normal_edges = 2810
+final_boundary_delta_median_mm = -6.2539163045585155
+final_boundary_stretched_fraction = 0.4375
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 9.455884 4.937471 +4.518413 (n=32/2810)
+3 7.854225 3.590606 +4.263619 (n=32/2810)
+4 14.931421 3.893561 +11.037861 (n=32/2790)
+5 12.860938 4.895081 +7.965857 (n=32/2783)
+6 9.263225 6.403336 +2.859889 (n=32/2625)
+7 12.474908 8.459992 +4.014916 (n=32/2302)
+8 71.913382 9.190480 +62.722902 (n=32/2069)
+9 39.042769 16.394451 +22.648318 (n=32/1939)
+10 31.216466 17.465366 +13.751100 (n=32/2193)
+relvel_gap_mean_mm = 14.864763762387964
+relvel_gap_median_mm = 7.965856697410345
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0030.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-17m-20s_flows-10:21
+final_valid_moved_points = 387
+Q95_threshold_mm = 26.24746039509773
+largest_cluster_size = 6
+num_components = 8
+boundary_edges = 21
+normal_edges = 1899
+final_boundary_delta_median_mm = 27.47158706188202
+final_boundary_stretched_fraction = 0.5714285714285714
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 63.250884 17.780424 +45.470460 (n=13/1742)
+3 25.611309 8.978468 +16.632841 (n=13/1654)
+4 78.326747 21.570973 +56.755774 (n=21/1636)
+5 17.033828 12.226593 +4.807236 (n=21/1667)
+6 43.587383 7.568071 +36.019312 (n=21/1701)
+7 17.255417 11.837821 +5.417596 (n=20/1763)
+8 112.589959 20.070940 +92.519019 (n=20/1731)
+9 113.822684 11.946559 +101.876125 (n=21/1759)
+10 33.839449 43.356132 -9.516682 (n=21/1802)
+relvel_gap_mean_mm = 38.886853286789524
+relvel_gap_median_mm = 36.01931221783161
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0031.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-18m-17s_flows-10:21
+final_valid_moved_points = 216
+Q95_threshold_mm = 43.96086633205413
+largest_cluster_size = 6
+num_components = 4
+boundary_edges = 53
+normal_edges = 1052
+final_boundary_delta_median_mm = 26.360251009464264
+final_boundary_stretched_fraction = 0.7169811320754716
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 53.622663 10.278699 +43.343964 (n=53/828)
+3 15.577028 7.568736 +8.008292 (n=53/828)
+4 15.005079 9.713883 +5.291197 (n=53/837)
+5 17.143046 9.673438 +7.469608 (n=53/839)
+6 15.096489 7.994495 +7.101994 (n=53/860)
+7 12.493694 11.414659 +1.079035 (n=53/862)
+8 11.940671 12.231712 -0.291041 (n=53/870)
+9 8.896145 12.342900 -3.446755 (n=53/945)
+10 26.417091 24.443364 +1.973728 (n=53/1013)
+relvel_gap_mean_mm = 7.836669217795134
+relvel_gap_median_mm = 5.291196517646313
+positive_step_fraction = 0.7777777777777778
+
+--------------------------------------------------------------------------------
+file = 0032.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-18m-17s_flows-60:71
+final_valid_moved_points = 500
+Q95_threshold_mm = 35.35703103989363
+largest_cluster_size = 6
+num_components = 9
+boundary_edges = 50
+normal_edges = 2339
+final_boundary_delta_median_mm = 25.840986520051956
+final_boundary_stretched_fraction = 0.68
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 21.547246 6.712965 +14.834281 (n=50/2187)
+3 12.293176 4.692412 +7.600765 (n=46/2123)
+4 6.625392 4.199247 +2.426145 (n=41/2006)
+5 6.663616 5.238269 +1.425347 (n=35/1840)
+6 6.547987 5.107648 +1.440339 (n=35/1742)
+7 8.155973 5.512685 +2.643288 (n=38/1545)
+8 13.857542 6.099084 +7.758458 (n=22/1521)
+9 12.286313 8.438418 +3.847896 (n=2/1529)
+10 9.404431 11.433594 -2.029163 (n=23/1868)
+relvel_gap_mean_mm = 4.438595147803426
+relvel_gap_median_mm = 2.6432881131768227
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0033.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-19m-07s_flows-10:21
+final_valid_moved_points = 459
+Q95_threshold_mm = 17.129187844693657
+largest_cluster_size = 9
+num_components = 12
+boundary_edges = 58
+normal_edges = 2185
+final_boundary_delta_median_mm = 16.94146730005741
+final_boundary_stretched_fraction = 0.7586206896551724
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 4.151171 8.472214 -4.321043 (n=50/1902)
+3 2.787580 4.396324 -1.608743 (n=50/1885)
+4 6.061163 5.537365 +0.523798 (n=50/1886)
+5 7.778675 4.454139 +3.324536 (n=50/1932)
+6 6.087861 4.303954 +1.783908 (n=50/1928)
+7 10.306709 8.872801 +1.433908 (n=52/1801)
+8 11.392851 7.947531 +3.445320 (n=52/1780)
+9 6.986433 10.108259 -3.121826 (n=52/1839)
+10 8.942301 12.373534 -3.431232 (n=53/1934)
+relvel_gap_mean_mm = -0.21904157215936315
+relvel_gap_median_mm = 0.5237981677055359
+positive_step_fraction = 0.5555555555555556
+
+--------------------------------------------------------------------------------
+file = 0034.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-19m-23s_flows-30:41
+final_valid_moved_points = 1072
+Q95_threshold_mm = 17.882069014012803
+largest_cluster_size = 12
+num_components = 19
+boundary_edges = 35
+normal_edges = 5161
+final_boundary_delta_median_mm = 19.168009981513023
+final_boundary_stretched_fraction = 0.7714285714285715
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 5.045120 4.756691 +0.288429 (n=35/4873)
+3 5.810589 2.838863 +2.971726 (n=35/4891)
+4 6.389635 3.480037 +2.909598 (n=35/4811)
+5 4.594213 4.287855 +0.306359 (n=35/4719)
+6 1.585771 4.801351 -3.215580 (n=35/4495)
+7 3.044875 5.961181 -2.916306 (n=35/4309)
+8 3.848216 6.436853 -2.588636 (n=35/4270)
+9 4.242380 6.600514 -2.358134 (n=35/4213)
+10 5.282036 7.207890 -1.925854 (n=35/4474)
+relvel_gap_mean_mm = -0.7253775968112879
+relvel_gap_median_mm = -1.9258535467088223
+positive_step_fraction = 0.4444444444444444
+
+--------------------------------------------------------------------------------
+file = 0035.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-19m-39s_flows-0:11
+final_valid_moved_points = 587
+Q95_threshold_mm = 25.673786923289292
+largest_cluster_size = 6
+num_components = 12
+boundary_edges = 23
+normal_edges = 2854
+final_boundary_delta_median_mm = 23.194482550024986
+final_boundary_stretched_fraction = 0.782608695652174
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 42.321894 5.097180 +37.224715 (n=23/2837)
+3 17.050689 2.863180 +14.187509 (n=23/2845)
+4 14.095287 4.123387 +9.971899 (n=23/2832)
+5 6.582025 4.740093 +1.841931 (n=23/2734)
+6 10.748288 7.801308 +2.946979 (n=23/2467)
+7 11.947834 7.595849 +4.351985 (n=23/2050)
+8 21.338230 11.708034 +9.630196 (n=23/1948)
+9 65.150119 12.227584 +52.922536 (n=23/1901)
+10 70.993021 16.988272 +54.004749 (n=23/2261)
+relvel_gap_mean_mm = 20.786944440462523
+relvel_gap_median_mm = 9.971899446099997
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0036.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-21m-49s_flows-15:26
+final_valid_moved_points = 225
+Q95_threshold_mm = 34.74588915705681
+largest_cluster_size = 3
+num_components = 8
+boundary_edges = 23
+normal_edges = 1119
+final_boundary_delta_median_mm = 43.773796409368515
+final_boundary_stretched_fraction = 0.9565217391304348
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 6.694173 6.470006 +0.224167 (n=23/1067)
+3 7.333345 5.111727 +2.221618 (n=23/1053)
+4 10.032019 5.750215 +4.281804 (n=17/991)
+5 5.616213 7.994251 -2.378038 (n=7/869)
+6 704.328597 12.238736 +692.089860 (n=1/803)
+7 735.588312 8.979386 +726.608926 (n=1/793)
+8 6.285901 11.822392 -5.536492 (n=16/677)
+9 5.651752 9.177669 -3.525917 (n=15/658)
+10 6.774584 13.931965 -7.157381 (n=15/697)
+relvel_gap_mean_mm = 156.31428304024868
+relvel_gap_median_mm = 0.22416654974222183
+positive_step_fraction = 0.5555555555555556
+
+--------------------------------------------------------------------------------
+file = 0037.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-21m-49s_flows-35:46
+final_valid_moved_points = 88
+Q95_threshold_mm = 24.442468490451525
+largest_cluster_size = 2
+num_components = 3
+boundary_edges = 19
+normal_edges = 479
+final_boundary_delta_median_mm = -10.95505803823471
+final_boundary_stretched_fraction = 0.47368421052631576
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 58.042537 10.218632 +47.823905 (n=19/471)
+3 29.816654 10.932801 +18.883853 (n=17/446)
+4 311.931282 13.781317 +298.149965 (n=17/446)
+5 18.069797 13.416883 +4.652915 (n=18/458)
+6 9.849110 9.928054 -0.078944 (n=17/454)
+7 9.182891 9.161049 +0.021842 (n=17/454)
+8 10.230669 8.646688 +1.583980 (n=17/454)
+9 18.616406 10.156480 +8.459927 (n=17/443)
+10 25.312163 14.842712 +10.469451 (n=19/468)
+relvel_gap_mean_mm = 43.329654778871266
+relvel_gap_median_mm = 8.459926582872868
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0038.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-22m-09s_flows-0:11
+final_valid_moved_points = 923
+Q95_threshold_mm = 20.08717190474266
+largest_cluster_size = 24
+num_components = 7
+boundary_edges = 71
+normal_edges = 4280
+final_boundary_delta_median_mm = 2.7434956282377243
+final_boundary_stretched_fraction = 0.5211267605633803
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 91.756374 3.339242 +88.417132 (n=71/4267)
+3 35.011176 1.869118 +33.142058 (n=71/4280)
+4 21.772936 1.963576 +19.809360 (n=71/4267)
+5 18.712969 1.962856 +16.750114 (n=71/4267)
+6 37.852444 2.680117 +35.172327 (n=71/4237)
+7 5.369768 2.724260 +2.645508 (n=71/4237)
+8 4.717959 3.360868 +1.357091 (n=71/4011)
+9 7.917263 5.443863 +2.473400 (n=71/3902)
+10 32.804642 7.557613 +25.247029 (n=71/3908)
+relvel_gap_mean_mm = 25.001557556808823
+relvel_gap_median_mm = 19.80935991741717
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0039.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-22m-26s_flows-35:46
+final_valid_moved_points = 663
+Q95_threshold_mm = 25.886423885822285
+largest_cluster_size = 9
+num_components = 5
+boundary_edges = 18
+normal_edges = 3114
+final_boundary_delta_median_mm = 21.025292575359344
+final_boundary_stretched_fraction = 0.6666666666666666
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 5.513320 2.942289 +2.571031 (n=18/3114)
+3 12.468074 2.195817 +10.272257 (n=18/3004)
+4 13.770907 2.205202 +11.565705 (n=18/2877)
+5 11.442870 3.194955 +8.247916 (n=18/2638)
+6 13.528570 3.682557 +9.846013 (n=18/2466)
+7 9.208387 3.737209 +5.471178 (n=17/2205)
+8 18.631779 4.678826 +13.952953 (n=17/2200)
+9 26.808789 5.735695 +21.073094 (n=17/2309)
+10 24.176192 8.108166 +16.068025 (n=17/2736)
+relvel_gap_mean_mm = 11.007574645595419
+relvel_gap_median_mm = 10.272256680764258
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0040.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-22m-43s_flows-10:21
+final_valid_moved_points = 331
+Q95_threshold_mm = 29.18450813740492
+largest_cluster_size = 5
+num_components = 7
+boundary_edges = 16
+normal_edges = 1619
+final_boundary_delta_median_mm = -276.3921022415161
+final_boundary_stretched_fraction = 0.0
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 111.000396 7.459799 +103.540597 (n=3/1071)
+3 39.786626 4.434396 +35.352230 (n=3/1064)
+4 111.632466 5.464443 +106.168023 (n=15/1075)
+5 15.863324 5.975123 +9.888200 (n=15/1111)
+6 646.105051 6.737875 +639.367176 (n=15/1122)
+7 13.968736 6.882020 +7.086716 (n=12/1224)
+8 14.640515 9.977755 +4.662760 (n=12/1248)
+9 8.744381 14.808008 -6.063626 (n=12/1313)
+10 40.742032 17.663042 +23.078990 (n=13/1460)
+relvel_gap_mean_mm = 102.56456291406518
+relvel_gap_median_mm = 23.078990168869495
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0041.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-22m-43s_flows-25:36
+final_valid_moved_points = 540
+Q95_threshold_mm = 42.02993661165237
+largest_cluster_size = 11
+num_components = 13
+boundary_edges = 43
+normal_edges = 2517
+final_boundary_delta_median_mm = 4.978634417057037
+final_boundary_stretched_fraction = 0.6046511627906976
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 91.946147 7.759910 +84.186238 (n=2/2079)
+3 6.018516 5.701779 +0.316737 (n=2/1716)
+4 13.647229 6.498490 +7.148738 (n=2/1639)
+5 185.926363 6.872091 +179.054271 (n=2/1373)
+6 141.440243 6.988053 +134.452190 (n=2/1393)
+7 34.965288 13.575053 +21.390235 (n=2/1328)
+8 20.566802 15.801997 +4.764806 (n=20/1366)
+9 3.626794 8.377335 -4.750541 (n=27/1628)
+10 7.068220 13.705122 -6.636902 (n=35/2086)
+relvel_gap_mean_mm = 46.65841905969299
+relvel_gap_median_mm = 7.148738484829664
+positive_step_fraction = 0.7777777777777778
+
+--------------------------------------------------------------------------------
+file = 0042.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-23m-29s_flows-10:21
+final_valid_moved_points = 760
+Q95_threshold_mm = 26.54312066733837
+largest_cluster_size = 16
+num_components = 10
+boundary_edges = 50
+normal_edges = 3608
+final_boundary_delta_median_mm = 24.871849920600653
+final_boundary_stretched_fraction = 0.8
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 18.887220 6.530178 +12.357042 (n=11/2727)
+3 6.835110 5.468498 +1.366612 (n=50/2211)
+4 6.486286 5.539772 +0.946513 (n=50/2088)
+5 5.013441 5.704623 -0.691182 (n=50/2046)
+6 2.051951 7.473962 -5.422012 (n=50/2289)
+7 3.008165 8.445130 -5.436965 (n=50/2624)
+8 3.310746 7.280479 -3.969733 (n=50/2607)
+9 2.615162 8.129414 -5.514252 (n=50/2704)
+10 2.822331 11.679134 -8.856804 (n=50/3075)
+relvel_gap_mean_mm = -1.6911977695094214
+relvel_gap_median_mm = -3.969733137637377
+positive_step_fraction = 0.3333333333333333
+
+--------------------------------------------------------------------------------
+file = 0043.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-23m-29s_flows-20:31
+final_valid_moved_points = 830
+Q95_threshold_mm = 25.639168731868256
+largest_cluster_size = 10
+num_components = 17
+boundary_edges = 34
+normal_edges = 4005
+final_boundary_delta_median_mm = -1.692064106464386
+final_boundary_stretched_fraction = 0.4411764705882353
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 7.753612 5.530275 +2.223337 (n=34/3807)
+3 4.684745 3.881884 +0.802860 (n=34/3730)
+4 3.406053 2.951629 +0.454425 (n=34/3707)
+5 3.231976 2.821371 +0.410605 (n=34/3739)
+6 2.713697 3.644196 -0.930499 (n=34/3705)
+7 3.340162 4.590281 -1.250118 (n=34/3676)
+8 3.876816 6.348163 -2.471347 (n=31/3516)
+9 4.767298 8.760694 -3.993397 (n=31/3098)
+10 5.228734 16.663844 -11.435110 (n=31/3281)
+relvel_gap_mean_mm = -1.7988047717760007
+relvel_gap_median_mm = -0.9304990526288748
+positive_step_fraction = 0.4444444444444444
+
+--------------------------------------------------------------------------------
+file = 0044.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-25m-01s_flows-15:26
+final_valid_moved_points = 506
+Q95_threshold_mm = 32.39596858620636
+largest_cluster_size = 6
+num_components = 9
+boundary_edges = 26
+normal_edges = 2500
+final_boundary_delta_median_mm = -441.55920296907425
+final_boundary_stretched_fraction = 0.07692307692307693
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 46.162944 6.055041 +40.107903 (n=26/2402)
+3 54.196695 4.229353 +49.967342 (n=20/2328)
+4 507.293135 5.980676 +501.312459 (n=20/2307)
+5 143.155172 6.338558 +136.816614 (n=26/2368)
+6 39.475832 7.190902 +32.284930 (n=26/2328)
+7 26.524513 6.676625 +19.847888 (n=26/2284)
+8 18.884219 8.000869 +10.883350 (n=26/2320)
+9 44.167208 9.669567 +34.497641 (n=26/2365)
+10 57.307230 11.153507 +46.153724 (n=26/2454)
+relvel_gap_mean_mm = 96.87465012797878
+relvel_gap_median_mm = 40.10790307074785
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0045.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-25m-01s_flows-30:41
+final_valid_moved_points = 747
+Q95_threshold_mm = 32.522991858422756
+largest_cluster_size = 10
+num_components = 13
+boundary_edges = 70
+normal_edges = 3561
+final_boundary_delta_median_mm = 18.57807394117117
+final_boundary_stretched_fraction = 0.7428571428571429
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 5.487593 4.313860 +1.173733 (n=70/3507)
+3 12.210269 3.892942 +8.317327 (n=70/3400)
+4 32.483827 4.435756 +28.048071 (n=65/3372)
+5 123.332702 5.399717 +117.932985 (n=57/3231)
+6 47.388017 5.260000 +42.128017 (n=57/2905)
+7 33.847066 5.344560 +28.502506 (n=50/2763)
+8 30.444670 6.856867 +23.587803 (n=60/2541)
+9 14.661412 7.679263 +6.982149 (n=65/2524)
+10 12.865693 11.958038 +0.907655 (n=69/2998)
+relvel_gap_mean_mm = 28.62002732904835
+relvel_gap_median_mm = 23.58780335634947
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0046.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-36m-27s_flows-45:56
+final_valid_moved_points = 1181
+Q95_threshold_mm = 23.749385401606563
+largest_cluster_size = 28
+num_components = 20
+boundary_edges = 81
+normal_edges = 5319
+final_boundary_delta_median_mm = 23.69673177599907
+final_boundary_stretched_fraction = 0.6790123456790124
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 14.585523 3.493196 +11.092327 (n=59/4334)
+3 8.714125 2.756207 +5.957918 (n=59/4295)
+4 7.601329 3.721126 +3.880203 (n=70/4095)
+5 8.443168 5.355658 +3.087510 (n=73/3983)
+6 5.985971 3.671185 +2.314786 (n=81/3878)
+7 5.674532 4.374404 +1.300128 (n=81/3830)
+8 13.057134 6.080517 +6.976617 (n=81/3826)
+9 18.517016 10.312571 +8.204446 (n=80/4332)
+10 23.389918 7.302051 +16.087867 (n=80/4885)
+relvel_gap_mean_mm = 6.544644478708506
+relvel_gap_median_mm = 5.95791800878942
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0047.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-36m-42s_flows-15:26
+final_valid_moved_points = 676
+Q95_threshold_mm = 23.860440403223027
+largest_cluster_size = 8
+num_components = 9
+boundary_edges = 27
+normal_edges = 3302
+final_boundary_delta_median_mm = 7.945007644593716
+final_boundary_stretched_fraction = 0.5555555555555556
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 13.800662 5.889178 +7.911484 (n=27/3020)
+3 8.744891 5.918924 +2.825967 (n=27/2939)
+4 8.301132 5.607112 +2.694021 (n=27/2912)
+5 101.201862 7.306436 +93.895426 (n=27/2884)
+6 127.668798 6.074176 +121.594622 (n=27/2896)
+7 6.975468 6.679262 +0.296207 (n=27/2958)
+8 95.514856 5.860997 +89.653859 (n=27/2952)
+9 10.231257 6.319426 +3.911831 (n=27/3011)
+10 12.538193 9.137374 +3.400818 (n=27/3086)
+relvel_gap_mean_mm = 36.242692808931075
+relvel_gap_median_mm = 3.9118314161896706
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0048.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-37m-25s_flows-10:21
+final_valid_moved_points = 867
+Q95_threshold_mm = 19.140637014061213
+largest_cluster_size = 8
+num_components = 14
+boundary_edges = 28
+normal_edges = 4168
+final_boundary_delta_median_mm = 1.2407675385475159
+final_boundary_stretched_fraction = 0.5
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 24.931027 5.629783 +19.301244 (n=25/3719)
+3 6.629204 3.977867 +2.651338 (n=25/3636)
+4 9.650867 4.052854 +5.598013 (n=25/3507)
+5 5.164924 3.939622 +1.225302 (n=25/3557)
+6 4.158649 2.796966 +1.361682 (n=25/3756)
+7 5.241805 3.292943 +1.948862 (n=22/3588)
+8 21.611176 3.690043 +17.921134 (n=21/3399)
+9 28.715120 4.499909 +24.215211 (n=20/3414)
+10 44.730607 5.744205 +38.986402 (n=20/3775)
+relvel_gap_mean_mm = 12.57879860026555
+relvel_gap_median_mm = 5.598012823611498
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0049.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-40m-08s_flows-10:21
+final_valid_moved_points = 460
+Q95_threshold_mm = 24.458070471882817
+largest_cluster_size = 6
+num_components = 11
+boundary_edges = 32
+normal_edges = 2252
+final_boundary_delta_median_mm = 21.252090111374855
+final_boundary_stretched_fraction = 0.625
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 9.021617 7.233636 +1.787982 (n=23/2138)
+3 NA NA NA (n=0/2104)
+4 NA NA NA (n=0/2137)
+5 523.037702 5.174829 +517.862873 (n=4/2165)
+6 40.159781 8.027723 +32.132057 (n=12/2163)
+7 11.320854 10.494024 +0.826829 (n=19/2155)
+8 10.931270 7.511121 +3.420149 (n=22/2091)
+9 5.045984 8.217148 -3.171165 (n=31/2099)
+10 5.748750 9.533190 -3.784439 (n=32/2164)
+relvel_gap_mean_mm = 78.43918383254537
+relvel_gap_median_mm = 1.7879819497466087
+positive_step_fraction = 0.7142857142857143
+
+--------------------------------------------------------------------------------
+file = 0050.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-41m-52s_flows-30:41
+final_valid_moved_points = 643
+Q95_threshold_mm = 14.806123822927473
+largest_cluster_size = 9
+num_components = 10
+boundary_edges = 35
+normal_edges = 3062
+final_boundary_delta_median_mm = -6.167121231555939
+final_boundary_stretched_fraction = 0.42857142857142855
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 29.255051 3.454600 +25.800451 (n=35/3050)
+3 12.773824 2.230798 +10.543026 (n=35/3050)
+4 82.774200 2.693284 +80.080916 (n=35/3042)
+5 35.622947 2.937475 +32.685472 (n=35/2975)
+6 35.505250 4.059343 +31.445907 (n=35/2802)
+7 27.652714 4.325270 +23.327444 (n=35/2617)
+8 31.807061 4.992773 +26.814288 (n=35/2529)
+9 38.806647 6.234012 +32.572635 (n=35/2531)
+10 21.326587 6.341354 +14.985233 (n=35/2709)
+relvel_gap_mean_mm = 30.917263667409618
+relvel_gap_median_mm = 26.814288459718227
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0051.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-42m-27s_flows-35:46
+final_valid_moved_points = 559
+Q95_threshold_mm = 19.89804906770587
+largest_cluster_size = 11
+num_components = 11
+boundary_edges = 59
+normal_edges = 2588
+final_boundary_delta_median_mm = 12.826016172766685
+final_boundary_stretched_fraction = 0.7288135593220338
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 3.796678 4.330405 -0.533727 (n=59/2545)
+3 2.659944 2.564376 +0.095568 (n=59/2417)
+4 2.259975 2.706548 -0.446573 (n=59/2324)
+5 3.509230 3.850072 -0.340843 (n=59/2160)
+6 4.027663 5.029124 -1.001460 (n=59/1901)
+7 4.839194 5.936764 -1.097570 (n=59/1549)
+8 9.155742 9.367128 -0.211386 (n=54/1504)
+9 29.240495 14.785241 +14.455253 (n=33/1458)
+10 25.810240 27.288610 -1.478370 (n=33/1634)
+relvel_gap_mean_mm = 1.0489879253630836
+relvel_gap_median_mm = -0.44657348189502954
+positive_step_fraction = 0.2222222222222222
+
+--------------------------------------------------------------------------------
+file = 0052.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-43m-10s_flows-10:21
+final_valid_moved_points = 771
+Q95_threshold_mm = 16.923645138740525
+largest_cluster_size = 11
+num_components = 16
+boundary_edges = 58
+normal_edges = 3655
+final_boundary_delta_median_mm = 8.846990764141083
+final_boundary_stretched_fraction = 0.5862068965517241
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 8.008149 7.186546 +0.821603 (n=12/3157)
+3 3.831313 6.144066 -2.312753 (n=12/2891)
+4 9.090694 7.457511 +1.633182 (n=12/2709)
+5 18.931394 8.373742 +10.557652 (n=12/2617)
+6 72.465416 6.518987 +65.946429 (n=12/2674)
+7 18.203110 6.225269 +11.977841 (n=53/2651)
+8 294.645593 5.980304 +288.665288 (n=58/2824)
+9 512.630999 13.437840 +499.193159 (n=58/3129)
+10 32.300444 15.809046 +16.491398 (n=58/3315)
+relvel_gap_mean_mm = 99.21931084762845
+relvel_gap_median_mm = 11.977840680629015
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0053.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-43m-10s_flows-55:66
+final_valid_moved_points = 657
+Q95_threshold_mm = 16.33267244324088
+largest_cluster_size = 11
+num_components = 13
+boundary_edges = 46
+normal_edges = 3075
+final_boundary_delta_median_mm = -8.390821516513824
+final_boundary_stretched_fraction = 0.391304347826087
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 64.107031 4.061251 +60.045779 (n=41/3032)
+3 92.629917 3.006882 +89.623035 (n=46/3048)
+4 70.843663 3.672064 +67.171599 (n=46/3030)
+5 11.622759 4.417304 +7.205454 (n=44/3034)
+6 5.790350 3.134559 +2.655790 (n=44/3032)
+7 9.439962 4.419141 +5.020821 (n=40/3022)
+8 6.049804 4.520887 +1.528917 (n=42/3021)
+9 7.039672 6.965104 +0.074567 (n=39/3013)
+10 5.567336 9.368461 -3.801124 (n=39/3027)
+relvel_gap_mean_mm = 25.50275998914407
+relvel_gap_median_mm = 5.020821001380682
+positive_step_fraction = 0.8888888888888888
+
+--------------------------------------------------------------------------------
+file = 0054.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-20:31
+final_valid_moved_points = 531
+Q95_threshold_mm = 19.358892925083637
+largest_cluster_size = 8
+num_components = 11
+boundary_edges = 59
+normal_edges = 2538
+final_boundary_delta_median_mm = 4.722714424133301
+final_boundary_stretched_fraction = 0.559322033898305
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 12.614205 9.362534 +3.251671 (n=59/2336)
+3 33.174563 5.223401 +27.951162 (n=59/2336)
+4 31.584427 7.101808 +24.482619 (n=59/2344)
+5 20.636434 8.652524 +11.983910 (n=59/2336)
+6 30.748950 7.964874 +22.784076 (n=59/2352)
+7 7.369739 12.827104 -5.457365 (n=59/2346)
+8 11.781723 12.388664 -0.606941 (n=59/2329)
+9 59.656709 22.861760 +36.794949 (n=59/2329)
+10 69.543682 30.057071 +39.486611 (n=59/2447)
+relvel_gap_mean_mm = 17.852299199956988
+relvel_gap_median_mm = 22.784076165407896
+positive_step_fraction = 0.7777777777777778
+
+--------------------------------------------------------------------------------
+file = 0055.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-50:61
+final_valid_moved_points = 911
+Q95_threshold_mm = 29.654683545231787
+largest_cluster_size = 15
+num_components = 13
+boundary_edges = 78
+normal_edges = 4291
+final_boundary_delta_median_mm = 18.64600647240877
+final_boundary_stretched_fraction = 0.6794871794871795
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 11.378974 6.819174 +4.559800 (n=78/3630)
+3 9.013783 4.403955 +4.609828 (n=71/3613)
+4 10.508939 5.475127 +5.033811 (n=68/3772)
+5 10.607338 8.141349 +2.465989 (n=68/3922)
+6 7.901226 6.171139 +1.730087 (n=71/3999)
+7 6.011417 8.226331 -2.214914 (n=75/3900)
+8 6.054831 8.088267 -2.033436 (n=75/3852)
+9 12.326585 8.002585 +4.324000 (n=75/3931)
+10 14.870808 9.907174 +4.963634 (n=75/4189)
+relvel_gap_mean_mm = 2.6043110734058748
+relvel_gap_median_mm = 4.324000328779221
+positive_step_fraction = 0.7777777777777778
+
+--------------------------------------------------------------------------------
+file = 0056.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-44m-17s_flows-70:81
+final_valid_moved_points = 422
+Q95_threshold_mm = 40.606606751680374
+largest_cluster_size = 11
+num_components = 7
+boundary_edges = 57
+normal_edges = 1996
+final_boundary_delta_median_mm = 43.19366067647934
+final_boundary_stretched_fraction = 0.8947368421052632
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 13.975141 6.799620 +7.175521 (n=57/1797)
+3 15.485845 5.987108 +9.498737 (n=57/1889)
+4 21.718914 4.424308 +17.294605 (n=57/1952)
+5 11.365219 4.431289 +6.933930 (n=49/1916)
+6 12.658685 3.580038 +9.078647 (n=24/1771)
+7 6.088860 3.605753 +2.483107 (n=5/1538)
+8 NA NA NA (n=0/1455)
+9 NA NA NA (n=0/1477)
+10 18.088121 10.783259 +7.304862 (n=8/1522)
+relvel_gap_mean_mm = 8.538487034716777
+relvel_gap_median_mm = 7.304862141609192
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0057.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-44m-35s_flows-10:21
+final_valid_moved_points = 350
+Q95_threshold_mm = 28.048611991107464
+largest_cluster_size = 4
+num_components = 8
+boundary_edges = 32
+normal_edges = 1644
+final_boundary_delta_median_mm = 3.2828235998749733
+final_boundary_stretched_fraction = 0.5625
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 33.787197 9.933802 +23.853395 (n=32/1512)
+3 62.000964 8.658860 +53.342104 (n=32/1507)
+4 16.170338 6.908042 +9.262296 (n=32/1514)
+5 16.672997 5.731142 +10.941855 (n=32/1522)
+6 8.058479 9.759479 -1.701000 (n=32/1492)
+7 9.907612 24.164464 -14.256852 (n=32/1440)
+8 8.194278 6.209903 +1.984375 (n=32/1427)
+9 15.144688 6.238321 +8.906367 (n=32/1456)
+10 25.705406 26.364957 -0.659551 (n=32/1538)
+relvel_gap_mean_mm = 10.18588749381403
+relvel_gap_median_mm = 8.906367234885693
+positive_step_fraction = 0.6666666666666666
+
+--------------------------------------------------------------------------------
+file = 0058.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-44m-35s_flows-45:56
+final_valid_moved_points = 733
+Q95_threshold_mm = 32.111319154500954
+largest_cluster_size = 11
+num_components = 10
+boundary_edges = 37
+normal_edges = 3430
+final_boundary_delta_median_mm = -24.568527936935425
+final_boundary_stretched_fraction = 0.43243243243243246
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 73.228717 5.315645 +67.913072 (n=29/3161)
+3 29.580051 5.108720 +24.471331 (n=29/3104)
+4 22.163078 5.421068 +16.742010 (n=29/3083)
+5 22.279106 5.459809 +16.819297 (n=32/3126)
+6 14.888846 5.537968 +9.350878 (n=32/3234)
+7 7.249236 6.209423 +1.039813 (n=37/3207)
+8 7.083260 5.389701 +1.693558 (n=37/3202)
+9 9.443224 5.858924 +3.584300 (n=37/3241)
+10 22.710066 7.040148 +15.669918 (n=37/3290)
+relvel_gap_mean_mm = 17.47601978584296
+relvel_gap_median_mm = 15.669918153434992
+positive_step_fraction = 1.0
+
+--------------------------------------------------------------------------------
+file = 0059.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-10:21
+final_valid_moved_points = 405
+Q95_threshold_mm = 12.728909961879252
+largest_cluster_size = 4
+num_components = 13
+boundary_edges = 32
+normal_edges = 1935
+final_boundary_delta_median_mm = 15.368296299129725
+final_boundary_stretched_fraction = 0.78125
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 8.451444 7.794466 +0.656978 (n=3/1566)
+3 NA NA NA (n=0/1541)
+4 NA NA NA (n=0/1531)
+5 NA NA NA (n=0/1537)
+6 NA NA NA (n=0/1614)
+7 4.408719 6.314501 -1.905782 (n=6/1645)
+8 4.781362 6.239775 -1.458413 (n=6/1643)
+9 5.772547 8.728100 -2.955553 (n=14/1637)
+10 6.364130 11.677833 -5.313703 (n=24/1735)
+relvel_gap_mean_mm = -2.1952944807708263
+relvel_gap_median_mm = -1.9057816825807095
+positive_step_fraction = 0.2
+
+--------------------------------------------------------------------------------
+file = 0060.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-25:36
+final_valid_moved_points = 561
+Q95_threshold_mm = 22.98298235982655
+largest_cluster_size = 5
+num_components = 16
+boundary_edges = 26
+normal_edges = 2743
+final_boundary_delta_median_mm = 23.65311048924923
+final_boundary_stretched_fraction = 0.7692307692307693
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 11.174190 3.857561 +7.316630 (n=26/2638)
+3 7.013992 2.812800 +4.201192 (n=26/2596)
+4 11.438370 3.115575 +8.322796 (n=26/2572)
+5 6.368575 3.976080 +2.392495 (n=26/2550)
+6 6.945096 4.933295 +2.011801 (n=26/2532)
+7 7.538984 6.366700 +1.172283 (n=26/2216)
+8 4.233635 6.374171 -2.140536 (n=26/1918)
+9 3.422288 14.313022 -10.890734 (n=26/1687)
+10 3.103258 13.667917 -10.564659 (n=26/2042)
+relvel_gap_mean_mm = 0.20236308531214794
+relvel_gap_median_mm = 2.0118008833378553
+positive_step_fraction = 0.6666666666666666
+
+--------------------------------------------------------------------------------
+file = 0061.pt
+key = AUTOLab+0d4edc83+2023-10-21-19h-44m-52s_flows-30:41
+final_valid_moved_points = 852
+Q95_threshold_mm = 14.156580902636033
+largest_cluster_size = 8
+num_components = 22
+boundary_edges = 35
+normal_edges = 4012
+final_boundary_delta_median_mm = 18.188167829066515
+final_boundary_stretched_fraction = 0.8
+timestep relvel boundary_mm normal_mm gap_mm
+1 NA NA NA (n=0/0)
+2 15.271833 5.766245 +9.505588 (n=30/3413)
+3 6.716748 4.772995 +1.943752 (n=28/3232)
+4 5.034436 6.278806 -1.244371 (n=24/3086)
+5 11.096298 3.219453 +7.876844 (n=31/3003)
+6 6.869681 2.912152 +3.957529 (n=35/3008)
+7 6.147432 2.722788 +3.424644 (n=34/2944)
+8 7.151576 3.994106 +3.157470 (n=32/2989)
+9 9.116263 10.521450 -1.405187 (n=32/2947)
+10 9.611537 18.033752 -8.422215 (n=35/3216)
+relvel_gap_mean_mm = 2.0882283182193837
+relvel_gap_median_mm = 3.1574703752994537
+positive_step_fraction = 0.6666666666666666
+
+================================================================================
+processed_sequences = 62
+expected_sequences = 62
+SUCCESS = True
+================================================================================
