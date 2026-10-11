@@ -1,0 +1,13 @@
+SMOKE_PASS acceleration
+START acceleration task-0000
+FINISHED acceleration task-0000
+START acceleration task-0001
+FINISHED acceleration task-0001
+START acceleration task-0006
+FINISHED acceleration task-0006
+START acceleration task-0008
+FINISHED acceleration task-0008
+START acceleration task-0010
+FINISHED acceleration task-0010
+ALL_COMPLETE acceleration
+EXIT_CODE=0

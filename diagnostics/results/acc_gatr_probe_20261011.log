@@ -1,0 +1,34 @@
+LOADED 25 CLIPS 2677 ACTION VALID 2561
+LOADED 50 CLIPS 2677 ACTION VALID 2112
+LOADED 75 CLIPS 2677 ACTION VALID 1835
+LOADED 100 CLIPS 2677 ACTION VALID 1672
+
+===== GATR V0 PROBE =====
+CLIPS: 2677
+ALTERNATIVE SELECTED: 837
+DOSE DISTRIBUTION:
+selected_dose
+25      492
+50      207
+75      138
+100    1840
+Name: count, dtype: int64
+SELECTED ABOVE FIXED B: 838
+
+CACHED PA GAIN VS FIXED:
+Median mm: 0.0
+Mean mm: 0.03892127208083809
+Improved %: 25.99925289503175
+
+TASKWISE:
+             n  alternate  mean_pa_gain
+task                                   
+task-0000  145         44      0.067310
+task-0001  652        189      0.051293
+task-0006  551        177      0.035817
+task-0008  708        224      0.020999
+task-0010  621        203      0.042491
+
+NOTE: Cached comparison is optimistic.
+NOTE: Object identity is oracle in this pilot.
+PROBE_COMPLETE

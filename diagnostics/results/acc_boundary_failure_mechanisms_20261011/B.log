@@ -1,0 +1,24 @@
+B — TEMPORAL PA GROWTH
+     task  initial_pa_q   n  rho_acc_growth  growth_median_mm
+task-0000             1  96        0.520632          1.313896
+task-0000             2  96        0.423711          2.761601
+task-0000             3  95        0.403695          3.796607
+task-0000             4  96        0.455779          6.942901
+task-0001             1 577        0.282372          1.379418
+task-0001             2 577        0.328131          2.174153
+task-0001             3 576        0.241535          2.890691
+task-0001             4 577        0.280354          3.455447
+task-0006             1 456        0.258162          0.963174
+task-0006             2 456        0.206404          1.592127
+task-0006             3 455        0.008281          2.441548
+task-0006             4 456        0.233312          3.956301
+task-0008             1 456        0.355258          1.200272
+task-0008             2 456       -0.006916          2.627602
+task-0008             3 456        0.020122          3.556366
+task-0008             4 456        0.095762          5.552952
+task-0010             1 403        0.362514          1.276304
+task-0010             2 402        0.150723          2.114293
+task-0010             3 402        0.141520          2.510807
+task-0010             4 403        0.277092          2.782956
+Saved frame curves; trajectory-level acceleration does not localize an acceleration spike in time.
+MECHANISM_B_COMPLETE

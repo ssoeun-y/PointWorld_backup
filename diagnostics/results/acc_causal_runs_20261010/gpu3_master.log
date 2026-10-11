@@ -9,3 +9,19 @@ FINISHED freq1 task-0006
 START freq1 task-0008 limit=120
 FINISHED freq1 task-0008
 START freq1 task-0010 limit=120
+FINISHED freq1 task-0010
+MODE COMPLETE freq1
+SMOKE START freq3
+SMOKE PASS freq3
+START freq3 task-0000 limit=120
+FINISHED freq3 task-0000
+START freq3 task-0001 limit=120
+FINISHED freq3 task-0001
+START freq3 task-0006 limit=120
+FINISHED freq3 task-0006
+START freq3 task-0008 limit=120
+FINISHED freq3 task-0008
+START freq3 task-0010 limit=120
+FINISHED freq3 task-0010
+MODE COMPLETE freq3
+GPU3 CAUSAL EXPERIMENTS COMPLETE

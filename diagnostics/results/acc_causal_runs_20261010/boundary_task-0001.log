@@ -204,3 +204,23 @@ Initialized mesh mappings for 36 meshes
 [task-0001] 350/652 objects=1 task-0001_episode_00010050-365:376
 [task-0001] 400/652 objects=1 task-0001_episode_00010380-240:251
 [task-0001] 450/652 objects=1 task-0001_episode_00010650-145:156
+[task-0001] 500/652 objects=1 task-0001_episode_00010900-320:331
+[task-0001] 550/652 objects=1 task-0001_episode_00011200-215:226
+[task-0001] 600/652 objects=2 task-0001_episode_00011350-470:481
+[task-0001] 650/652 objects=3 task-0001_episode_00011460-420:431
+[task-0001] 652/652 objects=1 task-0001_episode_00011470-265:276
+
+================================================================================
+FINAL AUDIT
+TASK = task-0001
+TARGETS = 652
+FOUND = 652
+MODEL FORWARDS = 652
+ELIGIBLE CLIPS = 652
+ORIGINAL PA median mm = 2.019252752201296
+CORRECTED PA median mm = 1.971422425508158
+DELTA PA median mm = -0.024791945565007578
+CORRECTED LOWER fraction = 0.6487730061349694
+BASE-REPEAT noise median mm = 0.016586357685846043
+SAVED = /home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/results/acc_causal_geometry_boundary_20261010/task-0001
+================================================================================

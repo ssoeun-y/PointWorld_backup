@@ -1,0 +1,932 @@
+task,initial_bin,failure_clip,stable_clip,failure_acc,stable_acc,acc_gap_pct,initial_pa_gap_pct,failure_initial_PA,stable_initial_PA,failure_final_PA,stable_final_PA,failure_PA_growth,stable_PA_growth,growth_gap_mm,score
+task-0000,2,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001930-215:226
+acc                                      0.738189
+pa_initial                               1.255645
+pa_final                                24.730368
+pa_mean                                 13.094599
+pa_growth                               23.474723
+acc_q                                           4
+initial_bin                                     2
+Name: 289, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001700-190:201
+acc                                       0.69757
+pa_initial                               1.164912
+pa_final                                 3.971286
+pa_mean                                  1.978983
+pa_growth                                2.806375
+acc_q                                           4
+initial_bin                                     2
+Name: 262, dtype: object>",0.7381887789217488,0.6975700183525737,5.658159385307158,7.496888414627444,1.255644937049416,1.1649117212082114,24.73036800489377,3.97128627256692,23.47472306784435,2.8063745513587084,20.668348516485644,20.48021644463323
+task-0000,3,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00002730-160:171
+acc                                       0.54058
+pa_initial                               3.222044
+pa_final                                25.780988
+pa_mean                                 14.566796
+pa_growth                               22.558944
+acc_q                                           4
+initial_bin                                     3
+Name: 357, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00000210-215:226
+acc                                      0.544696
+pa_initial                               3.415497
+pa_final                                11.410878
+pa_mean                                  9.167262
+pa_growth                                 7.99538
+acc_q                                           4
+initial_bin                                     3
+Name: 28, dtype: object>",0.5405803093035005,0.5446956299561572,0.7583915765172082,5.82907339076127,3.222043889385368,3.4154974679149515,25.780988262708146,11.4108777519767,22.558944373322777,7.995380284061749,14.563564089261028,14.49010552382307
+task-0000,1,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001150-210:221
+acc                                      0.566017
+pa_initial                               0.638501
+pa_final                                15.389713
+pa_mean                                  6.671303
+pa_growth                               14.751212
+acc_q                                           4
+initial_bin                                     1
+Name: 187, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001270-205:216
+acc                                       0.57211
+pa_initial                               0.598228
+pa_final                                 3.323436
+pa_mean                                  2.503244
+pa_growth                                2.725208
+acc_q                                           4
+initial_bin                                     1
+Name: 207, dtype: object>",0.5660170414637027,0.5721102095396688,1.070735819846934,6.512894845285598,0.6385011409562814,0.5982277159698313,15.389713182880996,3.3234357782527453,14.751212041924715,2.7252080622829142,12.0260039796418,11.939460314792006
+task-0000,1,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001030-335:346
+acc                                      0.448252
+pa_initial                               0.545489
+pa_final                                14.092268
+pa_mean                                  6.853141
+pa_growth                               13.546779
+acc_q                                           4
+initial_bin                                     1
+Name: 160, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00002820-130:141
+acc                                      0.492766
+pa_initial                               0.642313
+pa_final                                 3.341925
+pa_mean                                  2.487085
+pa_growth                                2.699613
+acc_q                                           4
+initial_bin                                     1
+Name: 364, dtype: object>",0.4482521203106085,0.4927656271941661,9.460715698846421,16.30307530323481,0.5454887380016895,0.6423128300477408,14.092267973195906,3.341925368263281,13.546779235194217,2.6996125382155403,10.847166696978677,10.4949216299694
+task-0000,1,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001250-290:301
+acc                                      0.457488
+pa_initial                                0.41707
+pa_final                                14.388859
+pa_mean                                  4.996173
+pa_growth                               13.971789
+acc_q                                           4
+initial_bin                                     1
+Name: 204, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00000400-320:331
+acc                                       0.46683
+pa_initial                               0.494643
+pa_final                                 3.793614
+pa_mean                                  3.027527
+pa_growth                                3.298971
+acc_q                                           4
+initial_bin                                     1
+Name: 60, dtype: object>",0.4574876783295757,0.4668298207805749,2.0214141699130335,17.016954496428,0.4170701158447811,0.4946430206307827,14.388858851552648,3.793614172868178,13.971788735707866,3.298971152237395,10.672817583470472,10.462219755107933
+task-0000,1,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00002190-340:351
+acc                                      0.512902
+pa_initial                               0.572554
+pa_final                                13.361596
+pa_mean                                  4.071662
+pa_growth                               12.789041
+acc_q                                           4
+initial_bin                                     1
+Name: 317, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00002820-130:141
+acc                                      0.492766
+pa_initial                               0.642313
+pa_final                                 3.341925
+pa_mean                                  2.487085
+pa_growth                                2.699613
+acc_q                                           4
+initial_bin                                     1
+Name: 364, dtype: object>",0.5129017510587627,0.4927656271941661,4.004529589013329,11.48412533968611,0.5725543927588069,0.6423128300477408,13.361595614986252,3.341925368263281,12.789041222227445,2.6996125382155403,10.089428684011905,9.894496838834778
+task-0000,2,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00000380-165:176
+acc                                       0.41585
+pa_initial                               0.749038
+pa_final                                13.129748
+pa_mean                                  5.716845
+pa_growth                                12.38071
+acc_q                                           4
+initial_bin                                     2
+Name: 56, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00002880-135:146
+acc                                      0.415995
+pa_initial                               0.802219
+pa_final                                  3.39201
+pa_mean                                  2.131584
+pa_growth                                2.589791
+acc_q                                           4
+initial_bin                                     2
+Name: 374, dtype: object>",0.4158500964350624,0.4159954001836257,0.034935273233777965,6.856426741447787,0.7490381636767739,0.8022185538823897,13.129747819211245,3.39201000491114,12.38070965553447,2.5897914510287503,9.79091820450572,9.721655231626567
+task-0000,1,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001030-255:266
+acc                                      0.471524
+pa_initial                               0.638466
+pa_final                                 11.84445
+pa_mean                                  6.214109
+pa_growth                               11.205983
+acc_q                                           4
+initial_bin                                     1
+Name: 159, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00002820-130:141
+acc                                      0.492766
+pa_initial                               0.642313
+pa_final                                 3.341925
+pa_mean                                  2.487085
+pa_growth                                2.699613
+acc_q                                           4
+initial_bin                                     1
+Name: 364, dtype: object>",0.4715242011885955,0.4927656271941661,4.405610301043041,0.6006416989788581,0.6384663830349269,0.6423128300477408,11.84444976977063,3.341925368263281,11.205983386735703,2.6996125382155403,8.506370848520163,8.412252225509514
+task-0000,0,"<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001160-195:206
+acc                                      0.740681
+pa_initial                               0.332756
+pa_final                                 7.796764
+pa_mean                                  3.094446
+pa_growth                                7.464007
+acc_q                                           4
+initial_bin                                     0
+Name: 192, dtype: object>","<bound method NDFrame.clip of task                                    task-0000
+clip           task-0000_episode_00001590-210:221
+acc                                      0.725274
+pa_initial                                0.29594
+pa_final                                 2.309049
+pa_mean                                  1.541438
+pa_growth                                2.013108
+acc_q                                           4
+initial_bin                                     0
+Name: 241, dtype: object>",0.740680711287713,0.7252740974974313,2.1019220644392567,11.711819044838597,0.3327562014200569,0.295940302953338,7.796763560346031,2.309048573454242,7.464007358925974,2.0131082705009042,5.45089908842507,5.291742456687899
+task-0001,1,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00011930-155:166
+acc                                      0.347928
+pa_initial                               0.492437
+pa_final                                25.916797
+pa_mean                                  6.821944
+pa_growth                                25.42436
+acc_q                                           4
+initial_bin                                     1
+Name: 1757, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00012310-225:236
+acc                                      0.327967
+pa_initial                                0.46449
+pa_final                                 1.549142
+pa_mean                                  0.919074
+pa_growth                                1.084652
+acc_q                                           4
+initial_bin                                     1
+Name: 2071, dtype: object>",0.3479275819236664,0.3279671633916645,5.906368904433372,5.840936464268469,0.4924366652429603,0.4644899280801155,25.916796866887484,1.5491417363895224,25.424360201644525,1.0846518083094068,24.33970839333512,24.163171650603765
+task-0001,1,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00011040-325:336
+acc                                      0.464138
+pa_initial                               0.404852
+pa_final                                25.199458
+pa_mean                                  6.265154
+pa_growth                               24.794606
+acc_q                                           4
+initial_bin                                     1
+Name: 1190, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00010460-700:711
+acc                                        0.4917
+pa_initial                               0.379192
+pa_final                                 1.457178
+pa_mean                                  0.753546
+pa_growth                                1.077986
+acc_q                                           4
+initial_bin                                     1
+Name: 659, dtype: object>",0.4641378952202113,0.4917004041959659,5.767190746089514,6.545637797586067,0.4048520566534314,0.3791917236372661,25.19945829538508,1.4571779851920523,24.79460623873165,1.0779862615547862,23.71661997717686,23.535819784279212
+task-0001,2,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00010650-200:211
+acc                                      0.342775
+pa_initial                               0.672833
+pa_final                                21.443467
+pa_mean                                  6.892809
+pa_growth                               20.770633
+acc_q                                           4
+initial_bin                                     2
+Name: 864, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00012300-170:181
+acc                                      0.336939
+pa_initial                               0.603582
+pa_final                                  1.54089
+pa_mean                                  1.226728
+pa_growth                                0.937307
+acc_q                                           4
+initial_bin                                     2
+Name: 2061, dtype: object>",0.3427752091241555,0.3369385500577938,1.717387352401477,10.85090008067037,0.6728333892068262,0.6035821042995405,21.443466835862527,1.5408895619195138,20.7706334466557,0.9373074576199732,19.83332598903573,19.690469241180995
+task-0001,1,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00010620-435:446
+acc                                       0.32602
+pa_initial                               0.448253
+pa_final                                20.973307
+pa_mean                                  5.549803
+pa_growth                               20.525053
+acc_q                                           4
+initial_bin                                     1
+Name: 838, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00012310-225:236
+acc                                      0.327967
+pa_initial                                0.46449
+pa_final                                 1.549142
+pa_mean                                  0.919074
+pa_growth                                1.084652
+acc_q                                           4
+initial_bin                                     1
+Name: 2071, dtype: object>",0.3260201538884525,0.3279671633916645,0.5954272970642412,3.557733496109445,0.4482534398135798,0.4644899280801155,20.973306721385203,1.5491417363895224,20.525053281571623,1.0846518083094068,19.440401473262217,19.392915592359838
+task-0001,3,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00010530-830:841
+acc                                       0.51153
+pa_initial                               1.938792
+pa_final                                19.297093
+pa_mean                                 13.312578
+pa_growth                                 17.3583
+acc_q                                           4
+initial_bin                                     3
+Name: 718, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00011040-435:446
+acc                                      0.536328
+pa_initial                               2.172625
+pa_final                                 2.295098
+pa_mean                                   2.12008
+pa_growth                                0.122473
+acc_q                                           4
+initial_bin                                     3
+Name: 1196, dtype: object>",0.5115299531857614,0.5363276514981806,4.73302826673644,11.374820466788272,1.9387922109422049,2.172625396696624,19.297092603641214,2.2950984345036667,17.35830039269901,0.12247303780704266,17.235827354891967,17.027418584889357
+task-0001,2,"<bound method NDFrame.clip of task                                      task-0001
+clip           task-0001_episode_00011490-1005:1016
+acc                                        0.392614
+pa_initial                                 0.568256
+pa_final                                  13.246851
+pa_mean                                     7.38893
+pa_growth                                 12.678595
+acc_q                                             4
+initial_bin                                       2
+Name: 1640, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00011880-185:196
+acc                                      0.362621
+pa_initial                               0.599628
+pa_final                                 1.518869
+pa_mean                                   1.18501
+pa_growth                                 0.91924
+acc_q                                           4
+initial_bin                                     2
+Name: 1728, dtype: object>",0.3926141957664702,0.3626214981542786,7.942605958276901,5.372523805211553,0.568256045533452,0.5996284826813124,13.246851455608775,1.5188688116161146,12.678595410075323,0.9192403289348022,11.759355081140521,11.546777723922869
+task-0001,2,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00012670-430:441
+acc                                      0.582398
+pa_initial                                0.61947
+pa_final                                13.608091
+pa_mean                                  4.873197
+pa_growth                               12.988622
+acc_q                                           4
+initial_bin                                     2
+Name: 2354, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00011150-945:956
+acc                                      0.572569
+pa_initial                               0.644042
+pa_final                                 2.681596
+pa_mean                                  1.659279
+pa_growth                                2.037554
+acc_q                                           4
+initial_bin                                     2
+Name: 1258, dtype: object>",0.5823984845383041,0.5725686442942284,1.702185282798822,3.8895431109166316,0.6194698434600225,0.6440422675956032,13.608091404151015,2.6815958711982337,12.988621560690992,2.0375536036026305,10.951067957088362,10.87812882032322
+task-0001,3,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00011320-780:791
+acc                                      0.391018
+pa_initial                               1.113592
+pa_final                                13.533478
+pa_mean                                  8.926198
+pa_growth                               12.419886
+acc_q                                           4
+initial_bin                                     3
+Name: 1429, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00012260-330:341
+acc                                      0.374809
+pa_initial                               1.056038
+pa_final                                 2.565395
+pa_mean                                  1.930384
+pa_growth                                1.509357
+acc_q                                           4
+initial_bin                                     3
+Name: 2035, dtype: object>",0.3910175696677553,0.3748090795351651,4.232939699724509,5.305505201986735,1.1135924676043285,1.0560375508576456,13.533478250378918,2.565394730334746,12.419885782774589,1.5093571794771004,10.91052860329749,10.77281475728313
+task-0001,3,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00010620-580:591
+acc                                      0.373242
+pa_initial                                1.17426
+pa_final                                13.417945
+pa_mean                                  7.814299
+pa_growth                               12.243684
+acc_q                                           4
+initial_bin                                     3
+Name: 840, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00012260-330:341
+acc                                      0.374809
+pa_initial                               1.056038
+pa_final                                 2.565395
+pa_mean                                  1.930384
+pa_growth                                1.509357
+acc_q                                           4
+initial_bin                                     3
+Name: 2035, dtype: object>",0.3732415929295504,0.3748090795351651,0.4190856751589025,10.601533145923982,1.1742604413035698,1.0560375508576456,13.417944569659966,2.565394730334746,12.243684128356396,1.5093571794771004,10.734326948879296,10.619929903916878
+task-0001,1,"<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00010800-400:411
+acc                                      0.336276
+pa_initial                               0.518555
+pa_final                                12.035941
+pa_mean                                  4.503824
+pa_growth                               11.517386
+acc_q                                           4
+initial_bin                                     1
+Name: 1056, dtype: object>","<bound method NDFrame.clip of task                                    task-0001
+clip           task-0001_episode_00012310-225:236
+acc                                      0.327967
+pa_initial                                0.46449
+pa_final                                 1.549142
+pa_mean                                  0.919074
+pa_growth                                1.084652
+acc_q                                           4
+initial_bin                                     1
+Name: 2071, dtype: object>",0.3362756914786656,0.3279671633916645,2.5016537328423523,10.999453833643939,0.5185546979841434,0.4644899280801155,12.035940522244523,1.5491417363895224,11.51738582426038,1.0846518083094068,10.432734015950974,10.272706402957688
+task-0006,2,"<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00060820-625:636
+acc                                      0.321579
+pa_initial                                0.64118
+pa_final                                19.319377
+pa_mean                                  6.476776
+pa_growth                               18.678198
+acc_q                                           4
+initial_bin                                     2
+Name: 3153, dtype: object>","<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00061270-465:476
+acc                                      0.339135
+pa_initial                               0.631828
+pa_final                                 1.806545
+pa_mean                                  1.190397
+pa_growth                                1.174717
+acc_q                                           4
+initial_bin                                     2
+Name: 3495, dtype: object>",0.3215790131608664,0.3391347783716883,5.314181552075838,1.4692108825362717,0.6411795687600863,0.6318279859951003,19.319377331279416,1.8065450753460577,18.67819776251933,1.1747170893509575,17.503480673168372,17.382504933301494
+task-0006,2,"<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00060420-595:606
+acc                                      0.386065
+pa_initial                               0.708469
+pa_final                                18.683844
+pa_mean                                    8.3524
+pa_growth                               17.975375
+acc_q                                           4
+initial_bin                                     2
+Name: 2948, dtype: object>","<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00060390-930:941
+acc                                      0.381038
+pa_initial                               0.748442
+pa_final                                  1.93001
+pa_mean                                  1.450365
+pa_growth                                1.181567
+acc_q                                           4
+initial_bin                                     2
+Name: 2941, dtype: object>",0.3860652955263584,0.3810383718358885,1.3106243404507194,5.487444569460783,0.7084688908408935,0.7484424931522884,18.68384351544019,1.930009560073545,17.975374624599297,1.1815670669212566,16.79380755767804,16.712720625174416
+task-0006,3,"<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00062070-575:586
+acc                                      0.420078
+pa_initial                               2.020615
+pa_final                                19.121372
+pa_mean                                  7.666045
+pa_growth                               17.100757
+acc_q                                           4
+initial_bin                                     3
+Name: 4032, dtype: object>","<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00061960-725:736
+acc                                      0.397123
+pa_initial                               1.686595
+pa_final                                 4.179147
+pa_mean                                  3.295326
+pa_growth                                2.492552
+acc_q                                           4
+initial_bin                                     3
+Name: 3996, dtype: object>",0.4200776645777748,0.3971229678969919,5.617885196996995,18.020012001458518,2.02061505512935,1.6865951896179667,19.121372476949546,4.179147127032472,17.100757421820195,2.4925519374145053,14.608205484405689,14.315647660451162
+task-0006,3,"<bound method NDFrame.clip of task                                      task-0006
+clip           task-0006_episode_00061870-1570:1581
+acc                                        0.582394
+pa_initial                                 0.980258
+pa_final                                  15.757137
+pa_mean                                    7.076683
+pa_growth                                 14.776878
+acc_q                                             4
+initial_bin                                       3
+Name: 3943, dtype: object>","<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00061950-805:816
+acc                                      0.537906
+pa_initial                               0.994877
+pa_final                                 3.043357
+pa_mean                                  2.058616
+pa_growth                                2.048481
+acc_q                                           4
+initial_bin                                     3
+Name: 3993, dtype: object>",0.5823935139711209,0.537906389906705,7.9420026566863715,1.4802649164866368,0.9802582903669576,0.9948769070572826,15.75713677296393,3.043357470637664,14.776878482596972,2.048480563580381,12.72839791901659,12.554755216717995
+task-0006,3,"<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00061250-915:926
+acc                                      0.689094
+pa_initial                               1.845161
+pa_final                                14.932235
+pa_mean                                  7.167157
+pa_growth                               13.087073
+acc_q                                           4
+initial_bin                                     3
+Name: 3479, dtype: object>","<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00062390-945:956
+acc                                      0.661821
+pa_initial                               1.693333
+pa_final                                 2.848435
+pa_mean                                  1.931983
+pa_growth                                1.155103
+acc_q                                           4
+initial_bin                                     3
+Name: 4168, dtype: object>",0.6890936322371845,0.661821316352684,4.03760664769728,8.581541711662767,1.845161210134424,1.693332551092296,14.932234527727836,2.848435334627583,13.087073317593411,1.1551027835352867,11.931970534058124,11.765402983987551
+task-0006,2,"<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00060420-725:736
+acc                                      0.590155
+pa_initial                               0.814807
+pa_final                                13.142096
+pa_mean                                  7.027651
+pa_growth                               12.327289
+acc_q                                           4
+initial_bin                                     2
+Name: 2950, dtype: object>","<bound method NDFrame.clip of task                                      task-0006
+clip           task-0006_episode_00060760-1115:1126
+acc                                        0.603351
+pa_initial                                 0.688993
+pa_final                                   1.589546
+pa_mean                                    1.454583
+pa_growth                                  0.900553
+acc_q                                             4
+initial_bin                                       2
+Name: 3125, dtype: object>",0.5901549135533866,0.6033505511290342,2.21124041173266,16.73278649626727,0.8148068830850531,0.6889930657041188,13.142096326917091,1.5895464622778284,12.327289443832038,0.9005533965737096,11.426736047258329,11.215183374061004
+task-0006,2,"<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00061720-760:771
+acc                                        0.4458
+pa_initial                               0.558421
+pa_final                                12.420733
+pa_mean                                  5.850367
+pa_growth                               11.862312
+acc_q                                           4
+initial_bin                                     2
+Name: 3877, dtype: object>","<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00061370-735:746
+acc                                       0.48313
+pa_initial                               0.577579
+pa_final                                 2.407697
+pa_mean                                  1.485712
+pa_growth                                1.830119
+acc_q                                           4
+initial_bin                                     2
+Name: 3623, dtype: object>",0.4458000050136746,0.483130175301025,8.037239198042586,3.3727838860665362,0.5584212641235692,0.577578675579586,12.42073323369789,2.407697282769285,11.862311969574321,1.830118607189699,10.032193362384621,9.837720739563105
+task-0006,2,"<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00062170-465:476
+acc                                      0.650326
+pa_initial                               0.632318
+pa_final                                10.667296
+pa_mean                                  6.695041
+pa_growth                               10.034977
+acc_q                                           4
+initial_bin                                     2
+Name: 4081, dtype: object>","<bound method NDFrame.clip of task                                      task-0006
+clip           task-0006_episode_00060760-1115:1126
+acc                                        0.603351
+pa_initial                                 0.688993
+pa_final                                   1.589546
+pa_mean                                    1.454583
+pa_growth                                  0.900553
+acc_q                                             4
+initial_bin                                       2
+Name: 3125, dtype: object>",0.6503263494994808,0.6033505511290342,7.494083738305428,8.578534435498739,0.6323184826176179,0.6889930657041188,10.667295939341336,1.5895464622778284,10.034977456723718,0.9005533965737096,9.134424060150009,8.898757041028913
+task-0006,2,"<bound method NDFrame.clip of task                                      task-0006
+clip           task-0006_episode_00062460-1215:1226
+acc                                        0.842244
+pa_initial                                 0.684905
+pa_final                                  11.922798
+pa_mean                                    6.126722
+pa_growth                                 11.237892
+acc_q                                             4
+initial_bin                                       2
+Name: 4195, dtype: object>","<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00061680-305:316
+acc                                      0.788878
+pa_initial                               0.612646
+pa_final                                 2.778215
+pa_mean                                  1.963166
+pa_growth                                2.165569
+acc_q                                           4
+initial_bin                                     2
+Name: 3863, dtype: object>",0.8422439069524899,0.7888778203256391,6.543483019615379,11.137837626649052,0.6849051698200519,0.6126456197852796,11.92279758825961,2.7782150337535825,11.237892418439557,2.165569413968303,9.072323004471254,8.830074967812457
+task-0006,2,"<bound method NDFrame.clip of task                                      task-0006
+clip           task-0006_episode_00060880-1360:1371
+acc                                        0.594025
+pa_initial                                 0.878333
+pa_final                                  10.707956
+pa_mean                                    3.880491
+pa_growth                                  9.829623
+acc_q                                             4
+initial_bin                                       2
+Name: 3167, dtype: object>","<bound method NDFrame.clip of task                                    task-0006
+clip           task-0006_episode_00061040-545:556
+acc                                      0.566307
+pa_initial                               0.860307
+pa_final                                 1.837568
+pa_mean                                  1.078531
+pa_growth                                0.977261
+acc_q                                           4
+initial_bin                                     2
+Name: 3284, dtype: object>",0.5940253504691714,0.5663071462504171,4.777631290533919,2.0736137758418782,0.8783331821978828,0.8603068426639648,10.707955929206022,1.837568006952339,9.82962274700814,0.9772611642883742,8.852361582719766,8.73607281915067
+task-0008,3,"<bound method NDFrame.clip of task                                      task-0008
+clip           task-0008_episode_00081730-1015:1026
+acc                                        0.571783
+pa_initial                                 1.944793
+pa_final                                  54.159302
+pa_mean                                   19.853483
+pa_growth                                 52.214509
+acc_q                                             4
+initial_bin                                       3
+Name: 5866, dtype: object>","<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00081930-560:571
+acc                                      0.578571
+pa_initial                               1.630024
+pa_final                                 2.501124
+pa_mean                                  2.280741
+pa_growth                                  0.8711
+acc_q                                           4
+initial_bin                                     3
+Name: 5940, dtype: object>",0.5717832276860134,0.5785705822161006,1.1800464294832411,17.610375288891376,1.9447931588655667,1.6300238162602418,54.15930215732615,2.5011236550525866,52.21450899846059,0.8710998387923448,51.34340915966824,51.14370447818966
+task-0008,2,"<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00082580-540:551
+acc                                      0.403661
+pa_initial                               0.910903
+pa_final                                40.833242
+pa_mean                                 17.879307
+pa_growth                               39.922339
+acc_q                                           4
+initial_bin                                     2
+Name: 6211, dtype: object>","<bound method NDFrame.clip of task                                      task-0008
+clip           task-0008_episode_00081200-1120:1131
+acc                                         0.39313
+pa_initial                                 0.773869
+pa_final                                   2.009582
+pa_mean                                    1.338793
+pa_growth                                  1.235714
+acc_q                                             4
+initial_bin                                       2
+Name: 5549, dtype: object>",0.4036610004995856,0.3931297744534137,2.643410636071462,16.26737696741946,0.910902884404683,0.7738688036375869,40.83324224035341,2.0095824793270323,39.92233935594872,1.2357136756894453,38.686625680259276,38.471083697863655
+task-0008,3,"<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00081760-935:946
+acc                                      0.358104
+pa_initial                               1.919364
+pa_final                                40.247553
+pa_mean                                 13.723254
+pa_growth                               38.328189
+acc_q                                           4
+initial_bin                                     3
+Name: 5891, dtype: object>","<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00081470-650:661
+acc                                      0.337149
+pa_initial                               1.697341
+pa_final                                 4.762095
+pa_mean                                  2.665997
+pa_growth                                3.064754
+acc_q                                           4
+initial_bin                                     3
+Name: 5788, dtype: object>",0.3581040123620097,0.3371491002898436,6.027995183578354,12.277622007593767,1.9193635694224147,1.6973409164677724,40.24755297764031,4.762095129876014,38.328189408217895,3.064754213408242,35.26343519480965,35.02009907106215
+task-0008,3,"<bound method NDFrame.clip of task                                      task-0008
+clip           task-0008_episode_00081940-1370:1381
+acc                                         0.48923
+pa_initial                                 1.189679
+pa_final                                  28.696536
+pa_mean                                    9.151757
+pa_growth                                 27.506856
+acc_q                                             4
+initial_bin                                       3
+Name: 5947, dtype: object>","<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00082990-595:606
+acc                                      0.503905
+pa_initial                               1.034253
+pa_final                                 3.030285
+pa_mean                                  2.439565
+pa_growth                                1.996032
+acc_q                                           4
+initial_bin                                     3
+Name: 6329, dtype: object>",0.4892296717936485,0.503905387225484,2.955431952292545,13.97764707036792,1.189679381188917,1.0342526929827058,28.69653551499433,3.0302845942347436,27.506856133805414,1.9960319012520378,25.510824232553375,25.311939122803846
+task-0008,3,"<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00080130-415:426
+acc                                      0.533844
+pa_initial                               1.058785
+pa_final                                26.017756
+pa_mean                                  8.854001
+pa_growth                                24.95897
+acc_q                                           4
+initial_bin                                     3
+Name: 4624, dtype: object>","<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00082990-595:606
+acc                                      0.503905
+pa_initial                               1.034253
+pa_final                                 3.030285
+pa_mean                                  2.439565
+pa_growth                                1.996032
+acc_q                                           4
+initial_bin                                     3
+Name: 6329, dtype: object>",0.5338444878286221,0.503905387225484,5.770003220010455,2.344213994104515,1.0587853381971295,1.0342526929827058,26.01775575074646,3.0302845942347436,24.95897041254933,1.9960319012520378,22.962938511297292,22.824096306956037
+task-0008,3,"<bound method NDFrame.clip of task                                      task-0008
+clip           task-0008_episode_00080810-1175:1186
+acc                                         0.36552
+pa_initial                                 2.048197
+pa_final                                  23.249328
+pa_mean                                   12.092483
+pa_growth                                  21.20113
+acc_q                                             4
+initial_bin                                       3
+Name: 5265, dtype: object>","<bound method NDFrame.clip of task                                      task-0008
+clip           task-0008_episode_00080050-1090:1101
+acc                                        0.376004
+pa_initial                                 1.716291
+pa_final                                   4.815306
+pa_mean                                    3.638926
+pa_growth                                  3.099015
+acc_q                                             4
+initial_bin                                       3
+Name: 4551, dtype: object>",0.3655196713074918,0.3760035940782257,2.8276719720400108,17.633564336664783,2.0481973551330466,1.7162906481321487,23.249327802467132,4.815305885515023,21.201130447334087,3.099015237382874,18.102115209951215,17.869226127143765
+task-0008,3,"<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00082520-490:501
+acc                                      0.373787
+pa_initial                                 3.0566
+pa_final                                20.877561
+pa_mean                                 11.546386
+pa_growth                               17.820961
+acc_q                                           4
+initial_bin                                     3
+Name: 6180, dtype: object>","<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00080270-885:896
+acc                                      0.382952
+pa_initial                               2.803405
+pa_final                                 4.729747
+pa_mean                                  3.312352
+pa_growth                                1.926342
+acc_q                                           4
+initial_bin                                     3
+Name: 4797, dtype: object>",0.3737872431579668,0.3829516573983029,2.4220809141962816,8.641430014545833,3.05659959191391,2.8034054736204155,20.877560612153328,4.729747391523291,17.820961020239416,1.9263419179028753,15.894619102336542,15.759763183907157
+task-0008,3,"<bound method NDFrame.clip of task                                      task-0008
+clip           task-0008_episode_00080550-1450:1461
+acc                                        0.441474
+pa_initial                                 1.582983
+pa_final                                  18.388235
+pa_mean                                    7.775338
+pa_growth                                 16.805252
+acc_q                                             4
+initial_bin                                       3
+Name: 5048, dtype: object>","<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00081610-560:571
+acc                                      0.442166
+pa_initial                               1.309384
+pa_final                                 2.939926
+pa_mean                                  2.140963
+pa_growth                                1.630542
+acc_q                                           4
+initial_bin                                     3
+Name: 5837, dtype: object>",0.44147365028231,0.4421661340017993,0.1567343915032858,18.918665387514075,1.582982760724052,1.309384151749071,18.38823472761353,2.9399263376125417,16.80525196688948,1.6305421858634708,15.174709781026008,14.982388439320802
+task-0008,2,"<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00082430-875:886
+acc                                      0.446621
+pa_initial                               0.644107
+pa_final                                15.447145
+pa_mean                                  6.982419
+pa_growth                               14.803038
+acc_q                                           4
+initial_bin                                     2
+Name: 6133, dtype: object>","<bound method NDFrame.clip of task                                      task-0008
+clip           task-0008_episode_00081100-1040:1051
+acc                                        0.413902
+pa_initial                                 0.607083
+pa_final                                   1.169888
+pa_mean                                    0.856822
+pa_growth                                  0.562806
+acc_q                                             4
+initial_bin                                       2
+Name: 5461, dtype: object>",0.4466206639100545,0.4139022896963873,7.60430017038938,5.918221610048412,0.6441066150000736,0.6070825414793983,15.447144608949275,1.1698884222001678,14.803037993949202,0.5628058807207694,14.240232113228432,14.028963893720158
+task-0008,3,"<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00082340-900:911
+acc                                      0.544901
+pa_initial                               1.062824
+pa_final                                17.153421
+pa_mean                                  7.419408
+pa_growth                               16.090598
+acc_q                                           4
+initial_bin                                     3
+Name: 6090, dtype: object>","<bound method NDFrame.clip of task                                    task-0008
+clip           task-0008_episode_00082990-595:606
+acc                                      0.503905
+pa_initial                               1.034253
+pa_final                                 3.030285
+pa_mean                                  2.439565
+pa_growth                                1.996032
+acc_q                                           4
+initial_bin                                     3
+Name: 6329, dtype: object>",0.5449006151316214,0.503905387225484,7.817504441050873,2.724855879827576,1.0628238497218914,1.0342526929827058,17.153421367563276,3.0302845942347436,16.090597517841385,1.9960319012520378,14.094565616589346,13.910966968970053
+task-0010,3,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00101020-655:666
+acc                                      0.923277
+pa_initial                                1.28801
+pa_final                                20.117996
+pa_mean                                  8.541658
+pa_growth                               18.829987
+acc_q                                           4
+initial_bin                                     3
+Name: 6991, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100410-300:311
+acc                                       0.88828
+pa_initial                               1.320266
+pa_final                                 2.433728
+pa_mean                                  1.729141
+pa_growth                                1.113462
+acc_q                                           4
+initial_bin                                     3
+Name: 6608, dtype: object>",0.9232767594731291,0.888279695507502,3.8637563703198383,2.4734098536785645,1.2880095589104956,1.3202662341488165,20.11799611850939,2.433728008649138,18.829986559598893,1.1134617745003217,17.71652478509857,17.614515559155386
+task-0010,3,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100140-150:161
+acc                                      0.924825
+pa_initial                               1.439536
+pa_final                                18.865751
+pa_mean                                  9.868353
+pa_growth                               17.426216
+acc_q                                           4
+initial_bin                                     3
+Name: 6460, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100410-300:311
+acc                                       0.88828
+pa_initial                               1.320266
+pa_final                                 2.433728
+pa_mean                                  1.729141
+pa_growth                                1.113462
+acc_q                                           4
+initial_bin                                     3
+Name: 6608, dtype: object>",0.9248253015015424,0.888279695507502,4.031272987976673,8.643330136336125,1.4395356271387325,1.3202662341488165,18.865751291282717,2.433728008649138,17.426215664143985,1.1134617745003217,16.312753889643663,16.145695128520767
+task-0010,2,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100400-480:491
+acc                                      0.486169
+pa_initial                               0.670586
+pa_final                                14.996901
+pa_mean                                  7.540293
+pa_growth                               14.326315
+acc_q                                           4
+initial_bin                                     2
+Name: 6602, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00102460-585:596
+acc                                      0.444099
+pa_initial                               0.672226
+pa_final                                 1.958995
+pa_mean                                  1.204025
+pa_growth                                1.286769
+acc_q                                           4
+initial_bin                                     2
+Name: 7665, dtype: object>",0.4861686500242287,0.4440987727584691,9.044684621958812,0.24431253271076614,0.6705855671907857,0.6722258955378471,14.996900728197026,1.9589947271366128,14.32631516100624,1.2867688315987658,13.039546329407475,12.856209511641191
+task-0010,2,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00101830-880:891
+acc                                      0.593419
+pa_initial                               0.453856
+pa_final                                14.836239
+pa_mean                                  5.877742
+pa_growth                               14.382383
+acc_q                                           4
+initial_bin                                     2
+Name: 7385, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100330-190:201
+acc                                      0.606858
+pa_initial                               0.461776
+pa_final                                 1.991637
+pa_mean                                   1.27744
+pa_growth                                 1.52986
+acc_q                                           4
+initial_bin                                     2
+Name: 6558, dtype: object>",0.5934186423013328,0.6068580238764087,2.2393806284468427,1.7301031788522634,0.45385560516409185,0.4617762934564011,14.836238608666699,1.9916367002094295,14.382383003502607,1.5298604067530284,12.852522596749578,12.790433952392119
+task-0010,3,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00102570-400:411
+acc                                      0.429022
+pa_initial                               1.016765
+pa_final                                13.985316
+pa_mean                                  5.570699
+pa_growth                               12.968551
+acc_q                                           4
+initial_bin                                     3
+Name: 7712, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00101610-145:156
+acc                                      0.412171
+pa_initial                               1.217146
+pa_final                                 2.301062
+pa_mean                                  1.820697
+pa_growth                                1.083917
+acc_q                                           4
+initial_bin                                     3
+Name: 7246, dtype: object>",0.4290223707228932,0.4121710981682873,4.0065153089736665,17.9398730961987,1.0167653286370908,1.2171457334470066,13.985316234033029,2.301062484172842,12.968550905395938,1.0839167507258356,11.884634154670103,11.625105117528642
+task-0010,3,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00102560-345:356
+acc                                      0.493252
+pa_initial                               1.236763
+pa_final                                13.330916
+pa_mean                                  7.807275
+pa_growth                               12.094152
+acc_q                                           4
+initial_bin                                     3
+Name: 7701, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100770-165:176
+acc                                      0.502583
+pa_initial                               1.113911
+pa_final                                 2.116873
+pa_mean                                  1.714607
+pa_growth                                1.002961
+acc_q                                           4
+initial_bin                                     3
+Name: 6876, dtype: object>",0.4932520309085159,0.502582589699363,1.8739173348184108,10.452471700378002,1.236763144712557,1.1139113514717245,13.330915629246372,2.1168725315949977,12.094152484533815,1.0029611801232732,11.091191304410541,10.949188240710393
+task-0010,1,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00102030-260:271
+acc                                      0.425498
+pa_initial                               0.423744
+pa_final                                12.423329
+pa_mean                                  4.411517
+pa_growth                               11.999585
+acc_q                                           4
+initial_bin                                     1
+Name: 7506, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00101500-260:271
+acc                                      0.453649
+pa_initial                               0.398761
+pa_final                                 1.786871
+pa_mean                                  1.152884
+pa_growth                                 1.38811
+acc_q                                           4
+initial_bin                                     1
+Name: 7209, dtype: object>",0.42549801166459,0.4536491544496798,6.404193488904624,6.074873497066095,0.4237439616619017,0.3987608968315518,12.423329270294648,1.7868707087580469,11.999585308632746,1.388109811926495,10.611475496706252,10.422642891957498
+task-0010,0,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00101730-195:206
+acc                                      0.414557
+pa_initial                               0.218859
+pa_final                                10.036282
+pa_mean                                  3.927374
+pa_growth                                9.817423
+acc_q                                           4
+initial_bin                                     0
+Name: 7326, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00101170-975:986
+acc                                      0.409534
+pa_initial                               0.202068
+pa_final                                  0.89026
+pa_mean                                  0.565593
+pa_growth                                0.688192
+acc_q                                           4
+initial_bin                                     0
+Name: 7084, dtype: object>",0.4145568637033812,0.4095336746826318,1.2190866869039259,7.978083045106489,0.218859303121235,0.2020683252457763,10.036282174680782,0.890260410736017,9.817422871559547,0.6881920854902407,9.129230786069305,9.025068221880161
+task-0010,2,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100960-160:171
+acc                                      0.849473
+pa_initial                               0.563097
+pa_final                                10.054499
+pa_mean                                   3.83386
+pa_growth                                9.491402
+acc_q                                           4
+initial_bin                                     2
+Name: 6960, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100800-455:466
+acc                                      0.863172
+pa_initial                               0.583055
+pa_final                                 1.138291
+pa_mean                                  0.876529
+pa_growth                                0.555236
+acc_q                                           4
+initial_bin                                     2
+Name: 6892, dtype: object>",0.8494726303102585,0.8631723749888026,1.59983471602766,3.4826674512314817,0.5630968785789121,0.5830552114697797,10.054499007180882,1.1382912701443098,9.491402128601969,0.5552360586745301,8.936166069927438,8.86934270109457
+task-0010,2,"<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00101910-375:386
+acc                                      0.644124
+pa_initial                               0.485892
+pa_final                                10.465932
+pa_mean                                  4.132669
+pa_growth                                 9.98004
+acc_q                                           4
+initial_bin                                     2
+Name: 7419, dtype: object>","<bound method NDFrame.clip of task                                    task-0010
+clip           task-0010_episode_00100330-190:201
+acc                                      0.606858
+pa_initial                               0.461776
+pa_final                                 1.991637
+pa_mean                                   1.27744
+pa_growth                                 1.52986
+acc_q                                           4
+initial_bin                                     2
+Name: 6558, dtype: object>",0.6441238936128858,0.6068580238764087,5.957859057030848,5.089453977917287,0.4858918607420554,0.4617762934564011,10.465931927596854,1.9916367002094295,9.980040066854798,1.5298604067530284,8.45017966010177,8.28012793918198

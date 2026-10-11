@@ -1,0 +1,42 @@
+
+===== COMPLETED TASKS =====
+            n  applied  boundary_valid
+task                                  
+task-0000  80       62              79
+task-0001  80       70              80
+task-0006  80       73              80
+task-0008  80       68              80
+task-0010  80       67              80
+
+===== OVERALL =====
+Clips: 400
+Local applied: 340
+Boundary valid: 399
+
+===== pa_mpjpe_mm =====
+ALL N=400 median_gain=+0.009819mm 95%CI=[+0.004431,+0.017099] improved=58.50% above_2x_noise=33.75%
+APPLIED N=340 median_gain=+0.013694mm 95%CI=[+0.006251,+0.022569] improved=58.53% above_2x_noise=37.06%
+UNCHANGED N=60 median_gain=+0.002733mm 95%CI=[-0.001273,+0.006313] improved=58.33% above_2x_noise=15.00%
+
+===== se3_residual_mm =====
+ALL N=400 median_gain=+0.011835mm 95%CI=[+0.004614,+0.020106] improved=58.75% above_2x_noise=33.75%
+APPLIED N=340 median_gain=+0.017048mm 95%CI=[+0.007748,+0.028704] improved=59.41% above_2x_noise=36.76%
+UNCHANGED N=60 median_gain=+0.001141mm 95%CI=[-0.001701,+0.005980] improved=55.00% above_2x_noise=16.67%
+
+===== pairwise_error_mm =====
+ALL N=400 median_gain=+0.010995mm 95%CI=[+0.004322,+0.016297] improved=57.25% above_2x_noise=31.50%
+APPLIED N=340 median_gain=+0.013489mm 95%CI=[+0.006412,+0.020814] improved=58.53% above_2x_noise=35.29%
+UNCHANGED N=60 median_gain=+0.000942mm 95%CI=[-0.007187,+0.009680] improved=50.00% above_2x_noise=10.00%
+
+===== TASKWISE PA =====
+task-0000 N=62 median_gain=+0.035248mm 95%CI=[+0.012812,+0.057131] improved=66.13% above_2x_noise=45.16%
+task-0001 N=70 median_gain=+0.008425mm 95%CI=[-0.004967,+0.018624] improved=55.71% above_2x_noise=32.86%
+task-0006 N=73 median_gain=+0.012530mm 95%CI=[-0.002989,+0.036135] improved=60.27% above_2x_noise=36.99%
+task-0008 N=68 median_gain=+0.015885mm 95%CI=[-0.011775,+0.037462] improved=54.41% above_2x_noise=36.76%
+task-0010 N=67 median_gain=+0.009337mm 95%CI=[-0.007761,+0.025530] improved=56.72% above_2x_noise=34.33%
+
+===== BOUNDARY VIOLATIONS =====
+     task                               clip  gatr_applied  gatr_fixed_acc_si  modified_acc_si  gatr_boundary_valid
+task-0000 task-0000_episode_00000210-215:226         False           0.499579         0.499579                False
+
+ANALYSIS COMPLETE

@@ -1,0 +1,215 @@
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+================================================================================
+ACC-ONLY BOUNDARY CORRECTION PA-MPJPE
+TASK = task-0001
+TARGETS = 80
+VARIANTS = Original + Original repeat + Corrected
+JERK/MSJ = NOT USED
+================================================================================
+Overwriting seed for eval
+Using eval dir: eval_logs/20261011_114943-None-split=test-seed=42
+Applied canonical checkpoint model_contract for evaluation model initialization.
+[2026-10-11 11:49:52] Rank 1/1 using device cuda
+[2026-10-11 11:49:52] Experiment ID: dummy-i4yf0idm
+[2026-10-11 11:49:52] Saving to: train_logs/dummy-i4yf0idm
+[2026-10-11 11:49:52] Loading checkpoint from /home/soenchun/cse/PointWorld_workspace/PointWorld/pretrained_checkpoints/large-droid+behavior/model-best.pt
+Loading canonical statistics from stats/droid_behavior/norm_stats.json
+[2026-10-11 11:50:23] model/total_params            : 1288475176
+[2026-10-11 11:50:23] model/scene_features_dim      : 42
+[2026-10-11 11:50:23] model/robot_features_dim      : 17
+[2026-10-11 11:50:23] Experiment Name               : dummy-i4yf0idm
+[2026-10-11 11:50:23] Wandb ID                      : i4yf0idm
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/urdfpy/urdf.py:2169: RuntimeWarning: invalid value encountered in divide
+  value = value / np.linalg.norm(value)
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+[task-0001] 1/80 objects=1 task-0001_episode_00010030-240:251
+[task-0001] 2/80 objects=3 task-0001_episode_00010030-685:696
+[task-0001] 3/80 objects=4 task-0001_episode_00010050-1150:1161
+[task-0001] 4/80 objects=1 task-0001_episode_00010050-315:326
+[task-0001] 5/80 objects=1 task-0001_episode_00010050-365:376
+[task-0001] 50/80 objects=2 task-0001_episode_00010360-575:586
+[task-0001] 80/80 objects=1 task-0001_episode_00010560-275:286
+
+================================================================================
+FINAL AUDIT
+TASK = task-0001
+TARGETS = 80
+FOUND = 80
+MODEL FORWARDS = 80
+ELIGIBLE CLIPS = 80
+ORIGINAL PA median mm = 2.2368952706002734
+CORRECTED PA median mm = 2.2311915215286584
+DELTA PA median mm = -0.009686365698134997
+CORRECTED LOWER fraction = 0.625
+BASE-REPEAT noise median mm = 0.01837576059749446
+SAVED = /home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/results/motion_aware_temporal_generation_20261011/task-0001
+================================================================================
+PROBE_DONE generation task-0001 model_calls 80 point_frame_rows 725

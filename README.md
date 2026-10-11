@@ -441,4 +441,3 @@ Third-party OSS attribution and license references for distributed or adapted co
 
 All external contributions must follow `CONTRIBUTING.md` in this repository.
 In particular, commits must be signed off (`git commit -s`) to satisfy DCO requirements.
-# PointWorld_backup

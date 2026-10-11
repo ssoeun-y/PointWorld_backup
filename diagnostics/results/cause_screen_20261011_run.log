@@ -1,0 +1,53 @@
+
+=== POPULATION AUDIT ===
+Clips: 7947 Expected: 7947
+Clip-frames: 79470 Expected: 79470
+Object rows: 139760 Expected: 139760
+task
+0000     383
+0001    2307
+0006    1823
+0008    1824
+0010    1610
+
+=== H1: OBJECT RIGIDITY ===
+Object PA-MPJPE pooled median (mm): 1.454998
+Raw MPJPE pooled median (mm): 6.540812
+PA residual measures shape distortion after alignment.
+
+=== H2: DISPLACEMENT / CORRESPONDENCE ===
+0000 Low25 PA 0.8118 High25 PA 3.8108 ratio 4.694
+0001 Low25 PA 1.0435 High25 PA 2.3976 ratio 2.298
+0006 Low25 PA 0.7166 High25 PA 2.1059 ratio 2.939
+0008 Low25 PA 1.0686 High25 PA 2.3575 ratio 2.206
+0010 Low25 PA 1.0422 High25 PA 2.0095 ratio 1.928
+CAUTION: acceleration association is not a direct displacement/correspondence mechanism test.
+
+=== H3: OBJECT SUPPORT / LOSS IMBALANCE PROXY ===
+0000 objects 386 Spearman(point_count,PA) 0.0639 p 0.211
+0001 objects 4664 Spearman(point_count,PA) 0.009 p 0.54
+0006 objects 3630 Spearman(point_count,PA) 0.1837 p 6.61e-29
+0008 objects 3098 Spearman(point_count,PA) 0.3237 p 1.66e-76
+0010 objects 2198 Spearman(point_count,PA) 0.0086 p 0.689
+CAUTION: point count is NOT measured loss gradient share.
+
+=== H4: TEMPORAL ERROR ACCUMULATION ===
+PA last-first median(mm) 2.296109 worsened(%) 99.99 paired p 0.0
+0000 {'task': '0000', 'clips': 383, 'delta_pa_mm_median': 2.9542838207282998, 'worse_pct': 100.0}
+0001 {'task': '0001', 'clips': 2307, 'delta_pa_mm_median': 2.3109821161157114, 'worse_pct': 100.0}
+0006 {'task': '0006', 'clips': 1823, 'delta_pa_mm_median': 1.9403601112947029, 'worse_pct': 99.94514536478333}
+0008 {'task': '0008', 'clips': 1824, 'delta_pa_mm_median': 2.835001293421443, 'worse_pct': 100.0}
+0010 {'task': '0010', 'clips': 1610, 'delta_pa_mm_median': 2.1075178342385517, 'worse_pct': 100.0}
+CAUTION: later-frame growth does not prove a slow-motion prior.
+
+=== H5: OBJECT-LEVEL REPRESENTATION ===
+Per-point displacement head: True
+Original pipeline object IDs: False
+Named rigidity loss: False
+CAUTION: architecture audit establishes absence of an explicit guarantee, not a proven unique cause.
+
+=== PRIORITIZATION ===
+PRIMARY STRUCTURAL HYPOTHESIS: LACK OF OBJECT-LEVEL RIGID-MOTION CONSTRAINT
+H2 correspondence and H3 loss dominance remain unproven without targeted interventions.
+OUTPUT: /home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/results/cause_screen_20261011
+CAUSE_SCREEN_COMPLETE

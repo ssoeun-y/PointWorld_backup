@@ -195,3 +195,21 @@ Initialized mesh mappings for 36 meshes
 [task-0010] 3/120 objects=1 task-0010_episode_00100020-475:486
 [task-0010] 4/120 objects=1 task-0010_episode_00100030-1380:1391
 [task-0010] 5/120 objects=1 task-0010_episode_00100030-245:256
+[task-0010] 50/120 objects=1 task-0010_episode_00100170-340:351
+[task-0010] 100/120 objects=1 task-0010_episode_00100440-1085:1096
+[task-0010] 120/120 objects=3 task-0010_episode_00100530-975:986
+
+================================================================================
+FINAL AUDIT
+TASK = task-0010
+TARGETS = 120
+FOUND = 120
+MODEL FORWARDS = 120
+ELIGIBLE CLIPS = 120
+ORIGINAL PA median mm = 1.488924101490806
+CORRECTED PA median mm = 1.4052934800099413
+DELTA PA median mm = -0.010157594345067272
+CORRECTED LOWER fraction = 0.5666666666666667
+BASE-REPEAT noise median mm = 0.021881816927956377
+SAVED = /home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/results/acc_causal_geometry_freq1_20261010/task-0010
+================================================================================

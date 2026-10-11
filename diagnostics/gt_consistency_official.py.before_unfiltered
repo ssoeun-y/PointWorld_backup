@@ -1,0 +1,723 @@
+#!/usr/bin/env python3
+
+import argparse
+import csv
+import json
+import subprocess
+from collections import defaultdict
+from pathlib import Path
+
+import h5py
+import numpy as np
+import torch
+
+from arguments import parse_args
+from dataset_components.dataloader import build_dataloader
+from dataset_components.transforms import compute_flow_derivatives
+from evaluation.annotation import ConfidenceHelper
+
+
+def tensor_to_numpy(value):
+    if isinstance(value, torch.Tensor):
+        value = value.detach().cpu().numpy()
+    return np.asarray(value)
+
+
+def batch_array(batch, key):
+    value = tensor_to_numpy(batch[key])
+
+    if value.shape[0] != 1:
+        raise RuntimeError(
+            f"{key}: batch_size=1을 예상했지만 shape={value.shape}"
+        )
+
+    return value[0]
+
+
+def batch_mask(batch, key):
+    value = batch_array(batch, key)
+
+    if value.ndim == 3 and value.shape[-1] == 1:
+        value = value[..., 0]
+
+    if value.ndim != 2:
+        raise RuntimeError(
+            f"{key}: (T,N) mask를 예상했지만 shape={value.shape}"
+        )
+
+    return value.astype(bool, copy=False)
+
+
+def describe(chunks):
+    if not chunks:
+        return {
+            "count": 0,
+            "mean": None,
+            "median": None,
+            "p95": None,
+            "p99": None,
+            "max": None,
+        }
+
+    values = np.concatenate(chunks).astype(np.float64, copy=False)
+    values = values[np.isfinite(values)]
+
+    if values.size == 0:
+        return {
+            "count": 0,
+            "mean": None,
+            "median": None,
+            "p95": None,
+            "p99": None,
+            "max": None,
+        }
+
+    return {
+        "count": int(values.size),
+        "mean": float(np.mean(values)),
+        "median": float(np.median(values)),
+        "p95": float(np.quantile(values, 0.95)),
+        "p99": float(np.quantile(values, 0.99)),
+        "max": float(np.max(values)),
+    }
+
+
+def collect(store, name, vectors, mask):
+    magnitude = np.linalg.norm(vectors, axis=-1)
+    values = magnitude[mask]
+
+    if values.size:
+        store[name].append(
+            values.astype(np.float32, copy=False)
+        )
+
+
+def derivative_support(valid):
+    """
+    공식 midpoint derivative가 참조하는 모든 timestep이 valid일 때만
+    해당 derivative를 분석한다.
+
+    이것은 새로운 threshold가 아니라, invalid 위치를 이용해 계산된
+    derivative가 섞이지 않도록 하는 보수적인 validity propagation이다.
+    """
+    T, _ = valid.shape
+
+    velocity_valid = np.zeros_like(valid, dtype=bool)
+    acceleration_valid = np.zeros_like(valid, dtype=bool)
+
+    if T >= 2:
+        velocity_valid[0] = valid[0] & valid[1]
+        velocity_valid[-1] = valid[-2] & valid[-1]
+
+    if T >= 3:
+        velocity_valid[1:-1] = (
+            valid[:-2]
+            & valid[1:-1]
+            & valid[2:]
+        )
+
+        acceleration_valid[0] = (
+            velocity_valid[0]
+            & velocity_valid[1]
+            & valid[0]
+        )
+
+    if T >= 4:
+        acceleration_valid[1:-1] = (
+            velocity_valid[:-2]
+            & velocity_valid[2:]
+            & valid[1:-1]
+        )
+
+        acceleration_valid[-1] = (
+            velocity_valid[-2]
+            & velocity_valid[-1]
+            & valid[-1]
+        )
+
+    return velocity_valid, acceleration_valid
+
+
+def validate_confidence_file(path, expected_keep, expected_grid):
+    versions = set()
+    keep_fractions = set()
+    grid_sizes = set()
+    annotation_groups = 0
+
+    with h5py.File(path, "r") as handle:
+        root_seed = handle.attrs.get("seed", None)
+
+        if root_seed is not None and int(root_seed) != 42:
+            raise RuntimeError(
+                f"Confidence seed가 42가 아닙니다: {root_seed}"
+            )
+
+        def visitor(_, obj):
+            nonlocal annotation_groups
+
+            if (
+                isinstance(obj, h5py.Group)
+                and "low_confidence_voxels" in obj
+            ):
+                annotation_groups += 1
+
+                versions.add(
+                    int(obj.attrs.get("mask_version", -1))
+                )
+
+                keep_fractions.add(
+                    round(
+                        float(
+                            obj.attrs.get(
+                                "confidence_keep_frac",
+                                float("nan"),
+                            )
+                        ),
+                        8,
+                    )
+                )
+
+                grid_sizes.add(
+                    round(
+                        float(
+                            obj.attrs.get(
+                                "grid_size",
+                                float("nan"),
+                            )
+                        ),
+                        8,
+                    )
+                )
+
+        handle.visititems(visitor)
+
+    if annotation_groups == 0:
+        raise RuntimeError(
+            "Confidence annotation group이 없습니다."
+        )
+
+    if versions != {3}:
+        raise RuntimeError(
+            f"공식 confidence mask version 3이 아닙니다: {versions}"
+        )
+
+    if keep_fractions != {round(expected_keep, 8)}:
+        raise RuntimeError(
+            "Confidence keep fraction 불일치: "
+            f"{keep_fractions}, expected={expected_keep}"
+        )
+
+    if grid_sizes != {round(expected_grid, 8)}:
+        raise RuntimeError(
+            "Confidence grid size 불일치: "
+            f"{grid_sizes}, expected={expected_grid}"
+        )
+
+    return {
+        "annotation_groups": annotation_groups,
+        "mask_versions": sorted(versions),
+        "keep_fractions": sorted(keep_fractions),
+        "grid_sizes": sorted(grid_sizes),
+    }
+
+
+def analyze_variant(
+    name,
+    point_valid,
+    future,
+    moved,
+    static,
+    gt,
+    velocity,
+    acceleration,
+    store,
+):
+    velocity_valid, acceleration_valid = derivative_support(
+        point_valid
+    )
+
+    velocity_eval = velocity_valid & future
+    acceleration_eval = acceleration_valid & future
+
+    collect(
+        store,
+        f"{name}/velocity_all",
+        velocity,
+        velocity_eval,
+    )
+    collect(
+        store,
+        f"{name}/velocity_moved",
+        velocity,
+        velocity_eval & moved,
+    )
+    collect(
+        store,
+        f"{name}/acceleration_all",
+        acceleration,
+        acceleration_eval,
+    )
+    collect(
+        store,
+        f"{name}/acceleration_moved",
+        acceleration,
+        acceleration_eval & moved,
+    )
+
+    future_timesteps = np.flatnonzero(
+        future.any(axis=1)
+    )
+
+    if future_timesteps.size == 0:
+        return {}
+
+    # 공식 static mask가 모든 future timestep에서 static인 point
+    always_static = static[future_timesteps].all(axis=0)
+
+    # 모든 future timestep에서 공식 validity를 통과한 point
+    continuously_valid = point_valid[
+        future_timesteps
+    ].all(axis=0)
+
+    continuous_static_accel_mask = (
+        acceleration_eval
+        & always_static[None, :]
+        & continuously_valid[None, :]
+    )
+
+    collect(
+        store,
+        f"{name}/continuous_static_acceleration",
+        acceleration,
+        continuous_static_accel_mask,
+    )
+
+    final_t = int(future_timesteps[-1])
+
+    endpoint_valid = (
+        always_static
+        & continuously_valid
+        & point_valid[0]
+    )
+
+    endpoint_drift = gt[final_t] - gt[0]
+
+    collect(
+        store,
+        f"{name}/continuous_static_endpoint_drift",
+        endpoint_drift,
+        endpoint_valid,
+    )
+
+    return {
+        "velocity_count": int(velocity_eval.sum()),
+        "acceleration_count": int(acceleration_eval.sum()),
+        "moved_acceleration_count": int(
+            (acceleration_eval & moved).sum()
+        ),
+        "continuous_static_point_count": int(
+            endpoint_valid.sum()
+        ),
+    }
+
+
+def git_head():
+    try:
+        return subprocess.check_output(
+            ["git", "rev-parse", "HEAD"],
+            text=True,
+        ).strip()
+    except Exception:
+        return "unknown"
+
+
+def main():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--domain",
+        choices=["droid", "behavior"],
+        required=True,
+    )
+    parser.add_argument("--data_dir", required=True)
+    parser.add_argument("--output_dir", required=True)
+    parser.add_argument("--max_batches", type=int, default=-1)
+    parser.add_argument(
+        "--confidence_keep",
+        type=float,
+        default=0.8,
+    )
+
+    cli = parser.parse_args()
+
+    data_dir = str(
+        Path(cli.data_dir).expanduser().resolve()
+    )
+    output_dir = Path(cli.output_dir).resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    args = parse_args(skip_command_line=True)
+
+    args.domains = [cli.domain]
+    args.data_dirs = [data_dir]
+    args.batch_size = 1
+    args.num_workers = 0
+    args.eval_num_workers = 0
+    args.seed = 42
+    args.device = "cpu"
+    args.deterministic_data = True
+    args.confidence_thres = cli.confidence_keep
+
+    loader, loader_info = build_dataloader(
+        args,
+        mode="test",
+        rank=0,
+        world_size=1,
+        override_splits="test",
+    )
+
+    if loader is None:
+        raise RuntimeError("test dataloader 생성 실패")
+
+    confidence_helper = None
+    confidence_files = None
+    confidence_validation = None
+
+    if cli.domain == "droid":
+        confidence_path = (
+            Path(data_dir)
+            / "test"
+            / "expert_confidence-seed=42.h5"
+        )
+
+        if not confidence_path.exists():
+            raise FileNotFoundError(
+                f"Confidence file 없음: {confidence_path}"
+            )
+
+        confidence_validation = {
+            "file": str(confidence_path),
+            "exists": True,
+            "seed": 42,
+            "confidence_keep": cli.confidence_keep,
+            "application": "official ConfidenceHelper.inject_confidence_mask",
+        }
+
+        confidence_helper = ConfidenceHelper(
+            args=args,
+            device=torch.device("cpu"),
+            domain_to_dir={"droid": data_dir},
+            sim_keywords=["behavior"],
+            build_eval_loader=None,
+            model=None,
+        )
+
+        confidence_files = (
+            confidence_helper.open_conf_files(
+                split="test",
+                mode="r",
+            )
+        )
+
+        if confidence_files.get("droid") is None:
+            raise RuntimeError(
+                "공식 confidence file open 실패"
+            )
+
+    metric_store = defaultdict(list)
+    coverage_store = defaultdict(list)
+    rows = []
+
+    try:
+        for batch_idx, batch in enumerate(loader):
+            if (
+                cli.max_batches > 0
+                and batch_idx >= cli.max_batches
+            ):
+                break
+
+            if cli.domain == "droid":
+                # 공식 evaluation.annotation의 mask 주입 코드 그대로
+                confidence_helper.inject_confidence_mask(
+                    batch,
+                    confidence_files,
+                )
+
+            gt = batch_array(
+                batch,
+                "gt_scene_flows",
+            ).astype(np.float64, copy=False)
+
+            exists = batch_mask(batch, "scene_exists")
+            supervised = batch_mask(
+                batch,
+                "scene_supervised_mask",
+            )
+            context = batch_mask(
+                batch,
+                "scene_context_mask",
+            )
+            moved = batch_mask(
+                batch,
+                "scene_moved_mask",
+            )
+            static = batch_mask(
+                batch,
+                "scene_static_mask",
+            )
+
+            future = ~context
+
+            if gt.shape[:2] != exists.shape:
+                raise RuntimeError(
+                    "GT/mask shape 불일치: "
+                    f"gt={gt.shape}, exists={exists.shape}"
+                )
+
+            # 공식 midpoint 방식
+            velocity, acceleration = (
+                compute_flow_derivatives(gt)
+            )
+
+            official_valid = exists & supervised
+
+            key = str(batch["__key__"][0])
+            future_timesteps = np.flatnonzero(
+                future.any(axis=1)
+            )
+            initial_points = int(exists[0].sum())
+
+            official_coverage = [
+                float(
+                    official_valid[t].sum()
+                    / max(initial_points, 1)
+                )
+                for t in future_timesteps
+            ]
+
+            coverage_store[
+                "official_valid"
+            ].extend(official_coverage)
+
+            row = {
+                "key": key,
+                "initial_points": initial_points,
+                "official_coverage_mean": (
+                    float(np.mean(official_coverage))
+                    if official_coverage
+                    else None
+                ),
+            }
+
+            official_counts = analyze_variant(
+                name="official_valid",
+                point_valid=official_valid,
+                future=future,
+                moved=moved,
+                static=static,
+                gt=gt,
+                velocity=velocity,
+                acceleration=acceleration,
+                store=metric_store,
+            )
+
+            row.update({
+                f"official_{k}": v
+                for k, v in official_counts.items()
+            })
+
+            if cli.domain == "droid":
+                filter_mask = batch_mask(
+                    batch,
+                    "scene_filter_mask",
+                )
+
+                # 공식 evaluator:
+                # confidence mask ∩ exists ∩ supervised
+                expert_valid = (
+                    official_valid
+                    & filter_mask
+                )
+
+                expert_coverage = [
+                    float(
+                        expert_valid[t].sum()
+                        / max(initial_points, 1)
+                    )
+                    for t in future_timesteps
+                ]
+
+                coverage_store[
+                    "expert_filtered"
+                ].extend(expert_coverage)
+
+                row["expert_coverage_mean"] = (
+                    float(np.mean(expert_coverage))
+                    if expert_coverage
+                    else None
+                )
+
+                expert_counts = analyze_variant(
+                    name="expert_filtered",
+                    point_valid=expert_valid,
+                    future=future,
+                    moved=moved,
+                    static=static,
+                    gt=gt,
+                    velocity=velocity,
+                    acceleration=acceleration,
+                    store=metric_store,
+                )
+
+                row.update({
+                    f"expert_{k}": v
+                    for k, v in expert_counts.items()
+                })
+
+            rows.append(row)
+
+            print(
+                f"[{len(rows):03d}] {key} "
+                f"official_coverage="
+                f"{row['official_coverage_mean']:.6f}"
+                + (
+                    f" expert_coverage="
+                    f"{row['expert_coverage_mean']:.6f}"
+                    if cli.domain == "droid"
+                    else ""
+                ),
+                flush=True,
+            )
+
+    finally:
+        if confidence_files is not None:
+            confidence_helper.close_conf_files(
+                confidence_files
+            )
+
+    if not rows:
+        raise RuntimeError("분석된 sample이 없습니다.")
+
+    summary = {
+        "domain": cli.domain,
+        "data_dir": data_dir,
+        "processed_sequences": len(rows),
+        "git_commit": git_head(),
+        "loader_info": loader_info,
+        "confidence_validation": confidence_validation,
+        "methodology": {
+            "gt": "official gt_scene_flows",
+            "supervision": (
+                "official scene_exists AND "
+                "scene_supervised_mask"
+            ),
+            "droid_filter": (
+                "official ConfidenceHelper."
+                "inject_confidence_mask, keep=0.8"
+                if cli.domain == "droid"
+                else "not applicable"
+            ),
+            "moved_static": (
+                "official scene_moved_mask and "
+                "scene_static_mask"
+            ),
+            "derivatives": (
+                "official compute_flow_derivatives "
+                "midpoint implementation"
+            ),
+            "derivative_validity": (
+                "all positions used by the official "
+                "finite-difference stencil must pass "
+                "the corresponding official point mask"
+            ),
+            "primary_metrics": [
+                "velocity_all",
+                "velocity_moved",
+                "acceleration_all",
+                "acceleration_moved",
+            ],
+            "secondary_metrics": [
+                "continuous_static_acceleration",
+                "continuous_static_endpoint_drift",
+            ],
+            "excluded_from_primary": [
+                "jerk",
+                "direction reversal",
+            ],
+        },
+        "units": {
+            "velocity": "meter/timestep",
+            "acceleration": "meter/timestep^2",
+            "endpoint_drift": "meter",
+        },
+        "coverage": {
+            name: describe(
+                [np.asarray(values, dtype=np.float32)]
+            )
+            for name, values in coverage_store.items()
+        },
+        "metrics": {
+            name: describe(values)
+            for name, values in sorted(
+                metric_store.items()
+            )
+        },
+    }
+
+    with (
+        output_dir / "summary.json"
+    ).open("w", encoding="utf-8") as handle:
+        json.dump(
+            summary,
+            handle,
+            indent=2,
+            ensure_ascii=False,
+        )
+
+    fieldnames = sorted({
+        key
+        for row in rows
+        for key in row
+    })
+
+    with (
+        output_dir / "per_sequence.csv"
+    ).open(
+        "w",
+        newline="",
+        encoding="utf-8",
+    ) as handle:
+        writer = csv.DictWriter(
+            handle,
+            fieldnames=fieldnames,
+        )
+        writer.writeheader()
+        writer.writerows(rows)
+
+    print("\n===== OFFICIAL-ALIGNED GT CONSISTENCY =====")
+    print("domain:", cli.domain)
+    print("processed_sequences:", len(rows))
+    print(
+        json.dumps(
+            summary["coverage"],
+            indent=2,
+        )
+    )
+    print(
+        json.dumps(
+            summary["metrics"],
+            indent=2,
+        )
+    )
+    print(
+        "summary_json:",
+        output_dir / "summary.json",
+    )
+    print(
+        "per_sequence_csv:",
+        output_dir / "per_sequence.csv",
+    )
+
+
+if __name__ == "__main__":
+    main()

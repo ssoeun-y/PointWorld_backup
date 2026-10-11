@@ -1,0 +1,13 @@
+A — ACC × VELOCITY
+CLIPS: 2056 TASKS: 4
+     task  acc_q   n  n_low_speed  n_high_speed  low_speed_growth  high_speed_growth  high_minus_low_mm  acc_growth_rho  vel_growth_rho
+task-0000      3  88           37             3          3.417733           5.757652           2.339919       -0.126184        0.132384
+task-0000      4  57            0            33               NaN           6.269561                NaN       -0.222906       -0.057752
+task-0001      3 257          107            45          2.164490           4.727491           2.563001        0.005721        0.247341
+task-0001      4 395           56           118          2.741714           3.944896           1.203182        0.138934        0.296258
+task-0006      3 266           98            50          1.635755           2.497545           0.861790        0.006356        0.171115
+task-0006      4 285           40            88          1.937446           2.810616           0.873170        0.163295        0.196418
+task-0008      3 403          144            79          2.764306           3.909530           1.145225        0.023618        0.151175
+task-0008      4 305           33            98          3.434082           4.655622           1.221541        0.104093        0.253057
+NOTE: observational, velocity strata may have different acceleration distributions.
+MECHANISM_A_COMPLETE

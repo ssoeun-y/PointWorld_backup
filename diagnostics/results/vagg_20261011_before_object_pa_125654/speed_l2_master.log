@@ -1,0 +1,18 @@
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+VAGG_FAILED AssertionError('TRAIN NOT FOUND')
+Traceback (most recent call last):
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/vagg_train_20261011.py", line 605, in <module>
+    run(cfg)
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/vagg_train_20261011.py", line 319, in run
+    assert (data_dir / "train").is_dir(), "TRAIN NOT FOUND"
+AssertionError: TRAIN NOT FOUND
+Traceback (most recent call last):
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/vagg_train_20261011.py", line 605, in <module>
+    run(cfg)
+  File "/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/vagg_train_20261011.py", line 319, in run
+    assert (data_dir / "train").is_dir(), "TRAIN NOT FOUND"
+AssertionError: TRAIN NOT FOUND
+EXIT_CODE=1

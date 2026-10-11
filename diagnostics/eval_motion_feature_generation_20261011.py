@@ -1,0 +1,269 @@
+#!/usr/bin/env python3
+"""Independent PointWorld mechanism and generation ablations.
+Modes: velocity, acceleration, generation. No original files overwritten.
+Requires the local audited diagnostics/eval_acc_causal_geometry_boundary_20261010.py.
+"""
+from __future__ import annotations
+import argparse
+import csv
+import importlib
+import os
+import runpy
+import subprocess
+import sys
+from pathlib import Path
+
+import numpy as np
+import torch
+from scipy.spatial import cKDTree
+
+ROOT = Path(__file__).resolve().parents[1]
+ORIGINAL = ROOT / 'diagnostics/eval_acc_causal_geometry_boundary_20261010.py'
+RESULTS = ROOT / 'diagnostics/results'
+OUTPUT_PREFIX = {'velocity':'acc_feature_velocity_half_20261011',
+                 'acceleration':'acc_feature_acceleration_half_20261011',
+                 'generation':'motion_aware_temporal_generation_20261011'}
+CACHED = {'calls':0, 'rows':0}
+
+
+def tensor_cpu(t):
+    return t.detach().float().cpu().numpy()
+
+
+def record_motion(data, out, tag, candidate_kind, destination):
+    """Evaluate future GT point error and local spatial motion disagreement.
+    Uses the official masks when available. No GT is used for the correction itself.
+    The spatial proxy is a GT-motion-coherent local neighbor diagnostic, NOT PA-MPJPE.
+    """
+    gt = data.get('gt_scene_flows')
+    if gt is None:
+        raise RuntimeError('gt_scene_flows absent; cannot claim original-action GT test')
+    xyz = out.get('scene_flows')
+    if xyz is None or not isinstance(xyz, torch.Tensor):
+        raise RuntimeError('scene_flows missing in forward outputs')
+    if gt.shape != xyz.shape:
+        raise RuntimeError(f'GT/pred mismatch: {tuple(gt.shape)} vs {tuple(xyz.shape)}')
+    B, T, N, dim = xyz.shape
+    assert B == 3 and dim == 3 and T == 11, (B,T,N,dim)
+    pr = tensor_cpu(xyz[[0,1,2]])
+    truth = tensor_cpu(gt[0])
+    robot = tensor_cpu(data['robot_flows'][0])
+    # Accept the two official point-mask representations:
+    # (B,T,N) and (B,T,N,1). Never omit a validity mask.
+    def _mask_btn(key):
+        val = data.get(key)
+        if not isinstance(val, torch.Tensor):
+            raise RuntimeError(f'MISSING official tensor mask {key}')
+        if tuple(val.shape) == (B, T, N, 1):
+            val = val.squeeze(-1)
+        if tuple(val.shape) != (B, T, N):
+            raise RuntimeError(
+                f'Invalid {key} shape {tuple(val.shape)}; '
+                f'expected {(B,T,N)} or {(B,T,N,1)}'
+            )
+        return val[0].to(device=gt.device, dtype=torch.bool)
+
+    valid_t = _mask_btn('scene_exists') & _mask_btn('scene_supervised_mask')
+    valid_t &= ~_mask_btn('scene_context_mask')
+    valid = valid_t.detach().cpu().numpy()
+    moved_from_start = np.linalg.norm(truth - truth[[0]], axis=-1)
+    rstep = np.linalg.norm(np.diff(robot,axis=0),axis=-1)
+    # Spatially adjacent points at t0; filter by similarity of GT displacement
+    # at each future frame so non-rigid/unrelated neighbors contaminate less.
+    start = truth[0]
+    good_start = np.all(np.isfinite(start),axis=1)
+    idx = np.flatnonzero(good_start)
+    if len(idx) < 16:
+        raise RuntimeError('Too few scene coordinates for spatial diagnostic')
+    rng = np.random.default_rng(20261011)
+    chosen = rng.choice(idx, size=min(1200,len(idx)),replace=False)
+    tree = cKDTree(start[idx])
+    ds, nn = tree.query(start[chosen],k=2,workers=1)
+    local_j = idx[nn[:,1]]
+    keep = np.isfinite(ds[:,1]) & (ds[:,1] <= 0.045)
+    ii,jj = chosen[keep],local_j[keep]
+    if not len(ii):
+        raise RuntimeError('No local scene-point neighbors for motion diagnostic')
+    label = str(data.get('__key__',[tag])[0])
+    domains = data.get('__domain__', ['?'])
+    assert len(domains) == B
+    newrows = []
+    for t in range(1,T):
+        v = valid[t] & np.isfinite(moved_from_start[t]) & (moved_from_start[t] > 0.01)
+        if v.sum() < 12:
+            continue
+        step_valid = v & valid[t-1]
+        gt_step = np.linalg.norm(truth[t]-truth[t-1],axis=-1)
+        e0 = np.linalg.norm(pr[0,t]-truth[t],axis=-1)
+        e1 = np.linalg.norm(pr[1,t]-truth[t],axis=-1)
+        e2 = np.linalg.norm(pr[2,t]-truth[t],axis=-1)
+        # Local predicted-motion disagreement relative to GT:
+        msk = v[ii] & v[jj]
+        if msk.any():
+            i,j = ii[msk],jj[msk]
+            gtdelta = (truth[t]-truth[0])
+            coherent = np.linalg.norm(gtdelta[i]-gtdelta[j],axis=-1) < 0.008
+            i,j = i[coherent],j[coherent]
+            if len(i) > 3:
+                pe = (pr[0,t]-truth[t])
+                qe = (pr[2,t]-truth[t])
+                loc_base = float(np.median(np.linalg.norm(pe[i]-pe[j],axis=-1)) * 1000)
+                loc_alt = float(np.median(np.linalg.norm(qe[i]-qe[j],axis=-1)) * 1000)
+                rel_geom_base = float(np.median(np.abs(
+                    np.linalg.norm(pr[0,t,i]-pr[0,t,j],axis=-1)-
+                    np.linalg.norm(truth[t,i]-truth[t,j],axis=-1))) *1000)
+                rel_geom_alt = float(np.median(np.abs(
+                    np.linalg.norm(pr[2,t,i]-pr[2,t,j],axis=-1)-
+                    np.linalg.norm(truth[t,i]-truth[t,j],axis=-1))) *1000)
+            else:
+                loc_base=loc_alt=rel_geom_base=rel_geom_alt=np.nan
+        else:
+            loc_base=loc_alt=rel_geom_base=rel_geom_alt=np.nan
+        newrows.append(dict(task=tag,clip=label,frame=t,mode=candidate_kind,
+          gt_moving_points=int(v.sum()),
+          robot_step_mean_mm=float(rstep[t-1].mean()*1000),
+          robot_step_p95_mm=float(np.quantile(rstep[t-1],0.95)*1000),
+          gt_scene_moved_mm=float(np.median(moved_from_start[t,v])*1000),
+          gt_scene_step_mm=float(np.median(gt_step[step_valid])*1000) if step_valid.any() else float('nan'),
+          gt_step_to_voxel_ratio=float(np.median(gt_step[step_valid])/.015) if step_valid.any() else float('nan'),
+          base_future_gt_l2_mm=float(np.mean(e0[v])*1000),
+          base_repeat_future_gt_l2_mm=float(np.mean(e1[v])*1000),
+          candidate_future_gt_l2_mm=float(np.mean(e2[v])*1000),
+          base_local_motion_disagreement_mm=loc_base,
+          candidate_local_motion_disagreement_mm=loc_alt,
+          base_local_pair_distance_error_mm=rel_geom_base,
+          candidate_local_pair_distance_error_mm=rel_geom_alt))
+    if newrows and os.environ.get('PROBE_SMOKE') != '1':
+        destination.parent.mkdir(parents=True,exist_ok=True)
+        with destination.open('a',newline='') as f:
+            w=csv.DictWriter(f,fieldnames=list(newrows[0]))
+            if f.tell() == 0: w.writeheader()
+            w.writerows(newrows)
+        CACHED['rows'] += len(newrows)
+
+
+def main():
+    ap=argparse.ArgumentParser()
+    ap.add_argument('--mode',choices=tuple(OUTPUT_PREFIX),required=True)
+    ap.add_argument('--task',default=None)
+    ap.add_argument('--run-all',action='store_true')
+    ap.add_argument('--limit',type=int,default=80)
+    opt=ap.parse_args()
+    if opt.run_all:
+        logdir=RESULTS/'acc_motion_probe_3gpu_20261011'
+        logdir.mkdir(parents=True,exist_ok=True)
+        modescript=str(Path(__file__).resolve())
+        if 'CUDA_VISIBLE_DEVICES' not in os.environ:
+            raise RuntimeError('Set CUDA_VISIBLE_DEVICES to one GPU before launching')
+        tasks=('0000','0001','0006','0008','0010')
+        for task in tasks:
+            task_name=f'task-{task}'
+            smoke=task=='0000'
+            if smoke:
+                env=os.environ.copy(); env['PROBE_SMOKE']='1'
+                argv=[sys.executable,modescript,'--mode',opt.mode,'--task',task_name,'--limit','1']
+                with (logdir/f'{opt.mode}_smoke.log').open('w') as f:
+                    r=subprocess.run(argv,env=env,cwd=ROOT,stdout=f,stderr=subprocess.STDOUT)
+                if r.returncode:
+                    print(f'SMOKE_FAILED {opt.mode} exit={r.returncode}; see {logdir}/{opt.mode}_smoke.log',flush=True)
+                    raise SystemExit(r.returncode)
+                print(f'SMOKE_PASS {opt.mode}',flush=True)
+            print(f'START {opt.mode} {task_name}',flush=True)
+            argv=[sys.executable,modescript,'--mode',opt.mode,'--task',task_name,'--limit',str(opt.limit)]
+            with (logdir/f'{opt.mode}_{task}.log').open('w') as f:
+                r=subprocess.run(argv,env=os.environ.copy(),cwd=ROOT,stdout=f,stderr=subprocess.STDOUT)
+            if r.returncode:
+                print(f'FAILED {opt.mode} {task_name} exit={r.returncode}; see {logdir}/{opt.mode}_{task}.log',flush=True)
+                raise SystemExit(r.returncode)
+            print(f'FINISHED {opt.mode} {task_name}',flush=True)
+        print('ALL_COMPLETE',opt.mode,flush=True)
+        return
+    if not opt.task:
+        raise SystemExit('--task required without --run-all')
+    if not ORIGINAL.is_file():
+        raise FileNotFoundError(ORIGINAL)
+    # Fail closed on unexpected PointWorld implementation differences.
+    official=ROOT/'dataset_components/robot.py'
+    src_robot=official.read_text()
+    for token in ('compute_flow_derivatives',"sample['robot_features'] = np.concatenate(feat_list, axis=-1)","elif feat_name == 'robot_velocity':","elif feat_name == 'robot_acceleration':"):
+        if token not in src_robot:
+            raise RuntimeError('Unexpected robot feature code: '+token)
+    src=ORIGINAL.read_text()
+    old='acc_causal_geometry_boundary_20261010'
+    assert src.count(old) >= 1, 'Cannot safely replace original output folder'
+    new=OUTPUT_PREFIX[opt.mode]
+    patched=ROOT/'diagnostics'/f'eval_{new}.py'
+    replaced=src.replace(old,new)
+    if patched.exists() and patched.read_text()!=replaced:
+        raise RuntimeError(f'Generated script already exists with different source: {patched}')
+    patched.write_text(replaced)
+    import py_compile
+    py_compile.compile(str(patched),doraise=True)
+
+    # Original and candidate share EXACTLY identical input robot trajectories,
+    # scene and gripper contexts. Differentiate ONLY stated condition.
+    from pointworld.base import BaseModel
+    previous=BaseModel.forward
+    result_path=RESULTS/new/f'point_flow_diagnostics_{opt.task}.csv'
+    if result_path.exists() and os.environ.get('PROBE_SMOKE') != '1':
+        raise RuntimeError('Output already exists; refuse duplicate job '+str(result_path))
+
+    def intercepted(self, data_dict, *args, **kwargs):
+        if not isinstance(data_dict,dict) or 'robot_flows' not in data_dict:
+            return previous(self,data_dict,*args,**kwargs)
+        rf=data_dict['robot_flows']
+        B,T,Nr,dim=rf.shape
+        if B!=3 or T!=11 or dim!=3:
+            raise RuntimeError(f'Expected 3 variants (base,repeat,corrected), got {rf.shape}')
+        if not torch.allclose(rf[0],rf[1],rtol=1e-6,atol=1e-6):
+            raise RuntimeError('Base and base_repeat robot trajectories differ')
+        # Ensure candidate is original-action input, not retimed action.
+        altered=dict(data_dict)
+        for key in ('robot_flows','robot_features','robot_exists','scene_flows',
+                    'scene_features','scene_exists','scene_context_mask',
+                    'scene_supervised_mask','gt_scene_flows'):
+            v=altered.get(key)
+            if isinstance(v,torch.Tensor) and v.shape[0]==B:
+                z=v.clone(); z[2] = z[0]; altered[key]=z
+        features=altered['robot_features']
+        if features.ndim!=4 or features.shape[-1]<16:
+            raise RuntimeError('Unexpected robot feature shape: '+str(features.shape))
+        if opt.mode=='velocity':
+            features[2,...,-6:-3] *= .5
+        elif opt.mode=='acceleration':
+            features[2,...,-3:] *= .5
+        out=previous(self,altered,*args,**kwargs)
+        CACHED['calls'] += 1
+        if opt.mode == 'generation':
+            # Motion-adaptive 3D temporal filter of generated scene trajectories.
+            # ONLY predicted flows + robot action; never uses future GT.
+            x=out['scene_flows'].clone()
+            robot_step=torch.linalg.vector_norm(
+                altered['robot_flows'][0,1:] - altered['robot_flows'][0,:-1],dim=-1).mean(-1)
+            strength=(.25*(robot_step-.01)/.05).clamp(0,.25)
+            weight=.5*(strength[:-1]+strength[1:])
+            x[2,1:-1]=(1-weight[:,None,None])*x[2,1:-1] + \
+                weight[:,None,None]*.5*(x[2,:-2]+x[2,2:])
+            out['scene_flows']=x
+            rel=out['scene_relative'].clone()
+            rel[2]=x[2]-altered['scene_flows'][2,0][None,:,:]
+            out['scene_relative']=rel
+        with torch.no_grad():
+            record_motion(altered,out,opt.task,opt.mode,result_path)
+        return out
+
+    BaseModel.forward=intercepted
+    sys.argv=[str(patched),'--task',opt.task,'--limit',str(opt.limit)]
+    try:
+        runpy.run_path(str(patched),run_name='__main__')
+    finally:
+        BaseModel.forward=previous
+    print('PROBE_DONE',opt.mode,opt.task,'model_calls',CACHED['calls'],
+          'point_frame_rows',CACHED['rows'],flush=True)
+    if CACHED['calls']<1:
+        raise RuntimeError('Hook not invoked: model execution path differs')
+    if CACHED['rows']<1 and os.environ.get('PROBE_SMOKE')!='1':
+        raise RuntimeError('No masked future-GT diagnostic rows saved')
+
+if __name__=='__main__':
+    main()

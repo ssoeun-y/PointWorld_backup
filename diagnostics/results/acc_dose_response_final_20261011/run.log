@@ -1,0 +1,36 @@
+LOADED DOSE 25 CLIPS 2677
+LOADED DOSE 50 CLIPS 2677
+LOADED DOSE 75 CLIPS 2677
+LOADED DOSE 100 CLIPS 2677
+
+BASELINE ACROSS RUNS
+Median base spread mm: 0.0176524299684635
+90th percentile mm: 0.06371412415035929
+
+===== DOSE SUMMARY =====
+DOSE 25 N 2677 actual_acc_reduction_median_pct 7.29 PA_benefit_median_mm 0.01088 CI95 [0.00866 0.01326] improved_pct 59.62 above_noise_pct 26.0
+DOSE 50 N 2677 actual_acc_reduction_median_pct 13.86 PA_benefit_median_mm 0.01706 CI95 [0.01432 0.02061] improved_pct 62.57 above_noise_pct 32.42
+DOSE 75 N 2677 actual_acc_reduction_median_pct 19.507 PA_benefit_median_mm 0.02033 CI95 [0.01586 0.02345] improved_pct 62.42 above_noise_pct 36.57
+DOSE 100 N 2677 actual_acc_reduction_median_pct 24.897 PA_benefit_median_mm 0.02329 CI95 [0.01921 0.02598] improved_pct 62.79 above_noise_pct 38.74
+
+===== MATCHED CORRECTED PA =====
+DOSE 25 median corrected PA mm: 1.82201 median paired corrected-minus-100 mm: 0.014199
+DOSE 50 median corrected PA mm: 1.804465 median paired corrected-minus-100 mm: 0.007432
+DOSE 75 median corrected PA mm: 1.801373 median paired corrected-minus-100 mm: 0.003136
+DOSE 100 median corrected PA mm: 1.789846 median paired corrected-minus-100 mm: 0.0
+
+===== BEST DOSE (DESCRIPTIVE ONLY) =====
+best_dose
+25      645
+50      456
+75      541
+100    1035
+TASK task-0000 N 145 best dose counts {100: 53, 25: 38, 75: 31, 50: 23}
+TASK task-0001 N 652 best dose counts {100: 271, 25: 159, 75: 141, 50: 81}
+TASK task-0006 N 551 best dose counts {100: 187, 25: 138, 50: 113, 75: 113}
+TASK task-0008 N 708 best dose counts {100: 306, 25: 146, 75: 136, 50: 120}
+TASK task-0010 N 621 best dose counts {100: 218, 25: 164, 75: 120, 50: 119}
+
+NOTE: best dose uses evaluated PA and is an oracle descriptive result, NOT deployable selection.
+NOTE: compare baseline spread and repeat noise before claiming meaningful differences between doses.
+COMPLETE: diagnostics/results/acc_dose_response_final_20261011

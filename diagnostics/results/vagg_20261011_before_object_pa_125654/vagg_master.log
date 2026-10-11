@@ -1,0 +1,2576 @@
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/pydantic/_internal/_generate_schema.py:2274: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+LOAD FROZEN POINTWORLD
+[2026-10-11 12:44:20] Rank 1/1 using device cuda
+[2026-10-11 12:44:20] Experiment ID: dummy-1monxod2
+[2026-10-11 12:44:20] Saving to: diagnostics/results/vagg_20261011/vagg/state/dummy-1monxod2
+[2026-10-11 12:44:20] Loading checkpoint from pretrained_checkpoints/large-droid+behavior/model-best.pt
+[2026-10-11 12:44:29] Applied canonical checkpoint model_contract for model initialization.
+Loading canonical statistics from stats/droid_behavior/norm_stats.json
+[2026-10-11 12:44:51] model/total_params            : 1288475176
+[2026-10-11 12:44:51] model/scene_features_dim      : 42
+[2026-10-11 12:44:51] model/robot_features_dim      : 17
+[2026-10-11 12:44:51] Experiment Name               : dummy-1monxod2
+[2026-10-11 12:44:51] Wandb ID                      : 1monxod2
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/urdfpy/urdf.py:2169: RuntimeWarning: invalid value encountered in divide
+  value = value / np.linalg.norm(value)
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+[behavior] train(train) num_shards=64 (data_dir=/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/data/pointworld_behavior_multitask_restored/behavior/wds)
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/webdataset/compat.py:377: UserWarning: WebDataset(shardshuffle=...) is ignored for resampled datasets
+  warnings.warn("WebDataset(shardshuffle=...) is ignored for resampled datasets")
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/webdataset/compat.py:381: UserWarning: set WebDataset(shardshuffle=...) to a positive integer or 0 or False
+  warnings.warn("set WebDataset(shardshuffle=...) to a positive integer or 0 or False")
+[train] Total samples across all datasets: 64659
+[train] Total batches needed: 64659
+[train] Batches per rank (world_size=1): 64659
+[train] Epoch length set to: 64659
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/webdataset/pipeline.py:176: UserWarning: .with_length() only sets the value of __len__ for compatibility with some training environments. It does not change the number of samples in an epoch.
+  warnings.warn(
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='base_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='wheel_motor_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='torso_link4']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='zed_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='left_gripper_finger_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link2']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link3']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link4']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link5']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link6']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_arm_link7']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_realsense_link']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link1']/collision[8]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[1]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[2]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[3]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[4]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[5]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[6]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[7]
+Unknown attribute "name" in /robot[@name='R1Pro']/link[@name='right_gripper_finger_link2']/collision[8]
+Initialized RobotSampler with 28 movable joints on cpu
+Initialized mesh mappings for 36 meshes
+[behavior] test(test) num_shards=8 (data_dir=/home/soenchun/cse/PointWorld_workspace/PointWorld/diagnostics/data/pointworld_behavior_multitask_restored/behavior/wds)
+[test] Total samples across all datasets: 7184
+[test] Total batches needed: 7184
+[test] Batches per rank (world_size=1): 7184
+[test] Epoch length set to: 7184
+TRAIN vagg step 1 loss 0.001472 seconds 16.9
+TRAIN vagg step 2 loss 0.001721 seconds 0.28
+TRAIN vagg step 3 loss 0.001587 seconds 13.91
+TRAIN vagg step 4 loss 0.002035 seconds 0.27
+TRAIN vagg step 5 loss 0.002006 seconds 13.59
+TRAIN vagg step 6 loss 0.001565 seconds 0.32
+TRAIN vagg step 7 loss 0.004728 seconds 0.25
+TRAIN vagg step 8 loss 0.001361 seconds 0.3
+TRAIN vagg step 9 loss 0.001771 seconds 0.24
+TRAIN vagg step 10 loss 0.001933 seconds 0.28
+TRAIN vagg step 11 loss 0.003472 seconds 0.25
+TRAIN vagg step 12 loss 0.002287 seconds 0.28
+TRAIN vagg step 13 loss 0.001419 seconds 0.27
+TRAIN vagg step 14 loss 0.001164 seconds 0.23
+TRAIN vagg step 15 loss 0.002732 seconds 0.23
+TRAIN vagg step 16 loss 0.001407 seconds 0.28
+TRAIN vagg step 17 loss 0.00275 seconds 0.26
+TRAIN vagg step 18 loss 0.001241 seconds 0.28
+TRAIN vagg step 19 loss 0.004645 seconds 0.27
+TRAIN vagg step 20 loss 0.004062 seconds 0.27
+TRAIN vagg step 21 loss 0.002078 seconds 0.28
+TRAIN vagg step 22 loss 0.004349 seconds 0.27
+TRAIN vagg step 23 loss 0.001388 seconds 0.29
+TRAIN vagg step 24 loss 0.003209 seconds 0.3
+TRAIN vagg step 25 loss 0.001479 seconds 0.26
+TRAIN vagg step 26 loss 0.001651 seconds 0.28
+TRAIN vagg step 27 loss 0.001155 seconds 0.25
+TRAIN vagg step 28 loss 0.001424 seconds 0.25
+TRAIN vagg step 29 loss 0.001873 seconds 0.28
+TRAIN vagg step 30 loss 0.00223 seconds 0.26
+TRAIN vagg step 31 loss 0.001404 seconds 0.24
+TRAIN vagg step 32 loss 0.001836 seconds 0.28
+TRAIN vagg step 33 loss 0.001918 seconds 0.25
+TRAIN vagg step 34 loss 0.001279 seconds 0.23
+TRAIN vagg step 35 loss 0.006 seconds 0.27
+TRAIN vagg step 36 loss 0.001857 seconds 0.25
+TRAIN vagg step 37 loss 0.011293 seconds 0.34
+TRAIN vagg step 38 loss 0.00174 seconds 0.24
+TRAIN vagg step 39 loss 0.009924 seconds 0.27
+TRAIN vagg step 40 loss 0.002251 seconds 0.28
+TRAIN vagg step 41 loss 0.002089 seconds 0.24
+TRAIN vagg step 42 loss 0.002691 seconds 0.27
+TRAIN vagg step 43 loss 0.00126 seconds 0.26
+TRAIN vagg step 44 loss 0.002143 seconds 0.28
+TRAIN vagg step 45 loss 0.001591 seconds 0.26
+TRAIN vagg step 46 loss 0.001867 seconds 0.3
+TRAIN vagg step 47 loss 0.000868 seconds 0.26
+TRAIN vagg step 48 loss 0.002257 seconds 0.25
+TRAIN vagg step 49 loss 0.000941 seconds 0.25
+TRAIN vagg step 50 loss 0.001581 seconds 0.27
+TRAIN vagg step 51 loss 0.000614 seconds 0.25
+TRAIN vagg step 52 loss 0.002065 seconds 0.29
+TRAIN vagg step 53 loss 0.000846 seconds 0.26
+TRAIN vagg step 54 loss 0.00086 seconds 0.27
+TRAIN vagg step 55 loss 0.00142 seconds 0.26
+TRAIN vagg step 56 loss 0.001432 seconds 0.28
+TRAIN vagg step 57 loss 0.001342 seconds 0.28
+TRAIN vagg step 58 loss 0.001275 seconds 0.26
+TRAIN vagg step 59 loss 0.000865 seconds 0.28
+TRAIN vagg step 60 loss 0.001022 seconds 0.27
+TRAIN vagg step 61 loss 0.001297 seconds 0.28
+TRAIN vagg step 62 loss 0.000766 seconds 0.25
+TRAIN vagg step 63 loss 0.001616 seconds 0.27
+TRAIN vagg step 64 loss 0.001671 seconds 0.28
+TRAIN vagg step 65 loss 0.000743 seconds 0.27
+TRAIN vagg step 66 loss 0.001354 seconds 0.25
+TRAIN vagg step 67 loss 0.00094 seconds 0.26
+TRAIN vagg step 68 loss 0.001874 seconds 0.27
+TRAIN vagg step 69 loss 0.003604 seconds 0.32
+TRAIN vagg step 70 loss 0.002373 seconds 0.26
+TRAIN vagg step 71 loss 0.001008 seconds 0.27
+TRAIN vagg step 72 loss 0.001908 seconds 0.24
+TRAIN vagg step 73 loss 0.000754 seconds 0.3
+TRAIN vagg step 74 loss 0.001304 seconds 0.24
+/home/soenchun/cse/PointWorld_workspace/envs/pointworld-env/lib/python3.10/site-packages/webdataset/handlers.py:55: UserWarning: AssertionError('No points left after sampling cameras')
+  warnings.warn(repr(exn))
+TRAIN vagg step 75 loss 0.003401 seconds 0.25
+TRAIN vagg step 76 loss 0.004533 seconds 0.26
+TRAIN vagg step 77 loss 0.005982 seconds 0.23
+TRAIN vagg step 78 loss 0.004883 seconds 0.26
+TRAIN vagg step 79 loss 0.000908 seconds 0.24
+TRAIN vagg step 80 loss 0.001078 seconds 0.27
+TRAIN vagg step 81 loss 0.001755 seconds 0.28
+TRAIN vagg step 82 loss 0.000892 seconds 0.23
+TRAIN vagg step 83 loss 0.000954 seconds 0.27
+TRAIN vagg step 84 loss 0.002695 seconds 0.27
+TRAIN vagg step 85 loss 0.001226 seconds 0.28
+TRAIN vagg step 86 loss 0.001548 seconds 0.25
+TRAIN vagg step 87 loss 0.001155 seconds 0.25
+TRAIN vagg step 88 loss 0.002503 seconds 0.28
+TRAIN vagg step 89 loss 0.000935 seconds 0.23
+TRAIN vagg step 90 loss 0.001477 seconds 0.27
+TRAIN vagg step 91 loss 0.002047 seconds 0.26
+TRAIN vagg step 92 loss 0.008376 seconds 0.25
+TRAIN vagg step 93 loss 0.002404 seconds 0.25
+TRAIN vagg step 94 loss 0.000745 seconds 0.27
+TRAIN vagg step 95 loss 0.0012 seconds 0.24
+TRAIN vagg step 96 loss 0.001952 seconds 0.35
+TRAIN vagg step 97 loss 0.002143 seconds 0.25
+TRAIN vagg step 98 loss 0.00101 seconds 0.23
+TRAIN vagg step 99 loss 0.002709 seconds 0.27
+TRAIN vagg step 100 loss 0.00138 seconds 0.31
+TRAIN vagg step 101 loss 0.002076 seconds 0.26
+TRAIN vagg step 102 loss 0.001174 seconds 0.27
+TRAIN vagg step 103 loss 0.001001 seconds 0.27
+TRAIN vagg step 104 loss 0.001978 seconds 0.27
+TRAIN vagg step 105 loss 0.001482 seconds 0.25
+TRAIN vagg step 106 loss 0.000849 seconds 0.29
+TRAIN vagg step 107 loss 0.001759 seconds 0.26
+TRAIN vagg step 108 loss 0.001476 seconds 0.28
+TRAIN vagg step 109 loss 0.001688 seconds 0.28
+TRAIN vagg step 110 loss 0.00131 seconds 0.23
+TRAIN vagg step 111 loss 0.001815 seconds 0.26
+TRAIN vagg step 112 loss 0.001522 seconds 0.26
+TRAIN vagg step 113 loss 0.001981 seconds 0.27
+TRAIN vagg step 114 loss 0.001691 seconds 0.29
+TRAIN vagg step 115 loss 0.001547 seconds 0.24
+TRAIN vagg step 116 loss 0.003697 seconds 0.3
+TRAIN vagg step 117 loss 0.001461 seconds 0.28
+TRAIN vagg step 118 loss 0.006702 seconds 0.26
+TRAIN vagg step 119 loss 0.000928 seconds 0.26
+TRAIN vagg step 120 loss 0.001203 seconds 0.26
+TRAIN vagg step 121 loss 0.001476 seconds 0.24
+TRAIN vagg step 122 loss 0.000752 seconds 0.27
+TRAIN vagg step 123 loss 0.001971 seconds 0.23
+TRAIN vagg step 124 loss 0.000908 seconds 0.25
+TRAIN vagg step 125 loss 0.003798 seconds 0.27
+TRAIN vagg step 126 loss 0.000863 seconds 0.26
+TRAIN vagg step 127 loss 0.00326 seconds 0.25
+TRAIN vagg step 128 loss 0.001473 seconds 0.32
+TRAIN vagg step 129 loss 0.002046 seconds 0.28
+TRAIN vagg step 130 loss 0.002066 seconds 0.24
+TRAIN vagg step 131 loss 0.002075 seconds 0.27
+TRAIN vagg step 132 loss 0.00197 seconds 0.27
+TRAIN vagg step 133 loss 0.002008 seconds 0.26
+TRAIN vagg step 134 loss 0.000989 seconds 0.27
+TRAIN vagg step 135 loss 0.001746 seconds 0.27
+TRAIN vagg step 136 loss 0.000846 seconds 0.26
+TRAIN vagg step 137 loss 0.001602 seconds 0.26
+TRAIN vagg step 138 loss 0.000769 seconds 0.26
+TRAIN vagg step 139 loss 0.001499 seconds 0.26
+TRAIN vagg step 140 loss 0.000858 seconds 0.27
+TRAIN vagg step 141 loss 0.002773 seconds 0.28
+TRAIN vagg step 142 loss 0.001094 seconds 0.25
+TRAIN vagg step 143 loss 0.003499 seconds 0.24
+TRAIN vagg step 144 loss 0.000842 seconds 0.3
+TRAIN vagg step 145 loss 0.001222 seconds 0.23
+TRAIN vagg step 146 loss 0.001998 seconds 0.25
+TRAIN vagg step 147 loss 0.004042 seconds 0.26
+TRAIN vagg step 148 loss 0.00377 seconds 0.25
+TRAIN vagg step 149 loss 0.001194 seconds 0.26
+TRAIN vagg step 150 loss 0.0011 seconds 0.24
+TRAIN vagg step 151 loss 0.00252 seconds 0.23
+TRAIN vagg step 152 loss 0.00099 seconds 0.28
+TRAIN vagg step 153 loss 0.002661 seconds 0.26
+TRAIN vagg step 154 loss 0.001829 seconds 0.26
+TRAIN vagg step 155 loss 0.002367 seconds 0.26
+TRAIN vagg step 156 loss 0.002581 seconds 0.27
+TRAIN vagg step 157 loss 0.001132 seconds 0.27
+TRAIN vagg step 158 loss 0.001438 seconds 0.26
+TRAIN vagg step 159 loss 0.001894 seconds 0.27
+TRAIN vagg step 160 loss 0.003031 seconds 0.24
+TRAIN vagg step 161 loss 0.001802 seconds 0.28
+TRAIN vagg step 162 loss 0.001677 seconds 0.24
+TRAIN vagg step 163 loss 0.000496 seconds 0.24
+TRAIN vagg step 164 loss 0.001104 seconds 0.26
+TRAIN vagg step 165 loss 0.001931 seconds 0.27
+TRAIN vagg step 166 loss 0.002311 seconds 0.23
+TRAIN vagg step 167 loss 0.001265 seconds 0.27
+TRAIN vagg step 168 loss 0.001216 seconds 0.27
+TRAIN vagg step 169 loss 0.001531 seconds 0.25
+TRAIN vagg step 170 loss 0.002097 seconds 0.28
+TRAIN vagg step 171 loss 0.002027 seconds 0.23
+TRAIN vagg step 172 loss 0.002026 seconds 0.26
+TRAIN vagg step 173 loss 0.004668 seconds 0.26
+TRAIN vagg step 174 loss 0.001206 seconds 0.3
+TRAIN vagg step 175 loss 0.001825 seconds 0.28
+TRAIN vagg step 176 loss 0.001398 seconds 0.26
+TRAIN vagg step 177 loss 0.003103 seconds 0.27
+TRAIN vagg step 178 loss 0.001309 seconds 0.27
+TRAIN vagg step 179 loss 0.001344 seconds 0.28
+TRAIN vagg step 180 loss 0.001198 seconds 0.25
+TRAIN vagg step 181 loss 0.002427 seconds 0.28
+TRAIN vagg step 182 loss 0.003419 seconds 0.24
+TRAIN vagg step 183 loss 0.003345 seconds 0.26
+TRAIN vagg step 184 loss 0.001039 seconds 0.27
+TRAIN vagg step 185 loss 0.003412 seconds 0.25
+TRAIN vagg step 186 loss 0.001978 seconds 0.29
+TRAIN vagg step 187 loss 0.003952 seconds 0.24
+TRAIN vagg step 188 loss 0.002415 seconds 0.26
+TRAIN vagg step 189 loss 0.002225 seconds 0.33
+TRAIN vagg step 190 loss 0.001825 seconds 0.24
+TRAIN vagg step 191 loss 0.001498 seconds 0.27
+TRAIN vagg step 192 loss 0.003825 seconds 0.26
+TRAIN vagg step 193 loss 0.000587 seconds 0.26
+TRAIN vagg step 194 loss 0.002679 seconds 0.27
+TRAIN vagg step 195 loss 0.00075 seconds 0.25
+TRAIN vagg step 196 loss 0.002188 seconds 0.25
+TRAIN vagg step 197 loss 0.000922 seconds 0.3
+TRAIN vagg step 198 loss 0.000986 seconds 0.26
+TRAIN vagg step 199 loss 0.002064 seconds 0.26
+TRAIN vagg step 200 loss 0.00167 seconds 0.24
+TRAIN vagg step 201 loss 0.00197 seconds 0.28
+TRAIN vagg step 202 loss 0.001653 seconds 0.25
+TRAIN vagg step 203 loss 0.001221 seconds 0.26
+TRAIN vagg step 204 loss 0.001197 seconds 0.33
+TRAIN vagg step 205 loss 0.000796 seconds 0.23
+TRAIN vagg step 206 loss 0.001792 seconds 0.27
+TRAIN vagg step 207 loss 0.002505 seconds 0.27
+TRAIN vagg step 208 loss 0.001545 seconds 0.26
+TRAIN vagg step 209 loss 0.002769 seconds 0.28
+TRAIN vagg step 210 loss 0.000856 seconds 0.24
+TRAIN vagg step 211 loss 0.002344 seconds 0.25
+TRAIN vagg step 212 loss 0.002117 seconds 0.33
+TRAIN vagg step 213 loss 0.002181 seconds 0.27
+TRAIN vagg step 214 loss 0.002476 seconds 0.26
+TRAIN vagg step 215 loss 0.001511 seconds 0.29
+TRAIN vagg step 216 loss 0.001239 seconds 0.27
+TRAIN vagg step 217 loss 0.00226 seconds 0.24
+TRAIN vagg step 218 loss 0.001053 seconds 0.26
+TRAIN vagg step 219 loss 0.006624 seconds 0.23
+TRAIN vagg step 220 loss 0.001405 seconds 0.28
+TRAIN vagg step 221 loss 0.003832 seconds 0.24
+TRAIN vagg step 222 loss 0.001439 seconds 0.23
+TRAIN vagg step 223 loss 0.001062 seconds 0.26
+TRAIN vagg step 224 loss 0.001118 seconds 0.27
+TRAIN vagg step 225 loss 0.001747 seconds 0.23
+TRAIN vagg step 226 loss 0.001292 seconds 0.28
+TRAIN vagg step 227 loss 0.001394 seconds 0.25
+TRAIN vagg step 228 loss 0.001096 seconds 0.28
+TRAIN vagg step 229 loss 0.000742 seconds 0.24
+TRAIN vagg step 230 loss 0.000833 seconds 0.25
+TRAIN vagg step 231 loss 0.002566 seconds 0.25
+TRAIN vagg step 232 loss 0.001721 seconds 0.23
+TRAIN vagg step 233 loss 0.002599 seconds 0.32
+TRAIN vagg step 234 loss 0.001952 seconds 0.25
+TRAIN vagg step 235 loss 0.00261 seconds 0.25
+TRAIN vagg step 236 loss 0.001056 seconds 0.26
+TRAIN vagg step 237 loss 0.001045 seconds 0.26
+TRAIN vagg step 238 loss 0.00084 seconds 0.26
+TRAIN vagg step 239 loss 0.002105 seconds 0.28
+TRAIN vagg step 240 loss 0.000691 seconds 0.24
+TRAIN vagg step 241 loss 0.005316 seconds 0.27
+TRAIN vagg step 242 loss 0.000704 seconds 0.26
+TRAIN vagg step 243 loss 0.00185 seconds 0.26
+TRAIN vagg step 244 loss 0.000572 seconds 0.26
+TRAIN vagg step 245 loss 0.001521 seconds 0.24
+TRAIN vagg step 246 loss 0.000878 seconds 0.29
+TRAIN vagg step 247 loss 0.001645 seconds 0.23
+TRAIN vagg step 248 loss 0.001199 seconds 0.24
+TRAIN vagg step 249 loss 0.001824 seconds 0.27
+TRAIN vagg step 250 loss 0.000487 seconds 0.23
+TRAIN vagg step 251 loss 0.007672 seconds 0.24
+TRAIN vagg step 252 loss 0.000741 seconds 0.28
+TRAIN vagg step 253 loss 0.002887 seconds 0.24
+TRAIN vagg step 254 loss 0.001384 seconds 0.28
+TRAIN vagg step 255 loss 0.002762 seconds 0.26
+TRAIN vagg step 256 loss 0.000908 seconds 0.25
+TRAIN vagg step 257 loss 0.001139 seconds 0.25
+TRAIN vagg step 258 loss 0.00171 seconds 0.24
+TRAIN vagg step 259 loss 0.002591 seconds 0.26
+TRAIN vagg step 260 loss 0.001241 seconds 0.27
+TRAIN vagg step 261 loss 0.003403 seconds 0.25
+TRAIN vagg step 262 loss 0.0012 seconds 0.25
+TRAIN vagg step 263 loss 0.004411 seconds 0.28
+TRAIN vagg step 264 loss 0.000969 seconds 0.25
+TRAIN vagg step 265 loss 0.001844 seconds 0.25
+TRAIN vagg step 266 loss 0.001747 seconds 0.24
+TRAIN vagg step 267 loss 0.000926 seconds 0.26
+TRAIN vagg step 268 loss 0.001666 seconds 0.23
+TRAIN vagg step 269 loss 0.001128 seconds 0.27
+TRAIN vagg step 270 loss 0.001939 seconds 0.25
+TRAIN vagg step 271 loss 0.00052 seconds 0.24
+TRAIN vagg step 272 loss 0.002386 seconds 0.27
+TRAIN vagg step 273 loss 0.000973 seconds 0.27
+TRAIN vagg step 274 loss 0.00299 seconds 0.25
+TRAIN vagg step 275 loss 0.001401 seconds 0.26
+TRAIN vagg step 276 loss 0.000927 seconds 0.24
+TRAIN vagg step 277 loss 0.001677 seconds 0.3
+TRAIN vagg step 278 loss 0.001772 seconds 0.28
+TRAIN vagg step 279 loss 0.000953 seconds 0.28
+TRAIN vagg step 280 loss 0.002115 seconds 0.24
+TRAIN vagg step 281 loss 0.002989 seconds 0.29
+TRAIN vagg step 282 loss 0.002358 seconds 0.24
+TRAIN vagg step 283 loss 0.001478 seconds 0.25
+TRAIN vagg step 284 loss 0.002013 seconds 0.28
+TRAIN vagg step 285 loss 0.001414 seconds 0.25
+TRAIN vagg step 286 loss 0.001259 seconds 0.24
+TRAIN vagg step 287 loss 0.002261 seconds 0.28
+TRAIN vagg step 288 loss 0.001291 seconds 0.26
+TRAIN vagg step 289 loss 0.002841 seconds 0.23
+TRAIN vagg step 290 loss 0.000869 seconds 0.27
+TRAIN vagg step 291 loss 0.002804 seconds 0.25
+TRAIN vagg step 292 loss 0.000978 seconds 0.25
+TRAIN vagg step 293 loss 0.001666 seconds 0.25
+TRAIN vagg step 294 loss 0.000818 seconds 0.27
+TRAIN vagg step 295 loss 0.000978 seconds 0.23
+TRAIN vagg step 296 loss 0.000834 seconds 0.25
+TRAIN vagg step 297 loss 0.00132 seconds 0.24
+TRAIN vagg step 298 loss 0.000886 seconds 0.28
+TRAIN vagg step 299 loss 0.001854 seconds 0.25
+TRAIN vagg step 300 loss 0.001122 seconds 0.28
+TRAIN vagg step 301 loss 0.001801 seconds 0.25
+TRAIN vagg step 302 loss 0.001042 seconds 0.28
+TRAIN vagg step 303 loss 0.001906 seconds 0.24
+TRAIN vagg step 304 loss 0.001401 seconds 0.27
+TRAIN vagg step 305 loss 0.000972 seconds 0.24
+TRAIN vagg step 306 loss 0.002466 seconds 0.28
+TRAIN vagg step 307 loss 0.001911 seconds 0.24
+TRAIN vagg step 308 loss 0.001407 seconds 0.25
+TRAIN vagg step 309 loss 0.001907 seconds 0.28
+TRAIN vagg step 310 loss 0.000633 seconds 0.23
+TRAIN vagg step 311 loss 0.004565 seconds 0.28
+TRAIN vagg step 312 loss 0.001035 seconds 0.23
+TRAIN vagg step 313 loss 0.004504 seconds 0.26
+TRAIN vagg step 314 loss 0.001794 seconds 0.26
+TRAIN vagg step 315 loss 0.002377 seconds 0.27
+TRAIN vagg step 316 loss 0.00283 seconds 0.27
+TRAIN vagg step 317 loss 0.004982 seconds 0.27
+TRAIN vagg step 318 loss 0.004309 seconds 0.26
+TRAIN vagg step 319 loss 0.002588 seconds 0.26
+TRAIN vagg step 320 loss 0.00204 seconds 0.27
+TRAIN vagg step 321 loss 0.000768 seconds 0.23
+TRAIN vagg step 322 loss 0.001564 seconds 0.26
+TRAIN vagg step 323 loss 0.001192 seconds 0.27
+TRAIN vagg step 324 loss 0.002176 seconds 0.23
+TRAIN vagg step 325 loss 0.001778 seconds 0.29
+TRAIN vagg step 326 loss 0.000734 seconds 0.27
+TRAIN vagg step 327 loss 0.001431 seconds 0.25
+TRAIN vagg step 328 loss 0.000899 seconds 0.26
+TRAIN vagg step 329 loss 0.001193 seconds 0.25
+TRAIN vagg step 330 loss 0.001222 seconds 0.29
+TRAIN vagg step 331 loss 0.001278 seconds 0.23
+TRAIN vagg step 332 loss 0.00076 seconds 0.26
+TRAIN vagg step 333 loss 0.003373 seconds 0.26
+TRAIN vagg step 334 loss 0.00162 seconds 0.24
+TRAIN vagg step 335 loss 0.004823 seconds 0.25
+TRAIN vagg step 336 loss 0.001557 seconds 0.24
+TRAIN vagg step 337 loss 0.003111 seconds 0.23
+TRAIN vagg step 338 loss 0.001652 seconds 0.25
+TRAIN vagg step 339 loss 0.001895 seconds 0.23
+TRAIN vagg step 340 loss 0.001453 seconds 0.25
+TRAIN vagg step 341 loss 0.001282 seconds 0.24
+TRAIN vagg step 342 loss 0.00483 seconds 0.25
+TRAIN vagg step 343 loss 0.004492 seconds 0.29
+TRAIN vagg step 344 loss 0.002289 seconds 0.24
+TRAIN vagg step 345 loss 0.006127 seconds 0.27
+TRAIN vagg step 346 loss 0.001864 seconds 0.27
+TRAIN vagg step 347 loss 0.003294 seconds 0.24
+TRAIN vagg step 348 loss 0.001569 seconds 0.28
+TRAIN vagg step 349 loss 0.001108 seconds 0.24
+TRAIN vagg step 350 loss 0.001838 seconds 0.27
+TRAIN vagg step 351 loss 0.001472 seconds 0.25
+TRAIN vagg step 352 loss 0.00236 seconds 0.23
+TRAIN vagg step 353 loss 0.000938 seconds 0.27
+TRAIN vagg step 354 loss 0.001657 seconds 0.24
+TRAIN vagg step 355 loss 0.001283 seconds 0.22
+TRAIN vagg step 356 loss 0.002296 seconds 0.26
+TRAIN vagg step 357 loss 0.014473 seconds 0.25
+TRAIN vagg step 358 loss 0.003402 seconds 0.25
+TRAIN vagg step 359 loss 0.002238 seconds 0.24
+TRAIN vagg step 360 loss 0.001944 seconds 0.28
+TRAIN vagg step 361 loss 0.006836 seconds 0.3
+TRAIN vagg step 362 loss 0.000825 seconds 0.29
+TRAIN vagg step 363 loss 0.003246 seconds 0.25
+TRAIN vagg step 364 loss 0.000832 seconds 0.27
+TRAIN vagg step 365 loss 0.0012 seconds 0.26
+TRAIN vagg step 366 loss 0.001218 seconds 0.24
+TRAIN vagg step 367 loss 0.002402 seconds 0.27
+TRAIN vagg step 368 loss 0.00117 seconds 0.25
+TRAIN vagg step 369 loss 0.002687 seconds 0.26
+TRAIN vagg step 370 loss 0.001393 seconds 0.24
+TRAIN vagg step 371 loss 0.009962 seconds 0.26
+TRAIN vagg step 372 loss 0.002415 seconds 0.26
+TRAIN vagg step 373 loss 0.005042 seconds 0.27
+TRAIN vagg step 374 loss 0.002448 seconds 0.3
+TRAIN vagg step 375 loss 0.001478 seconds 0.24
+TRAIN vagg step 376 loss 0.001821 seconds 0.29
+TRAIN vagg step 377 loss 0.001895 seconds 0.26
+TRAIN vagg step 378 loss 0.001049 seconds 0.23
+TRAIN vagg step 379 loss 0.001262 seconds 0.27
+TRAIN vagg step 380 loss 0.0014 seconds 0.23
+TRAIN vagg step 381 loss 0.00275 seconds 0.25
+TRAIN vagg step 382 loss 0.002838 seconds 0.28
+TRAIN vagg step 383 loss 0.003318 seconds 0.23
+TRAIN vagg step 384 loss 0.001345 seconds 0.27
+TRAIN vagg step 385 loss 0.001468 seconds 0.28
+TRAIN vagg step 386 loss 0.001118 seconds 0.24
+TRAIN vagg step 387 loss 0.002673 seconds 0.26
+TRAIN vagg step 388 loss 0.001064 seconds 0.28
+TRAIN vagg step 389 loss 0.00848 seconds 0.23
+TRAIN vagg step 390 loss 0.0014 seconds 0.28
+TRAIN vagg step 391 loss 0.002862 seconds 0.27
+TRAIN vagg step 392 loss 0.001721 seconds 0.26
+TRAIN vagg step 393 loss 0.003609 seconds 0.28
+TRAIN vagg step 394 loss 0.001239 seconds 0.24
+TRAIN vagg step 395 loss 0.001742 seconds 0.29
+TRAIN vagg step 396 loss 0.00079 seconds 0.25
+TRAIN vagg step 397 loss 0.002947 seconds 0.22
+TRAIN vagg step 398 loss 0.001386 seconds 0.29
+TRAIN vagg step 399 loss 0.001346 seconds 0.27
+TRAIN vagg step 400 loss 0.003155 seconds 0.24
+TRAIN vagg step 401 loss 0.002134 seconds 0.3
+TRAIN vagg step 402 loss 0.001959 seconds 0.26
+TRAIN vagg step 403 loss 0.003164 seconds 0.27
+TRAIN vagg step 404 loss 0.000765 seconds 0.29
+TRAIN vagg step 405 loss 0.004417 seconds 0.25
+TRAIN vagg step 406 loss 0.001222 seconds 0.29
+TRAIN vagg step 407 loss 0.002931 seconds 0.26
+TRAIN vagg step 408 loss 0.001021 seconds 0.28
+TRAIN vagg step 409 loss 0.000967 seconds 0.25
+TRAIN vagg step 410 loss 0.000629 seconds 0.27
+TRAIN vagg step 411 loss 0.001396 seconds 0.29
+TRAIN vagg step 412 loss 0.000872 seconds 0.28
+TRAIN vagg step 413 loss 0.001316 seconds 0.26
+TRAIN vagg step 414 loss 0.002053 seconds 0.24
+TRAIN vagg step 415 loss 0.000973 seconds 0.27
+TRAIN vagg step 416 loss 0.000689 seconds 0.26
+TRAIN vagg step 417 loss 0.000795 seconds 0.27
+TRAIN vagg step 418 loss 0.002077 seconds 0.25
+TRAIN vagg step 419 loss 0.000681 seconds 0.24
+TRAIN vagg step 420 loss 0.000975 seconds 0.29
+TRAIN vagg step 421 loss 0.001407 seconds 0.24
+TRAIN vagg step 422 loss 0.001294 seconds 0.26
+TRAIN vagg step 423 loss 0.001257 seconds 0.3
+TRAIN vagg step 424 loss 0.001989 seconds 0.24
+TRAIN vagg step 425 loss 0.000821 seconds 0.27
+TRAIN vagg step 426 loss 0.00137 seconds 0.28
+TRAIN vagg step 427 loss 0.001295 seconds 0.26
+TRAIN vagg step 428 loss 0.001642 seconds 0.28
+TRAIN vagg step 429 loss 0.001118 seconds 0.28
+TRAIN vagg step 430 loss 0.002004 seconds 0.28
+TRAIN vagg step 431 loss 0.001213 seconds 0.25
+TRAIN vagg step 432 loss 0.001931 seconds 0.29
+TRAIN vagg step 433 loss 0.00598 seconds 0.25
+TRAIN vagg step 434 loss 0.005451 seconds 0.25
+TRAIN vagg step 435 loss 0.00155 seconds 0.26
+TRAIN vagg step 436 loss 0.000764 seconds 0.23
+TRAIN vagg step 437 loss 0.001484 seconds 0.27
+TRAIN vagg step 438 loss 0.000957 seconds 0.23
+TRAIN vagg step 439 loss 0.001326 seconds 0.25
+TRAIN vagg step 440 loss 0.001017 seconds 0.28
+TRAIN vagg step 441 loss 0.002554 seconds 0.23
+TRAIN vagg step 442 loss 0.000812 seconds 0.28
+TRAIN vagg step 443 loss 0.001928 seconds 0.27
+TRAIN vagg step 444 loss 0.000952 seconds 0.24
+TRAIN vagg step 445 loss 0.002594 seconds 0.26
+TRAIN vagg step 446 loss 0.00125 seconds 0.23
+TRAIN vagg step 447 loss 0.00207 seconds 0.28
+TRAIN vagg step 448 loss 0.000819 seconds 0.23
+TRAIN vagg step 449 loss 0.000541 seconds 0.25
+TRAIN vagg step 450 loss 0.001989 seconds 0.29
+TRAIN vagg step 451 loss 0.001132 seconds 0.27
+TRAIN vagg step 452 loss 0.002164 seconds 0.27
+TRAIN vagg step 453 loss 0.002176 seconds 0.27
+TRAIN vagg step 454 loss 0.001463 seconds 0.27
+TRAIN vagg step 455 loss 0.001707 seconds 0.26
+TRAIN vagg step 456 loss 0.001818 seconds 0.27
+TRAIN vagg step 457 loss 0.000886 seconds 0.27
+TRAIN vagg step 458 loss 0.001796 seconds 0.29
+TRAIN vagg step 459 loss 0.001354 seconds 0.25
+TRAIN vagg step 460 loss 0.001037 seconds 0.28
+TRAIN vagg step 461 loss 0.00143 seconds 0.25
+TRAIN vagg step 462 loss 0.001247 seconds 0.28
+TRAIN vagg step 463 loss 0.001744 seconds 0.26
+TRAIN vagg step 464 loss 0.001555 seconds 0.28
+TRAIN vagg step 465 loss 0.002176 seconds 0.26
+TRAIN vagg step 466 loss 0.001573 seconds 0.23
+TRAIN vagg step 467 loss 0.00161 seconds 0.27
+TRAIN vagg step 468 loss 0.001064 seconds 0.28
+TRAIN vagg step 469 loss 0.001071 seconds 0.27
+TRAIN vagg step 470 loss 0.003176 seconds 0.24
+TRAIN vagg step 471 loss 0.001361 seconds 0.28
+TRAIN vagg step 472 loss 0.003232 seconds 0.25
+TRAIN vagg step 473 loss 0.00228 seconds 0.27
+TRAIN vagg step 474 loss 0.001999 seconds 0.25
+TRAIN vagg step 475 loss 0.002787 seconds 0.26
+TRAIN vagg step 476 loss 0.004128 seconds 0.27
+TRAIN vagg step 477 loss 0.002817 seconds 0.25
+TRAIN vagg step 478 loss 0.002121 seconds 0.27
+TRAIN vagg step 479 loss 0.003495 seconds 0.29
+TRAIN vagg step 480 loss 0.001401 seconds 0.25
+TRAIN vagg step 481 loss 0.001576 seconds 0.27
+TRAIN vagg step 482 loss 0.001456 seconds 0.27
+TRAIN vagg step 483 loss 0.000971 seconds 0.27
+TRAIN vagg step 484 loss 0.001841 seconds 0.28
+TRAIN vagg step 485 loss 0.001141 seconds 0.26
+TRAIN vagg step 486 loss 0.001662 seconds 0.28
+TRAIN vagg step 487 loss 0.001469 seconds 0.27
+TRAIN vagg step 488 loss 0.001136 seconds 0.27
+TRAIN vagg step 489 loss 0.003259 seconds 0.27
+TRAIN vagg step 490 loss 0.002421 seconds 0.29
+TRAIN vagg step 491 loss 0.004921 seconds 0.26
+TRAIN vagg step 492 loss 0.001486 seconds 0.26
+TRAIN vagg step 493 loss 0.000875 seconds 0.27
+TRAIN vagg step 494 loss 0.001821 seconds 0.25
+TRAIN vagg step 495 loss 0.00089 seconds 0.24
+TRAIN vagg step 496 loss 0.001611 seconds 0.28
+TRAIN vagg step 497 loss 0.001926 seconds 0.25
+TRAIN vagg step 498 loss 0.00125 seconds 0.25
+TRAIN vagg step 499 loss 0.001743 seconds 0.24
+TRAIN vagg step 500 loss 0.000955 seconds 0.28
+TRAIN vagg step 501 loss 0.001585 seconds 0.23
+TRAIN vagg step 502 loss 0.001546 seconds 0.28
+TRAIN vagg step 503 loss 0.00084 seconds 0.26
+TRAIN vagg step 504 loss 0.001841 seconds 0.24
+TRAIN vagg step 505 loss 0.000849 seconds 0.26
+TRAIN vagg step 506 loss 0.000987 seconds 0.27
+TRAIN vagg step 507 loss 0.001005 seconds 0.23
+TRAIN vagg step 508 loss 0.001417 seconds 0.26
+TRAIN vagg step 509 loss 0.001005 seconds 0.26
+TRAIN vagg step 510 loss 0.000775 seconds 0.27
+TRAIN vagg step 511 loss 0.002015 seconds 0.24
+TRAIN vagg step 512 loss 0.000892 seconds 0.28
+TRAIN vagg step 513 loss 0.002157 seconds 0.23
+TRAIN vagg step 514 loss 0.002311 seconds 0.25
+TRAIN vagg step 515 loss 0.001681 seconds 0.27
+TRAIN vagg step 516 loss 0.002689 seconds 0.25
+TRAIN vagg step 517 loss 0.000969 seconds 0.26
+TRAIN vagg step 518 loss 0.003848 seconds 0.25
+TRAIN vagg step 519 loss 0.002528 seconds 0.25
+TRAIN vagg step 520 loss 0.00158 seconds 0.24
+TRAIN vagg step 521 loss 0.001737 seconds 0.23
+TRAIN vagg step 522 loss 0.001945 seconds 0.26
+TRAIN vagg step 523 loss 0.002028 seconds 0.26
+TRAIN vagg step 524 loss 0.001124 seconds 0.27
+TRAIN vagg step 525 loss 0.003465 seconds 0.26
+TRAIN vagg step 526 loss 0.000724 seconds 0.24
+TRAIN vagg step 527 loss 0.002041 seconds 0.24
+TRAIN vagg step 528 loss 0.001432 seconds 0.28
+TRAIN vagg step 529 loss 0.002022 seconds 0.25
+TRAIN vagg step 530 loss 0.000996 seconds 0.27
+TRAIN vagg step 531 loss 0.002611 seconds 0.27
+TRAIN vagg step 532 loss 0.002073 seconds 0.3
+TRAIN vagg step 533 loss 0.004752 seconds 0.25
+TRAIN vagg step 534 loss 0.000687 seconds 0.3
+TRAIN vagg step 535 loss 0.001873 seconds 0.25
+TRAIN vagg step 536 loss 0.000702 seconds 0.27
+TRAIN vagg step 537 loss 0.001447 seconds 0.26
+TRAIN vagg step 538 loss 0.001043 seconds 0.28
+TRAIN vagg step 539 loss 0.001293 seconds 0.24
+TRAIN vagg step 540 loss 0.001059 seconds 0.3
+TRAIN vagg step 541 loss 0.001136 seconds 0.26
+TRAIN vagg step 542 loss 0.001343 seconds 0.28
+TRAIN vagg step 543 loss 0.001364 seconds 0.26
+TRAIN vagg step 544 loss 0.001682 seconds 0.26
+TRAIN vagg step 545 loss 0.001616 seconds 0.25
+TRAIN vagg step 546 loss 0.003195 seconds 0.24
+TRAIN vagg step 547 loss 0.001802 seconds 0.29
+TRAIN vagg step 548 loss 0.001767 seconds 0.28
+TRAIN vagg step 549 loss 0.001453 seconds 0.23
+TRAIN vagg step 550 loss 0.001057 seconds 0.27
+TRAIN vagg step 551 loss 0.00098 seconds 0.25
+TRAIN vagg step 552 loss 0.001382 seconds 0.25
+TRAIN vagg step 553 loss 0.001039 seconds 0.26
+TRAIN vagg step 554 loss 0.001362 seconds 0.27
+TRAIN vagg step 555 loss 0.000901 seconds 0.27
+TRAIN vagg step 556 loss 0.001142 seconds 0.27
+TRAIN vagg step 557 loss 0.000834 seconds 0.24
+TRAIN vagg step 558 loss 0.001505 seconds 0.3
+TRAIN vagg step 559 loss 0.00224 seconds 0.25
+TRAIN vagg step 560 loss 0.001047 seconds 0.28
+TRAIN vagg step 561 loss 0.001426 seconds 0.28
+TRAIN vagg step 562 loss 0.000818 seconds 0.23
+TRAIN vagg step 563 loss 0.001478 seconds 0.26
+TRAIN vagg step 564 loss 0.001055 seconds 0.26
+TRAIN vagg step 565 loss 0.001483 seconds 0.27
+TRAIN vagg step 566 loss 0.001551 seconds 0.25
+TRAIN vagg step 567 loss 0.001868 seconds 0.28
+TRAIN vagg step 568 loss 0.001619 seconds 0.24
+TRAIN vagg step 569 loss 0.002491 seconds 0.25
+TRAIN vagg step 570 loss 0.004646 seconds 0.27
+TRAIN vagg step 571 loss 0.001221 seconds 0.27
+TRAIN vagg step 572 loss 0.004924 seconds 0.28
+TRAIN vagg step 573 loss 0.001264 seconds 0.24
+TRAIN vagg step 574 loss 0.003153 seconds 0.26
+TRAIN vagg step 575 loss 0.001488 seconds 0.26
+TRAIN vagg step 576 loss 0.001997 seconds 0.28
+TRAIN vagg step 577 loss 0.000896 seconds 0.24
+TRAIN vagg step 578 loss 0.001905 seconds 0.28
+TRAIN vagg step 579 loss 0.000609 seconds 0.25
+TRAIN vagg step 580 loss 0.000908 seconds 0.28
+TRAIN vagg step 581 loss 0.00056 seconds 0.23
+TRAIN vagg step 582 loss 0.001907 seconds 0.25
+TRAIN vagg step 583 loss 0.002682 seconds 0.29
+TRAIN vagg step 584 loss 0.000814 seconds 0.24
+TRAIN vagg step 585 loss 0.001185 seconds 0.25
+TRAIN vagg step 586 loss 0.002123 seconds 0.24
+TRAIN vagg step 587 loss 0.001198 seconds 0.26
+TRAIN vagg step 588 loss 0.00359 seconds 0.23
+TRAIN vagg step 589 loss 0.002571 seconds 0.26
+TRAIN vagg step 590 loss 0.002771 seconds 0.27
+TRAIN vagg step 591 loss 0.001432 seconds 0.24
+TRAIN vagg step 592 loss 0.004226 seconds 0.29
+TRAIN vagg step 593 loss 0.001283 seconds 0.24
+TRAIN vagg step 594 loss 0.003585 seconds 0.29
+TRAIN vagg step 595 loss 0.001092 seconds 0.27
+TRAIN vagg step 596 loss 0.00066 seconds 0.26
+TRAIN vagg step 597 loss 0.001758 seconds 0.28
+TRAIN vagg step 598 loss 0.001235 seconds 0.25
+TRAIN vagg step 599 loss 0.000897 seconds 0.24
+TRAIN vagg step 600 loss 0.000898 seconds 0.25
+TRAIN vagg step 601 loss 0.005167 seconds 0.25
+TRAIN vagg step 602 loss 0.001026 seconds 0.25
+TRAIN vagg step 603 loss 0.00641 seconds 0.24
+TRAIN vagg step 604 loss 0.001551 seconds 0.32
+TRAIN vagg step 605 loss 0.005915 seconds 0.26
+TRAIN vagg step 606 loss 0.00252 seconds 0.27
+TRAIN vagg step 607 loss 0.000902 seconds 0.28
+TRAIN vagg step 608 loss 0.007925 seconds 0.25
+TRAIN vagg step 609 loss 0.001791 seconds 0.28
+TRAIN vagg step 610 loss 0.001013 seconds 0.25
+TRAIN vagg step 611 loss 0.001008 seconds 0.25
+TRAIN vagg step 612 loss 0.001511 seconds 0.29
+TRAIN vagg step 613 loss 0.001627 seconds 0.27
+TRAIN vagg step 614 loss 0.003569 seconds 0.25
+TRAIN vagg step 615 loss 0.001711 seconds 0.25
+TRAIN vagg step 616 loss 0.003137 seconds 0.27
+TRAIN vagg step 617 loss 0.001683 seconds 0.24
+TRAIN vagg step 618 loss 0.001991 seconds 0.26
+TRAIN vagg step 619 loss 0.002146 seconds 0.25
+TRAIN vagg step 620 loss 0.001849 seconds 0.27
+TRAIN vagg step 621 loss 0.001879 seconds 0.24
+TRAIN vagg step 622 loss 0.000672 seconds 0.26
+TRAIN vagg step 623 loss 0.001271 seconds 0.27
+TRAIN vagg step 624 loss 0.000846 seconds 0.27
+TRAIN vagg step 625 loss 0.001048 seconds 0.25
+TRAIN vagg step 626 loss 0.00188 seconds 0.3
+TRAIN vagg step 627 loss 0.000936 seconds 0.25
+TRAIN vagg step 628 loss 0.00213 seconds 0.25
+TRAIN vagg step 629 loss 0.001182 seconds 0.26
+TRAIN vagg step 630 loss 0.003246 seconds 0.26
+TRAIN vagg step 631 loss 0.00113 seconds 0.25
+TRAIN vagg step 632 loss 0.002011 seconds 0.27
+TRAIN vagg step 633 loss 0.000562 seconds 0.26
+TRAIN vagg step 634 loss 0.000903 seconds 0.28
+TRAIN vagg step 635 loss 0.00176 seconds 0.25
+TRAIN vagg step 636 loss 0.001148 seconds 0.28
+TRAIN vagg step 637 loss 0.001178 seconds 0.24
+TRAIN vagg step 638 loss 0.001098 seconds 0.27
+TRAIN vagg step 639 loss 0.002016 seconds 0.29
+TRAIN vagg step 640 loss 0.000934 seconds 0.23
+TRAIN vagg step 641 loss 0.003341 seconds 0.29
+TRAIN vagg step 642 loss 0.0008 seconds 0.26
+TRAIN vagg step 643 loss 0.002132 seconds 0.27
+TRAIN vagg step 644 loss 0.001085 seconds 0.27
+TRAIN vagg step 645 loss 0.002267 seconds 0.23
+TRAIN vagg step 646 loss 0.001851 seconds 0.27
+TRAIN vagg step 647 loss 0.001567 seconds 0.26
+TRAIN vagg step 648 loss 0.001503 seconds 0.28
+TRAIN vagg step 649 loss 0.002478 seconds 0.24
+TRAIN vagg step 650 loss 0.001436 seconds 0.27
+TRAIN vagg step 651 loss 0.003126 seconds 0.29
+TRAIN vagg step 652 loss 0.001243 seconds 0.24
+TRAIN vagg step 653 loss 0.002521 seconds 0.24
+TRAIN vagg step 654 loss 0.002477 seconds 0.27
+TRAIN vagg step 655 loss 0.001378 seconds 0.26
+TRAIN vagg step 656 loss 0.002683 seconds 0.26
+TRAIN vagg step 657 loss 0.002547 seconds 0.25
+TRAIN vagg step 658 loss 0.001535 seconds 0.24
+TRAIN vagg step 659 loss 0.001449 seconds 0.28
+TRAIN vagg step 660 loss 0.001565 seconds 0.23
+TRAIN vagg step 661 loss 0.0013 seconds 0.25
+TRAIN vagg step 662 loss 0.001339 seconds 0.24
+TRAIN vagg step 663 loss 0.000715 seconds 0.31
+TRAIN vagg step 664 loss 0.000927 seconds 0.24
+TRAIN vagg step 665 loss 0.000718 seconds 0.26
+TRAIN vagg step 666 loss 0.001396 seconds 0.25
+TRAIN vagg step 667 loss 0.000933 seconds 0.23
+TRAIN vagg step 668 loss 0.001712 seconds 0.25
+TRAIN vagg step 669 loss 0.000599 seconds 0.26
+TRAIN vagg step 670 loss 0.002172 seconds 0.26
+TRAIN vagg step 671 loss 0.00095 seconds 0.28
+TRAIN vagg step 672 loss 0.002623 seconds 0.26
+TRAIN vagg step 673 loss 0.00102 seconds 0.27
+TRAIN vagg step 674 loss 0.003786 seconds 0.28
+TRAIN vagg step 675 loss 0.003632 seconds 0.27
+TRAIN vagg step 676 loss 0.001659 seconds 0.26
+TRAIN vagg step 677 loss 0.002795 seconds 0.26
+TRAIN vagg step 678 loss 0.001236 seconds 0.28
+TRAIN vagg step 679 loss 0.001504 seconds 0.26
+TRAIN vagg step 680 loss 0.001918 seconds 0.26
+TRAIN vagg step 681 loss 0.001615 seconds 0.27
+TRAIN vagg step 682 loss 0.002537 seconds 0.28
+TRAIN vagg step 683 loss 0.001255 seconds 0.27
+TRAIN vagg step 684 loss 0.002107 seconds 0.25
+TRAIN vagg step 685 loss 0.004505 seconds 0.26
+TRAIN vagg step 686 loss 0.001389 seconds 0.25
+TRAIN vagg step 687 loss 0.009811 seconds 0.23
+TRAIN vagg step 688 loss 0.001629 seconds 0.28
+TRAIN vagg step 689 loss 0.003522 seconds 0.23
+TRAIN vagg step 690 loss 0.001316 seconds 0.26
+TRAIN vagg step 691 loss 0.002319 seconds 0.28
+TRAIN vagg step 692 loss 0.002863 seconds 0.25
+TRAIN vagg step 693 loss 0.001016 seconds 0.24
+TRAIN vagg step 694 loss 0.001728 seconds 0.26
+TRAIN vagg step 695 loss 0.001103 seconds 0.24
+TRAIN vagg step 696 loss 0.001997 seconds 0.25
+TRAIN vagg step 697 loss 0.00215 seconds 0.28
+TRAIN vagg step 698 loss 0.00135 seconds 0.26
+TRAIN vagg step 699 loss 0.001644 seconds 0.29
+TRAIN vagg step 700 loss 0.001375 seconds 0.3
+TRAIN vagg step 701 loss 0.001839 seconds 0.25
+TRAIN vagg step 702 loss 0.001216 seconds 0.28
+TRAIN vagg step 703 loss 0.000909 seconds 0.24
+TRAIN vagg step 704 loss 0.001831 seconds 0.27
+TRAIN vagg step 705 loss 0.00287 seconds 0.24
+TRAIN vagg step 706 loss 0.001526 seconds 0.29
+TRAIN vagg step 707 loss 0.001153 seconds 0.26
+TRAIN vagg step 708 loss 0.001448 seconds 0.25
+TRAIN vagg step 709 loss 0.001457 seconds 0.24
+TRAIN vagg step 710 loss 0.002458 seconds 0.28
+TRAIN vagg step 711 loss 0.000862 seconds 0.24
+TRAIN vagg step 712 loss 0.001437 seconds 0.26
+TRAIN vagg step 713 loss 0.000806 seconds 0.26
+TRAIN vagg step 714 loss 0.001097 seconds 0.26
+TRAIN vagg step 715 loss 0.002086 seconds 0.25
+TRAIN vagg step 716 loss 0.001165 seconds 0.28
+TRAIN vagg step 717 loss 0.001761 seconds 0.25
+TRAIN vagg step 718 loss 0.002406 seconds 0.27
+TRAIN vagg step 719 loss 0.00212 seconds 0.28
+TRAIN vagg step 720 loss 0.005315 seconds 0.25
+TRAIN vagg step 721 loss 0.001759 seconds 0.28
+TRAIN vagg step 722 loss 0.000876 seconds 0.26
+TRAIN vagg step 723 loss 0.001438 seconds 0.28
+TRAIN vagg step 724 loss 0.000667 seconds 0.25
+TRAIN vagg step 725 loss 0.001542 seconds 0.25
+TRAIN vagg step 726 loss 0.000684 seconds 0.27
+TRAIN vagg step 727 loss 0.000982 seconds 0.27
+TRAIN vagg step 728 loss 0.00125 seconds 0.25
+TRAIN vagg step 729 loss 0.000697 seconds 0.26
+TRAIN vagg step 730 loss 0.001192 seconds 0.28
+TRAIN vagg step 731 loss 0.000764 seconds 0.29
+TRAIN vagg step 732 loss 0.002247 seconds 0.25
+TRAIN vagg step 733 loss 0.000785 seconds 0.28
+TRAIN vagg step 734 loss 0.001202 seconds 0.25
+TRAIN vagg step 735 loss 0.000571 seconds 0.29
+TRAIN vagg step 736 loss 0.002276 seconds 0.25
+TRAIN vagg step 737 loss 0.001522 seconds 0.26
+TRAIN vagg step 738 loss 0.001595 seconds 0.26
+TRAIN vagg step 739 loss 0.002707 seconds 0.27
+TRAIN vagg step 740 loss 0.00128 seconds 0.25
+TRAIN vagg step 741 loss 0.004264 seconds 0.26
+TRAIN vagg step 742 loss 0.001405 seconds 0.28
+TRAIN vagg step 743 loss 0.000575 seconds 0.27
+TRAIN vagg step 744 loss 0.001368 seconds 0.27
+TRAIN vagg step 745 loss 0.000799 seconds 0.26
+TRAIN vagg step 746 loss 0.00057 seconds 0.27
+TRAIN vagg step 747 loss 0.001326 seconds 0.26
+TRAIN vagg step 748 loss 0.001313 seconds 0.27
+TRAIN vagg step 749 loss 0.001234 seconds 0.26
+TRAIN vagg step 750 loss 0.002014 seconds 0.28
+TRAIN vagg step 751 loss 0.004317 seconds 0.25
+TRAIN vagg step 752 loss 0.002897 seconds 0.24
+TRAIN vagg step 753 loss 0.000946 seconds 0.27
+TRAIN vagg step 754 loss 0.002448 seconds 0.24
+TRAIN vagg step 755 loss 0.001925 seconds 0.29
+TRAIN vagg step 756 loss 0.001723 seconds 0.24
+TRAIN vagg step 757 loss 0.001035 seconds 0.29
+TRAIN vagg step 758 loss 0.001278 seconds 0.28
+TRAIN vagg step 759 loss 0.002047 seconds 0.25
+TRAIN vagg step 760 loss 0.002587 seconds 0.24
+TRAIN vagg step 761 loss 0.002032 seconds 0.28
+TRAIN vagg step 762 loss 0.004838 seconds 0.25
+TRAIN vagg step 763 loss 0.001091 seconds 0.29
+TRAIN vagg step 764 loss 0.001562 seconds 0.33
+TRAIN vagg step 765 loss 0.002314 seconds 0.25
+TRAIN vagg step 766 loss 0.001791 seconds 0.3
+TRAIN vagg step 767 loss 0.002759 seconds 0.26
+TRAIN vagg step 768 loss 0.000733 seconds 0.23
+TRAIN vagg step 769 loss 0.005792 seconds 0.33
+TRAIN vagg step 770 loss 0.00183 seconds 0.23
+TRAIN vagg step 771 loss 0.000449 seconds 0.25
+TRAIN vagg step 772 loss 0.001524 seconds 0.39
+TRAIN vagg step 773 loss 0.001295 seconds 0.23
+TRAIN vagg step 774 loss 0.001818 seconds 0.27
+TRAIN vagg step 775 loss 0.001576 seconds 0.27
+TRAIN vagg step 776 loss 0.001477 seconds 0.24
+TRAIN vagg step 777 loss 0.00309 seconds 0.27
+TRAIN vagg step 778 loss 0.001182 seconds 0.26
+TRAIN vagg step 779 loss 0.005038 seconds 0.26
+TRAIN vagg step 780 loss 0.001503 seconds 0.26
+TRAIN vagg step 781 loss 0.001276 seconds 0.26
+TRAIN vagg step 782 loss 0.001258 seconds 0.27
+TRAIN vagg step 783 loss 0.000982 seconds 0.24
+TRAIN vagg step 784 loss 0.001524 seconds 0.26
+TRAIN vagg step 785 loss 0.000676 seconds 0.25
+TRAIN vagg step 786 loss 0.001281 seconds 0.26
+TRAIN vagg step 787 loss 0.000715 seconds 0.28
+TRAIN vagg step 788 loss 0.000474 seconds 0.24
+TRAIN vagg step 789 loss 0.001206 seconds 0.51
+TRAIN vagg step 790 loss 0.001072 seconds 0.26
+TRAIN vagg step 791 loss 0.002931 seconds 0.22
+TRAIN vagg step 792 loss 0.001171 seconds 0.26
+TRAIN vagg step 793 loss 0.001443 seconds 0.25
+TRAIN vagg step 794 loss 0.001094 seconds 0.23
+TRAIN vagg step 795 loss 0.000948 seconds 0.43
+TRAIN vagg step 796 loss 0.000692 seconds 0.25
+TRAIN vagg step 797 loss 0.002115 seconds 0.32
+TRAIN vagg step 798 loss 0.001207 seconds 0.27
+TRAIN vagg step 799 loss 0.002757 seconds 0.24
+TRAIN vagg step 800 loss 0.000671 seconds 0.27
+TRAIN vagg step 801 loss 0.001723 seconds 0.26
+TRAIN vagg step 802 loss 0.00062 seconds 0.26
+TRAIN vagg step 803 loss 0.00172 seconds 0.3
+TRAIN vagg step 804 loss 0.001049 seconds 0.24
+TRAIN vagg step 805 loss 0.005954 seconds 0.27
+TRAIN vagg step 806 loss 0.0013 seconds 0.24
+TRAIN vagg step 807 loss 0.00619 seconds 0.29
+TRAIN vagg step 808 loss 0.001389 seconds 0.31
+TRAIN vagg step 809 loss 0.000647 seconds 0.23
+TRAIN vagg step 810 loss 0.00073 seconds 0.26
+TRAIN vagg step 811 loss 0.002765 seconds 0.27
+TRAIN vagg step 812 loss 0.002155 seconds 0.27
+TRAIN vagg step 813 loss 0.001728 seconds 0.27
+TRAIN vagg step 814 loss 0.002525 seconds 0.26
+TRAIN vagg step 815 loss 0.001022 seconds 0.26
+TRAIN vagg step 816 loss 0.004074 seconds 0.26
+TRAIN vagg step 817 loss 0.001078 seconds 0.27
+TRAIN vagg step 818 loss 0.00173 seconds 0.26
+TRAIN vagg step 819 loss 0.003856 seconds 0.26
+TRAIN vagg step 820 loss 0.003399 seconds 0.26
+TRAIN vagg step 821 loss 0.002497 seconds 0.25
+TRAIN vagg step 822 loss 0.002808 seconds 0.25
+TRAIN vagg step 823 loss 0.001358 seconds 0.28
+TRAIN vagg step 824 loss 0.001331 seconds 0.24
+TRAIN vagg step 825 loss 0.001037 seconds 0.25
+TRAIN vagg step 826 loss 0.000693 seconds 0.27
+TRAIN vagg step 827 loss 0.001215 seconds 0.23
+TRAIN vagg step 828 loss 0.002661 seconds 0.28
+TRAIN vagg step 829 loss 0.000736 seconds 0.25
+TRAIN vagg step 830 loss 0.002373 seconds 0.29
+TRAIN vagg step 831 loss 0.000754 seconds 0.25
+TRAIN vagg step 832 loss 0.001038 seconds 0.29
+TRAIN vagg step 833 loss 0.001113 seconds 0.23
+TRAIN vagg step 834 loss 0.00219 seconds 0.3
+TRAIN vagg step 835 loss 0.002493 seconds 0.28
+TRAIN vagg step 836 loss 0.001069 seconds 0.27
+TRAIN vagg step 837 loss 0.003334 seconds 0.24
+TRAIN vagg step 838 loss 0.001561 seconds 0.29
+TRAIN vagg step 839 loss 0.003094 seconds 0.24
+TRAIN vagg step 840 loss 0.001829 seconds 0.25
+TRAIN vagg step 841 loss 0.001451 seconds 0.26
+TRAIN vagg step 842 loss 0.001779 seconds 0.27
+TRAIN vagg step 843 loss 0.00073 seconds 0.25
+TRAIN vagg step 844 loss 0.002836 seconds 0.26
+TRAIN vagg step 845 loss 0.00171 seconds 0.23
+TRAIN vagg step 846 loss 0.001399 seconds 0.31
+TRAIN vagg step 847 loss 0.002969 seconds 0.27
+TRAIN vagg step 848 loss 0.001226 seconds 0.26
+TRAIN vagg step 849 loss 0.004045 seconds 0.27
+TRAIN vagg step 850 loss 0.000737 seconds 0.24
+TRAIN vagg step 851 loss 0.002156 seconds 0.33
+TRAIN vagg step 852 loss 0.000925 seconds 0.28
+TRAIN vagg step 853 loss 0.001694 seconds 0.24
+TRAIN vagg step 854 loss 0.001231 seconds 0.23
+TRAIN vagg step 855 loss 0.001286 seconds 0.28
+TRAIN vagg step 856 loss 0.002367 seconds 0.25
+TRAIN vagg step 857 loss 0.003008 seconds 0.27
+TRAIN vagg step 858 loss 0.001699 seconds 0.28
+TRAIN vagg step 859 loss 0.002639 seconds 0.23
+TRAIN vagg step 860 loss 0.00206 seconds 0.28
+TRAIN vagg step 861 loss 0.001684 seconds 0.26
+TRAIN vagg step 862 loss 0.001 seconds 0.25
+TRAIN vagg step 863 loss 0.001749 seconds 0.26
+TRAIN vagg step 864 loss 0.00113 seconds 0.23
+TRAIN vagg step 865 loss 0.004461 seconds 0.26
+TRAIN vagg step 866 loss 0.00116 seconds 0.27
+TRAIN vagg step 867 loss 0.001735 seconds 0.23
+TRAIN vagg step 868 loss 0.001533 seconds 0.28
+TRAIN vagg step 869 loss 0.002781 seconds 0.25
+TRAIN vagg step 870 loss 0.001389 seconds 0.23
+TRAIN vagg step 871 loss 0.006897 seconds 0.26
+TRAIN vagg step 872 loss 0.001445 seconds 0.26
+TRAIN vagg step 873 loss 0.003633 seconds 0.26
+TRAIN vagg step 874 loss 0.001932 seconds 0.27
+TRAIN vagg step 875 loss 0.001446 seconds 0.29
+TRAIN vagg step 876 loss 0.002839 seconds 0.26
+TRAIN vagg step 877 loss 0.002601 seconds 0.25
+TRAIN vagg step 878 loss 0.001789 seconds 0.25
+TRAIN vagg step 879 loss 0.001706 seconds 0.25
+TRAIN vagg step 880 loss 0.001462 seconds 0.26
+TRAIN vagg step 881 loss 0.002928 seconds 0.27
+TRAIN vagg step 882 loss 0.001039 seconds 0.33
+TRAIN vagg step 883 loss 0.00118 seconds 0.26
+TRAIN vagg step 884 loss 0.00083 seconds 0.25
+TRAIN vagg step 885 loss 0.001058 seconds 0.27
+TRAIN vagg step 886 loss 0.001286 seconds 0.25
+TRAIN vagg step 887 loss 0.001619 seconds 0.25
+TRAIN vagg step 888 loss 0.000663 seconds 0.28
+TRAIN vagg step 889 loss 0.002054 seconds 0.29
+TRAIN vagg step 890 loss 0.001166 seconds 0.26
+TRAIN vagg step 891 loss 0.002801 seconds 0.24
+TRAIN vagg step 892 loss 0.001618 seconds 0.28
+TRAIN vagg step 893 loss 0.00136 seconds 0.26
+TRAIN vagg step 894 loss 0.00139 seconds 0.3
+TRAIN vagg step 895 loss 0.001451 seconds 0.25
+TRAIN vagg step 896 loss 0.000926 seconds 0.26
+TRAIN vagg step 897 loss 0.001768 seconds 0.25
+TRAIN vagg step 898 loss 0.001316 seconds 0.27
+TRAIN vagg step 899 loss 0.000936 seconds 0.23
+TRAIN vagg step 900 loss 0.000813 seconds 0.25
+TRAIN vagg step 901 loss 0.001344 seconds 0.27
+TRAIN vagg step 902 loss 0.000975 seconds 0.26
+TRAIN vagg step 903 loss 0.000577 seconds 0.3
+TRAIN vagg step 904 loss 0.000883 seconds 0.35
+TRAIN vagg step 905 loss 0.00083 seconds 0.26
+TRAIN vagg step 906 loss 0.000645 seconds 0.25
+TRAIN vagg step 907 loss 0.001495 seconds 0.32
+TRAIN vagg step 908 loss 0.002242 seconds 0.27
+TRAIN vagg step 909 loss 0.001588 seconds 0.26
+TRAIN vagg step 910 loss 0.002519 seconds 0.31
+TRAIN vagg step 911 loss 0.00205 seconds 0.29
+TRAIN vagg step 912 loss 0.001357 seconds 0.28
+TRAIN vagg step 913 loss 0.002666 seconds 0.29
+TRAIN vagg step 914 loss 0.001933 seconds 0.26
+TRAIN vagg step 915 loss 0.002743 seconds 0.24
+TRAIN vagg step 916 loss 0.00948 seconds 0.27
+TRAIN vagg step 917 loss 0.001316 seconds 0.27
+TRAIN vagg step 918 loss 0.002213 seconds 0.24
+TRAIN vagg step 919 loss 0.001719 seconds 0.25
+TRAIN vagg step 920 loss 0.004235 seconds 0.28
+TRAIN vagg step 921 loss 0.001426 seconds 0.24
+TRAIN vagg step 922 loss 0.002058 seconds 0.32
+TRAIN vagg step 923 loss 0.002352 seconds 0.25
+TRAIN vagg step 924 loss 0.001942 seconds 0.26
+TRAIN vagg step 925 loss 0.001728 seconds 0.31
+TRAIN vagg step 926 loss 0.001608 seconds 0.26
+TRAIN vagg step 927 loss 0.002585 seconds 0.25
+TRAIN vagg step 928 loss 0.001274 seconds 0.25
+TRAIN vagg step 929 loss 0.001367 seconds 0.23
+TRAIN vagg step 930 loss 0.00083 seconds 0.27
+TRAIN vagg step 931 loss 0.001111 seconds 0.26
+TRAIN vagg step 932 loss 0.001034 seconds 0.24
+TRAIN vagg step 933 loss 0.00259 seconds 0.25
+TRAIN vagg step 934 loss 0.000771 seconds 0.27
+TRAIN vagg step 935 loss 0.001079 seconds 0.24
+TRAIN vagg step 936 loss 0.002098 seconds 0.27
+TRAIN vagg step 937 loss 0.002758 seconds 0.24
+TRAIN vagg step 938 loss 0.001424 seconds 0.28
+TRAIN vagg step 939 loss 0.001181 seconds 0.25
+TRAIN vagg step 940 loss 0.001005 seconds 0.26
+TRAIN vagg step 941 loss 0.001661 seconds 0.24
+TRAIN vagg step 942 loss 0.001017 seconds 0.27
+TRAIN vagg step 943 loss 0.002426 seconds 0.25
+TRAIN vagg step 944 loss 0.00104 seconds 0.23
+TRAIN vagg step 945 loss 0.001687 seconds 0.28
+TRAIN vagg step 946 loss 0.00178 seconds 0.25
+TRAIN vagg step 947 loss 0.001557 seconds 0.26
+TRAIN vagg step 948 loss 0.000904 seconds 0.25
+TRAIN vagg step 949 loss 0.001315 seconds 0.25
+TRAIN vagg step 950 loss 0.000676 seconds 0.28
+TRAIN vagg step 951 loss 0.002801 seconds 0.27
+TRAIN vagg step 952 loss 0.000479 seconds 0.27
+TRAIN vagg step 953 loss 0.002188 seconds 0.26
+TRAIN vagg step 954 loss 0.001283 seconds 0.27
+TRAIN vagg step 955 loss 0.002661 seconds 0.24
+TRAIN vagg step 956 loss 0.000859 seconds 0.31
+TRAIN vagg step 957 loss 0.00195 seconds 0.23
+TRAIN vagg step 958 loss 0.000839 seconds 0.28
+TRAIN vagg step 959 loss 0.001805 seconds 0.26
+TRAIN vagg step 960 loss 0.000631 seconds 0.26
+TRAIN vagg step 961 loss 0.000778 seconds 0.23
+TRAIN vagg step 962 loss 0.001651 seconds 0.28
+TRAIN vagg step 963 loss 0.001153 seconds 0.26
+TRAIN vagg step 964 loss 0.001709 seconds 0.29
+TRAIN vagg step 965 loss 0.001303 seconds 0.25
+TRAIN vagg step 966 loss 0.00177 seconds 0.27
+TRAIN vagg step 967 loss 0.000617 seconds 0.24
+TRAIN vagg step 968 loss 0.001375 seconds 0.26
+TRAIN vagg step 969 loss 0.001922 seconds 0.27
+TRAIN vagg step 970 loss 0.000979 seconds 0.22
+TRAIN vagg step 971 loss 0.003031 seconds 0.3
+TRAIN vagg step 972 loss 0.001531 seconds 0.27
+TRAIN vagg step 973 loss 0.003108 seconds 0.27
+TRAIN vagg step 974 loss 0.000937 seconds 0.24
+TRAIN vagg step 975 loss 0.000651 seconds 0.28
+TRAIN vagg step 976 loss 0.001588 seconds 0.27
+TRAIN vagg step 977 loss 0.001135 seconds 0.25
+TRAIN vagg step 978 loss 0.003873 seconds 0.25
+TRAIN vagg step 979 loss 0.002145 seconds 0.24
+TRAIN vagg step 980 loss 0.005069 seconds 0.25
+TRAIN vagg step 981 loss 0.001266 seconds 0.24
+TRAIN vagg step 982 loss 0.003942 seconds 0.25
+TRAIN vagg step 983 loss 0.001074 seconds 0.26
+TRAIN vagg step 984 loss 0.001582 seconds 0.27
+TRAIN vagg step 985 loss 0.001337 seconds 0.23
+TRAIN vagg step 986 loss 0.002319 seconds 0.26
+TRAIN vagg step 987 loss 0.001764 seconds 0.25
+TRAIN vagg step 988 loss 0.002812 seconds 0.24
+TRAIN vagg step 989 loss 0.001382 seconds 0.28
+TRAIN vagg step 990 loss 0.001652 seconds 0.26
+TRAIN vagg step 991 loss 0.001256 seconds 0.25
+TRAIN vagg step 992 loss 0.005502 seconds 0.28
+TRAIN vagg step 993 loss 0.001559 seconds 0.25
+TRAIN vagg step 994 loss 0.001501 seconds 0.25
+TRAIN vagg step 995 loss 0.003269 seconds 0.26
+TRAIN vagg step 996 loss 0.001403 seconds 0.25
+TRAIN vagg step 997 loss 0.002174 seconds 0.23
+TRAIN vagg step 998 loss 0.00067 seconds 0.25
+TRAIN vagg step 999 loss 0.001799 seconds 0.24
+TRAIN vagg step 1000 loss 0.0012 seconds 0.26
+TRAIN vagg step 1001 loss 0.001244 seconds 0.28
+TRAIN vagg step 1002 loss 0.003326 seconds 0.22
+TRAIN vagg step 1003 loss 0.001956 seconds 0.28
+TRAIN vagg step 1004 loss 0.002577 seconds 0.24
+TRAIN vagg step 1005 loss 0.000735 seconds 0.26
+TRAIN vagg step 1006 loss 0.003649 seconds 0.27
+TRAIN vagg step 1007 loss 0.000695 seconds 0.24
+TRAIN vagg step 1008 loss 0.005176 seconds 0.27
+TRAIN vagg step 1009 loss 0.001536 seconds 0.3
+TRAIN vagg step 1010 loss 0.004728 seconds 0.26
+TRAIN vagg step 1011 loss 0.001335 seconds 0.23
+TRAIN vagg step 1012 loss 0.002216 seconds 0.26
+TRAIN vagg step 1013 loss 0.001011 seconds 0.27
+TRAIN vagg step 1014 loss 0.001271 seconds 0.23
+TRAIN vagg step 1015 loss 0.00127 seconds 0.27
+TRAIN vagg step 1016 loss 0.001674 seconds 0.27
+TRAIN vagg step 1017 loss 0.001442 seconds 0.25
+TRAIN vagg step 1018 loss 0.00098 seconds 0.28
+TRAIN vagg step 1019 loss 0.002516 seconds 0.25
+TRAIN vagg step 1020 loss 0.003256 seconds 0.25
+TRAIN vagg step 1021 loss 0.003062 seconds 0.27
+TRAIN vagg step 1022 loss 0.00094 seconds 0.26
+TRAIN vagg step 1023 loss 0.001103 seconds 0.23
+TRAIN vagg step 1024 loss 0.001457 seconds 0.25
+TRAIN vagg step 1025 loss 0.000822 seconds 0.27
+TRAIN vagg step 1026 loss 0.001116 seconds 0.22
+TRAIN vagg step 1027 loss 0.001445 seconds 0.25
+TRAIN vagg step 1028 loss 0.000963 seconds 0.23
+TRAIN vagg step 1029 loss 0.001336 seconds 0.26
+TRAIN vagg step 1030 loss 0.00122 seconds 0.29
+TRAIN vagg step 1031 loss 0.00112 seconds 0.29
+TRAIN vagg step 1032 loss 0.004469 seconds 0.26
+TRAIN vagg step 1033 loss 0.001361 seconds 0.26
+TRAIN vagg step 1034 loss 0.002175 seconds 0.27
+TRAIN vagg step 1035 loss 0.001764 seconds 0.25
+TRAIN vagg step 1036 loss 0.001373 seconds 0.25
+TRAIN vagg step 1037 loss 0.001452 seconds 0.23
+TRAIN vagg step 1038 loss 0.001567 seconds 0.28
+TRAIN vagg step 1039 loss 0.001391 seconds 0.24
+TRAIN vagg step 1040 loss 0.002356 seconds 0.24
+TRAIN vagg step 1041 loss 0.002201 seconds 0.26
+TRAIN vagg step 1042 loss 0.001198 seconds 0.24
+TRAIN vagg step 1043 loss 0.00149 seconds 0.26
+TRAIN vagg step 1044 loss 0.001334 seconds 0.26
+TRAIN vagg step 1045 loss 0.00258 seconds 0.27
+TRAIN vagg step 1046 loss 0.001056 seconds 0.26
+TRAIN vagg step 1047 loss 0.000581 seconds 0.24
+TRAIN vagg step 1048 loss 0.001073 seconds 0.27
+TRAIN vagg step 1049 loss 0.00065 seconds 0.25
+TRAIN vagg step 1050 loss 0.002096 seconds 0.27
+TRAIN vagg step 1051 loss 0.000786 seconds 0.26
+TRAIN vagg step 1052 loss 0.000783 seconds 0.26
+TRAIN vagg step 1053 loss 0.001072 seconds 0.27
+TRAIN vagg step 1054 loss 0.001854 seconds 0.25
+TRAIN vagg step 1055 loss 0.001109 seconds 0.29
+TRAIN vagg step 1056 loss 0.002622 seconds 0.25
+TRAIN vagg step 1057 loss 0.000809 seconds 0.26
+TRAIN vagg step 1058 loss 0.001862 seconds 0.29
+TRAIN vagg step 1059 loss 0.002585 seconds 0.22
+TRAIN vagg step 1060 loss 0.001319 seconds 0.28
+TRAIN vagg step 1061 loss 0.001322 seconds 0.24
+TRAIN vagg step 1062 loss 0.001055 seconds 0.25
+TRAIN vagg step 1063 loss 0.001685 seconds 0.27
+TRAIN vagg step 1064 loss 0.001591 seconds 0.27
+TRAIN vagg step 1065 loss 0.001109 seconds 0.24
+TRAIN vagg step 1066 loss 0.001629 seconds 0.28
+TRAIN vagg step 1067 loss 0.001049 seconds 0.25
+TRAIN vagg step 1068 loss 0.000807 seconds 0.28
+TRAIN vagg step 1069 loss 0.001142 seconds 0.25
+TRAIN vagg step 1070 loss 0.001291 seconds 0.25
+TRAIN vagg step 1071 loss 0.000908 seconds 0.25
+TRAIN vagg step 1072 loss 0.001667 seconds 0.25
+TRAIN vagg step 1073 loss 0.001126 seconds 0.23
+TRAIN vagg step 1074 loss 0.000674 seconds 0.27
+TRAIN vagg step 1075 loss 0.002328 seconds 0.23
+TRAIN vagg step 1076 loss 0.00128 seconds 0.27
+TRAIN vagg step 1077 loss 0.000797 seconds 0.24
+TRAIN vagg step 1078 loss 0.000979 seconds 0.27
+TRAIN vagg step 1079 loss 0.001096 seconds 0.24
+TRAIN vagg step 1080 loss 0.000695 seconds 0.27
+TRAIN vagg step 1081 loss 0.000706 seconds 0.24
+TRAIN vagg step 1082 loss 0.000638 seconds 0.25
+TRAIN vagg step 1083 loss 0.001155 seconds 0.26
+TRAIN vagg step 1084 loss 0.001242 seconds 0.26
+TRAIN vagg step 1085 loss 0.001343 seconds 0.28
+TRAIN vagg step 1086 loss 0.001067 seconds 0.26
+TRAIN vagg step 1087 loss 0.001028 seconds 0.28
+TRAIN vagg step 1088 loss 0.00143 seconds 0.24
+TRAIN vagg step 1089 loss 0.001432 seconds 0.28
+TRAIN vagg step 1090 loss 0.001925 seconds 0.24
+TRAIN vagg step 1091 loss 0.003156 seconds 0.27
+TRAIN vagg step 1092 loss 0.001466 seconds 0.23
+TRAIN vagg step 1093 loss 0.003387 seconds 0.27
+TRAIN vagg step 1094 loss 0.001249 seconds 0.28
+TRAIN vagg step 1095 loss 0.001488 seconds 0.33
+TRAIN vagg step 1096 loss 0.002735 seconds 0.26
+TRAIN vagg step 1097 loss 0.001751 seconds 0.25
+TRAIN vagg step 1098 loss 0.001755 seconds 0.28
+TRAIN vagg step 1099 loss 0.00147 seconds 0.26
+TRAIN vagg step 1100 loss 0.001087 seconds 0.24
+TRAIN vagg step 1101 loss 0.001368 seconds 0.27
+TRAIN vagg step 1102 loss 0.001758 seconds 0.29
+TRAIN vagg step 1103 loss 0.003603 seconds 0.24
+TRAIN vagg step 1104 loss 0.000933 seconds 0.27
+TRAIN vagg step 1105 loss 0.002991 seconds 0.26
+TRAIN vagg step 1106 loss 0.001139 seconds 0.26
+TRAIN vagg step 1107 loss 0.0016 seconds 0.26
+TRAIN vagg step 1108 loss 0.000872 seconds 0.23
+TRAIN vagg step 1109 loss 0.001304 seconds 0.27
+TRAIN vagg step 1110 loss 0.001337 seconds 0.26
+TRAIN vagg step 1111 loss 0.000828 seconds 0.24
+TRAIN vagg step 1112 loss 0.002734 seconds 0.25
+TRAIN vagg step 1113 loss 0.001263 seconds 0.27
+TRAIN vagg step 1114 loss 0.002008 seconds 0.25
+TRAIN vagg step 1115 loss 0.000744 seconds 0.23
+TRAIN vagg step 1116 loss 0.003274 seconds 0.27
+TRAIN vagg step 1117 loss 0.004095 seconds 0.24
+TRAIN vagg step 1118 loss 0.000801 seconds 0.25
+TRAIN vagg step 1119 loss 0.001121 seconds 0.26
+TRAIN vagg step 1120 loss 0.001521 seconds 0.26
+TRAIN vagg step 1121 loss 0.001469 seconds 0.27
+TRAIN vagg step 1122 loss 0.000954 seconds 0.28
+TRAIN vagg step 1123 loss 0.001124 seconds 0.25
+TRAIN vagg step 1124 loss 0.001201 seconds 0.28
+TRAIN vagg step 1125 loss 0.001116 seconds 0.25
+TRAIN vagg step 1126 loss 0.001135 seconds 0.26
+TRAIN vagg step 1127 loss 0.001798 seconds 0.25
+TRAIN vagg step 1128 loss 0.000987 seconds 0.25
+TRAIN vagg step 1129 loss 0.003515 seconds 0.26
+TRAIN vagg step 1130 loss 0.000703 seconds 0.27
+TRAIN vagg step 1131 loss 0.001846 seconds 0.24
+TRAIN vagg step 1132 loss 0.00102 seconds 0.26
+TRAIN vagg step 1133 loss 0.000849 seconds 0.27
+TRAIN vagg step 1134 loss 0.001319 seconds 0.24
+TRAIN vagg step 1135 loss 0.001223 seconds 0.27
+TRAIN vagg step 1136 loss 0.001054 seconds 0.29
+TRAIN vagg step 1137 loss 0.001402 seconds 0.24
+TRAIN vagg step 1138 loss 0.000963 seconds 0.28
+TRAIN vagg step 1139 loss 0.001362 seconds 0.26
+TRAIN vagg step 1140 loss 0.001934 seconds 0.23
+TRAIN vagg step 1141 loss 0.004856 seconds 0.29
+TRAIN vagg step 1142 loss 0.001841 seconds 0.24
+TRAIN vagg step 1143 loss 0.009418 seconds 0.27
+TRAIN vagg step 1144 loss 0.003322 seconds 0.25
+TRAIN vagg step 1145 loss 0.002804 seconds 0.26
+TRAIN vagg step 1146 loss 0.005303 seconds 0.27
+TRAIN vagg step 1147 loss 0.002571 seconds 0.26
+TRAIN vagg step 1148 loss 0.002393 seconds 0.26
+TRAIN vagg step 1149 loss 0.001649 seconds 0.26
+TRAIN vagg step 1150 loss 0.001179 seconds 0.27
+TRAIN vagg step 1151 loss 0.000713 seconds 0.22
+TRAIN vagg step 1152 loss 0.000856 seconds 0.26
+TRAIN vagg step 1153 loss 0.00099 seconds 0.26
+TRAIN vagg step 1154 loss 0.001695 seconds 0.27
+TRAIN vagg step 1155 loss 0.001223 seconds 0.24
+TRAIN vagg step 1156 loss 0.002172 seconds 0.28
+TRAIN vagg step 1157 loss 0.001345 seconds 0.24
+TRAIN vagg step 1158 loss 0.002441 seconds 0.26
+TRAIN vagg step 1159 loss 0.00264 seconds 0.25
+TRAIN vagg step 1160 loss 0.001099 seconds 0.26
+TRAIN vagg step 1161 loss 0.002471 seconds 0.25
+TRAIN vagg step 1162 loss 0.002603 seconds 0.27
+TRAIN vagg step 1163 loss 0.001283 seconds 0.24
+TRAIN vagg step 1164 loss 0.005148 seconds 0.26
+TRAIN vagg step 1165 loss 0.001684 seconds 0.24
+TRAIN vagg step 1166 loss 0.002501 seconds 0.28
+TRAIN vagg step 1167 loss 0.000799 seconds 0.26
+TRAIN vagg step 1168 loss 0.002455 seconds 0.25
+TRAIN vagg step 1169 loss 0.00183 seconds 0.24
+TRAIN vagg step 1170 loss 0.001378 seconds 0.28
+TRAIN vagg step 1171 loss 0.000712 seconds 0.23
+TRAIN vagg step 1172 loss 0.000977 seconds 0.32
+TRAIN vagg step 1173 loss 0.000887 seconds 0.25
+TRAIN vagg step 1174 loss 0.0015 seconds 0.3
+TRAIN vagg step 1175 loss 0.003464 seconds 0.25
+TRAIN vagg step 1176 loss 0.001915 seconds 0.28
+TRAIN vagg step 1177 loss 0.000759 seconds 0.27
+TRAIN vagg step 1178 loss 0.00152 seconds 0.25
+TRAIN vagg step 1179 loss 0.000819 seconds 0.25
+TRAIN vagg step 1180 loss 0.001231 seconds 0.26
+TRAIN vagg step 1181 loss 0.002584 seconds 0.22
+TRAIN vagg step 1182 loss 0.001929 seconds 0.27
+TRAIN vagg step 1183 loss 0.001331 seconds 0.26
+TRAIN vagg step 1184 loss 0.001826 seconds 0.23
+TRAIN vagg step 1185 loss 0.001659 seconds 0.27
+TRAIN vagg step 1186 loss 0.001411 seconds 0.26
+TRAIN vagg step 1187 loss 0.002854 seconds 0.26
+TRAIN vagg step 1188 loss 0.001362 seconds 0.28
+TRAIN vagg step 1189 loss 0.001436 seconds 0.25
+TRAIN vagg step 1190 loss 0.001355 seconds 0.26
+TRAIN vagg step 1191 loss 0.001759 seconds 0.26
+TRAIN vagg step 1192 loss 0.000811 seconds 0.26
+TRAIN vagg step 1193 loss 0.007469 seconds 0.27
+TRAIN vagg step 1194 loss 0.000934 seconds 0.24
+TRAIN vagg step 1195 loss 0.002577 seconds 0.27
+TRAIN vagg step 1196 loss 0.000851 seconds 0.25
+TRAIN vagg step 1197 loss 0.002572 seconds 0.24
+TRAIN vagg step 1198 loss 0.002289 seconds 0.28
+TRAIN vagg step 1199 loss 0.00185 seconds 0.24
+TRAIN vagg step 1200 loss 0.001381 seconds 0.28
+TRAIN vagg step 1201 loss 0.001047 seconds 0.24
+TRAIN vagg step 1202 loss 0.002861 seconds 0.26
+TRAIN vagg step 1203 loss 0.000909 seconds 0.25
+TRAIN vagg step 1204 loss 0.001605 seconds 0.25
+TRAIN vagg step 1205 loss 0.001405 seconds 0.25
+TRAIN vagg step 1206 loss 0.00087 seconds 0.29
+TRAIN vagg step 1207 loss 0.00163 seconds 0.28
+TRAIN vagg step 1208 loss 0.001166 seconds 0.26
+TRAIN vagg step 1209 loss 0.000864 seconds 0.28
+TRAIN vagg step 1210 loss 0.000857 seconds 0.26
+TRAIN vagg step 1211 loss 0.001829 seconds 0.25
+TRAIN vagg step 1212 loss 0.00104 seconds 0.29
+TRAIN vagg step 1213 loss 0.001479 seconds 0.25
+TRAIN vagg step 1214 loss 0.002109 seconds 0.32
+TRAIN vagg step 1215 loss 0.001453 seconds 0.25
+TRAIN vagg step 1216 loss 0.00139 seconds 0.29
+TRAIN vagg step 1217 loss 0.00361 seconds 0.28
+TRAIN vagg step 1218 loss 0.001755 seconds 0.27
+TRAIN vagg step 1219 loss 0.000595 seconds 0.24
+TRAIN vagg step 1220 loss 0.005984 seconds 0.27
+TRAIN vagg step 1221 loss 0.001581 seconds 0.29
+TRAIN vagg step 1222 loss 0.000859 seconds 0.23
+TRAIN vagg step 1223 loss 0.000781 seconds 0.27
+TRAIN vagg step 1224 loss 0.00203 seconds 0.27
+TRAIN vagg step 1225 loss 0.003654 seconds 0.28
+TRAIN vagg step 1226 loss 0.001539 seconds 0.29
+TRAIN vagg step 1227 loss 0.000996 seconds 0.26
+TRAIN vagg step 1228 loss 0.000786 seconds 0.25
+TRAIN vagg step 1229 loss 0.000466 seconds 0.27
+TRAIN vagg step 1230 loss 0.000706 seconds 0.24
+TRAIN vagg step 1231 loss 0.002163 seconds 0.26
+TRAIN vagg step 1232 loss 0.001374 seconds 0.29
+TRAIN vagg step 1233 loss 0.001189 seconds 0.23
+TRAIN vagg step 1234 loss 0.001204 seconds 0.29
+TRAIN vagg step 1235 loss 0.002166 seconds 0.24
+TRAIN vagg step 1236 loss 0.00124 seconds 0.26
+TRAIN vagg step 1237 loss 0.005069 seconds 0.25
+TRAIN vagg step 1238 loss 0.002345 seconds 0.25
+TRAIN vagg step 1239 loss 0.000751 seconds 0.25
+TRAIN vagg step 1240 loss 0.002013 seconds 0.27
+TRAIN vagg step 1241 loss 0.001316 seconds 0.27
+TRAIN vagg step 1242 loss 0.00125 seconds 0.24
+TRAIN vagg step 1243 loss 0.002251 seconds 0.26
+TRAIN vagg step 1244 loss 0.001343 seconds 0.26
+TRAIN vagg step 1245 loss 0.001018 seconds 0.25
+TRAIN vagg step 1246 loss 0.001176 seconds 0.28
+TRAIN vagg step 1247 loss 0.000969 seconds 0.31
+TRAIN vagg step 1248 loss 0.000922 seconds 0.25
+TRAIN vagg step 1249 loss 0.00136 seconds 0.26
+TRAIN vagg step 1250 loss 0.001273 seconds 0.28
+TRAIN vagg step 1251 loss 0.001613 seconds 0.27
+TRAIN vagg step 1252 loss 0.000836 seconds 0.27
+TRAIN vagg step 1253 loss 0.00277 seconds 0.27
+TRAIN vagg step 1254 loss 0.002613 seconds 0.27
+TRAIN vagg step 1255 loss 0.002435 seconds 0.26
+TRAIN vagg step 1256 loss 0.001467 seconds 0.25
+TRAIN vagg step 1257 loss 0.002371 seconds 0.27
+TRAIN vagg step 1258 loss 0.000985 seconds 0.3
+TRAIN vagg step 1259 loss 0.002477 seconds 0.23
+TRAIN vagg step 1260 loss 0.00106 seconds 0.26
+TRAIN vagg step 1261 loss 0.001213 seconds 0.27
+TRAIN vagg step 1262 loss 0.001223 seconds 0.26
+TRAIN vagg step 1263 loss 0.00069 seconds 0.24
+TRAIN vagg step 1264 loss 0.001238 seconds 0.28
+TRAIN vagg step 1265 loss 0.000741 seconds 0.24
+TRAIN vagg step 1266 loss 0.00405 seconds 0.27
+TRAIN vagg step 1267 loss 0.000634 seconds 0.25
+TRAIN vagg step 1268 loss 0.001374 seconds 0.24
+TRAIN vagg step 1269 loss 0.000787 seconds 0.28
+TRAIN vagg step 1270 loss 0.000742 seconds 0.24
+TRAIN vagg step 1271 loss 0.001525 seconds 0.25
+TRAIN vagg step 1272 loss 0.000935 seconds 0.26
+TRAIN vagg step 1273 loss 0.002428 seconds 0.26
+TRAIN vagg step 1274 loss 0.001385 seconds 0.26
+TRAIN vagg step 1275 loss 0.000893 seconds 0.24
+TRAIN vagg step 1276 loss 0.00254 seconds 0.29
+TRAIN vagg step 1277 loss 0.001302 seconds 0.26
+TRAIN vagg step 1278 loss 0.00115 seconds 0.25
+TRAIN vagg step 1279 loss 0.001956 seconds 0.24
+TRAIN vagg step 1280 loss 0.001336 seconds 0.27
+TRAIN vagg step 1281 loss 0.002109 seconds 0.23
+TRAIN vagg step 1282 loss 0.000864 seconds 0.25
+TRAIN vagg step 1283 loss 0.001436 seconds 0.24
+TRAIN vagg step 1284 loss 0.000784 seconds 0.25
+TRAIN vagg step 1285 loss 0.005237 seconds 0.26
+TRAIN vagg step 1286 loss 0.000643 seconds 0.25
+TRAIN vagg step 1287 loss 0.001814 seconds 0.24
+TRAIN vagg step 1288 loss 0.002201 seconds 0.26
+TRAIN vagg step 1289 loss 0.003905 seconds 0.25
+TRAIN vagg step 1290 loss 0.001979 seconds 0.25
+TRAIN vagg step 1291 loss 0.002113 seconds 0.25
+TRAIN vagg step 1292 loss 0.001881 seconds 0.26
+TRAIN vagg step 1293 loss 0.0032 seconds 0.23
+TRAIN vagg step 1294 loss 0.001415 seconds 0.27
+TRAIN vagg step 1295 loss 0.001401 seconds 0.25
+TRAIN vagg step 1296 loss 0.002062 seconds 0.25
+TRAIN vagg step 1297 loss 0.001972 seconds 0.26
+TRAIN vagg step 1298 loss 0.001001 seconds 0.26
+TRAIN vagg step 1299 loss 0.005388 seconds 0.26
+TRAIN vagg step 1300 loss 0.000767 seconds 0.26
+TRAIN vagg step 1301 loss 0.007557 seconds 0.28
+TRAIN vagg step 1302 loss 0.001127 seconds 0.24
+TRAIN vagg step 1303 loss 0.008728 seconds 0.26
+TRAIN vagg step 1304 loss 0.000709 seconds 0.27
+TRAIN vagg step 1305 loss 0.00125 seconds 0.26
+TRAIN vagg step 1306 loss 0.002022 seconds 0.27
+TRAIN vagg step 1307 loss 0.001163 seconds 0.28
+TRAIN vagg step 1308 loss 0.001792 seconds 0.27
+TRAIN vagg step 1309 loss 0.001371 seconds 0.24
+TRAIN vagg step 1310 loss 0.001295 seconds 0.28
+TRAIN vagg step 1311 loss 0.001619 seconds 0.24
+TRAIN vagg step 1312 loss 0.001249 seconds 0.27
+TRAIN vagg step 1313 loss 0.002621 seconds 0.24
+TRAIN vagg step 1314 loss 0.001561 seconds 0.27
+TRAIN vagg step 1315 loss 0.001532 seconds 0.24
+TRAIN vagg step 1316 loss 0.000958 seconds 0.24
+TRAIN vagg step 1317 loss 0.001048 seconds 0.27
+TRAIN vagg step 1318 loss 0.00165 seconds 0.25
+TRAIN vagg step 1319 loss 0.00187 seconds 0.28
+TRAIN vagg step 1320 loss 0.000711 seconds 0.24
+TRAIN vagg step 1321 loss 0.002036 seconds 0.26
+TRAIN vagg step 1322 loss 0.000627 seconds 0.27
+TRAIN vagg step 1323 loss 0.002833 seconds 0.27
+TRAIN vagg step 1324 loss 0.002786 seconds 0.25
+TRAIN vagg step 1325 loss 0.003038 seconds 0.24
+TRAIN vagg step 1326 loss 0.003411 seconds 0.27
+TRAIN vagg step 1327 loss 0.003454 seconds 0.25
+TRAIN vagg step 1328 loss 0.002004 seconds 0.26
+TRAIN vagg step 1329 loss 0.003204 seconds 0.26
+TRAIN vagg step 1330 loss 0.001567 seconds 0.29
+TRAIN vagg step 1331 loss 0.002312 seconds 0.24
+TRAIN vagg step 1332 loss 0.001179 seconds 0.28
+TRAIN vagg step 1333 loss 0.002335 seconds 0.24
+TRAIN vagg step 1334 loss 0.00104 seconds 0.26
+TRAIN vagg step 1335 loss 0.005408 seconds 0.24
+TRAIN vagg step 1336 loss 0.000848 seconds 0.25
+TRAIN vagg step 1337 loss 0.001197 seconds 0.24
+TRAIN vagg step 1338 loss 0.00079 seconds 0.24
+TRAIN vagg step 1339 loss 0.001377 seconds 0.23
+TRAIN vagg step 1340 loss 0.001253 seconds 0.27
+TRAIN vagg step 1341 loss 0.007015 seconds 0.23
+TRAIN vagg step 1342 loss 0.002025 seconds 0.28
+TRAIN vagg step 1343 loss 0.001603 seconds 0.24
+TRAIN vagg step 1344 loss 0.001254 seconds 0.27
+TRAIN vagg step 1345 loss 0.005605 seconds 0.24
+TRAIN vagg step 1346 loss 0.002162 seconds 0.28
+TRAIN vagg step 1347 loss 0.008763 seconds 0.24
+TRAIN vagg step 1348 loss 0.001651 seconds 0.25
+TRAIN vagg step 1349 loss 0.00208 seconds 0.25
+TRAIN vagg step 1350 loss 0.002707 seconds 0.28
+TRAIN vagg step 1351 loss 0.001773 seconds 0.25
+TRAIN vagg step 1352 loss 0.002561 seconds 0.24
+TRAIN vagg step 1353 loss 0.001423 seconds 0.27
+TRAIN vagg step 1354 loss 0.005327 seconds 0.27
+TRAIN vagg step 1355 loss 0.001027 seconds 0.25
+TRAIN vagg step 1356 loss 0.003443 seconds 0.25
+TRAIN vagg step 1357 loss 0.001935 seconds 0.27
+TRAIN vagg step 1358 loss 0.003443 seconds 0.27
+TRAIN vagg step 1359 loss 0.001062 seconds 0.24
+TRAIN vagg step 1360 loss 0.002125 seconds 0.26
+TRAIN vagg step 1361 loss 0.002432 seconds 0.25
+TRAIN vagg step 1362 loss 0.000933 seconds 0.27
+TRAIN vagg step 1363 loss 0.001058 seconds 0.23
+TRAIN vagg step 1364 loss 0.000796 seconds 0.26
+TRAIN vagg step 1365 loss 0.002495 seconds 0.24
+TRAIN vagg step 1366 loss 0.001245 seconds 0.26
+TRAIN vagg step 1367 loss 0.002267 seconds 0.25
+TRAIN vagg step 1368 loss 0.00219 seconds 0.22
+TRAIN vagg step 1369 loss 0.000793 seconds 0.25
+TRAIN vagg step 1370 loss 0.001246 seconds 0.26
+TRAIN vagg step 1371 loss 0.001388 seconds 0.24
+TRAIN vagg step 1372 loss 0.002054 seconds 0.26
+TRAIN vagg step 1373 loss 0.002103 seconds 0.26
+TRAIN vagg step 1374 loss 0.006904 seconds 0.26
+TRAIN vagg step 1375 loss 0.001929 seconds 0.3
+TRAIN vagg step 1376 loss 0.002204 seconds 0.26
+TRAIN vagg step 1377 loss 0.001365 seconds 0.3
+TRAIN vagg step 1378 loss 0.002016 seconds 0.28
+TRAIN vagg step 1379 loss 0.001668 seconds 0.23
+TRAIN vagg step 1380 loss 0.0021 seconds 0.28
+TRAIN vagg step 1381 loss 0.003331 seconds 0.26
+TRAIN vagg step 1382 loss 0.003214 seconds 0.29
+TRAIN vagg step 1383 loss 0.001816 seconds 0.24
+TRAIN vagg step 1384 loss 0.001144 seconds 0.28
+TRAIN vagg step 1385 loss 0.002076 seconds 0.24
+TRAIN vagg step 1386 loss 0.001174 seconds 0.25
+TRAIN vagg step 1387 loss 0.002772 seconds 0.27
+TRAIN vagg step 1388 loss 0.000976 seconds 0.24
+TRAIN vagg step 1389 loss 0.003407 seconds 0.27
+TRAIN vagg step 1390 loss 0.000822 seconds 0.24
+TRAIN vagg step 1391 loss 0.003315 seconds 0.25
+TRAIN vagg step 1392 loss 0.001715 seconds 0.28
+TRAIN vagg step 1393 loss 0.013084 seconds 0.25
+TRAIN vagg step 1394 loss 0.000728 seconds 0.25
+TRAIN vagg step 1395 loss 0.000674 seconds 0.28
+TRAIN vagg step 1396 loss 0.000836 seconds 0.23
+TRAIN vagg step 1397 loss 0.000775 seconds 0.24
+TRAIN vagg step 1398 loss 0.001073 seconds 0.26
+TRAIN vagg step 1399 loss 0.000694 seconds 0.27
+TRAIN vagg step 1400 loss 0.002417 seconds 0.26
+TRAIN vagg step 1401 loss 0.001702 seconds 0.24
+TRAIN vagg step 1402 loss 0.001583 seconds 0.27
+TRAIN vagg step 1403 loss 0.004524 seconds 0.25
+TRAIN vagg step 1404 loss 0.001572 seconds 0.27
+TRAIN vagg step 1405 loss 0.000829 seconds 0.26
+TRAIN vagg step 1406 loss 0.001656 seconds 0.23
+TRAIN vagg step 1407 loss 0.001364 seconds 0.29
+TRAIN vagg step 1408 loss 0.002251 seconds 0.23
+TRAIN vagg step 1409 loss 0.001342 seconds 0.26
+TRAIN vagg step 1410 loss 0.001607 seconds 0.27
+TRAIN vagg step 1411 loss 0.001717 seconds 0.22
+TRAIN vagg step 1412 loss 0.001058 seconds 0.25
+TRAIN vagg step 1413 loss 0.000817 seconds 0.26
+TRAIN vagg step 1414 loss 0.000787 seconds 0.25
+TRAIN vagg step 1415 loss 0.002224 seconds 0.27
+TRAIN vagg step 1416 loss 0.001252 seconds 0.27
+TRAIN vagg step 1417 loss 0.002993 seconds 0.26
+TRAIN vagg step 1418 loss 0.001701 seconds 0.25
+TRAIN vagg step 1419 loss 0.001518 seconds 0.28
+TRAIN vagg step 1420 loss 0.00199 seconds 0.23
+TRAIN vagg step 1421 loss 0.001202 seconds 0.27
+TRAIN vagg step 1422 loss 0.001093 seconds 0.27
+TRAIN vagg step 1423 loss 0.002456 seconds 0.26
+TRAIN vagg step 1424 loss 0.001058 seconds 0.25
+TRAIN vagg step 1425 loss 0.002845 seconds 0.25
+TRAIN vagg step 1426 loss 0.003741 seconds 0.26
+TRAIN vagg step 1427 loss 0.006695 seconds 0.25
+TRAIN vagg step 1428 loss 0.000793 seconds 0.26
+TRAIN vagg step 1429 loss 0.006427 seconds 0.28
+TRAIN vagg step 1430 loss 0.001781 seconds 0.26
+TRAIN vagg step 1431 loss 0.00622 seconds 0.24
+TRAIN vagg step 1432 loss 0.001225 seconds 0.26
+TRAIN vagg step 1433 loss 0.002855 seconds 0.27
+TRAIN vagg step 1434 loss 0.001445 seconds 0.24
+TRAIN vagg step 1435 loss 0.001359 seconds 0.24
+TRAIN vagg step 1436 loss 0.001142 seconds 0.27
+TRAIN vagg step 1437 loss 0.000931 seconds 0.23
+TRAIN vagg step 1438 loss 0.001217 seconds 0.24
+TRAIN vagg step 1439 loss 0.001353 seconds 0.26
+TRAIN vagg step 1440 loss 0.000752 seconds 0.27
+TRAIN vagg step 1441 loss 0.001115 seconds 0.27
+TRAIN vagg step 1442 loss 0.000814 seconds 0.23
+TRAIN vagg step 1443 loss 0.00093 seconds 0.27
+TRAIN vagg step 1444 loss 0.000853 seconds 0.25
+TRAIN vagg step 1445 loss 0.000422 seconds 0.24
+TRAIN vagg step 1446 loss 0.00173 seconds 0.26
+TRAIN vagg step 1447 loss 0.00088 seconds 0.27
+TRAIN vagg step 1448 loss 0.00185 seconds 0.28
+TRAIN vagg step 1449 loss 0.00115 seconds 0.24
+TRAIN vagg step 1450 loss 0.002921 seconds 0.24
+TRAIN vagg step 1451 loss 0.002005 seconds 0.27
+TRAIN vagg step 1452 loss 0.001697 seconds 0.25
+TRAIN vagg step 1453 loss 0.001269 seconds 0.28
+TRAIN vagg step 1454 loss 0.001385 seconds 0.26
+TRAIN vagg step 1455 loss 0.001474 seconds 0.27
+TRAIN vagg step 1456 loss 0.00092 seconds 0.26
+TRAIN vagg step 1457 loss 0.003167 seconds 0.28
+TRAIN vagg step 1458 loss 0.000746 seconds 0.24
+TRAIN vagg step 1459 loss 0.00223 seconds 0.27
+TRAIN vagg step 1460 loss 0.000648 seconds 0.23
+TRAIN vagg step 1461 loss 0.001577 seconds 0.26
+TRAIN vagg step 1462 loss 0.001043 seconds 0.26
+TRAIN vagg step 1463 loss 0.001535 seconds 0.26
+TRAIN vagg step 1464 loss 0.000919 seconds 0.25
+TRAIN vagg step 1465 loss 0.00107 seconds 0.25
+TRAIN vagg step 1466 loss 0.001229 seconds 0.27
+TRAIN vagg step 1467 loss 0.001404 seconds 0.26
+TRAIN vagg step 1468 loss 0.003258 seconds 0.27
+TRAIN vagg step 1469 loss 0.001981 seconds 0.24
+TRAIN vagg step 1470 loss 0.004778 seconds 0.27
+TRAIN vagg step 1471 loss 0.000782 seconds 0.25
+TRAIN vagg step 1472 loss 0.001224 seconds 0.25
+TRAIN vagg step 1473 loss 0.000976 seconds 0.26
+TRAIN vagg step 1474 loss 0.001698 seconds 0.26
+TRAIN vagg step 1475 loss 0.001817 seconds 0.26
+TRAIN vagg step 1476 loss 0.001112 seconds 0.29
+TRAIN vagg step 1477 loss 0.001303 seconds 0.24
+TRAIN vagg step 1478 loss 0.000934 seconds 0.23
+TRAIN vagg step 1479 loss 0.002287 seconds 0.3
+TRAIN vagg step 1480 loss 0.00185 seconds 0.25
+TRAIN vagg step 1481 loss 0.001579 seconds 0.26
+TRAIN vagg step 1482 loss 0.00203 seconds 0.25
+TRAIN vagg step 1483 loss 0.000742 seconds 0.28
+TRAIN vagg step 1484 loss 0.00138 seconds 0.26
+TRAIN vagg step 1485 loss 0.001329 seconds 0.24
+TRAIN vagg step 1486 loss 0.001546 seconds 0.26
+TRAIN vagg step 1487 loss 0.00131 seconds 0.28
+TRAIN vagg step 1488 loss 0.00157 seconds 0.23
+TRAIN vagg step 1489 loss 0.001599 seconds 0.27
+TRAIN vagg step 1490 loss 0.000941 seconds 0.27
+TRAIN vagg step 1491 loss 0.001866 seconds 0.25
+TRAIN vagg step 1492 loss 0.001083 seconds 0.27
+TRAIN vagg step 1493 loss 0.003224 seconds 0.27
+TRAIN vagg step 1494 loss 0.001002 seconds 0.23
+TRAIN vagg step 1495 loss 0.003094 seconds 0.26
+TRAIN vagg step 1496 loss 0.001138 seconds 0.24
+TRAIN vagg step 1497 loss 0.003993 seconds 0.28
+TRAIN vagg step 1498 loss 0.000859 seconds 0.24
+TRAIN vagg step 1499 loss 0.002334 seconds 0.26
+TRAIN vagg step 1500 loss 0.000724 seconds 0.24
+TRAIN vagg step 1501 loss 0.002117 seconds 0.23
+TRAIN vagg step 1502 loss 0.001093 seconds 0.29
+TRAIN vagg step 1503 loss 0.001022 seconds 0.23
+TRAIN vagg step 1504 loss 0.001531 seconds 0.28
+TRAIN vagg step 1505 loss 0.000954 seconds 0.27
+TRAIN vagg step 1506 loss 0.001212 seconds 0.3
+TRAIN vagg step 1507 loss 0.000881 seconds 0.28
+TRAIN vagg step 1508 loss 0.004415 seconds 0.28
+TRAIN vagg step 1509 loss 0.000954 seconds 0.26
+TRAIN vagg step 1510 loss 0.004609 seconds 0.28
+TRAIN vagg step 1511 loss 0.000869 seconds 0.25
+TRAIN vagg step 1512 loss 0.001004 seconds 0.3
+TRAIN vagg step 1513 loss 0.000729 seconds 0.23
+TRAIN vagg step 1514 loss 0.000843 seconds 0.25
+TRAIN vagg step 1515 loss 0.000702 seconds 0.27
+TRAIN vagg step 1516 loss 0.001187 seconds 0.25
+TRAIN vagg step 1517 loss 0.001652 seconds 0.26
+TRAIN vagg step 1518 loss 0.000924 seconds 0.28
+TRAIN vagg step 1519 loss 0.002364 seconds 0.26
+TRAIN vagg step 1520 loss 0.001648 seconds 0.26
+TRAIN vagg step 1521 loss 0.001364 seconds 0.25
+TRAIN vagg step 1522 loss 0.001208 seconds 0.24
+TRAIN vagg step 1523 loss 0.00079 seconds 0.27
+TRAIN vagg step 1524 loss 0.001988 seconds 0.28
+TRAIN vagg step 1525 loss 0.001647 seconds 0.25
+TRAIN vagg step 1526 loss 0.001251 seconds 0.25
+TRAIN vagg step 1527 loss 0.000872 seconds 0.24
+TRAIN vagg step 1528 loss 0.001703 seconds 0.27
+TRAIN vagg step 1529 loss 0.001406 seconds 0.23
+TRAIN vagg step 1530 loss 0.001596 seconds 0.27
+TRAIN vagg step 1531 loss 0.00257 seconds 0.24
+TRAIN vagg step 1532 loss 0.001694 seconds 0.26
+TRAIN vagg step 1533 loss 0.001082 seconds 0.27
+TRAIN vagg step 1534 loss 0.001525 seconds 0.26
+TRAIN vagg step 1535 loss 0.001807 seconds 0.26
+TRAIN vagg step 1536 loss 0.001472 seconds 0.27
+TRAIN vagg step 1537 loss 0.00162 seconds 0.26
+TRAIN vagg step 1538 loss 0.000866 seconds 0.26
+TRAIN vagg step 1539 loss 0.001193 seconds 0.28
+TRAIN vagg step 1540 loss 0.001246 seconds 0.26
+TRAIN vagg step 1541 loss 0.000627 seconds 0.28
+TRAIN vagg step 1542 loss 0.001709 seconds 0.28
+TRAIN vagg step 1543 loss 0.000679 seconds 0.23
+TRAIN vagg step 1544 loss 0.001582 seconds 0.3
+TRAIN vagg step 1545 loss 0.000975 seconds 0.24
+TRAIN vagg step 1546 loss 0.00106 seconds 0.27
+TRAIN vagg step 1547 loss 0.002188 seconds 0.29
+TRAIN vagg step 1548 loss 0.000708 seconds 0.24
+TRAIN vagg step 1549 loss 0.00076 seconds 0.26
+TRAIN vagg step 1550 loss 0.000839 seconds 0.26
+TRAIN vagg step 1551 loss 0.001582 seconds 0.24
+TRAIN vagg step 1552 loss 0.001038 seconds 0.27
+TRAIN vagg step 1553 loss 0.001483 seconds 0.28
+TRAIN vagg step 1554 loss 0.000955 seconds 0.24
+TRAIN vagg step 1555 loss 0.000876 seconds 0.26
+TRAIN vagg step 1556 loss 0.001777 seconds 0.26
+TRAIN vagg step 1557 loss 0.000536 seconds 0.26
+TRAIN vagg step 1558 loss 0.003899 seconds 0.27
+TRAIN vagg step 1559 loss 0.000841 seconds 0.27
+TRAIN vagg step 1560 loss 0.0011 seconds 0.31
+TRAIN vagg step 1561 loss 0.000624 seconds 0.25
+TRAIN vagg step 1562 loss 0.001512 seconds 0.25
+TRAIN vagg step 1563 loss 0.000744 seconds 0.28
+TRAIN vagg step 1564 loss 0.002083 seconds 0.25
+TRAIN vagg step 1565 loss 0.00138 seconds 0.26
+TRAIN vagg step 1566 loss 0.004417 seconds 0.27
+TRAIN vagg step 1567 loss 0.000947 seconds 0.28
+TRAIN vagg step 1568 loss 0.00093 seconds 0.22
+TRAIN vagg step 1569 loss 0.000915 seconds 0.23
+TRAIN vagg step 1570 loss 0.0013 seconds 0.28
+TRAIN vagg step 1571 loss 0.001563 seconds 0.27
+TRAIN vagg step 1572 loss 0.000625 seconds 0.24
+TRAIN vagg step 1573 loss 0.002121 seconds 0.25
+TRAIN vagg step 1574 loss 0.000677 seconds 0.28
+TRAIN vagg step 1575 loss 0.001526 seconds 0.28
+TRAIN vagg step 1576 loss 0.00292 seconds 0.25
+TRAIN vagg step 1577 loss 0.001724 seconds 0.27
+TRAIN vagg step 1578 loss 0.0019 seconds 0.25
+TRAIN vagg step 1579 loss 0.003406 seconds 0.25
+TRAIN vagg step 1580 loss 0.001408 seconds 0.26
+TRAIN vagg step 1581 loss 0.003257 seconds 0.26
+TRAIN vagg step 1582 loss 0.000951 seconds 0.26
+TRAIN vagg step 1583 loss 0.006974 seconds 0.26
+TRAIN vagg step 1584 loss 0.0009 seconds 0.27
+TRAIN vagg step 1585 loss 0.00282 seconds 0.28
+TRAIN vagg step 1586 loss 0.00132 seconds 0.26
+TRAIN vagg step 1587 loss 0.001865 seconds 0.29
+TRAIN vagg step 1588 loss 0.000633 seconds 0.29
+TRAIN vagg step 1589 loss 0.002024 seconds 0.25
+TRAIN vagg step 1590 loss 0.001241 seconds 0.3
+TRAIN vagg step 1591 loss 0.002754 seconds 0.25
+TRAIN vagg step 1592 loss 0.000936 seconds 0.26
+TRAIN vagg step 1593 loss 0.0026 seconds 0.27
+TRAIN vagg step 1594 loss 0.001212 seconds 0.27
+TRAIN vagg step 1595 loss 0.00288 seconds 0.27
+TRAIN vagg step 1596 loss 0.001094 seconds 0.29
+TRAIN vagg step 1597 loss 0.005047 seconds 0.27
+TRAIN vagg step 1598 loss 0.001217 seconds 0.27
+TRAIN vagg step 1599 loss 0.001444 seconds 0.25
+TRAIN vagg step 1600 loss 0.001334 seconds 0.24
+TRAIN vagg step 1601 loss 0.001661 seconds 0.25
+TRAIN vagg step 1602 loss 0.000862 seconds 0.24
+TRAIN vagg step 1603 loss 0.001154 seconds 0.25
+TRAIN vagg step 1604 loss 0.000761 seconds 0.26
+TRAIN vagg step 1605 loss 0.001442 seconds 0.26
+TRAIN vagg step 1606 loss 0.000582 seconds 0.26
+TRAIN vagg step 1607 loss 0.001487 seconds 0.28
+TRAIN vagg step 1608 loss 0.001204 seconds 0.25
+TRAIN vagg step 1609 loss 0.001284 seconds 0.28
+TRAIN vagg step 1610 loss 0.001881 seconds 0.23
+TRAIN vagg step 1611 loss 0.000729 seconds 0.27
+TRAIN vagg step 1612 loss 0.001124 seconds 0.25
+TRAIN vagg step 1613 loss 0.001025 seconds 0.22
+TRAIN vagg step 1614 loss 0.001376 seconds 0.24
+TRAIN vagg step 1615 loss 0.001354 seconds 0.24
+TRAIN vagg step 1616 loss 0.001132 seconds 0.26
+TRAIN vagg step 1617 loss 0.007606 seconds 0.24
+TRAIN vagg step 1618 loss 0.001465 seconds 0.28
+TRAIN vagg step 1619 loss 0.002063 seconds 0.25
+TRAIN vagg step 1620 loss 0.001217 seconds 0.24
+TRAIN vagg step 1621 loss 0.003709 seconds 0.28
+TRAIN vagg step 1622 loss 0.001701 seconds 0.24
+TRAIN vagg step 1623 loss 0.001302 seconds 0.24
+TRAIN vagg step 1624 loss 0.00243 seconds 0.28
+TRAIN vagg step 1625 loss 0.002703 seconds 0.23
+TRAIN vagg step 1626 loss 0.002677 seconds 0.25
+TRAIN vagg step 1627 loss 0.002663 seconds 0.26
+TRAIN vagg step 1628 loss 0.002769 seconds 0.26
+TRAIN vagg step 1629 loss 0.003425 seconds 0.29
+TRAIN vagg step 1630 loss 0.001751 seconds 0.24
+TRAIN vagg step 1631 loss 0.002784 seconds 0.27
+TRAIN vagg step 1632 loss 0.001402 seconds 0.27
+TRAIN vagg step 1633 loss 0.001443 seconds 0.26
+TRAIN vagg step 1634 loss 0.012139 seconds 0.24
+TRAIN vagg step 1635 loss 0.001283 seconds 0.3
+TRAIN vagg step 1636 loss 0.001635 seconds 0.28
+TRAIN vagg step 1637 loss 0.001375 seconds 0.24
+TRAIN vagg step 1638 loss 0.006639 seconds 0.29
+TRAIN vagg step 1639 loss 0.004046 seconds 0.23
+TRAIN vagg step 1640 loss 0.001124 seconds 0.29
+TRAIN vagg step 1641 loss 0.000976 seconds 0.23
+TRAIN vagg step 1642 loss 0.001687 seconds 0.27
+TRAIN vagg step 1643 loss 0.001851 seconds 0.24
+TRAIN vagg step 1644 loss 0.001369 seconds 0.27
+TRAIN vagg step 1645 loss 0.001775 seconds 0.25
+TRAIN vagg step 1646 loss 0.001717 seconds 0.28
+TRAIN vagg step 1647 loss 0.001487 seconds 0.24
+TRAIN vagg step 1648 loss 0.001675 seconds 0.27
+TRAIN vagg step 1649 loss 0.001371 seconds 0.24
+TRAIN vagg step 1650 loss 0.003776 seconds 0.26
+TRAIN vagg step 1651 loss 0.000942 seconds 0.27
+TRAIN vagg step 1652 loss 0.002663 seconds 0.24
+TRAIN vagg step 1653 loss 0.002346 seconds 0.27
+TRAIN vagg step 1654 loss 0.003269 seconds 0.28
+TRAIN vagg step 1655 loss 0.003493 seconds 0.24
+TRAIN vagg step 1656 loss 0.001648 seconds 0.29
+TRAIN vagg step 1657 loss 0.003071 seconds 0.25
+TRAIN vagg step 1658 loss 0.000811 seconds 0.23
+TRAIN vagg step 1659 loss 0.001482 seconds 0.29
+TRAIN vagg step 1660 loss 0.001082 seconds 0.23
+TRAIN vagg step 1661 loss 0.001944 seconds 0.26
+TRAIN vagg step 1662 loss 0.001431 seconds 0.28
+TRAIN vagg step 1663 loss 0.002458 seconds 0.23
+TRAIN vagg step 1664 loss 0.00129 seconds 0.27
+TRAIN vagg step 1665 loss 0.001606 seconds 0.26
+TRAIN vagg step 1666 loss 0.000727 seconds 0.24
+TRAIN vagg step 1667 loss 0.002009 seconds 0.26
+TRAIN vagg step 1668 loss 0.002316 seconds 0.22
+TRAIN vagg step 1669 loss 0.002264 seconds 0.25
+TRAIN vagg step 1670 loss 0.001767 seconds 0.26
+TRAIN vagg step 1671 loss 0.001144 seconds 0.24
+TRAIN vagg step 1672 loss 0.001429 seconds 0.25
+TRAIN vagg step 1673 loss 0.00234 seconds 0.24
+TRAIN vagg step 1674 loss 0.001305 seconds 0.25
+TRAIN vagg step 1675 loss 0.001953 seconds 0.26
+TRAIN vagg step 1676 loss 0.000816 seconds 0.25
+TRAIN vagg step 1677 loss 0.001532 seconds 0.24
+TRAIN vagg step 1678 loss 0.004182 seconds 0.27
+TRAIN vagg step 1679 loss 0.000998 seconds 0.26
+TRAIN vagg step 1680 loss 0.001553 seconds 0.25
+TRAIN vagg step 1681 loss 0.00115 seconds 0.27
+TRAIN vagg step 1682 loss 0.001178 seconds 0.26
+TRAIN vagg step 1683 loss 0.000962 seconds 0.26
+TRAIN vagg step 1684 loss 0.001206 seconds 0.27
+TRAIN vagg step 1685 loss 0.003354 seconds 0.25
+TRAIN vagg step 1686 loss 0.001341 seconds 0.26
+TRAIN vagg step 1687 loss 0.002446 seconds 0.27
+TRAIN vagg step 1688 loss 0.001421 seconds 0.28
+TRAIN vagg step 1689 loss 0.001021 seconds 0.25
+TRAIN vagg step 1690 loss 0.003408 seconds 0.24
+TRAIN vagg step 1691 loss 0.001931 seconds 0.26
+TRAIN vagg step 1692 loss 0.008171 seconds 0.26
+TRAIN vagg step 1693 loss 0.001992 seconds 0.24
+TRAIN vagg step 1694 loss 0.002659 seconds 0.24
+TRAIN vagg step 1695 loss 0.001159 seconds 0.27
+TRAIN vagg step 1696 loss 0.001635 seconds 0.24
+TRAIN vagg step 1697 loss 0.00688 seconds 0.27
+TRAIN vagg step 1698 loss 0.001408 seconds 0.25
+TRAIN vagg step 1699 loss 0.003909 seconds 0.26
+TRAIN vagg step 1700 loss 0.001558 seconds 0.26
+TRAIN vagg step 1701 loss 0.001014 seconds 0.26
+TRAIN vagg step 1702 loss 0.001425 seconds 0.28
+TRAIN vagg step 1703 loss 0.001446 seconds 0.25
+TRAIN vagg step 1704 loss 0.000993 seconds 0.27
+TRAIN vagg step 1705 loss 0.001169 seconds 0.24
+TRAIN vagg step 1706 loss 0.000915 seconds 0.22
+TRAIN vagg step 1707 loss 0.001069 seconds 0.27
+TRAIN vagg step 1708 loss 0.001733 seconds 0.27
+TRAIN vagg step 1709 loss 0.001075 seconds 0.25
+TRAIN vagg step 1710 loss 0.0019 seconds 0.28
+TRAIN vagg step 1711 loss 0.001836 seconds 0.27
+TRAIN vagg step 1712 loss 0.001133 seconds 0.26
+TRAIN vagg step 1713 loss 0.002817 seconds 0.24
+TRAIN vagg step 1714 loss 0.002278 seconds 0.26
+TRAIN vagg step 1715 loss 0.000983 seconds 0.28
+TRAIN vagg step 1716 loss 0.002129 seconds 0.23
+TRAIN vagg step 1717 loss 0.001403 seconds 0.26
+TRAIN vagg step 1718 loss 0.005864 seconds 0.26
+TRAIN vagg step 1719 loss 0.00058 seconds 0.25
+TRAIN vagg step 1720 loss 0.002109 seconds 0.26
+TRAIN vagg step 1721 loss 0.001306 seconds 0.27
+TRAIN vagg step 1722 loss 0.00095 seconds 0.24
+TRAIN vagg step 1723 loss 0.002086 seconds 0.26
+TRAIN vagg step 1724 loss 0.000966 seconds 0.34
+TRAIN vagg step 1725 loss 0.000897 seconds 0.23
+TRAIN vagg step 1726 loss 0.001463 seconds 0.27
+TRAIN vagg step 1727 loss 0.00204 seconds 0.26
+TRAIN vagg step 1728 loss 0.001525 seconds 0.27
+TRAIN vagg step 1729 loss 0.001459 seconds 0.26
+TRAIN vagg step 1730 loss 0.000593 seconds 0.25
+TRAIN vagg step 1731 loss 0.000784 seconds 0.25
+TRAIN vagg step 1732 loss 0.000889 seconds 0.26
+TRAIN vagg step 1733 loss 0.000918 seconds 0.24
+TRAIN vagg step 1734 loss 0.001357 seconds 0.29
+TRAIN vagg step 1735 loss 0.001075 seconds 0.25
+TRAIN vagg step 1736 loss 0.002282 seconds 0.26
+TRAIN vagg step 1737 loss 0.004107 seconds 0.26
+TRAIN vagg step 1738 loss 0.002234 seconds 0.28
+TRAIN vagg step 1739 loss 0.001092 seconds 0.23
+TRAIN vagg step 1740 loss 0.002033 seconds 0.26
+TRAIN vagg step 1741 loss 0.002193 seconds 0.26
+TRAIN vagg step 1742 loss 0.001013 seconds 0.26
+TRAIN vagg step 1743 loss 0.001832 seconds 0.25
+TRAIN vagg step 1744 loss 0.000971 seconds 0.29
+TRAIN vagg step 1745 loss 0.001697 seconds 0.24
+TRAIN vagg step 1746 loss 0.001273 seconds 0.27
+TRAIN vagg step 1747 loss 0.001568 seconds 0.28
+TRAIN vagg step 1748 loss 0.001074 seconds 0.25
+TRAIN vagg step 1749 loss 0.001985 seconds 0.24
+TRAIN vagg step 1750 loss 0.001143 seconds 0.29
+TRAIN vagg step 1751 loss 0.002038 seconds 0.24
+TRAIN vagg step 1752 loss 0.001006 seconds 0.29
+TRAIN vagg step 1753 loss 0.002296 seconds 0.25
+TRAIN vagg step 1754 loss 0.002262 seconds 0.31
+TRAIN vagg step 1755 loss 0.001174 seconds 0.24
+TRAIN vagg step 1756 loss 0.003756 seconds 0.27
+TRAIN vagg step 1757 loss 0.001356 seconds 0.26
+TRAIN vagg step 1758 loss 0.001579 seconds 0.24
+TRAIN vagg step 1759 loss 0.000663 seconds 0.26
+TRAIN vagg step 1760 loss 0.001987 seconds 0.27
+TRAIN vagg step 1761 loss 0.000914 seconds 0.25
+TRAIN vagg step 1762 loss 0.001122 seconds 0.24
+TRAIN vagg step 1763 loss 0.000812 seconds 0.27
+TRAIN vagg step 1764 loss 0.00109 seconds 0.24
+TRAIN vagg step 1765 loss 0.00112 seconds 0.3
+TRAIN vagg step 1766 loss 0.00135 seconds 0.25
+TRAIN vagg step 1767 loss 0.002188 seconds 0.27
+TRAIN vagg step 1768 loss 0.001293 seconds 0.26
+TRAIN vagg step 1769 loss 0.000954 seconds 0.27
+TRAIN vagg step 1770 loss 0.001673 seconds 0.24
+TRAIN vagg step 1771 loss 0.000688 seconds 0.27
+TRAIN vagg step 1772 loss 0.001718 seconds 0.26
+TRAIN vagg step 1773 loss 0.001842 seconds 0.25
+TRAIN vagg step 1774 loss 0.002419 seconds 0.27
+TRAIN vagg step 1775 loss 0.000899 seconds 0.27
+TRAIN vagg step 1776 loss 0.005062 seconds 0.26
+TRAIN vagg step 1777 loss 0.001044 seconds 0.27
+TRAIN vagg step 1778 loss 0.001207 seconds 0.28
+TRAIN vagg step 1779 loss 0.000863 seconds 0.24
+TRAIN vagg step 1780 loss 0.001377 seconds 0.28
+TRAIN vagg step 1781 loss 0.001133 seconds 0.23
+TRAIN vagg step 1782 loss 0.001196 seconds 0.27
+TRAIN vagg step 1783 loss 0.001917 seconds 0.24
+TRAIN vagg step 1784 loss 0.00096 seconds 0.24
+TRAIN vagg step 1785 loss 0.00154 seconds 0.3
+TRAIN vagg step 1786 loss 0.00112 seconds 0.22
+TRAIN vagg step 1787 loss 0.001995 seconds 0.3
+TRAIN vagg step 1788 loss 0.000839 seconds 0.27
+TRAIN vagg step 1789 loss 0.00144 seconds 0.26
+TRAIN vagg step 1790 loss 0.000639 seconds 0.28
+TRAIN vagg step 1791 loss 0.001324 seconds 0.24
+TRAIN vagg step 1792 loss 0.001867 seconds 0.26
+TRAIN vagg step 1793 loss 0.001051 seconds 0.26
+TRAIN vagg step 1794 loss 0.00289 seconds 0.25
+TRAIN vagg step 1795 loss 0.001241 seconds 0.27
+TRAIN vagg step 1796 loss 0.001232 seconds 0.26
+TRAIN vagg step 1797 loss 0.001533 seconds 0.28
+TRAIN vagg step 1798 loss 0.00136 seconds 0.24
+TRAIN vagg step 1799 loss 0.001433 seconds 0.27
+TRAIN vagg step 1800 loss 0.001313 seconds 0.24
+TRAIN vagg step 1801 loss 0.00182 seconds 0.25
+TRAIN vagg step 1802 loss 0.000708 seconds 0.28
+TRAIN vagg step 1803 loss 0.00214 seconds 0.25
+TRAIN vagg step 1804 loss 0.002497 seconds 0.26
+TRAIN vagg step 1805 loss 0.000982 seconds 0.27
+TRAIN vagg step 1806 loss 0.002611 seconds 0.28
+TRAIN vagg step 1807 loss 0.00136 seconds 0.24
+TRAIN vagg step 1808 loss 0.001217 seconds 0.27
+TRAIN vagg step 1809 loss 0.000737 seconds 0.25
+TRAIN vagg step 1810 loss 0.001144 seconds 0.27
+TRAIN vagg step 1811 loss 0.001087 seconds 0.25
+TRAIN vagg step 1812 loss 0.001593 seconds 0.25
+TRAIN vagg step 1813 loss 0.001739 seconds 0.26
+TRAIN vagg step 1814 loss 0.001057 seconds 0.27
+TRAIN vagg step 1815 loss 0.001722 seconds 0.23
+TRAIN vagg step 1816 loss 0.000689 seconds 0.25
+TRAIN vagg step 1817 loss 0.001832 seconds 0.29
+TRAIN vagg step 1818 loss 0.001151 seconds 0.22
+TRAIN vagg step 1819 loss 0.001194 seconds 0.24
+TRAIN vagg step 1820 loss 0.000903 seconds 0.28
+TRAIN vagg step 1821 loss 0.001066 seconds 0.26
+TRAIN vagg step 1822 loss 0.001386 seconds 0.26
+TRAIN vagg step 1823 loss 0.000868 seconds 0.25
+TRAIN vagg step 1824 loss 0.001435 seconds 0.28
+TRAIN vagg step 1825 loss 0.001464 seconds 0.25
+TRAIN vagg step 1826 loss 0.002586 seconds 0.31
+TRAIN vagg step 1827 loss 0.001721 seconds 0.24
+TRAIN vagg step 1828 loss 0.000956 seconds 0.27
+TRAIN vagg step 1829 loss 0.003492 seconds 0.25
+TRAIN vagg step 1830 loss 0.001024 seconds 0.26
+TRAIN vagg step 1831 loss 0.001978 seconds 0.26
+TRAIN vagg step 1832 loss 0.001194 seconds 0.28
+TRAIN vagg step 1833 loss 0.001947 seconds 0.25
+TRAIN vagg step 1834 loss 0.000669 seconds 0.24
+TRAIN vagg step 1835 loss 0.003627 seconds 0.25
+TRAIN vagg step 1836 loss 0.001252 seconds 0.25
+TRAIN vagg step 1837 loss 0.001557 seconds 0.23
+TRAIN vagg step 1838 loss 0.00097 seconds 0.29
+TRAIN vagg step 1839 loss 0.001452 seconds 0.25
+TRAIN vagg step 1840 loss 0.002056 seconds 0.26
+TRAIN vagg step 1841 loss 0.001365 seconds 0.25
+TRAIN vagg step 1842 loss 0.001956 seconds 0.26
+TRAIN vagg step 1843 loss 0.001709 seconds 0.26
+TRAIN vagg step 1844 loss 0.001552 seconds 0.27
+TRAIN vagg step 1845 loss 0.002226 seconds 0.27
+TRAIN vagg step 1846 loss 0.001013 seconds 0.25
+TRAIN vagg step 1847 loss 0.002736 seconds 0.25
+TRAIN vagg step 1848 loss 0.001867 seconds 0.24
+TRAIN vagg step 1849 loss 0.002165 seconds 0.27
+TRAIN vagg step 1850 loss 0.001151 seconds 0.25
+TRAIN vagg step 1851 loss 0.001731 seconds 0.25
+TRAIN vagg step 1852 loss 0.000955 seconds 0.25
+TRAIN vagg step 1853 loss 0.002845 seconds 0.26
+TRAIN vagg step 1854 loss 0.001106 seconds 0.23
+TRAIN vagg step 1855 loss 0.001184 seconds 0.26
+TRAIN vagg step 1856 loss 0.000823 seconds 0.25
+TRAIN vagg step 1857 loss 0.001298 seconds 0.26
+TRAIN vagg step 1858 loss 0.000767 seconds 0.29
+TRAIN vagg step 1859 loss 0.001168 seconds 0.25
+TRAIN vagg step 1860 loss 0.001174 seconds 0.25
+TRAIN vagg step 1861 loss 0.002054 seconds 0.24
+TRAIN vagg step 1862 loss 0.00108 seconds 0.25
+TRAIN vagg step 1863 loss 0.002024 seconds 0.25
+TRAIN vagg step 1864 loss 0.000763 seconds 0.26
+TRAIN vagg step 1865 loss 0.001009 seconds 0.26
+TRAIN vagg step 1866 loss 0.001178 seconds 0.27
+TRAIN vagg step 1867 loss 0.000871 seconds 0.23
+TRAIN vagg step 1868 loss 0.001008 seconds 0.3
+TRAIN vagg step 1869 loss 0.000735 seconds 0.24
+TRAIN vagg step 1870 loss 0.001662 seconds 0.25
+TRAIN vagg step 1871 loss 0.000894 seconds 0.26
+TRAIN vagg step 1872 loss 0.001776 seconds 0.25
+TRAIN vagg step 1873 loss 0.000979 seconds 0.26
+TRAIN vagg step 1874 loss 0.001138 seconds 0.25
+TRAIN vagg step 1875 loss 0.001811 seconds 0.27
+TRAIN vagg step 1876 loss 0.001153 seconds 0.25
+TRAIN vagg step 1877 loss 0.001039 seconds 0.24
+TRAIN vagg step 1878 loss 0.001345 seconds 0.26
+TRAIN vagg step 1879 loss 0.001778 seconds 0.26
+TRAIN vagg step 1880 loss 0.000689 seconds 0.26
+TRAIN vagg step 1881 loss 0.001423 seconds 0.26
+TRAIN vagg step 1882 loss 0.000873 seconds 0.28
+TRAIN vagg step 1883 loss 0.003326 seconds 0.26
+TRAIN vagg step 1884 loss 0.001103 seconds 0.27
+TRAIN vagg step 1885 loss 0.002899 seconds 0.27
+TRAIN vagg step 1886 loss 0.00275 seconds 0.24
+TRAIN vagg step 1887 loss 0.002408 seconds 0.27
+TRAIN vagg step 1888 loss 0.000677 seconds 0.24
+TRAIN vagg step 1889 loss 0.000563 seconds 0.23
+TRAIN vagg step 1890 loss 0.001036 seconds 0.31
+TRAIN vagg step 1891 loss 0.000867 seconds 0.26
+TRAIN vagg step 1892 loss 0.000907 seconds 0.25
+TRAIN vagg step 1893 loss 0.00043 seconds 0.25
+TRAIN vagg step 1894 loss 0.000906 seconds 0.27
+TRAIN vagg step 1895 loss 0.001099 seconds 0.25
+TRAIN vagg step 1896 loss 0.001127 seconds 0.24
+TRAIN vagg step 1897 loss 0.001024 seconds 0.27
+TRAIN vagg step 1898 loss 0.001061 seconds 0.25
+TRAIN vagg step 1899 loss 0.001299 seconds 0.23
+TRAIN vagg step 1900 loss 0.001481 seconds 0.28
+TRAIN vagg step 1901 loss 0.002096 seconds 0.22
+TRAIN vagg step 1902 loss 0.002285 seconds 0.25
+TRAIN vagg step 1903 loss 0.002415 seconds 0.27
+TRAIN vagg step 1904 loss 0.001768 seconds 0.27
+TRAIN vagg step 1905 loss 0.001403 seconds 0.23
+TRAIN vagg step 1906 loss 0.001755 seconds 0.26
+TRAIN vagg step 1907 loss 0.001628 seconds 0.26
+TRAIN vagg step 1908 loss 0.001661 seconds 0.25
+TRAIN vagg step 1909 loss 0.001183 seconds 0.26
+TRAIN vagg step 1910 loss 0.001267 seconds 0.26
+TRAIN vagg step 1911 loss 0.000629 seconds 0.26
+TRAIN vagg step 1912 loss 0.00123 seconds 0.27
+TRAIN vagg step 1913 loss 0.000633 seconds 0.28
+TRAIN vagg step 1914 loss 0.000734 seconds 0.25
+TRAIN vagg step 1915 loss 0.00087 seconds 0.26
+TRAIN vagg step 1916 loss 0.000977 seconds 0.26
+TRAIN vagg step 1917 loss 0.000792 seconds 0.26
+TRAIN vagg step 1918 loss 0.000525 seconds 0.24
+TRAIN vagg step 1919 loss 0.001276 seconds 0.23
+TRAIN vagg step 1920 loss 0.001091 seconds 0.29
+TRAIN vagg step 1921 loss 0.000679 seconds 0.23
+TRAIN vagg step 1922 loss 0.002748 seconds 0.28
+TRAIN vagg step 1923 loss 0.001687 seconds 0.24
+TRAIN vagg step 1924 loss 0.002073 seconds 0.29
+TRAIN vagg step 1925 loss 0.000738 seconds 0.26
+TRAIN vagg step 1926 loss 0.00081 seconds 0.28
+TRAIN vagg step 1927 loss 0.001261 seconds 0.25
+TRAIN vagg step 1928 loss 0.001341 seconds 0.28
+TRAIN vagg step 1929 loss 0.00089 seconds 0.25
+TRAIN vagg step 1930 loss 0.001324 seconds 0.25
+TRAIN vagg step 1931 loss 0.001539 seconds 0.24
+TRAIN vagg step 1932 loss 0.000917 seconds 0.26
+TRAIN vagg step 1933 loss 0.002165 seconds 0.25
+TRAIN vagg step 1934 loss 0.001383 seconds 0.24
+TRAIN vagg step 1935 loss 0.00186 seconds 0.24
+TRAIN vagg step 1936 loss 0.001307 seconds 0.26
+TRAIN vagg step 1937 loss 0.001946 seconds 0.25
+TRAIN vagg step 1938 loss 0.001063 seconds 0.25
+TRAIN vagg step 1939 loss 0.001873 seconds 0.26
+TRAIN vagg step 1940 loss 0.001483 seconds 0.26
+TRAIN vagg step 1941 loss 0.000968 seconds 0.27
+TRAIN vagg step 1942 loss 0.002635 seconds 0.3
+TRAIN vagg step 1943 loss 0.00143 seconds 0.27
+TRAIN vagg step 1944 loss 0.002933 seconds 0.24
+TRAIN vagg step 1945 loss 0.000821 seconds 0.27
+TRAIN vagg step 1946 loss 0.002214 seconds 0.23
+TRAIN vagg step 1947 loss 0.000797 seconds 0.31
+TRAIN vagg step 1948 loss 0.002699 seconds 0.23
+TRAIN vagg step 1949 loss 0.000776 seconds 0.26
+TRAIN vagg step 1950 loss 0.001607 seconds 0.28
+TRAIN vagg step 1951 loss 0.002362 seconds 0.26
+TRAIN vagg step 1952 loss 0.001853 seconds 0.26
+TRAIN vagg step 1953 loss 0.003711 seconds 0.27
+TRAIN vagg step 1954 loss 0.000978 seconds 0.23
+TRAIN vagg step 1955 loss 0.001466 seconds 0.29
+TRAIN vagg step 1956 loss 0.000725 seconds 0.24
+TRAIN vagg step 1957 loss 0.00102 seconds 0.23
+TRAIN vagg step 1958 loss 0.001147 seconds 0.27
+TRAIN vagg step 1959 loss 0.001096 seconds 0.24
+TRAIN vagg step 1960 loss 0.001882 seconds 0.26
+TRAIN vagg step 1961 loss 0.000724 seconds 0.26
+TRAIN vagg step 1962 loss 0.001119 seconds 0.27
+TRAIN vagg step 1963 loss 0.000478 seconds 0.24
+TRAIN vagg step 1964 loss 0.001146 seconds 0.25
+TRAIN vagg step 1965 loss 0.000826 seconds 0.33
+TRAIN vagg step 1966 loss 0.001509 seconds 0.23
+TRAIN vagg step 1967 loss 0.001145 seconds 0.27
+TRAIN vagg step 1968 loss 0.001879 seconds 0.27
+TRAIN vagg step 1969 loss 0.000767 seconds 0.25
+TRAIN vagg step 1970 loss 0.001219 seconds 0.26
+TRAIN vagg step 1971 loss 0.00142 seconds 0.25
+TRAIN vagg step 1972 loss 0.004408 seconds 0.27
+TRAIN vagg step 1973 loss 0.000841 seconds 0.23
+TRAIN vagg step 1974 loss 0.003945 seconds 0.27
+TRAIN vagg step 1975 loss 0.001471 seconds 0.24
+TRAIN vagg step 1976 loss 0.006819 seconds 0.27
+TRAIN vagg step 1977 loss 0.002634 seconds 0.25
+TRAIN vagg step 1978 loss 0.001623 seconds 0.25
+TRAIN vagg step 1979 loss 0.00106 seconds 0.26
+TRAIN vagg step 1980 loss 0.000783 seconds 0.28
+TRAIN vagg step 1981 loss 0.002145 seconds 0.24
+TRAIN vagg step 1982 loss 0.001137 seconds 0.26
+TRAIN vagg step 1983 loss 0.000874 seconds 0.27
+TRAIN vagg step 1984 loss 0.000943 seconds 0.27
+TRAIN vagg step 1985 loss 0.000879 seconds 0.24
+TRAIN vagg step 1986 loss 0.000882 seconds 0.27
+TRAIN vagg step 1987 loss 0.000538 seconds 0.24
+TRAIN vagg step 1988 loss 0.001667 seconds 0.25
+TRAIN vagg step 1989 loss 0.000719 seconds 0.27
+TRAIN vagg step 1990 loss 0.001264 seconds 0.25
+TRAIN vagg step 1991 loss 0.001036 seconds 0.27
+TRAIN vagg step 1992 loss 0.001642 seconds 0.24
+TRAIN vagg step 1993 loss 0.00158 seconds 0.27
+TRAIN vagg step 1994 loss 0.001687 seconds 0.24
+TRAIN vagg step 1995 loss 0.001482 seconds 0.27
+TRAIN vagg step 1996 loss 0.000876 seconds 0.26
+TRAIN vagg step 1997 loss 0.00217 seconds 0.23
+TRAIN vagg step 1998 loss 0.001272 seconds 0.25
+TRAIN vagg step 1999 loss 0.00163 seconds 0.26
+TRAIN vagg step 2000 loss 0.001132 seconds 0.25
+BEGIN TEST SPLIT EVALUATION
+EVAL vagg 1 {'clip': 'task-0008_episode_00081960-535:546', 'base_l2_mm': 1.3364872429519892, 'vagg_l2_mm': 0.9405534947291017, 'base_endpoint_mm': 2.939691534265876, 'vagg_endpoint_mm': 2.1608194801956415, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 2 {'clip': 'task-0006_episode_00060010-1060:1071', 'base_l2_mm': 0.7828170782886446, 'vagg_l2_mm': 0.4934216267429292, 'base_endpoint_mm': 1.328416052274406, 'vagg_endpoint_mm': 0.5919787217862904, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 3 {'clip': 'task-0008_episode_00081960-580:591', 'base_l2_mm': 1.1750860139727592, 'vagg_l2_mm': 0.5954455700702965, 'base_endpoint_mm': 2.8709296602755785, 'vagg_endpoint_mm': 1.2689054710790515, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 4 {'clip': 'task-0006_episode_00060010-1345:1356', 'base_l2_mm': 1.7893690383061767, 'vagg_l2_mm': 1.2554745189845562, 'base_endpoint_mm': 3.452109405770898, 'vagg_endpoint_mm': 1.5369596658274531, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 5 {'clip': 'task-0008_episode_00081960-735:746', 'base_l2_mm': 0.7850945694372058, 'vagg_l2_mm': 0.5907029844820499, 'base_endpoint_mm': 2.0135564263910055, 'vagg_endpoint_mm': 1.1080498807132244, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 6 {'clip': 'task-0006_episode_00060010-1355:1366', 'base_l2_mm': 0.8503177086822689, 'vagg_l2_mm': 0.5444430862553418, 'base_endpoint_mm': 1.949934521690011, 'vagg_endpoint_mm': 0.9968988597393036, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 7 {'clip': 'task-0008_episode_00081960-820:831', 'base_l2_mm': 1.1501613771542907, 'vagg_l2_mm': 0.8843883988447487, 'base_endpoint_mm': 1.707800547592342, 'vagg_endpoint_mm': 1.3621110701933503, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 8 {'clip': 'task-0006_episode_00060010-1360:1371', 'base_l2_mm': 0.8497967501170933, 'vagg_l2_mm': 0.5250577814877033, 'base_endpoint_mm': 2.037922851741314, 'vagg_endpoint_mm': 1.3443650677800179, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 9 {'clip': 'task-0008_episode_00081970-1450:1461', 'base_l2_mm': 0.938291719648987, 'vagg_l2_mm': 0.7354261470027268, 'base_endpoint_mm': 1.4108448522165418, 'vagg_endpoint_mm': 0.6621266948059201, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 10 {'clip': 'task-0006_episode_00060010-290:301', 'base_l2_mm': 1.6377128195017576, 'vagg_l2_mm': 1.5457381960004568, 'base_endpoint_mm': 3.6897147074341774, 'vagg_endpoint_mm': 3.3760510850697756, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 11 {'clip': 'task-0008_episode_00081970-205:216', 'base_l2_mm': 1.5747904544696212, 'vagg_l2_mm': 1.539338962174952, 'base_endpoint_mm': 3.472542390227318, 'vagg_endpoint_mm': 3.0056803952902555, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 12 {'clip': 'task-0006_episode_00060010-370:381', 'base_l2_mm': 1.9897839520126581, 'vagg_l2_mm': 1.7460884992033243, 'base_endpoint_mm': 4.344700835645199, 'vagg_endpoint_mm': 3.462583990767598, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 13 {'clip': 'task-0008_episode_00081970-590:601', 'base_l2_mm': 0.7016230374574661, 'vagg_l2_mm': 0.587676593568176, 'base_endpoint_mm': 1.3773903483524919, 'vagg_endpoint_mm': 1.3540344079956412, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 14 {'clip': 'task-0006_episode_00060010-570:581', 'base_l2_mm': 0.8877775399014354, 'vagg_l2_mm': 0.5179632571525872, 'base_endpoint_mm': 1.4354147715494037, 'vagg_endpoint_mm': 0.9636878385208547, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 15 {'clip': 'task-0008_episode_00081970-595:606', 'base_l2_mm': 0.6304862909018993, 'vagg_l2_mm': 0.565925904083997, 'base_endpoint_mm': 1.1639260919764638, 'vagg_endpoint_mm': 1.336294924840331, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 16 {'clip': 'task-0006_episode_00060010-640:651', 'base_l2_mm': 0.7131760939955711, 'vagg_l2_mm': 0.4700122808571905, 'base_endpoint_mm': 1.3946619583293796, 'vagg_endpoint_mm': 0.8469802560284734, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 17 {'clip': 'task-0008_episode_00081970-645:656', 'base_l2_mm': 1.077464665286243, 'vagg_l2_mm': 0.66694914130494, 'base_endpoint_mm': 2.334045013412833, 'vagg_endpoint_mm': 1.1736620217561722, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 18 {'clip': 'task-0006_episode_00060010-645:656', 'base_l2_mm': 0.6793400389142334, 'vagg_l2_mm': 0.449186482001096, 'base_endpoint_mm': 1.4315543230623007, 'vagg_endpoint_mm': 0.6098252488300204, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 19 {'clip': 'task-0008_episode_00081970-920:931', 'base_l2_mm': 0.7096884655766189, 'vagg_l2_mm': 0.4578226071316749, 'base_endpoint_mm': 1.1224820045754313, 'vagg_endpoint_mm': 0.8976210956461728, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 20 {'clip': 'task-0006_episode_00060010-670:681', 'base_l2_mm': 0.6339021492749453, 'vagg_l2_mm': 0.42635120917111635, 'base_endpoint_mm': 1.078261760994792, 'vagg_endpoint_mm': 0.7565409177914262, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 21 {'clip': 'task-0008_episode_00081970-945:956', 'base_l2_mm': 0.9535932913422585, 'vagg_l2_mm': 0.7722651353105903, 'base_endpoint_mm': 2.355697099119425, 'vagg_endpoint_mm': 1.4863040996715426, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 22 {'clip': 'task-0006_episode_00060010-965:976', 'base_l2_mm': 0.8237204165197909, 'vagg_l2_mm': 0.5130134522914886, 'base_endpoint_mm': 1.626399578526616, 'vagg_endpoint_mm': 0.7214823854155838, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 23 {'clip': 'task-0008_episode_00081970-970:981', 'base_l2_mm': 1.0492252185940742, 'vagg_l2_mm': 0.7669655024074018, 'base_endpoint_mm': 2.2819493897259235, 'vagg_endpoint_mm': 1.2504193000495434, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 24 {'clip': 'task-0006_episode_00060010-980:991', 'base_l2_mm': 1.0666002053767443, 'vagg_l2_mm': 0.7849069661460817, 'base_endpoint_mm': 2.0033332984894514, 'vagg_endpoint_mm': 1.57271942589432, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 25 {'clip': 'task-0008_episode_00081970-975:986', 'base_l2_mm': 2.241975162178278, 'vagg_l2_mm': 1.6508398111909628, 'base_endpoint_mm': 6.048170849680901, 'vagg_endpoint_mm': 4.734660033136606, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 26 {'clip': 'task-0006_episode_00060020-1305:1316', 'base_l2_mm': 1.2092277174815536, 'vagg_l2_mm': 0.9461921872571111, 'base_endpoint_mm': 2.857562154531479, 'vagg_endpoint_mm': 1.999230356886983, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 27 {'clip': 'task-0008_episode_00081970-990:1001', 'base_l2_mm': 1.1628296924754977, 'vagg_l2_mm': 0.8855842752382159, 'base_endpoint_mm': 1.9903145730495453, 'vagg_endpoint_mm': 1.5850344207137823, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 28 {'clip': 'task-0006_episode_00060020-1340:1351', 'base_l2_mm': 1.568745239637792, 'vagg_l2_mm': 1.0217728558927774, 'base_endpoint_mm': 4.019559361040592, 'vagg_endpoint_mm': 2.1525754127651453, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 29 {'clip': 'task-0008_episode_00081980-1145:1156', 'base_l2_mm': 0.5579658318310976, 'vagg_l2_mm': 0.3838721022475511, 'base_endpoint_mm': 1.2023033341392875, 'vagg_endpoint_mm': 0.8365342509932816, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 30 {'clip': 'task-0006_episode_00060020-1375:1386', 'base_l2_mm': 0.617420650087297, 'vagg_l2_mm': 0.5156088736839592, 'base_endpoint_mm': 1.1008551809936762, 'vagg_endpoint_mm': 0.8039954118430614, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 31 {'clip': 'task-0008_episode_00081980-1195:1206', 'base_l2_mm': 1.376108848489821, 'vagg_l2_mm': 0.7955599576234818, 'base_endpoint_mm': 2.64580431394279, 'vagg_endpoint_mm': 1.482343184761703, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 32 {'clip': 'task-0006_episode_00060020-195:206', 'base_l2_mm': 0.9406727040186524, 'vagg_l2_mm': 0.809491379186511, 'base_endpoint_mm': 1.545916311442852, 'vagg_endpoint_mm': 1.6683341236785054, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 33 {'clip': 'task-0008_episode_00081980-1200:1211', 'base_l2_mm': 1.033388776704669, 'vagg_l2_mm': 0.7695282693020999, 'base_endpoint_mm': 1.49014953058213, 'vagg_endpoint_mm': 1.2797971721738577, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 34 {'clip': 'task-0006_episode_00060020-250:261', 'base_l2_mm': 2.1284352988004684, 'vagg_l2_mm': 1.7895527416840196, 'base_endpoint_mm': 3.903486533090472, 'vagg_endpoint_mm': 3.0802625697106123, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 35 {'clip': 'task-0008_episode_00081980-1280:1291', 'base_l2_mm': 1.7860441002994776, 'vagg_l2_mm': 1.4036541106179357, 'base_endpoint_mm': 4.2609903030097485, 'vagg_endpoint_mm': 3.9220303297042847, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 36 {'clip': 'task-0006_episode_00060020-315:326', 'base_l2_mm': 2.5260080583393574, 'vagg_l2_mm': 2.087412867695093, 'base_endpoint_mm': 4.473560489714146, 'vagg_endpoint_mm': 3.307515988126397, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 37 {'clip': 'task-0008_episode_00081980-1300:1311', 'base_l2_mm': 1.4925197465345263, 'vagg_l2_mm': 0.853102479595691, 'base_endpoint_mm': 3.0755982734262943, 'vagg_endpoint_mm': 1.3949130661785603, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 38 {'clip': 'task-0006_episode_00060020-380:391', 'base_l2_mm': 1.1853098403662443, 'vagg_l2_mm': 0.655943644233048, 'base_endpoint_mm': 2.4369496386498213, 'vagg_endpoint_mm': 1.0671038180589676, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 39 {'clip': 'task-0008_episode_00081980-140:151', 'base_l2_mm': 3.3890751656144857, 'vagg_l2_mm': 3.1736388336867094, 'base_endpoint_mm': 5.77355083078146, 'vagg_endpoint_mm': 5.428604315966368, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 40 {'clip': 'task-0006_episode_00060020-495:506', 'base_l2_mm': 1.2894250685349107, 'vagg_l2_mm': 1.0958424536511302, 'base_endpoint_mm': 3.1551870051771402, 'vagg_endpoint_mm': 2.5779439602047205, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 41 {'clip': 'task-0008_episode_00081980-200:211', 'base_l2_mm': 0.8092820644378662, 'vagg_l2_mm': 0.6589775439351797, 'base_endpoint_mm': 1.515495008789003, 'vagg_endpoint_mm': 1.6061872011050582, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 42 {'clip': 'task-0006_episode_00060020-505:516', 'base_l2_mm': 1.4564075972884893, 'vagg_l2_mm': 1.0583593975752592, 'base_endpoint_mm': 3.764759749174118, 'vagg_endpoint_mm': 2.5991753209382296, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 43 {'clip': 'task-0008_episode_00081980-350:361', 'base_l2_mm': 1.2237713672220707, 'vagg_l2_mm': 0.8659609593451023, 'base_endpoint_mm': 2.2988286800682545, 'vagg_endpoint_mm': 1.1061737313866615, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 44 {'clip': 'task-0006_episode_00060020-575:586', 'base_l2_mm': 0.6342618144117296, 'vagg_l2_mm': 0.5065214936621487, 'base_endpoint_mm': 1.2924674665555358, 'vagg_endpoint_mm': 0.9199534542858601, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 45 {'clip': 'task-0008_episode_00081980-470:481', 'base_l2_mm': 1.1781584471464157, 'vagg_l2_mm': 1.1270166141912341, 'base_endpoint_mm': 2.5186468847095966, 'vagg_endpoint_mm': 2.2340219002217054, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 46 {'clip': 'task-0006_episode_00060020-660:671', 'base_l2_mm': 0.6718310760334134, 'vagg_l2_mm': 0.3333858330734074, 'base_endpoint_mm': 1.625893055461347, 'vagg_endpoint_mm': 0.7168098818510771, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 47 {'clip': 'task-0008_episode_00081980-550:561', 'base_l2_mm': 1.0480814380571246, 'vagg_l2_mm': 0.6538685411214828, 'base_endpoint_mm': 3.240112913772464, 'vagg_endpoint_mm': 2.343082334846258, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 48 {'clip': 'task-0006_episode_00060030-1205:1216', 'base_l2_mm': 3.1996704638004303, 'vagg_l2_mm': 3.1341032590717077, 'base_endpoint_mm': 11.00837904959917, 'vagg_endpoint_mm': 9.2826122418046, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 49 {'clip': 'task-0008_episode_00081980-570:581', 'base_l2_mm': 0.8504176512360573, 'vagg_l2_mm': 0.6261954549700022, 'base_endpoint_mm': 1.7976068193092942, 'vagg_endpoint_mm': 1.3591530732810497, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 50 {'clip': 'task-0006_episode_00060030-1210:1221', 'base_l2_mm': 1.077102730050683, 'vagg_l2_mm': 0.6312850746326149, 'base_endpoint_mm': 2.2170094307512045, 'vagg_endpoint_mm': 0.9513709810562432, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 51 {'clip': 'task-0008_episode_00081980-580:591', 'base_l2_mm': 0.6323767593130469, 'vagg_l2_mm': 0.4583449335768819, 'base_endpoint_mm': 1.2822089483961463, 'vagg_endpoint_mm': 0.5328194238245487, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 52 {'clip': 'task-0006_episode_00060030-1230:1241', 'base_l2_mm': 0.700487638823688, 'vagg_l2_mm': 0.489897676743567, 'base_endpoint_mm': 1.387542812153697, 'vagg_endpoint_mm': 0.7769545190967619, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 53 {'clip': 'task-0008_episode_00081980-605:616', 'base_l2_mm': 0.8776139002293348, 'vagg_l2_mm': 0.6272397004067898, 'base_endpoint_mm': 2.435975708067417, 'vagg_endpoint_mm': 1.3969483552500606, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 54 {'clip': 'task-0006_episode_00060030-995:1006', 'base_l2_mm': 0.9204106754623353, 'vagg_l2_mm': 0.9088353253901005, 'base_endpoint_mm': 2.2970414720475674, 'vagg_endpoint_mm': 2.07174732349813, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 55 {'clip': 'task-0008_episode_00081980-615:626', 'base_l2_mm': 0.9764658170752227, 'vagg_l2_mm': 0.8326354436576366, 'base_endpoint_mm': 1.5258369967341423, 'vagg_endpoint_mm': 1.6093606827780604, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 56 {'clip': 'task-0006_episode_00060040-1015:1026', 'base_l2_mm': 1.0786281200125813, 'vagg_l2_mm': 0.46943945926614106, 'base_endpoint_mm': 2.6226432528346777, 'vagg_endpoint_mm': 0.749978527892381, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 57 {'clip': 'task-0008_episode_00081980-635:646', 'base_l2_mm': 1.6670364420861006, 'vagg_l2_mm': 1.5246563125401735, 'base_endpoint_mm': 3.1827003695070744, 'vagg_endpoint_mm': 2.079762052744627, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 58 {'clip': 'task-0006_episode_00060040-1075:1086', 'base_l2_mm': 0.8485294529236853, 'vagg_l2_mm': 0.537615385837853, 'base_endpoint_mm': 2.079053781926632, 'vagg_endpoint_mm': 1.0127420537173748, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 59 {'clip': 'task-0008_episode_00081980-650:661', 'base_l2_mm': 0.9231287986040115, 'vagg_l2_mm': 0.9662809898145497, 'base_endpoint_mm': 1.2845678720623255, 'vagg_endpoint_mm': 1.1247051879763603, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 60 {'clip': 'task-0006_episode_00060040-1155:1166', 'base_l2_mm': 1.96172040887177, 'vagg_l2_mm': 1.8331469036638737, 'base_endpoint_mm': 2.95681762509048, 'vagg_endpoint_mm': 3.609239822253585, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 61 {'clip': 'task-0008_episode_00081980-840:851', 'base_l2_mm': 1.2500204611569643, 'vagg_l2_mm': 1.1866855202242732, 'base_endpoint_mm': 2.286609262228012, 'vagg_endpoint_mm': 2.266427967697382, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 62 {'clip': 'task-0006_episode_00060040-1435:1446', 'base_l2_mm': 0.894976663403213, 'vagg_l2_mm': 0.6070800591260195, 'base_endpoint_mm': 2.0645472686737776, 'vagg_endpoint_mm': 1.1329115368425846, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 63 {'clip': 'task-0008_episode_00081990-1025:1036', 'base_l2_mm': 1.1436300119385123, 'vagg_l2_mm': 1.0491289431229234, 'base_endpoint_mm': 2.716619521379471, 'vagg_endpoint_mm': 1.9871452823281288, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 64 {'clip': 'task-0006_episode_00060040-1500:1511', 'base_l2_mm': 1.1440790258347988, 'vagg_l2_mm': 0.9227563277818263, 'base_endpoint_mm': 3.4395656548440456, 'vagg_endpoint_mm': 2.497448120266199, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 65 {'clip': 'task-0008_episode_00081990-1075:1086', 'base_l2_mm': 0.9204174275510013, 'vagg_l2_mm': 0.7912483997642994, 'base_endpoint_mm': 1.8624819349497557, 'vagg_endpoint_mm': 1.6770416405051947, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 66 {'clip': 'task-0006_episode_00060040-1610:1621', 'base_l2_mm': 0.7467956747859716, 'vagg_l2_mm': 0.429816689575091, 'base_endpoint_mm': 1.4877342619001865, 'vagg_endpoint_mm': 0.8215098641812801, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 67 {'clip': 'task-0008_episode_00081990-1150:1161', 'base_l2_mm': 1.2044772738590837, 'vagg_l2_mm': 0.5825029220432043, 'base_endpoint_mm': 2.7827562298625708, 'vagg_endpoint_mm': 0.6124697392806411, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 68 {'clip': 'task-0006_episode_00060040-280:291', 'base_l2_mm': 1.1473611230030656, 'vagg_l2_mm': 0.9332387708127499, 'base_endpoint_mm': 2.134829293936491, 'vagg_endpoint_mm': 1.4963375870138407, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 69 {'clip': 'task-0008_episode_00081990-1405:1416', 'base_l2_mm': 0.865889887791127, 'vagg_l2_mm': 0.4329071962274611, 'base_endpoint_mm': 1.5279471408575773, 'vagg_endpoint_mm': 0.8396339253522456, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 70 {'clip': 'task-0006_episode_00060040-320:331', 'base_l2_mm': 2.2060575429350138, 'vagg_l2_mm': 2.0224135369062424, 'base_endpoint_mm': 4.509009420871735, 'vagg_endpoint_mm': 4.1934833861887455, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 71 {'clip': 'task-0008_episode_00081990-1420:1431', 'base_l2_mm': 0.8828582940623164, 'vagg_l2_mm': 0.5683631752617657, 'base_endpoint_mm': 2.388203516602516, 'vagg_endpoint_mm': 1.248268410563469, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 72 {'clip': 'task-0006_episode_00060040-615:626', 'base_l2_mm': 0.8512053755111992, 'vagg_l2_mm': 0.5160609143786132, 'base_endpoint_mm': 1.4834047760814428, 'vagg_endpoint_mm': 0.9520703461021185, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 73 {'clip': 'task-0008_episode_00081990-1545:1556', 'base_l2_mm': 1.0280900169163942, 'vagg_l2_mm': 0.6780485855415463, 'base_endpoint_mm': 2.3555844090878963, 'vagg_endpoint_mm': 1.1325200321152806, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 74 {'clip': 'task-0006_episode_00060040-655:666', 'base_l2_mm': 0.8537479443475604, 'vagg_l2_mm': 0.4841010959353298, 'base_endpoint_mm': 1.7947664018720388, 'vagg_endpoint_mm': 0.7557740318588912, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 75 {'clip': 'task-0008_episode_00081990-1590:1601', 'base_l2_mm': 2.0792793948203325, 'vagg_l2_mm': 2.188889542594552, 'base_endpoint_mm': 4.855046048760414, 'vagg_endpoint_mm': 5.160510074347258, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 76 {'clip': 'task-0006_episode_00060040-660:671', 'base_l2_mm': 0.7449259865097702, 'vagg_l2_mm': 0.38590695476159453, 'base_endpoint_mm': 1.3950644060969353, 'vagg_endpoint_mm': 0.6753787165507674, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 77 {'clip': 'task-0008_episode_00081990-280:291', 'base_l2_mm': 1.131179858930409, 'vagg_l2_mm': 0.9586981032043695, 'base_endpoint_mm': 1.3610990718007088, 'vagg_endpoint_mm': 1.6483032377436757, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 78 {'clip': 'task-0006_episode_00060050-0:11', 'base_l2_mm': 1.9510685233399272, 'vagg_l2_mm': 1.582280732691288, 'base_endpoint_mm': 3.741238033398986, 'vagg_endpoint_mm': 1.9737277179956436, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 79 {'clip': 'task-0008_episode_00081990-310:321', 'base_l2_mm': 1.7934556817635894, 'vagg_l2_mm': 1.633554813452065, 'base_endpoint_mm': 3.621351672336459, 'vagg_endpoint_mm': 3.0797100625932217, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 80 {'clip': 'task-0006_episode_00060050-1100:1111', 'base_l2_mm': 0.6711604655720294, 'vagg_l2_mm': 0.410721346270293, 'base_endpoint_mm': 1.4321700436994433, 'vagg_endpoint_mm': 0.7413246785290539, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 81 {'clip': 'task-0008_episode_00081990-725:736', 'base_l2_mm': 2.8480628971010447, 'vagg_l2_mm': 2.9283834155648947, 'base_endpoint_mm': 5.147974472492933, 'vagg_endpoint_mm': 5.116896238178015, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 82 {'clip': 'task-0006_episode_00060050-485:496', 'base_l2_mm': 2.062626648694277, 'vagg_l2_mm': 1.6679017571732402, 'base_endpoint_mm': 4.316158127039671, 'vagg_endpoint_mm': 3.0974147375673056, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 83 {'clip': 'task-0008_episode_00081990-745:756', 'base_l2_mm': 0.9697269997559488, 'vagg_l2_mm': 0.5916762165725231, 'base_endpoint_mm': 2.0202738232910633, 'vagg_endpoint_mm': 0.9320111130364239, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 84 {'clip': 'task-0006_episode_00060050-695:706', 'base_l2_mm': 1.132004545070231, 'vagg_l2_mm': 0.7540088263340294, 'base_endpoint_mm': 1.953841419890523, 'vagg_endpoint_mm': 2.1286383271217346, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 85 {'clip': 'task-0008_episode_00082060-150:161', 'base_l2_mm': 1.7627833876758814, 'vagg_l2_mm': 1.1825640685856342, 'base_endpoint_mm': 3.337390022352338, 'vagg_endpoint_mm': 1.5396849485114217, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 86 {'clip': 'task-0006_episode_00060050-705:716', 'base_l2_mm': 1.3013016432523727, 'vagg_l2_mm': 0.9191245771944523, 'base_endpoint_mm': 3.807228524237871, 'vagg_endpoint_mm': 2.6671853847801685, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 87 {'clip': 'task-0008_episode_00082060-200:211', 'base_l2_mm': 1.736041740514338, 'vagg_l2_mm': 1.692758989520371, 'base_endpoint_mm': 3.0668501276522875, 'vagg_endpoint_mm': 2.635365119203925, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 88 {'clip': 'task-0006_episode_00060050-880:891', 'base_l2_mm': 1.2281665112823248, 'vagg_l2_mm': 0.8523827418684959, 'base_endpoint_mm': 2.6927264407277107, 'vagg_endpoint_mm': 1.8009099876508117, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 89 {'clip': 'task-0008_episode_00082060-215:226', 'base_l2_mm': 1.2460973812267184, 'vagg_l2_mm': 0.7116179913282394, 'base_endpoint_mm': 2.7263895608484745, 'vagg_endpoint_mm': 1.021245843730867, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 90 {'clip': 'task-0006_episode_00060050-910:921', 'base_l2_mm': 1.1388447601348162, 'vagg_l2_mm': 0.7368242368102074, 'base_endpoint_mm': 2.2164105903357267, 'vagg_endpoint_mm': 1.6751541988924146, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 91 {'clip': 'task-0008_episode_00082060-325:336', 'base_l2_mm': 1.2624572264030576, 'vagg_l2_mm': 1.1677959701046348, 'base_endpoint_mm': 2.2776187397539616, 'vagg_endpoint_mm': 2.4000913836061954, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 92 {'clip': 'task-0006_episode_00060060-275:286', 'base_l2_mm': 0.6823118892498314, 'vagg_l2_mm': 0.46992843272164464, 'base_endpoint_mm': 2.040012739598751, 'vagg_endpoint_mm': 0.8130936184898019, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 93 {'clip': 'task-0008_episode_00082060-335:346', 'base_l2_mm': 1.298648538067937, 'vagg_l2_mm': 1.3102286029607058, 'base_endpoint_mm': 3.392384387552738, 'vagg_endpoint_mm': 2.8696293011307716, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 94 {'clip': 'task-0006_episode_00060060-410:421', 'base_l2_mm': 2.6984866708517075, 'vagg_l2_mm': 2.2181272506713867, 'base_endpoint_mm': 5.227591376751661, 'vagg_endpoint_mm': 4.00675181299448, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 95 {'clip': 'task-0008_episode_00082060-380:391', 'base_l2_mm': 1.0166984284296632, 'vagg_l2_mm': 0.8135148091241717, 'base_endpoint_mm': 2.4722786620259285, 'vagg_endpoint_mm': 1.4151352224871516, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 96 {'clip': 'task-0006_episode_00060060-460:471', 'base_l2_mm': 1.5514906262978911, 'vagg_l2_mm': 1.1139920679852366, 'base_endpoint_mm': 3.4572340082377195, 'vagg_endpoint_mm': 1.9909306429326534, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 97 {'clip': 'task-0008_episode_00082060-385:396', 'base_l2_mm': 1.0612379992380738, 'vagg_l2_mm': 0.9820710401982069, 'base_endpoint_mm': 2.5324830785393715, 'vagg_endpoint_mm': 0.8055283105932176, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 98 {'clip': 'task-0006_episode_00060060-470:481', 'base_l2_mm': 1.7849759897217155, 'vagg_l2_mm': 1.262602279894054, 'base_endpoint_mm': 3.134992439299822, 'vagg_endpoint_mm': 1.8453437369316816, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 99 {'clip': 'task-0008_episode_00082060-455:466', 'base_l2_mm': 1.2066296767443419, 'vagg_l2_mm': 1.0070395655930042, 'base_endpoint_mm': 2.812579507008195, 'vagg_endpoint_mm': 2.287328476086259, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 100 {'clip': 'task-0006_episode_00060060-500:511', 'base_l2_mm': 2.649874659255147, 'vagg_l2_mm': 2.0228533539921045, 'base_endpoint_mm': 5.484863184392452, 'vagg_endpoint_mm': 4.053210373967886, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 101 {'clip': 'task-0008_episode_00082060-515:526', 'base_l2_mm': 1.1488785967230797, 'vagg_l2_mm': 0.7646087906323373, 'base_endpoint_mm': 1.984618604183197, 'vagg_endpoint_mm': 0.5558133125305176, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 102 {'clip': 'task-0006_episode_00060060-690:701', 'base_l2_mm': 1.2099151499569416, 'vagg_l2_mm': 1.0649041505530477, 'base_endpoint_mm': 2.8708965983241796, 'vagg_endpoint_mm': 2.8869006782770157, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 103 {'clip': 'task-0008_episode_00082060-540:551', 'base_l2_mm': 0.8491180487908423, 'vagg_l2_mm': 0.8396927732974291, 'base_endpoint_mm': 2.4911470245569944, 'vagg_endpoint_mm': 2.3851983714848757, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 104 {'clip': 'task-0006_episode_00060060-870:881', 'base_l2_mm': 1.1451472528278828, 'vagg_l2_mm': 0.8969276677817106, 'base_endpoint_mm': 2.5236548390239477, 'vagg_endpoint_mm': 1.1713278945535421, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 105 {'clip': 'task-0008_episode_00082060-625:636', 'base_l2_mm': 0.759225629735738, 'vagg_l2_mm': 0.6150110857561231, 'base_endpoint_mm': 1.3948491541668773, 'vagg_endpoint_mm': 1.1452552862465382, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 106 {'clip': 'task-0006_episode_00060060-915:926', 'base_l2_mm': 1.838554861024022, 'vagg_l2_mm': 1.2306339340284467, 'base_endpoint_mm': 3.3034097868949175, 'vagg_endpoint_mm': 2.878914587199688, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 107 {'clip': 'task-0008_episode_00082060-645:656', 'base_l2_mm': 1.143473433330655, 'vagg_l2_mm': 0.6685034604743123, 'base_endpoint_mm': 1.7949796747416258, 'vagg_endpoint_mm': 1.122940331697464, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 108 {'clip': 'task-0006_episode_00060090-1005:1016', 'base_l2_mm': 0.5021033575758338, 'vagg_l2_mm': 0.5786846741102636, 'base_endpoint_mm': 1.3363335747271776, 'vagg_endpoint_mm': 1.3680231058970094, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 109 {'clip': 'task-0008_episode_00082060-685:696', 'base_l2_mm': 0.9049377404153347, 'vagg_l2_mm': 0.6105130887590349, 'base_endpoint_mm': 1.5233986778184772, 'vagg_endpoint_mm': 0.5060351686552167, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 110 {'clip': 'task-0006_episode_00060090-1215:1226', 'base_l2_mm': 1.522882143035531, 'vagg_l2_mm': 1.1567729525268078, 'base_endpoint_mm': 3.3164245542138815, 'vagg_endpoint_mm': 2.3138634860515594, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 111 {'clip': 'task-0008_episode_00082060-690:701', 'base_l2_mm': 0.7505622343160212, 'vagg_l2_mm': 0.5243111518211663, 'base_endpoint_mm': 1.1355486931279302, 'vagg_endpoint_mm': 0.7570001180283725, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 112 {'clip': 'task-0006_episode_00060090-1220:1231', 'base_l2_mm': 1.4792002039030194, 'vagg_l2_mm': 0.9884523460641503, 'base_endpoint_mm': 3.338680136948824, 'vagg_endpoint_mm': 2.570186508819461, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 113 {'clip': 'task-0008_episode_00082060-695:706', 'base_l2_mm': 0.7052490836940706, 'vagg_l2_mm': 0.5761983920820057, 'base_endpoint_mm': 1.4650952070951462, 'vagg_endpoint_mm': 1.0351635282859206, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 114 {'clip': 'task-0006_episode_00060090-1260:1271', 'base_l2_mm': 0.8652638643980026, 'vagg_l2_mm': 0.43639790965244174, 'base_endpoint_mm': 2.0721619948744774, 'vagg_endpoint_mm': 0.9037633426487446, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 115 {'clip': 'task-0008_episode_00082060-805:816', 'base_l2_mm': 1.0770608205348253, 'vagg_l2_mm': 0.6620942149311304, 'base_endpoint_mm': 2.4682460352778435, 'vagg_endpoint_mm': 1.1768181575462222, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 116 {'clip': 'task-0006_episode_00060090-1285:1296', 'base_l2_mm': 0.6749472231604159, 'vagg_l2_mm': 0.38014218444004655, 'base_endpoint_mm': 1.2546515790745616, 'vagg_endpoint_mm': 0.48578993300907314, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 117 {'clip': 'task-0008_episode_00082060-915:926', 'base_l2_mm': 1.153835910372436, 'vagg_l2_mm': 0.8628842770121992, 'base_endpoint_mm': 2.149751642718911, 'vagg_endpoint_mm': 1.2928423238918185, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 118 {'clip': 'task-0006_episode_00060090-315:326', 'base_l2_mm': 2.0858251955360174, 'vagg_l2_mm': 1.676908228546381, 'base_endpoint_mm': 3.1416439451277256, 'vagg_endpoint_mm': 2.5295454543083906, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 119 {'clip': 'task-0008_episode_00082060-925:936', 'base_l2_mm': 1.1968007311224937, 'vagg_l2_mm': 0.9768384043127298, 'base_endpoint_mm': 2.693924820050597, 'vagg_endpoint_mm': 2.6411027647554874, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 120 {'clip': 'task-0006_episode_00060090-400:411', 'base_l2_mm': 1.1742751812562346, 'vagg_l2_mm': 0.7803112966939807, 'base_endpoint_mm': 2.7716560289263725, 'vagg_endpoint_mm': 1.8047690391540527, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 121 {'clip': 'task-0008_episode_00082060-950:961', 'base_l2_mm': 2.8748842887580395, 'vagg_l2_mm': 2.3884454276412725, 'base_endpoint_mm': 4.738646559417248, 'vagg_endpoint_mm': 3.4534235019236803, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 122 {'clip': 'task-0006_episode_00060090-695:706', 'base_l2_mm': 1.4088290045037866, 'vagg_l2_mm': 0.8412187453359365, 'base_endpoint_mm': 1.568561652675271, 'vagg_endpoint_mm': 0.8696666918694973, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 123 {'clip': 'task-0008_episode_00082080-1015:1026', 'base_l2_mm': 1.2741597602143884, 'vagg_l2_mm': 1.1715185828506947, 'base_endpoint_mm': 2.442764351144433, 'vagg_endpoint_mm': 1.4581476571038365, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 124 {'clip': 'task-0006_episode_00060090-765:776', 'base_l2_mm': 0.5399941001087427, 'vagg_l2_mm': 0.4070632567163557, 'base_endpoint_mm': 0.9841334540396929, 'vagg_endpoint_mm': 0.6829495541751385, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 125 {'clip': 'task-0008_episode_00082080-140:151', 'base_l2_mm': 0.7398438174277544, 'vagg_l2_mm': 0.8061312255449593, 'base_endpoint_mm': 1.2686143163591623, 'vagg_endpoint_mm': 1.5463564777746797, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 126 {'clip': 'task-0006_episode_00060090-970:981', 'base_l2_mm': 0.6710063316859305, 'vagg_l2_mm': 0.3681585949379951, 'base_endpoint_mm': 0.8646121714264154, 'vagg_endpoint_mm': 0.6413476075977087, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 127 {'clip': 'task-0008_episode_00082080-150:161', 'base_l2_mm': 1.202452927827835, 'vagg_l2_mm': 0.9960012976080179, 'base_endpoint_mm': 2.317839302122593, 'vagg_endpoint_mm': 0.7355713751167059, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 128 {'clip': 'task-0006_episode_00060090-975:986', 'base_l2_mm': 0.5591877270489931, 'vagg_l2_mm': 0.3229923895560205, 'base_endpoint_mm': 1.176816993393004, 'vagg_endpoint_mm': 0.4809149540960789, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 129 {'clip': 'task-0008_episode_00082080-270:281', 'base_l2_mm': 1.8738574581220746, 'vagg_l2_mm': 1.5253886813297868, 'base_endpoint_mm': 4.158966243267059, 'vagg_endpoint_mm': 2.868601819500327, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 130 {'clip': 'task-0006_episode_00060100-1175:1186', 'base_l2_mm': 0.685842358507216, 'vagg_l2_mm': 0.621323415543884, 'base_endpoint_mm': 1.0387595975771546, 'vagg_endpoint_mm': 1.4133412623777986, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 131 {'clip': 'task-0008_episode_00082080-275:286', 'base_l2_mm': 0.9662387892603874, 'vagg_l2_mm': 1.335042528808117, 'base_endpoint_mm': 2.426223363727331, 'vagg_endpoint_mm': 3.4367649350315332, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 132 {'clip': 'task-0006_episode_00060100-1190:1201', 'base_l2_mm': 1.72320322599262, 'vagg_l2_mm': 1.3234487269073725, 'base_endpoint_mm': 4.550289362668991, 'vagg_endpoint_mm': 2.745565492659807, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 133 {'clip': 'task-0008_episode_00082080-425:436', 'base_l2_mm': 0.6859789718873799, 'vagg_l2_mm': 0.5801095394417644, 'base_endpoint_mm': 1.3495248276740313, 'vagg_endpoint_mm': 1.1672374093905091, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 134 {'clip': 'task-0006_episode_00060100-655:666', 'base_l2_mm': 1.2767476728186011, 'vagg_l2_mm': 1.119987922720611, 'base_endpoint_mm': 3.136193612590432, 'vagg_endpoint_mm': 2.9708605725318193, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 135 {'clip': 'task-0008_episode_00082080-445:456', 'base_l2_mm': 1.3595527270808816, 'vagg_l2_mm': 0.862478802446276, 'base_endpoint_mm': 2.742554759606719, 'vagg_endpoint_mm': 1.9944633822888136, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 136 {'clip': 'task-0006_episode_00060100-670:681', 'base_l2_mm': 2.998460317030549, 'vagg_l2_mm': 2.731085056439042, 'base_endpoint_mm': 6.579770240932703, 'vagg_endpoint_mm': 5.597061477601528, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 137 {'clip': 'task-0008_episode_00082080-45:56', 'base_l2_mm': 1.013637869618833, 'vagg_l2_mm': 0.5649597733281553, 'base_endpoint_mm': 2.728582127019763, 'vagg_endpoint_mm': 0.8870468009263277, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 138 {'clip': 'task-0006_episode_00060100-675:686', 'base_l2_mm': 3.4634964540600777, 'vagg_l2_mm': 2.9538983944803476, 'base_endpoint_mm': 5.630903411656618, 'vagg_endpoint_mm': 4.36200900003314, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 139 {'clip': 'task-0008_episode_00082080-610:621', 'base_l2_mm': 0.7095869514159858, 'vagg_l2_mm': 0.6153899012133479, 'base_endpoint_mm': 1.4362427173182368, 'vagg_endpoint_mm': 1.1676432332023978, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 140 {'clip': 'task-0006_episode_00060100-680:691', 'base_l2_mm': 2.794764004647732, 'vagg_l2_mm': 2.7551844250410795, 'base_endpoint_mm': 5.043332930654287, 'vagg_endpoint_mm': 5.229454021900892, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 141 {'clip': 'task-0008_episode_00082080-680:691', 'base_l2_mm': 0.9022814920172095, 'vagg_l2_mm': 0.5816260236315429, 'base_endpoint_mm': 2.0746346563100815, 'vagg_endpoint_mm': 1.1780335335060954, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 142 {'clip': 'task-0006_episode_00060100-750:761', 'base_l2_mm': 1.8709669820964336, 'vagg_l2_mm': 1.5588285168632865, 'base_endpoint_mm': 2.9217868577688932, 'vagg_endpoint_mm': 2.4648515973240137, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 143 {'clip': 'task-0008_episode_00082080-690:701', 'base_l2_mm': 0.8836039341986179, 'vagg_l2_mm': 1.0510390857234597, 'base_endpoint_mm': 1.2986746151000261, 'vagg_endpoint_mm': 1.9509700359776616, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 144 {'clip': 'task-0006_episode_00060100-795:806', 'base_l2_mm': 1.733984099701047, 'vagg_l2_mm': 1.3410325627774, 'base_endpoint_mm': 3.461252199485898, 'vagg_endpoint_mm': 2.298850566148758, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 145 {'clip': 'task-0008_episode_00082080-710:721', 'base_l2_mm': 1.1321527417749166, 'vagg_l2_mm': 0.9257761994376779, 'base_endpoint_mm': 3.6727681290358305, 'vagg_endpoint_mm': 2.0273493137210608, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 146 {'clip': 'task-0006_episode_00060100-800:811', 'base_l2_mm': 5.116195883601904, 'vagg_l2_mm': 4.733987618237734, 'base_endpoint_mm': 16.331210732460022, 'vagg_endpoint_mm': 15.784414485096931, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 147 {'clip': 'task-0008_episode_00082080-840:851', 'base_l2_mm': 1.5491378726437688, 'vagg_l2_mm': 1.0440998012199998, 'base_endpoint_mm': 3.6402938421815634, 'vagg_endpoint_mm': 2.2754587698727846, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 148 {'clip': 'task-0006_episode_00060100-815:826', 'base_l2_mm': 1.5391894849017262, 'vagg_l2_mm': 1.1091534979641438, 'base_endpoint_mm': 3.061040071770549, 'vagg_endpoint_mm': 1.7518820241093636, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 149 {'clip': 'task-0008_episode_00082080-930:941', 'base_l2_mm': 1.1469668243080378, 'vagg_l2_mm': 0.9808066533878446, 'base_endpoint_mm': 1.6300153220072389, 'vagg_endpoint_mm': 1.6742587322369218, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 150 {'clip': 'task-0006_episode_00060100-825:836', 'base_l2_mm': 1.5412844950333238, 'vagg_l2_mm': 1.2574205175042152, 'base_endpoint_mm': 3.3720098435878754, 'vagg_endpoint_mm': 2.406822983175516, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 151 {'clip': 'task-0008_episode_00082080-945:956', 'base_l2_mm': 1.0072694858536124, 'vagg_l2_mm': 0.7713204831816256, 'base_endpoint_mm': 1.7913291230797768, 'vagg_endpoint_mm': 1.202659448608756, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 152 {'clip': 'task-0006_episode_00060100-830:841', 'base_l2_mm': 1.9085047533735633, 'vagg_l2_mm': 1.5013267984613776, 'base_endpoint_mm': 3.695982974022627, 'vagg_endpoint_mm': 2.494347980245948, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 153 {'clip': 'task-0008_episode_00082090-230:241', 'base_l2_mm': 1.2775815557688475, 'vagg_l2_mm': 1.2311760801821947, 'base_endpoint_mm': 4.287559073418379, 'vagg_endpoint_mm': 2.772946609184146, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 154 {'clip': 'task-0006_episode_00060100-835:846', 'base_l2_mm': 1.2580525362864137, 'vagg_l2_mm': 0.9203144581988454, 'base_endpoint_mm': 2.5508988182991743, 'vagg_endpoint_mm': 1.6121321823447943, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 155 {'clip': 'task-0008_episode_00082090-285:296', 'base_l2_mm': 1.19216728489846, 'vagg_l2_mm': 1.0784267215058208, 'base_endpoint_mm': 1.6187591245397925, 'vagg_endpoint_mm': 1.8485944019630551, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 156 {'clip': 'task-0006_episode_00060120-1005:1016', 'base_l2_mm': 0.8817565394565463, 'vagg_l2_mm': 0.6102918414399028, 'base_endpoint_mm': 1.4103210996836424, 'vagg_endpoint_mm': 1.6517917392775416, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 157 {'clip': 'task-0008_episode_00082090-340:351', 'base_l2_mm': 1.3093800516799092, 'vagg_l2_mm': 1.0534507455304265, 'base_endpoint_mm': 2.0470968447625637, 'vagg_endpoint_mm': 1.5465747565031052, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 158 {'clip': 'task-0006_episode_00060120-1045:1056', 'base_l2_mm': 0.9034245158545673, 'vagg_l2_mm': 1.186524867080152, 'base_endpoint_mm': 2.9378312174230814, 'vagg_endpoint_mm': 2.850552322342992, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 159 {'clip': 'task-0008_episode_00082090-395:406', 'base_l2_mm': 1.546894432976842, 'vagg_l2_mm': 1.1262412881478667, 'base_endpoint_mm': 2.48840544372797, 'vagg_endpoint_mm': 1.9862574990838766, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 160 {'clip': 'task-0006_episode_00060120-125:136', 'base_l2_mm': 0.8311591809615493, 'vagg_l2_mm': 0.5748022231273353, 'base_endpoint_mm': 1.8209379632025957, 'vagg_endpoint_mm': 1.356910215690732, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 161 {'clip': 'task-0008_episode_00082090-510:521', 'base_l2_mm': 1.0919937631115317, 'vagg_l2_mm': 0.7106226985342801, 'base_endpoint_mm': 2.7053330559283495, 'vagg_endpoint_mm': 1.3204230926930904, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 162 {'clip': 'task-0006_episode_00060120-1390:1401', 'base_l2_mm': 0.7562727550975978, 'vagg_l2_mm': 0.46202228986658156, 'base_endpoint_mm': 1.6992180608212948, 'vagg_endpoint_mm': 0.7641986012458801, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 163 {'clip': 'task-0008_episode_00082090-595:606', 'base_l2_mm': 1.2891138903796673, 'vagg_l2_mm': 1.1843806132674217, 'base_endpoint_mm': 3.1342965085059404, 'vagg_endpoint_mm': 1.9555108156055212, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 164 {'clip': 'task-0006_episode_00060120-1420:1431', 'base_l2_mm': 1.0505943791940808, 'vagg_l2_mm': 0.5761158536188304, 'base_endpoint_mm': 2.9764550272375345, 'vagg_endpoint_mm': 2.086145570501685, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 165 {'clip': 'task-0008_episode_00082090-650:661', 'base_l2_mm': 0.7581899408251047, 'vagg_l2_mm': 0.5547064356505871, 'base_endpoint_mm': 1.7328952671959996, 'vagg_endpoint_mm': 0.8399896905757487, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 166 {'clip': 'task-0006_episode_00060120-1470:1481', 'base_l2_mm': 0.5666891811415553, 'vagg_l2_mm': 0.5067659076303244, 'base_endpoint_mm': 0.7557193748652935, 'vagg_endpoint_mm': 0.43587092659436166, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 167 {'clip': 'task-0008_episode_00082090-715:726', 'base_l2_mm': 0.8736791787669063, 'vagg_l2_mm': 0.6551595870405436, 'base_endpoint_mm': 1.6714864177629352, 'vagg_endpoint_mm': 1.1138467816635966, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 168 {'clip': 'task-0006_episode_00060120-1505:1516', 'base_l2_mm': 0.6810709019191563, 'vagg_l2_mm': 0.4192554042674601, 'base_endpoint_mm': 1.588780665770173, 'vagg_endpoint_mm': 0.7585604325868189, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 169 {'clip': 'task-0008_episode_00082090-765:776', 'base_l2_mm': 0.8174003451131284, 'vagg_l2_mm': 0.7816155557520688, 'base_endpoint_mm': 2.263908041641116, 'vagg_endpoint_mm': 2.147398656234145, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 170 {'clip': 'task-0006_episode_00060120-220:231', 'base_l2_mm': 2.45424616150558, 'vagg_l2_mm': 2.2608304861932993, 'base_endpoint_mm': 4.362416919320822, 'vagg_endpoint_mm': 4.0126983076334, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 171 {'clip': 'task-0008_episode_00082090-805:816', 'base_l2_mm': 0.8986121974885464, 'vagg_l2_mm': 0.48906338633969426, 'base_endpoint_mm': 1.6292693326249719, 'vagg_endpoint_mm': 1.1221958557143807, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 172 {'clip': 'task-0006_episode_00060120-235:246', 'base_l2_mm': 1.7168212216347456, 'vagg_l2_mm': 1.4545117737725377, 'base_endpoint_mm': 3.274542046710849, 'vagg_endpoint_mm': 2.4179769679903984, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 173 {'clip': 'task-0008_episode_00082090-810:821', 'base_l2_mm': 1.4303968055173755, 'vagg_l2_mm': 1.440906198695302, 'base_endpoint_mm': 2.83847120590508, 'vagg_endpoint_mm': 3.0886572785675526, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 174 {'clip': 'task-0006_episode_00060120-285:296', 'base_l2_mm': 2.1541165187954903, 'vagg_l2_mm': 1.7877818318083882, 'base_endpoint_mm': 4.417766816914082, 'vagg_endpoint_mm': 3.2402651850134134, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 175 {'clip': 'task-0008_episode_00082090-850:861', 'base_l2_mm': 0.6713424809277058, 'vagg_l2_mm': 0.45127354678697884, 'base_endpoint_mm': 1.1948395986109972, 'vagg_endpoint_mm': 1.332398853264749, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 176 {'clip': 'task-0006_episode_00060120-690:701', 'base_l2_mm': 0.8418631041422486, 'vagg_l2_mm': 0.702077813912183, 'base_endpoint_mm': 2.6719316374510527, 'vagg_endpoint_mm': 1.9654321949929, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 177 {'clip': 'task-0008_episode_00082090-885:896', 'base_l2_mm': 1.4350299024954438, 'vagg_l2_mm': 1.3634664937853813, 'base_endpoint_mm': 2.96743749640882, 'vagg_endpoint_mm': 3.0095630791038275, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 178 {'clip': 'task-0006_episode_00060120-720:731', 'base_l2_mm': 0.7894472219049931, 'vagg_l2_mm': 0.633909075986594, 'base_endpoint_mm': 1.9761670846492052, 'vagg_endpoint_mm': 1.560590579174459, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 179 {'clip': 'task-0008_episode_00082090-900:911', 'base_l2_mm': 2.11750203743577, 'vagg_l2_mm': 1.8515026895329356, 'base_endpoint_mm': 4.061155952513218, 'vagg_endpoint_mm': 3.360105911269784, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 180 {'clip': 'task-0006_episode_00060120-780:791', 'base_l2_mm': 0.7770600495859981, 'vagg_l2_mm': 0.46527889207936823, 'base_endpoint_mm': 1.959842862561345, 'vagg_endpoint_mm': 1.0654933284968138, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 181 {'clip': 'task-0008_episode_00082130-1100:1111', 'base_l2_mm': 1.2949913507327437, 'vagg_l2_mm': 0.9944041958078742, 'base_endpoint_mm': 2.360098995268345, 'vagg_endpoint_mm': 1.5963563928380609, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 182 {'clip': 'task-0006_episode_00060130-295:306', 'base_l2_mm': 2.700658980756998, 'vagg_l2_mm': 2.4516156408935785, 'base_endpoint_mm': 4.8188744112849236, 'vagg_endpoint_mm': 4.085822496563196, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 183 {'clip': 'task-0008_episode_00082130-1180:1191', 'base_l2_mm': 1.1055271606892347, 'vagg_l2_mm': 0.7207359885796905, 'base_endpoint_mm': 1.781176426447928, 'vagg_endpoint_mm': 1.216964446939528, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 184 {'clip': 'task-0006_episode_00060130-430:441', 'base_l2_mm': 0.9333270718343556, 'vagg_l2_mm': 0.7502828375436366, 'base_endpoint_mm': 1.994381658732891, 'vagg_endpoint_mm': 1.6031893901526928, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 185 {'clip': 'task-0008_episode_00082130-1185:1196', 'base_l2_mm': 0.9490139200352132, 'vagg_l2_mm': 0.8637167629785836, 'base_endpoint_mm': 1.843094825744629, 'vagg_endpoint_mm': 1.5464029274880886, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 186 {'clip': 'task-0006_episode_00060130-455:466', 'base_l2_mm': 3.3899659756571054, 'vagg_l2_mm': 3.4513180144131184, 'base_endpoint_mm': 7.770824246108532, 'vagg_endpoint_mm': 6.683503743261099, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 187 {'clip': 'task-0008_episode_00082130-130:141', 'base_l2_mm': 1.270368811674416, 'vagg_l2_mm': 1.6280118143185973, 'base_endpoint_mm': 3.6234974395483732, 'vagg_endpoint_mm': 5.97091531381011, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 188 {'clip': 'task-0006_episode_00060130-470:481', 'base_l2_mm': 0.9199794731102884, 'vagg_l2_mm': 0.49466255586594343, 'base_endpoint_mm': 1.4393306337296963, 'vagg_endpoint_mm': 0.6451857625506818, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 189 {'clip': 'task-0008_episode_00082130-255:266', 'base_l2_mm': 1.1199376313015819, 'vagg_l2_mm': 0.9380807750858366, 'base_endpoint_mm': 1.7437835922464728, 'vagg_endpoint_mm': 1.4765962259843946, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 190 {'clip': 'task-0006_episode_00060130-505:516', 'base_l2_mm': 1.1984178563579917, 'vagg_l2_mm': 0.9952780092135072, 'base_endpoint_mm': 2.3266233038157225, 'vagg_endpoint_mm': 1.243856269866228, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 191 {'clip': 'task-0008_episode_00082130-280:291', 'base_l2_mm': 2.3628883063793182, 'vagg_l2_mm': 2.170662162825465, 'base_endpoint_mm': 5.23462425917387, 'vagg_endpoint_mm': 4.8884316347539425, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 192 {'clip': 'task-0006_episode_00060130-525:536', 'base_l2_mm': 1.6655134968459606, 'vagg_l2_mm': 1.4302717754617333, 'base_endpoint_mm': 3.2895219046622515, 'vagg_endpoint_mm': 2.2541789803653955, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 193 {'clip': 'task-0008_episode_00082130-615:626', 'base_l2_mm': 1.2141078477725387, 'vagg_l2_mm': 1.0810403618961573, 'base_endpoint_mm': 1.8287582788616419, 'vagg_endpoint_mm': 2.33313231728971, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 194 {'clip': 'task-0006_episode_00060130-645:656', 'base_l2_mm': 1.7147412290796638, 'vagg_l2_mm': 1.5495176194235682, 'base_endpoint_mm': 3.6448296159505844, 'vagg_endpoint_mm': 2.874294063076377, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 195 {'clip': 'task-0008_episode_00082130-725:736', 'base_l2_mm': 1.0646396549418569, 'vagg_l2_mm': 0.7215760997496545, 'base_endpoint_mm': 2.649042522534728, 'vagg_endpoint_mm': 1.4376214239746332, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 196 {'clip': 'task-0006_episode_00060130-670:681', 'base_l2_mm': 1.3095545582473278, 'vagg_l2_mm': 0.9657390764914453, 'base_endpoint_mm': 2.783567411825061, 'vagg_endpoint_mm': 2.24641477689147, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 197 {'clip': 'task-0008_episode_00082130-730:741', 'base_l2_mm': 1.401592162437737, 'vagg_l2_mm': 1.105154980905354, 'base_endpoint_mm': 3.0651725828647614, 'vagg_endpoint_mm': 2.9070291202515364, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 198 {'clip': 'task-0006_episode_00060130-770:781', 'base_l2_mm': 1.882572309114039, 'vagg_l2_mm': 1.7410451546311378, 'base_endpoint_mm': 5.148033611476421, 'vagg_endpoint_mm': 3.7159444764256477, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 199 {'clip': 'task-0008_episode_00082140-1075:1086', 'base_l2_mm': 1.3089155545458198, 'vagg_l2_mm': 1.269253552891314, 'base_endpoint_mm': 2.2725595626980066, 'vagg_endpoint_mm': 1.5511695528402925, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 200 {'clip': 'task-0006_episode_00060130-800:811', 'base_l2_mm': 1.297377748414874, 'vagg_l2_mm': 1.1296059237793088, 'base_endpoint_mm': 3.149996278807521, 'vagg_endpoint_mm': 2.802060917019844, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 201 {'clip': 'task-0008_episode_00082140-185:196', 'base_l2_mm': 0.9399442933499813, 'vagg_l2_mm': 0.6901128799654543, 'base_endpoint_mm': 1.7354021547362208, 'vagg_endpoint_mm': 1.094129285775125, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 202 {'clip': 'task-0006_episode_00060130-805:816', 'base_l2_mm': 2.3859564680606127, 'vagg_l2_mm': 2.0449659787118435, 'base_endpoint_mm': 3.860199823975563, 'vagg_endpoint_mm': 3.3464357256889343, 'base_patch_pa_mm': 0.0, 'vagg_patch_pa_mm': 0.0, 'patch_frames': 0}
+EVAL vagg 203 {'clip': 'task-0008_episode_00082140-200:211', 'base_l2_mm': 1.2096170103177428, 'vagg_l2_mm': 1.3192688347771764, 'base_endpoint_mm': 2.369813621044159, 'vagg_endpoint_mm': 1.7731733387336135, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 204 {'clip': 'task-0006_episode_00060140-1210:1221', 'base_l2_mm': 1.1081990087404847, 'vagg_l2_mm': 0.8405785192735493, 'base_endpoint_mm': 2.0125405862927437, 'vagg_endpoint_mm': 1.0531875304877758, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 205 {'clip': 'task-0008_episode_00082140-330:341', 'base_l2_mm': 1.541346195153892, 'vagg_l2_mm': 1.074527739547193, 'base_endpoint_mm': 3.1018080189824104, 'vagg_endpoint_mm': 1.8340066308155656, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 206 {'clip': 'task-0006_episode_00060140-1235:1246', 'base_l2_mm': 1.3581590028479695, 'vagg_l2_mm': 1.230329740792513, 'base_endpoint_mm': 2.135741291567683, 'vagg_endpoint_mm': 1.5925854677334428, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}
+EVAL vagg 207 {'clip': 'task-0008_episode_00082140-405:416', 'base_l2_mm': 1.4456699136644602, 'vagg_l2_mm': 1.0807764483615756, 'base_endpoint_mm': 3.074166364967823, 'vagg_endpoint_mm': 0.49847818445414305, 'base_patch_pa_mm': -0.0, 'vagg_patch_pa_mm': -0.0, 'patch_frames': 0}

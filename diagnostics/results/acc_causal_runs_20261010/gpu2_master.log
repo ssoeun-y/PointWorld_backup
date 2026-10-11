@@ -3,3 +3,12 @@ SMOKE PASS boundary
 START boundary task-0000 limit=0
 FINISHED boundary task-0000
 START boundary task-0001 limit=0
+FINISHED boundary task-0001
+START boundary task-0006 limit=0
+FINISHED boundary task-0006
+START boundary task-0008 limit=0
+FINISHED boundary task-0008
+START boundary task-0010 limit=0
+FINISHED boundary task-0010
+MODE COMPLETE boundary
+GPU2 CAUSAL EXPERIMENTS COMPLETE

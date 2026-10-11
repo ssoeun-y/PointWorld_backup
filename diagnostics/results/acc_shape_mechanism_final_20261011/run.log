@@ -1,0 +1,113 @@
+===== AUDIT =====
+ACTION CLIPS: 2677
+OBJECT FRAME ROWS: 44880
+CLIP FRAME ROWS: 26770
+EXACT CLIPS: 1300
+TOLERANT CLIPS: 2675
+
+===== EXACT: N=1300 =====
+
+pa_mpjpe_mm
+  median benefit mm: 0.024541
+  bootstrap CI: 0.019708 0.030434
+  improved %: 62.85
+  above 2x repeat noise %: 37.31
+  late-minus-early benefit mm: 0.009236
+  Wilcoxon p: 6.418186121807458e-23
+
+se3_residual_mm
+  median benefit mm: 0.025079
+  bootstrap CI: 0.018508 0.03199
+  improved %: 62.85
+  above 2x repeat noise %: 37.23
+  late-minus-early benefit mm: 0.007962
+  Wilcoxon p: 7.035833232793489e-23
+
+pairwise_error_mm
+  median benefit mm: 0.021234
+  bootstrap CI: 0.01621 0.027472
+  improved %: 62.15
+  above 2x repeat noise %: 35.23
+  late-minus-early benefit mm: 0.009943
+  Wilcoxon p: 2.7375088900834633e-21
+
+===== MECHANISM ASSOCIATIONS =====
+PA vs SE3 benefit rho: 0.9697050344180906
+PA vs Pairwise benefit rho: 0.8080338272389511
+Acc reduction vs PA benefit rho: 0.17142739865981718
+Phase shift vs PA benefit rho: 0.1640341871845441
+
+===== TASKWISE =====
+task-0000 N 81 PA benefit 0.04973 SE3 benefit 0.05064 PA improve % 62.96 robust % 44.44
+task-0001 N 342 PA benefit 0.02815 SE3 benefit 0.03044 PA improve % 66.96 robust % 39.47
+task-0006 N 259 PA benefit 0.0205 SE3 benefit 0.02122 PA improve % 59.85 robust % 34.75
+task-0008 N 318 PA benefit 0.02765 SE3 benefit 0.02527 PA improve % 65.09 robust % 39.94
+task-0010 N 300 PA benefit 0.01566 SE3 benefit 0.01668 PA improve % 58.33 robust % 32.33
+
+===== PA FRAME CURVE =====
+ frame    n  pa_benefit  se3_benefit  pair_benefit
+     1 1300    0.005598     0.006343      0.004904
+     2 1300    0.011587     0.011769      0.010341
+     3 1300    0.018085     0.018322      0.014177
+     4 1300    0.018327     0.018662      0.015692
+     5 1300    0.020636     0.020522      0.018844
+     6 1300    0.021538     0.024299      0.020320
+     7 1300    0.025961     0.026916      0.026160
+     8 1300    0.026576     0.028466      0.024339
+     9 1300    0.030090     0.031731      0.029163
+    10 1300    0.034811     0.034117      0.036485
+
+===== TOLERANT: N=2675 =====
+
+pa_mpjpe_mm
+  median benefit mm: 0.023289
+  bootstrap CI: 0.019212 0.026049
+  improved %: 62.8
+  above 2x repeat noise %: 35.85
+  late-minus-early benefit mm: 0.006989
+  Wilcoxon p: 6.971016610383556e-44
+
+se3_residual_mm
+  median benefit mm: 0.023749
+  bootstrap CI: 0.019796 0.028222
+  improved %: 62.43
+  above 2x repeat noise %: 35.85
+  late-minus-early benefit mm: 0.006876
+  Wilcoxon p: 4.841249741655883e-43
+
+pairwise_error_mm
+  median benefit mm: 0.019993
+  bootstrap CI: 0.016517 0.024145
+  improved %: 61.64
+  above 2x repeat noise %: 33.94
+  late-minus-early benefit mm: 0.007617
+  Wilcoxon p: 2.262402674862983e-37
+
+===== MECHANISM ASSOCIATIONS =====
+PA vs SE3 benefit rho: 0.965177184727666
+PA vs Pairwise benefit rho: 0.8116934638620202
+Acc reduction vs PA benefit rho: 0.15204989681418718
+Phase shift vs PA benefit rho: 0.1394273610212085
+
+===== TASKWISE =====
+task-0000 N 144 PA benefit 0.0269 SE3 benefit 0.03428 PA improve % 61.11 robust % 39.58
+task-0001 N 652 PA benefit 0.02479 SE3 benefit 0.02791 PA improve % 64.88 robust % 38.19
+task-0006 N 551 PA benefit 0.01351 SE3 benefit 0.01667 PA improve % 58.08 robust % 30.85
+task-0008 N 707 PA benefit 0.02802 SE3 benefit 0.02686 PA improve % 65.06 robust % 39.32
+task-0010 N 621 PA benefit 0.02362 SE3 benefit 0.02395 PA improve % 62.64 robust % 33.01
+
+===== PA FRAME CURVE =====
+ frame    n  pa_benefit  se3_benefit  pair_benefit
+     1 2675    0.005962     0.006472      0.005158
+     2 2675    0.010429     0.010607      0.009361
+     3 2675    0.016071     0.017295      0.013353
+     4 2675    0.017403     0.017332      0.014899
+     5 2675    0.019550     0.020523      0.019542
+     6 2675    0.023007     0.024529      0.019876
+     7 2675    0.023500     0.025263      0.022360
+     8 2675    0.025182     0.027560      0.021558
+     9 2675    0.024620     0.027503      0.023648
+    10 2675    0.030012     0.031689      0.031443
+
+MECHANISM ANALYSIS COMPLETE
+SAVED: diagnostics/results/acc_shape_mechanism_final_20261011

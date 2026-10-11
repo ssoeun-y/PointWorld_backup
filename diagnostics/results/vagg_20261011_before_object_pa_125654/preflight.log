@@ -1,0 +1,40 @@
+===== OFFICIAL COMMIT =====
+05484826dfef74cbe278a3974179a5a16705d35d
+===== GENERATION ARCHITECTURE =====
+217:        self.dynamics_head = nn.Sequential(MLP(in_channels, 128, 128), nn.Linear(128, 3 * (T-1)))
+312:            padded_scene_feat = scene_feat_output + skip_modulated + robot_modulated
+356:        self.robot_proj = MLP(data_info_dict['robot_features_dim'], self.channels, self.channels)
+470:            robot_raw = self.robot_proj(robot_feat_seq)  # (B, T, Nr, C)
+485:        out["scene_relative_norm"] = pred_norm
+487:        out["scene_flows"] = scene_coord0.unsqueeze(1) + pred  # (B,T,Ns,3)
+===== TRAINING PIPELINE =====
+25:from dataset_components.dataloader import build_dataloader
+55:        checkpoint = self.load_checkpoint_from_path(self.args.model_path)
+81:            data_info_dict = self.setup_dataloader()
+127:            self._create_optimizer()
+141:            self.load_checkpoint(checkpoint)
+231:    def setup_dataloader(self):
+240:        self.train_dataloader, train_info = build_dataloader(
+250:        self.test_dataloader, _ = build_dataloader(args=self.args, mode='test', rank=self.rank, world_size=self.world_size, force_resampled_eval=True)
+286:    def load_checkpoint_from_path(self, model_path=None):
+287:        return checkpointing_utils.load_checkpoint_from_path(self, model_path)
+289:    def load_checkpoint(self, checkpoint):     
+290:        return checkpointing_utils.load_checkpoint(self, checkpoint)
+366:    def train(self):
+644:    def _create_optimizer(self):
+===== MODEL CHECKPOINT =====
+-rw-rw-r-- 1 soenchun soenchun 13G Jul 22 14:10 pretrained_checkpoints/large-droid+behavior/model-best.pt
+===== DATA DIRECTORIES =====
+===== PREVIOUS EXPERIMENT =====
+FINISHED GATR V1 task-0006
+START GATR V1 task-0008
+FINISHED GATR V1 task-0008
+START GATR V1 task-0010
+FINISHED GATR V1 task-0010
+GATR V1 ALL FIVE TASKS COMPLETE
+===== AVAILABLE GPUS =====
+index, memory.used [MiB], utilization.gpu [%]
+0, 74849 MiB, 100 %
+1, 0 MiB, 0 %
+2, 0 MiB, 0 %
+3, 0 MiB, 0 %

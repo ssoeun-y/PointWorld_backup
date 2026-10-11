@@ -1,0 +1,65 @@
+task-0000 original: acc NOT FOUND
+task-0000 original: speed NOT FOUND
+task-0000 original: rotation NOT FOUND
+task-0001 original: acc NOT FOUND
+task-0001 original: speed NOT FOUND
+task-0001 original: rotation NOT FOUND
+task-0006 original: acc NOT FOUND
+task-0006 original: speed NOT FOUND
+task-0006 original: rotation NOT FOUND
+task-0008 original: acc NOT FOUND
+task-0008 original: speed NOT FOUND
+task-0008 original: rotation NOT FOUND
+task-0010 original: acc NOT FOUND
+task-0010 original: speed NOT FOUND
+task-0010 original: rotation NOT FOUND
+
+ORIGINAL complete 10-frame clips: 7947
+boundary action audit: acc <- original_acc_si
+boundary action audit: speed <- original_speed_rms
+boundary action audit: rotation NOT FOUND
+FEATURE acc: 2677 of 7947
+FEATURE speed: 2677 of 7947
+FEATURE rotation: MISSING of 7947
+
+===== CAUSE CONTROL: ORIGINAL ACTION =====
+Outcome = ORIGINAL PA-MPJPE (GT future shape) late-frame minus early-frame, mm
+task+initial: clips=2677 episodes=811 partial_rank_rho=+0.1174 episode_boot95=[+0.0774,+0.1562]
+  task-0000 n=145 rho=+0.2387
+  task-0001 n=652 rho=+0.1609
+  task-0006 n=551 rho=+0.1144
+  task-0008 n=708 rho=+0.0421
+  task-0010 n=621 rho=+0.1289
+task+initial+speed: clips=2677 episodes=811 partial_rank_rho=+0.0194 episode_boot95=[-0.0249,+0.0527]
+  task-0000 n=145 rho=-0.0444
+  task-0001 n=652 rho=+0.0451
+  task-0006 n=551 rho=+0.0355
+  task-0008 n=708 rho=-0.0350
+  task-0010 n=621 rho=+0.0268
+
+===== UNADJUSTED ACC QUARTILES (NOT causal) =====
+     task  n_low  n_high  acc_median_low  acc_median_high  pa_growth_low_mm  pa_growth_high_mm  high_minus_low_growth_mm
+task-0000     37      37         0.27487          0.62448           2.49037            4.76640                   2.27602
+task-0001    163     163         0.26434          0.47751           1.77246            2.48513                   0.71267
+task-0006    138     138         0.26383          0.43863           1.35701            2.04946                   0.69245
+task-0008    177     177         0.26078          0.42553           2.23329            2.86670                   0.63341
+task-0010    156     156         0.26451          0.46775           1.64170            1.97343                   0.33173
+
+===== TEMPORAL RETIMING DOSE REPEATED-MEASURES =====
+COMPARABLE CLIPS: 2677
+25%-vs-100% dose: acc gap median=+0.056697 m/s^2, PA benefit median=+0.013746 mm, beneficial=59.81%, >2x repeat/cross-run noise=31.98%
+Wilcoxon p= 3.468464884349603e-29
+  task-0000 N=145 median=+0.006823mm positive=51.7%
+  task-0001 N=652 median=+0.015540mm positive=61.5%
+  task-0006 N=551 median=+0.007241mm positive=57.9%
+  task-0008 N=708 median=+0.024326mm positive=64.1%
+  task-0010 N=621 median=+0.009618mm positive=56.7%
+FOUR DOSES within-clip positive accel-to-PA slope = 1597/2677 (59.66%)
+
+===== INTERPRETATION RULES =====
+FULL control only if the FULL line appears above; missing speed/rotation means NOT controlled.
+Original Action PA uses future GT shape; modified retiming PA uses initial rigid shape, NOT counterfactual future GT.
+Even if dose effect is positive: changed timing also changes speed and other dynamics; cannot isolate acceleration as sole cause.
+PA is an outcome, not direct evidence of internal per-point correspondence/model mechanism.
+RESULTS: diagnostics/results/acc_shape_mechanism_final_20261011
+EXIT_CODE=0

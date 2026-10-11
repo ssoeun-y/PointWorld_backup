@@ -1,0 +1,24 @@
+task-0000 SELECTED: 9
+task-0001 SELECTED: 10
+task-0006 SELECTED: 10
+task-0008 SELECTED: 10
+task-0010 SELECTED: 10
+
+===== MATCHED FAILURE vs STABLE =====
+PAIRS: 49
+TASKS: 5
+ACC GAP median %: 4.0065153089736665
+INITIAL PA GAP median %: 7.496888414627444
+GROWTH GAP median mm: 12.72839791901659
+
+===== TASKWISE =====
+            n  median_acc_gap_pct  median_initial_pa_gap_pct  median_growth_gap_mm
+task                                                                              
+task-0000   9              2.1019                     7.4969               10.6728
+task-0001  10              3.3673                     6.1933               14.4976
+task-0006  10              5.4660                     7.0330               11.6794
+task-0008  10              2.8916                    13.1276               20.5325
+task-0010  10              3.9351                     5.5822               11.4879
+
+SAVED: diagnostics/results/acc_failure_pairs_20261011
+SELECTION COMPLETE
